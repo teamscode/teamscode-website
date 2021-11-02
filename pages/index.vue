@@ -37,18 +37,16 @@
         <path d="m-3.90909,6l48.30303,16c48.30303,16 144.90908,48 241.51514,48c96.60606,0 193.21211,-32 289.81817,-32c96.60606,0 193.21211,32 289.81817,53.3c96.60606,21.7 193.21211,31.7 289.81817,16c96.60606,-16.3 193.21211,-58.3 241.51514,-80l48.30303,-21.3l0,160l-48.30303,0c-48.30303,0 -144.90908,0 -241.51514,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -241.51514,0l-48.30303,0l0,-160z" />
       </svg>
       <v-container class="py-4 py-lg-8">
-        <div class="text-center">
+        <div>
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             By the numbers
           </div>
-          <h2 class="text-h3 text-lg-h2">
+          <h2 class="text-h3 text-lg-h2 mb-3">
             Enthusiastic coders from around the globe
           </h2>
-          <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-h6 text-lg-h5 mt-4">
-              Some statistics from TemasCode Summer 2021 Contest, one of our largest contests
-            </div>
-          </v-responsive>
+          <div class="text-h6 text-lg-h5 mt-4">
+            Some statistics from TemasCode Summer 2021 Contest, one of our largest contests
+          </div>
         </div>
         <v-row class="mt-6" dense>
           <v-col
@@ -71,9 +69,11 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet class="py-4">
+    <v-sheet color="surface" class="py-4">
       <v-container class="py-10">
-        <div style="width: 80px; height: 4px" class="mb-3 secondary" />
+        <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+          Our events
+        </div>
         <h2 class="text-h3 text-lg-h2 mb-3">
           Online competitive programming contests
         </h2>
@@ -88,14 +88,14 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet color="surface" class="py-6">
+    <v-sheet class="py-6">
       <v-container class="py-4 py-lg-8">
         <v-row>
           <v-col class="d-md-none" cols="12" md="4">
-            <div class="ml-4 text-uppercase font-weight-bold body-2 primary--text mb-2">
+            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
               In Details
             </div>
-            <h2 class="ml-4 text-h3 text-lg-h2">
+            <h2 class="text-h3 text-lg-h2">
               More than just another competition
             </h2>
           </v-col>
@@ -141,7 +141,7 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet class="py-6">
+    <v-sheet color="surface" class="py-6">
       <v-container class="py-4 py-lg-8">
         <v-row>
           <v-col cols="12" md="6">
