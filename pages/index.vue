@@ -12,7 +12,7 @@
           <div class="mt-4 mt-xl-10">
             <v-sheet elevation="2" rounded class="d-flex w-full">
               <v-text-field
-                placeholder="Subscribe to our mailing list"
+                placeholder=" Subscribe to our mailing list"
                 hide-details
                 flat
                 solo
@@ -42,7 +42,7 @@
             By the numbers
           </div>
           <h2 class="text-h3 text-lg-h2">
-            Enthusiastic TeamsCoders from around the globe
+            Enthusiastic coders from around the globe
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
@@ -68,10 +68,95 @@
         </v-row>
       </v-container>
     </v-sheet>
+
+    <v-sheet>
+      <v-container class="py-10">
+        <div class="text-center">
+          <h2 class="text-h3">
+            Online competitive programming contests
+          </h2>
+          <v-responsive max-width="700" class="mx-auto">
+            <div class="text-h6 text-lg-h5 my-3">
+              Click on cards to view the details of our recent online contests
+            </div>
+          </v-responsive>
+        </div>
+        <v-row>
+          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
+            <ContestCard :post="card" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet color="transparent">
+      <v-container class="py-4 py-lg-8">
+        <div class="text-center">
+          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            TeamsCode In Details
+          </div>
+          <h2 class="text-h3 text-lg-h2">
+            TeamsCode is more than just another contest
+          </h2>
+        </div>
+        <v-row class="mt-6">
+          <v-col
+            v-for="(item, i) in features"
+            :key="i"
+            cols="12"
+            md="6"
+          >
+            <v-card class="py-4 px-2">
+              <div class="d-flex">
+                <div class="mr-2">
+                  <v-sheet color="secondary" rounded class="pa-2" dark>
+                    <v-icon large>
+                      {{ item.icon }}
+                    </v-icon>
+                  </v-sheet>
+                </div>
+                <div>
+                  <div class="text-h5 font-weight-bold">
+                    {{ item.title }}
+                  </div>
+                  <div class="font-weight-regular mt-1">
+                    {{ item.description }}
+                  </div>
+                </div>
+              </div>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet>
+      <v-container class="py-4 py-lg-8">
+        <v-row>
+          <v-col cols="12" md="6">
+            <h2 class="text-h3 text-lg-h2">
+              They help make TeamsCode possible
+            </h2>
+            <div class="text-h6 text-lg-h5 mt-5">
+              Our awesome sponsors and partners help us bring a better contest to more people
+            </div>
+            <div class="mt-4">
+              <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
+                Learn More
+              </router-link>
+            </div>
+          </v-col>
+          <v-col cols="12" md="6">
+            <SponsorLogos :logos="logos" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
   </div>
 </template>
 
 <script>
+import contests from '../data/contests'
 export default {
   data () {
     return {
@@ -93,7 +178,53 @@ export default {
       }, {
         title: 'Lines of Code',
         value: '302K'
+      }],
+      features: [{
+        icon: 'mdi-account-group',
+        title: 'Team Environment',
+        description: 'TeamsCode contests create an inspirational environment for computer science students to collaborate on programming problems and meet new people'
+      }, {
+        icon: 'mdi-book-open-page-variant',
+        title: 'Lead by Students',
+        description: 'TeamsCode is made for students, by students. We work with our partners to deliver an enjoyable experience to computer science students'
+      }, {
+        icon: 'mdi-pencil',
+        title: 'Make Things Happen',
+        description: 'If you are interested in helping us organize contests, please join us! Computer science enthusiastics take different roles in TeamsCode and work together to make contests happen'
+      }, {
+        icon: 'mdi-discord',
+        title: 'Friendly Community',
+        description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with link-minded people'
+      }],
+      logos: [{
+        image: require('@/assets/images/partners/xcamp.png'),
+        link: '#'
+      }, {
+        image: require('@/assets/images/partners/digipen.jpg'),
+        link: '#'
+      }, {
+        image: require('@/assets/images/partners/cpi.png'),
+        link: '#'
+      }, {
+        image: require('@/assets/images/partners/ccc.png'),
+        link: '#'
+      }, {
+        image: require('@/assets/images/partners/janestreet.png'),
+        link: '#'
+      }, {
+        image: require('@/assets/images/partners/replit.png'),
+        link: '#'
       }]
+    }
+  },
+  head () {
+    return {
+      title: 'Home'
+    }
+  },
+  computed: {
+    contests () {
+      return contests.slice(0, 3)
     }
   }
 }
@@ -103,5 +234,15 @@ export default {
 .logos-bg {
   fill: white;
   background-color: #f2f5f8;
+}
+.logos5 img {
+filter: grayscale(100%) brightness(2);
+  width: 180px;
+}
+.logos5 .theme--dark img {
+  filter: grayscale(100%) invert(1);
+}
+.logos5 a:hover img {
+  filter: none;
 }
 </style>
