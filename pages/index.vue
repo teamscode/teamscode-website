@@ -71,14 +71,16 @@
 
     <v-sheet color="surface" class="py-4">
       <v-container class="py-10">
-        <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-          Our events
-        </div>
-        <h2 class="text-h3 text-lg-h2 mb-3">
-          Online competitive programming contests
-        </h2>
-        <div class="text-h6 text-lg-h5 mt-4">
-          Click on cards to view the details of our recent online contests
+        <div class="text-right">
+          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            Our events
+          </div>
+          <h2 class="text-h3 text-lg-h2 mb-3">
+            Online competitive programming contests
+          </h2>
+          <div class="text-h6 text-lg-h5 mt-4">
+            Click on cards to view the details of our recent online contests
+          </div>
         </div>
         <v-row class="mt-6">
           <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
@@ -91,12 +93,12 @@
     <v-sheet class="py-6">
       <v-container class="py-4 py-lg-8">
         <v-row>
-          <v-col class="d-md-none" cols="12" md="4">
-            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+          <v-col cols="12" md="4">
+            <div class="mr-4 text-uppercase font-weight-bold body-2 primary--text mb-2">
               In Details
             </div>
-            <h2 class="text-h3 text-lg-h2">
-              More than just another competition
+            <h2 class="mr-4 text-h3 text-lg-h2">
+              More than just a competition
             </h2>
           </v-col>
           <v-col cols="12" md="8" class="pa-md-0">
@@ -129,22 +131,34 @@
               </v-col>
             </v-row>
           </v-col>
-          <v-col class="d-none d-md-block" cols="12" md="4">
-            <div class="ml-4 text-uppercase font-weight-bold body-2 primary--text mb-2">
-              In Details
-            </div>
-            <h2 class="ml-4 text-h3 text-lg-h2">
-              More than just another competition
-            </h2>
-          </v-col>
         </v-row>
       </v-container>
     </v-sheet>
 
-    <v-sheet color="surface" class="py-6">
+    <v-sheet color="surface">
+      <v-container class="py-8">
+        <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
+          <div class="text-center text-lg-left">
+            <div class="text-h3">
+              Interested or have questions?
+            </div>
+            <div class="text-h3 primary--text">
+              Join our Discord server!
+            </div>
+          </div>
+          <div class="mt-4 mt-lg-0">
+            <v-btn x-large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary" :to="btn1Link">
+              Get Started
+            </v-btn>
+          </div>
+        </div>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet class="py-6">
       <v-container class="py-4 py-lg-8">
         <v-row>
-          <v-col cols="12" md="6">
+          <v-col class="d-md-none" cols="12" md="6">
             <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
               Our Partners and Sponsors
             </div>
@@ -162,6 +176,22 @@
           </v-col>
           <v-col cols="12" md="6">
             <SponsorLogos :logos="logos" />
+          </v-col>
+          <v-col class="d-none d-md-block" cols="12" md="6">
+            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+              Our Partners and Sponsors
+            </div>
+            <h2 class="text-h3 text-lg-h2">
+              They help make TeamsCode possible
+            </h2>
+            <div class="text-h6 text-lg-h5 mt-5">
+              Our awesome sponsors and partners help us bring a better contest to more people
+            </div>
+            <div class="mt-4">
+              <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
+                Learn More
+              </router-link>
+            </div>
           </v-col>
         </v-row>
       </v-container>
