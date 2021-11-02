@@ -50,7 +50,7 @@
             </div>
           </v-responsive>
         </div>
-        <v-row class="mt-6">
+        <v-row class="mt-6" dense>
           <v-col
             v-for="(item, i) in stats"
             :key="i"
@@ -58,71 +58,12 @@
             md="4"
             class="text-center"
           >
-            <div class="text-h2 text-lg-h1">
-              {{ item.value }}
-            </div>
-            <div class="text-h6 text-lg-h5">
-              {{ item.title }}
-            </div>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-sheet>
-
-    <v-sheet>
-      <v-container class="py-10">
-        <div class="text-center">
-          <h2 class="text-h3">
-            Online competitive programming contests
-          </h2>
-          <v-responsive max-width="700" class="mx-auto">
-            <div class="text-h6 text-lg-h5 my-3">
-              Click on cards to view the details of our recent online contests
-            </div>
-          </v-responsive>
-        </div>
-        <v-row>
-          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
-            <ContestCard :post="card" />
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-sheet>
-
-    <v-sheet color="transparent">
-      <v-container class="py-4 py-lg-8">
-        <div class="text-center">
-          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            TeamsCode In Details
-          </div>
-          <h2 class="text-h3 text-lg-h2">
-            TeamsCode is more than just another contest
-          </h2>
-        </div>
-        <v-row class="mt-6">
-          <v-col
-            v-for="(item, i) in features"
-            :key="i"
-            cols="12"
-            md="6"
-          >
-            <v-card class="py-4 px-2">
-              <div class="d-flex">
-                <div class="mr-2">
-                  <v-sheet color="secondary" rounded class="pa-2" dark>
-                    <v-icon large>
-                      {{ item.icon }}
-                    </v-icon>
-                  </v-sheet>
-                </div>
-                <div>
-                  <div class="text-h5 font-weight-bold">
-                    {{ item.title }}
-                  </div>
-                  <div class="font-weight-regular mt-1">
-                    {{ item.description }}
-                  </div>
-                </div>
+            <v-card class="pa-4">
+              <div class="text-h2 text-lg-h1">
+                {{ item.value }}
+              </div>
+              <div class="text-h6 text-lg-h5">
+                {{ item.title }}
               </div>
             </v-card>
           </v-col>
@@ -130,10 +71,83 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet>
+    <v-sheet class="py-4">
+      <v-container class="py-10">
+        <div style="width: 80px; height: 4px" class="mb-3 secondary" />
+        <h2 class="text-h3 text-lg-h2 mb-3">
+          Online competitive programming contests
+        </h2>
+        <div class="text-h6 text-lg-h5 mt-4">
+          Click on cards to view the details of our recent online contests
+        </div>
+        <v-row class="mt-6">
+          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
+            <ContestCard :post="card" />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet color="surface" class="py-6">
+      <v-container class="py-4 py-lg-8">
+        <v-row>
+          <v-col class="d-md-none" cols="12" md="4">
+            <div class="ml-4 text-uppercase font-weight-bold body-2 primary--text mb-2">
+              In Details
+            </div>
+            <h2 class="ml-4 text-h3 text-lg-h2">
+              More than just another competition
+            </h2>
+          </v-col>
+          <v-col cols="12" md="8" class="pa-md-0">
+            <v-row>
+              <v-col
+                v-for="(item, i) in features"
+                :key="i"
+                cols="12"
+                md="6"
+              >
+                <v-card class="py-4 px-2">
+                  <div class="d-flex">
+                    <div class="mr-2">
+                      <v-sheet color="secondary" rounded class="pa-2" dark>
+                        <v-icon large>
+                          {{ item.icon }}
+                        </v-icon>
+                      </v-sheet>
+                    </div>
+                    <div>
+                      <div class="text-h5 font-weight-bold">
+                        {{ item.title }}
+                      </div>
+                      <div class="font-weight-regular mt-1">
+                        {{ item.description }}
+                      </div>
+                    </div>
+                  </div>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-col>
+          <v-col class="d-none d-md-block" cols="12" md="4">
+            <div class="ml-4 text-uppercase font-weight-bold body-2 primary--text mb-2">
+              In Details
+            </div>
+            <h2 class="ml-4 text-h3 text-lg-h2">
+              More than just another competition
+            </h2>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet class="py-6">
       <v-container class="py-4 py-lg-8">
         <v-row>
           <v-col cols="12" md="6">
+            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+              Our Partners and Sponsors
+            </div>
             <h2 class="text-h3 text-lg-h2">
               They help make TeamsCode possible
             </h2>
@@ -190,11 +204,11 @@ export default {
       }, {
         icon: 'mdi-pencil',
         title: 'Make Things Happen',
-        description: 'If you are interested in helping us organize contests, please join us! Computer science enthusiastics take different roles in TeamsCode and work together to make contests happen'
+        description: 'If you are interested in helping us organize contests, please join us! Enthusiastics take different roles in TeamsCode and work together to make contests happen'
       }, {
         icon: 'mdi-discord',
         title: 'Friendly Community',
-        description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with link-minded people'
+        description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people'
       }],
       logos: [{
         image: require('@/assets/images/partners/xcamp.png'),
