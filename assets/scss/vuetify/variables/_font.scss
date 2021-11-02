@@ -16,7 +16,7 @@ $heading-font-family: $body-font-family;
 $headings: (
   'h1': (
     'size': 4.2rem,
-    'weight': 900,
+    'weight': 700,
     'line-height': 1,
     'letter-spacing': 0,
     'font-family': $heading-font-family,
@@ -24,7 +24,7 @@ $headings: (
   ),
   'h2': (
     'size': 3rem,
-    'weight': 900,
+    'weight': 700,
     'line-height': 3rem,
     'letter-spacing': -.0083333333em,
     'font-family': $heading-font-family,
@@ -32,7 +32,7 @@ $headings: (
   ),
   'h3': (
     'size': 2.75rem,
-    'weight': 900,
+    'weight': 700,
     'line-height': 2.9rem,
     'letter-spacing': normal,
     'font-family': $heading-font-family,
@@ -40,7 +40,7 @@ $headings: (
   ),
   'h4': (
     'size': 2rem,
-    'weight': 900,
+    'weight': 700,
     'line-height': 2.2rem,
     'letter-spacing': .0073529412em,
     'font-family': $heading-font-family,
