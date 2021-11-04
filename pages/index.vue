@@ -27,7 +27,7 @@
           </div>
         </v-col>
         <v-col cols="12" md="6" lg="5" class="d-none d-md-block">
-          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/assets/images/hero.jpg')" alt="" />
+          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/assets/images/hero.webp')" alt="" />
         </v-col>
       </v-row>
     </v-container>
@@ -37,11 +37,22 @@
         <path d="m-3.90909,6l48.30303,16c48.30303,16 144.90908,48 241.51514,48c96.60606,0 193.21211,-32 289.81817,-32c96.60606,0 193.21211,32 289.81817,53.3c96.60606,21.7 193.21211,31.7 289.81817,16c96.60606,-16.3 193.21211,-58.3 241.51514,-80l48.30303,-21.3l0,160l-48.30303,0c-48.30303,0 -144.90908,0 -241.51514,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -241.51514,0l-48.30303,0l0,-160z" />
       </svg>
       <v-container class="py-4 py-lg-8">
-        <div>
+        <div class="d-none d-md-block">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             By the numbers
           </div>
-          <h2 class="text-h3 text-lg-h2 mb-3">
+          <h2 class="text-h3 text-lg-h2">
+            Enthusiastic coders from around the globe
+          </h2>
+          <div class="text-h6 text-lg-h5 mt-4">
+            Some statistics from TemasCode Summer 2021 Contest, one of our largest contests
+          </div>
+        </div>
+        <div class="text-center d-md-none">
+          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            By the numbers
+          </div>
+          <h2 class="text-h3 text-lg-h2">
             Enthusiastic coders from around the globe
           </h2>
           <div class="text-h6 text-lg-h5 mt-4">
@@ -71,16 +82,13 @@
 
     <v-sheet color="surface" class="py-4">
       <v-container class="py-10">
-        <div class="text-right">
+        <div class="text-center">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            Our events
+            Our Events
           </div>
           <h2 class="text-h3 text-lg-h2 mb-3">
             Online competitive programming contests
           </h2>
-          <div class="text-h6 text-lg-h5 mt-4">
-            Click on cards to view the details of our recent online contests
-          </div>
         </div>
         <v-row class="mt-6">
           <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
@@ -90,46 +98,56 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet class="py-6">
+    <v-sheet>
       <v-container class="py-4 py-lg-8">
-        <v-row>
-          <v-col cols="12" md="4">
-            <div class="mr-4 text-uppercase font-weight-bold body-2 primary--text mb-2">
-              In Details
-            </div>
-            <h2 class="mr-4 text-h3 text-lg-h2">
-              More than just a competition
-            </h2>
-          </v-col>
-          <v-col cols="12" md="8" class="pa-md-0">
-            <v-row>
-              <v-col
-                v-for="(item, i) in features"
-                :key="i"
-                cols="12"
-                md="6"
-              >
-                <v-card class="py-4 px-2">
-                  <div class="d-flex">
-                    <div class="mr-2">
-                      <v-sheet color="secondary" rounded class="pa-2" dark>
-                        <v-icon large>
-                          {{ item.icon }}
-                        </v-icon>
-                      </v-sheet>
-                    </div>
-                    <div>
-                      <div class="text-h5 font-weight-bold">
-                        {{ item.title }}
-                      </div>
-                      <div class="font-weight-regular mt-1">
-                        {{ item.description }}
-                      </div>
-                    </div>
+        <div class="d-none d-md-block">
+          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            In Details
+          </div>
+          <h2 class="text-h3 text-lg-h2">
+            More than just a competition
+          </h2>
+          <div class="text-h6 text-lg-h5 mt-4">
+            TeamsCode is not just another computer science contest, but a student led organization with a mission of promoting computer science education
+          </div>
+        </div>
+        <div class="text-center d-md-none">
+          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            In Details
+          </div>
+          <h2 class="text-h3 text-lg-h2">
+            More than just a competition
+          </h2>
+          <div class="text-h6 text-lg-h5 mt-4">
+            TeamsCode is not just another computer science contest, but a student led organization with a mission of promoting computer science education
+          </div>
+        </div>
+        <v-row class="mt-6">
+          <v-col
+            v-for="(item, i) in features"
+            :key="i"
+            cols="12"
+            md="6"
+          >
+            <v-card class="py-4 px-2">
+              <div class="d-flex">
+                <div class="mr-2">
+                  <v-sheet color="secondary" rounded class="pa-2" dark>
+                    <v-icon large>
+                      {{ item.icon }}
+                    </v-icon>
+                  </v-sheet>
+                </div>
+                <div>
+                  <div class="text-h5 font-weight-bold">
+                    {{ item.title }}
                   </div>
-                </v-card>
-              </v-col>
-            </v-row>
+                  <div class="font-weight-regular mt-1">
+                    {{ item.description }}
+                  </div>
+                </div>
+              </div>
+            </v-card>
           </v-col>
         </v-row>
       </v-container>
@@ -147,8 +165,8 @@
             </div>
           </div>
           <div class="mt-4 mt-lg-0">
-            <v-btn x-large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary" :to="btn1Link">
-              Get Started
+            <v-btn x-large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary">
+              Join Discord
             </v-btn>
           </div>
         </div>
@@ -159,23 +177,23 @@
       <v-container class="py-4 py-lg-8">
         <v-row>
           <v-col class="d-md-none" cols="12" md="6">
-            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            <div class="text-center text-uppercase font-weight-bold body-2 primary--text mb-2">
               Our Partners and Sponsors
             </div>
-            <h2 class="text-h3 text-lg-h2">
+            <h2 class="text-center text-h3 text-lg-h2">
               They help make TeamsCode possible
             </h2>
-            <div class="text-h6 text-lg-h5 mt-5">
+            <div class="text-center text-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people
-            </div>
-            <div class="mt-4">
-              <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
-                Learn More
-              </router-link>
             </div>
           </v-col>
           <v-col cols="12" md="6">
             <SponsorLogos :logos="logos" />
+            <div class="d-md-none text-right mt-4 mr-12">
+              <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
+                Learn More
+              </router-link>
+            </div>
           </v-col>
           <v-col class="d-none d-md-block" cols="12" md="6">
             <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
@@ -241,22 +259,22 @@ export default {
         description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people'
       }],
       logos: [{
-        image: require('@/assets/images/partners/xcamp.png'),
+        image: require('@/assets/images/partners/xcamp.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/digipen.jpg'),
+        image: require('@/assets/images/partners/digipen.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/cpi.png'),
+        image: require('@/assets/images/partners/cpi.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/ccc.png'),
+        image: require('@/assets/images/partners/ccc.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/janestreet.png'),
+        image: require('@/assets/images/partners/janestreet.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/replit.png'),
+        image: require('@/assets/images/partners/replit.webp'),
         link: '#'
       }]
     }
