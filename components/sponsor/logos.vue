@@ -9,7 +9,7 @@
         sm="6"
       >
         <a :href="logo.link">
-          <img :src="logo.image">
+          <v-img :src="logo.image" />
         </a>
       </v-col>
     </v-row>

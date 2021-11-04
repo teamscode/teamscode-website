@@ -4,6 +4,7 @@ const contests = [{
   image: require('@/assets/images/contest-1.webp'),
   title: 'Summer 2021 Virtual Contest',
   participants: '349 participants',
+  status: 'Past',
   link: '#'
 }, {
   place: 'YouTube Live',
@@ -11,6 +12,7 @@ const contests = [{
   image: require('@/assets/images/contest-1.webp'),
   title: 'Spring 2021 Virtual Contest',
   participants: '327 participants',
+  status: 'Past',
   link: '#'
 }, {
   place: 'YouTube Live',
@@ -18,6 +20,7 @@ const contests = [{
   image: require('@/assets/images/contest-1.webp'),
   title: 'Fall 2020 Virtual Contest',
   participants: '245 participants',
+  status: 'Past',
   link: '#'
 }]
 

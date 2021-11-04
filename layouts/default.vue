@@ -25,7 +25,7 @@
 
     <v-app-bar app height="80">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
-        <router-link to="#" class="d-flex align-center text-decoration-none mr-3">
+        <router-link to="/" class="d-flex align-center text-decoration-none mr-3">
           <img src="/images/logo.png" alt="" height="48" class="mr-2">
           <span class="font-weight-bold text-h4">
             TeamsCode

@@ -1,6 +1,15 @@
 <template>
   <v-card :to="post.link">
-    <v-img :src="post.image" height="200" />
+    <v-img :src="post.image" height="200">
+      <div class="text-right font-weight-bold">
+        <v-chip v-if="post.status==='Upcoming'" text-color="white" color="green" class="ma-1">
+          {{ post.status }}
+        </v-chip>
+        <v-chip v-else class="ma-1">
+          {{ post.status }}
+        </v-chip>
+      </div>
+    </v-img>
 
     <div class="pa-2 pa-md-3">
       <div class="text-uppercase font-weight-black text-body-2 primary--text mb-1">
