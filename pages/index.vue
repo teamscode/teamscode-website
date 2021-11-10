@@ -181,18 +181,10 @@
               Our Partners and Sponsors
             </div>
             <h2 class="text-center text-h3 text-lg-h2">
-              They help make TeamsCode possible
+              They help make things possible
             </h2>
             <div class="text-center text-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people
-            </div>
-          </v-col>
-          <v-col cols="12" md="6">
-            <SponsorLogos :logos="logos" />
-            <div class="d-md-none text-right mt-4 mr-12">
-              <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
-                Learn More
-              </router-link>
             </div>
           </v-col>
           <v-col class="d-none d-md-block" cols="12" md="6">
@@ -200,12 +192,20 @@
               Our Partners and Sponsors
             </div>
             <h2 class="text-h3 text-lg-h2">
-              They help make TeamsCode possible
+              They help make things possible
             </h2>
             <div class="text-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people
             </div>
             <div class="mt-4">
+              <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
+                Learn More
+              </router-link>
+            </div>
+          </v-col>
+          <v-col cols="12" md="6">
+            <SponsorLogos :logos="logos" />
+            <div class="d-md-none text-right mt-4 mr-12">
               <router-link to="#" class="text-decoration-none font-weight-bold text-h6">
                 Learn More
               </router-link>
