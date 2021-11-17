@@ -12,11 +12,11 @@ image: '/images/contest-1.webp'
   <h1 style="text-align: left;"><b>Partners</b></h1>
   <a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <br>
-  <a href="https://codewithus.com"><img src="/assets/images/sponsor_codewithus.png" alt="CodeWithUs" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://codewithus.com"><img src="/images/partners/codewithus.webp" alt="CodeWithUs" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Gold Sponsor</b></h1>
   <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Additional Sponsor</b></h1>
-  <a href="https://codewizardshq.com"><img src="/assets/images/sponsor_codewizards.jpg" alt="CodeWizards HQ" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://codewizardshq.com"><img src="/images/partners/codewizards.webp" alt="CodeWizards HQ" style="width: 200px; margin-right: 20px; display: block;"></a>
 </div>
 
 # Winners #
