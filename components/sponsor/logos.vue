@@ -8,9 +8,11 @@
         align-self="center"
         sm="6"
       >
-        <a :href="logo.link">
-          <v-img :src="logo.image" />
-        </a>
+        <div class="mx-2 my-1">
+          <a :href="logo.link">
+            <v-img :src="logo.image" />
+          </a>
+        </div>
       </v-col>
     </v-row>
   </div>

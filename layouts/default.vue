@@ -23,10 +23,10 @@
       </v-icon>
     </v-btn>
 
-    <v-app-bar app height="80">
+    <v-app-bar app height="70">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
         <router-link to="/" class="d-flex align-center text-decoration-none mr-3">
-          <img src="/images/logo.png" alt="" height="48" class="mr-2">
+          <img src="/images/logo.png" alt="" height="42" class="mr-2">
           <span class="font-weight-bold text-h4">
             TeamsCode
           </span>
@@ -81,15 +81,15 @@
             <div style="width: 80px; height: 4px" class="mb-5 mt-1 secondary" />
             <div class="d-flex mb-2 font-weight-bold">
               <v-icon color="secondary lighten-1" class="mr-2">
+                mdi-email-outline
+              </v-icon>
+              <a href="mailto:contact@teamscode.org" class="text-decoration-none secondary--text">contact@teamscode.org</a>
+            </div>
+            <div class="d-flex mb-2 text--lighten-2 text--secondary text-body-1">
+              <v-icon color="secondary lighten-1" class="mr-2">
                 mdi-map-marker-outline
               </v-icon>
               8106 SE 79th St, Mercer Island, Washington 98040
-            </div>
-            <div class="d-flex mb-2">
-              <v-icon color="secondary lighten-1" class="mr-2">
-                mdi-email-outline
-              </v-icon>
-              <a href="#" class="text-decoration-none secondary--text text--lighten-2">contact@teamscode.org</a>
             </div>
           </v-col>
           <v-col cols="12" md="4">
@@ -126,7 +126,7 @@
         </v-row>
         <v-divider class="my-3" />
         <div class="text-center caption">
-          © TeamsCode 2021. All Rights Reserved
+          © TeamsCode 2021. All Rights Reserved.
         </div>
       </v-container>
     </v-footer>

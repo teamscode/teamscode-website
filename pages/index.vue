@@ -27,7 +27,7 @@
           </div>
         </v-col>
         <v-col cols="12" md="6" lg="5" class="d-none d-md-block">
-          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/assets/images/hero.webp')" alt="" />
+          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/static/images/hero.webp')" alt="" />
         </v-col>
       </v-row>
     </v-container>
@@ -181,7 +181,7 @@
               Our Partners and Sponsors
             </div>
             <h2 class="text-center text-h3 text-lg-h2">
-              They help make things possible
+              They help make things possible and better
             </h2>
             <div class="text-center text-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people
@@ -192,7 +192,7 @@
               Our Partners and Sponsors
             </div>
             <h2 class="text-h3 text-lg-h2">
-              They help make things possible
+              They help make things possible and better
             </h2>
             <div class="text-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people
@@ -218,7 +218,6 @@
 </template>
 
 <script>
-import contests from '../data/contests'
 export default {
   data () {
     return {
@@ -259,34 +258,33 @@ export default {
         description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people'
       }],
       logos: [{
-        image: require('@/assets/images/partners/xcamp.webp'),
+        image: require('@/static/images/partners/xcamp.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/digipen.webp'),
+        image: require('@/static/images/partners/digipen.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/cpi.webp'),
+        image: require('@/static/images/partners/cpi.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/ccc.webp'),
+        image: require('@/static/images/partners/ccc.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/janestreet.webp'),
+        image: require('@/static/images/partners/janestreet.webp'),
         link: '#'
       }, {
-        image: require('@/assets/images/partners/replit.webp'),
+        image: require('@/static/images/partners/replit.webp'),
         link: '#'
-      }]
+      }],
+      contests: []
     }
+  },
+  async fetch () {
+    this.contests = await this.$content('contests').limit(3).fetch()
   },
   head () {
     return {
       title: 'Home'
-    }
-  },
-  computed: {
-    contests () {
-      return contests.slice(0, 3)
     }
   }
 }

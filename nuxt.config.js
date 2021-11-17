@@ -31,6 +31,11 @@ export default {
     '~/assets/scss/theme.scss'
   ],
 
+  content: {
+    // Only search in title and description
+    fullTextSearchFields: ['title', 'description', 'place', 'date', 'participants', 'status']
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/filters/capitalize.js' },
@@ -67,7 +72,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/google-gtag'
+    '@nuxtjs/google-gtag',
+    '@nuxt/content'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

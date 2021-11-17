@@ -1,5 +1,5 @@
 <template>
-  <v-card :to="post.link">
+  <v-card :to="link">
     <v-img :src="post.image" height="200">
       <div class="text-right font-weight-bold">
         <v-chip v-if="post.status==='Upcoming'" text-color="white" color="green" class="ma-1">
@@ -36,6 +36,11 @@ export default {
     post: {
       type: Object,
       default: () => {}
+    }
+  },
+  computed: {
+    link () {
+      return `/contest/${this.post.slug}`
     }
   }
 }
