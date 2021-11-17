@@ -46,7 +46,7 @@
       </v-container>
     </v-app-bar>
     <v-main>
-      <router-view />
+      <Nuxt />
     </v-main>
     <v-footer color="transparent">
       <v-container class="py-5">

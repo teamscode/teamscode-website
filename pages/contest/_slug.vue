@@ -21,7 +21,6 @@
 
 <script>
 export default {
-  scrollToTop: true,
   data () {
     return {
       content: {}
