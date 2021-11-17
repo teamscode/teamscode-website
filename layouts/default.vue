@@ -25,12 +25,12 @@
 
     <v-app-bar app height="70">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
-        <router-link to="/" class="d-flex align-center text-decoration-none mr-3">
+        <nuxt-link to="/" class="d-flex align-center text-decoration-none mr-3">
           <img src="/images/logo.png" alt="" height="42" class="mr-2">
           <span class="font-weight-bold text-h4">
             TeamsCode
           </span>
-        </router-link>
+        </nuxt-link>
         <v-spacer />
         <div class="d-none d-md-block">
           <v-btn
@@ -58,13 +58,13 @@
             <div style="width: 80px; height: 4px" class="mb-5 mt-1 secondary" />
             <div class="d-flex flex-wrap">
               <div v-for="(link, i) in menu" :key="i" class="w-half body-1 mb-1">
-                <router-link
+                <nuxt-link
                   v-if="link.link"
                   class="text-decoration-none secondary--text text--lighten-2"
                   :to="link.link"
                 >
                   {{ link.title }}
-                </router-link>
+                </nuxt-link>
                 <a
                   v-else
                   class="text-decoration-none secondary--text text--lighten-2"
