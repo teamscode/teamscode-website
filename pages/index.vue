@@ -95,6 +95,14 @@
             <ContestCard :post="card" />
           </v-col>
         </v-row>
+        <div class="mt-4 text-right">
+          <v-btn to="/contest" outlined large color="primary">
+            More Contests
+            <v-icon right dark>
+              mdi-arrow-right
+            </v-icon>
+          </v-btn>
+        </div>
       </v-container>
     </v-sheet>
 
@@ -150,6 +158,14 @@
             </v-card>
           </v-col>
         </v-row>
+        <div class="mt-4 text-right">
+          <v-btn to="/about" outlined large color="primary">
+            Learn More
+            <v-icon right dark>
+              mdi-arrow-right
+            </v-icon>
+          </v-btn>
+        </div>
       </v-container>
     </v-sheet>
 
@@ -161,12 +177,15 @@
               Interested or have questions?
             </div>
             <div class="text-h3 primary--text">
-              Join our Discord server!
+              Contact us or join our Discord!
             </div>
           </div>
-          <div class="mt-4 mt-lg-0">
-            <v-btn x-large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary">
+          <div class="mt-6">
+            <v-btn x-large class="my-1 mr-sm-1 w-full w-sm-auto" color="primary">
               Join Discord
+            </v-btn>
+            <v-btn x-large to="/contact" class="my-1 ml-sm-1 w-full w-sm-auto">
+              Contact Us
             </v-btn>
           </div>
         </div>
@@ -280,7 +299,7 @@ export default {
     }
   },
   async fetch () {
-    this.contests = await this.$content('contests').limit(3).fetch()
+    this.contests = await this.$content('contests').limit(3).sortBy('date_machine', 'desc').fetch()
   },
   head () {
     return {
