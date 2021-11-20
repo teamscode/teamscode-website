@@ -70,7 +70,7 @@
             </v-btn>
           </div>
           <div class="mt-3">
-            We encourage students passionate about organizing programming contests to join our team! We are always open to new, creative ideas that help expand our organization and foster a tight-knit community of coders.  Make sure that you read the TeamsCode Application Packet before applying to understand your responsibilities.
+            Make sure that you read the TeamsCode Application Packet before applying to understand your responsibilities.
           </div>
         </div>
       </v-container>
@@ -79,10 +79,10 @@
       <v-container class="mt-4 py-4 py-lg-8">
         <div class="text-center">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            Organizers
+            TeamsCode
           </div>
           <h2 class="text-h3 text-lg-h2">
-            Meet the team
+            Our leadership and organizers
           </h2>
         </div>
       </v-container>
