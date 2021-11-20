@@ -132,7 +132,7 @@ X-Camp Academy is a Silicon Valley-based institute that offers competitive progr
 
 ## **Partner:** <a href="https://codewithus.com">CodeWithUs</a>
 
-<a href="https://codewithus.com"><img src="/assets/images/sponsor_codewithus.png" alt="CodeWithUs" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://codewithus.com"><img src="/images/partners/codewithus.webp" alt="CodeWithUs" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>CodeWithUs</u>:
@@ -152,7 +152,7 @@ Our programs are intentionally designed to reflect the standards and practices o
 
 ## **Additional Sponsor:** <a href="https://codewizardshq.com">CodeWizards HQ</a>
 
-<a href="https://codewizardshq.com"><img src="/assets/images/sponsor_codewizards.jpg" alt="CodeWizards HQ" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://codewizardshq.com"><img src="/images/partners/codewizards.webp" alt="CodeWizards HQ" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>CodeWizards HQ</u>:
 
