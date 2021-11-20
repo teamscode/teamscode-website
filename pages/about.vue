@@ -12,7 +12,7 @@
     </v-sheet>
     <v-sheet>
       <v-row>
-        <v-col class="pa-0 d-none d-md-block" md="4">
+        <v-col class="py-0 d-none d-md-block" md="4">
           <v-img
             src="/images/about-background.webp"
             height="100%"
@@ -50,8 +50,33 @@
         </v-col>
       </v-row>
     </v-sheet>
-    <v-sheet color="transparent">
-      <v-container class="mt-8 py-4 py-lg-8">
+    <v-sheet class="transparent">
+      <v-container class="pt-8 pb-0">
+        <div class="text-center">
+          <div>
+            <div class="text-h3 primary--text">
+              Would like to join us?
+            </div>
+            <div class="text-h3 mt-1">
+              We are always open to new ideas!
+            </div>
+          </div>
+          <div class="mt-4">
+            <v-btn large class="my-1 w-full w-sm-auto" href="https://docs.google.com/document/d/1_AeM-rZ8GQk_MvBuJ3P_mWwTDf2eeW_r84VyhpCIIEU/edit?usp=sharing" target="_blank">
+              Application Packet
+            </v-btn>
+            <v-btn large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdZRZ6FYFKh8ISQgRl-9-vbAV6t1GwxNJZm69JQbfkR4QiV8g/viewform" target="_blank">
+              Apply Now
+            </v-btn>
+          </div>
+          <div class="mt-3">
+            We encourage students passionate about organizing programming contests to join our team! We are always open to new, creative ideas that help expand our organization and foster a tight-knit community of coders.  Make sure that you read the TeamsCode Application Packet before applying to understand your responsibilities.
+          </div>
+        </div>
+      </v-container>
+    </v-sheet>
+    <v-sheet>
+      <v-container class="mt-4 py-4 py-lg-8">
         <div class="text-center">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             Organizers
@@ -62,9 +87,14 @@
         </div>
       </v-container>
     </v-sheet>
-    <v-sheet color="transparent">
-      <div class="py-4">
-        <TeamSection header="Executives" :team="team" />
+    <v-sheet>
+      <div class="pt-2">
+        <TeamSection header="Executives" :team="exec" />
+      </div>
+    </v-sheet>
+    <v-sheet>
+      <div class="pt-2">
+        <TeamSection header="Current Team" :team="members" />
       </div>
     </v-sheet>
   </div>
@@ -74,7 +104,7 @@
 export default {
   data () {
     return {
-      team: [{
+      exec: [{
         name: 'Ethen Peng',
         title: 'Co-President',
         image: '/images/teams/ethan.webp',
@@ -99,12 +129,42 @@ export default {
         title: 'Vice President - Technology',
         image: '/images/teams/harry.webp',
         bio: 'Harry is a sophomore at Northwood High School in Irvine, California. He started competitive programming in C++ 2 years ago and is currently in USACO Gold. In addition to that, Harry also does full-stack web development. He maintains TeamsCode\'s website and contest system. Harry is excited to bring enjoyable contests to TeamsCoders. In his free time, he likes to play tennis and watch movies.'
-      }]
+      }],
+      members: [
+        {
+          name: 'Sol Park',
+          title: 'Problem Writer',
+          image: '/images/teams/sol.webp',
+          bio: 'Sol Park is a sophomore in Mercer Island High School in Washington. He started programming at 5th grade using mainly Python and C++, achieving Silver in USACO at 9th grade. He enjoys participating in Destination Imagination and has been doing it for four years. Outside of school, he volunteers in a Korean School as a Teacher\'s Assistant. He is very excited in being part of an organization for promoting computer science among students. '
+        }, {
+          name: 'Alex Du',
+          title: 'Problem Writer',
+          image: '/images/teams/alexD.webp',
+          bio: 'Alex is a sophomore at Cupertino High School in California. He started competitive programming in C++ three years ago. Outside of programming, he does math, plays volleyball, and enjoys spending time with friends. He\'s working to get more people into the world of competitive coding.'
+        }, {
+          name: 'Jay Dharmadhikari',
+          title: 'Marketing Coordinator',
+          image: '/images/teams/jay.webp',
+          bio: 'Jay Dharmadhikari is a senior at Redmond High School in Redmond, WA. He has been interested in computer science, coding, and competitive programming since middle school. Outside of CS, he enjoys graphic design and music production. '
+        }, {
+          name: 'Charles Yates',
+          title: 'Problem Writer',
+          image: '/images/teams/charles.webp',
+          bio: 'Charles Yates is a junior at University Highschool in Socal. He has coded in C++ for 3 years, and made USACO Gold at 8th Grade. Outside of coding he does swimming and competitive math, as well as filming. Charles is excited to help fellow programmers gain more knowledge about coding. '
+        }, {
+          name: 'Weiming Zhou',
+          title: 'Problem Writer',
+          image: '/images/teams/weiming.webp',
+          bio: 'Weiming Zhou is a sophomore attending Prestonwood Christian Academy in Plano, Texas. He has been doing competitive programming with C++ for almost 3 years and recently made Usaco Plat on the Us Open 2021. In his free time, he will probably be reading a book or playing chess online. He is very much looking forward to the experience of setting problems and introducing new problem solving techniques and algorithms to others.'
+        }
+      ]
     }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+.bg-sheet {
+  background: linear-gradient(90deg, rgb(54 90 127) 0%, rgb(11 20 38) 100%);
+}
 </style>
