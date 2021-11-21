@@ -11,44 +11,38 @@
       </v-container>
     </v-sheet>
     <v-sheet>
-      <v-row>
-        <v-col class="py-0 d-none d-md-block" md="4">
-          <v-img
-            src="/images/about-background.webp"
-            height="100%"
-            alt=""
-          />
-        </v-col>
-        <v-col class="align-center">
-          <div class="pa-6 pa-md-12">
-            <v-responsive max-width="900">
-              <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-                TeamsCode
+      <v-container class="py-4 py-lg-8">
+        <v-row>
+          <v-col cols="12" lg="6" xl="4">
+            <v-img src="/images/about-background.webp" class="rounded-lg elevation-6" height="100%" />
+          </v-col>
+          <v-col cols="12" lg="6" xl="8">
+            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+              TeamsCode
+            </div>
+            <h2 class="text-h3 text-lg-h2">
+              From in-person events to virtual contests
+            </h2>
+            <div class="text-body mt-5">
+              <div>
+                TeamsCode is a student-run 501(c)(3) non-profit that works to encourage middle school and high school students to study computer science. We work with teachers and sponsors to create awesome programming contests – both online and in-person!
               </div>
-              <h2 class="text-h3 text-lg-h2">
-                From in-person events to virtual contests
-              </h2>
-              <div class="text-body mt-5">
-                <div>
-                  TeamsCode is a student-run 501(c)(3) non-profit that works to encourage middle school and high school students to study computer science. We work with teachers and sponsors to create awesome programming contests – both online and in-person!
-                </div>
-                <br>
-                <div>
-                  Chris Elliott and Alan Bi founded TeamsCode in the beginning of 2017. Both of them participated in local programming contests and noticed a lack of representation from their school. They set about to change that by organizing the first ever Mercer Island High School Programming Contest on April 1st, 2017. Since then, TeamsCode has expanded its influence across three states in in-person events.
-                </div>
-                <br>
-                <div>
-                  Under the impact of a global pandemic, TeamsCode launched its first virtual programming contest in summer 2020. With more than 290 participants showing up to the event, it became TeamsCode's largest contest at that time. Since our first virtual contest, TeamsCode's influence expanded from the United States to more then 20 countries as we organized several more virtual events, showing a huge improvement in problem quality, contest experience and ultimately contest participation.
-                </div>
-                <br>
-                <div>
-                  As of summer 2021, TeamsCode's contest has 3 divisions featuring curated problems in different difficulties. In the future, we hope to continue our mission of bringing an enjoyable and inspirational team programming contest to everyone interested in computer science.
-                </div>
+              <br>
+              <div>
+                Chris Elliott and Alan Bi founded TeamsCode in the beginning of 2017. Both of them participated in local programming contests and noticed a lack of representation from their school. They set about to change that by organizing the first ever Mercer Island High School Programming Contest on April 1st, 2017. Since then, TeamsCode has expanded its influence across three states in in-person events.
               </div>
-            </v-responsive>
-          </div>
-        </v-col>
-      </v-row>
+              <br>
+              <div>
+                Under the impact of a global pandemic, TeamsCode launched its first virtual programming contest in summer 2020. With more than 290 participants showing up to the event, it became TeamsCode's largest contest in history until spring 2021. Since our first virtual contest, TeamsCode's influence expanded from the United States to more than 20 countries. We organized several more virtual events width a huge improvement in problem quality, contest experience and ultimately contest participation.
+              </div>
+              <br>
+              <div>
+                As of summer 2021, TeamsCode's contest has 3 divisions featuring curated problems in different difficulties. In the future, we hope to continue our mission of bringing an enjoyable and inspirational team programming contest to everyone interested in computer science.
+              </div>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-sheet>
     <v-sheet class="transparent">
       <v-container class="pt-8 pb-0">

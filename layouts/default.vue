@@ -143,7 +143,7 @@ export default {
         link: '/contest'
       }, {
         title: 'Blog',
-        link: '/pricing'
+        link: '/blog'
       }, {
         title: 'Contact',
         link: '/contact'
