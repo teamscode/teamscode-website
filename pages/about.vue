@@ -83,22 +83,22 @@
     </v-sheet>
     <v-sheet>
       <div class="pt-2">
-        <TeamSection header="Executives" :team="exec" />
+        <TeamMembers header="Executives" :people="exec" />
       </div>
     </v-sheet>
     <v-sheet>
       <div class="pt-2">
-        <TeamSection header="Current Team" :team="members" />
+        <TeamMembers header="Current Team" :people="members" />
       </div>
     </v-sheet>
     <v-sheet>
-      <div class="pt-2 text-center">
-        Past Leadership section
+      <div class="pt-2">
+        <TeamPastMembers header="Past Leadership" :people="pastLeadership" />
       </div>
     </v-sheet>
     <v-sheet>
-      <div class="pt-2 text-center">
-        Past Member section
+      <div class="pt-2">
+        <TeamPastMembers header="Past Organizers" :people="pastMembers" />
       </div>
     </v-sheet>
   </div>
@@ -160,6 +160,105 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/weiming.webp',
           bio: 'Weiming Zhou is a sophomore attending Prestonwood Christian Academy in Plano, Texas. He has been doing competitive programming with C++ for almost 3 years and recently made Usaco Plat on the Us Open 2021. In his free time, he will probably be reading a book or playing chess online. He is very much looking forward to the experience of setting problems and introducing new problem solving techniques and algorithms to others.'
+        }
+      ],
+      pastLeadership: [
+        {
+          name: 'Chris Elliot',
+          title: 'Co-Founder, Co-President 2017-2019',
+          image: '/images/teams/chris.webp'
+        }, {
+          name: 'Alan Bi',
+          title: 'Co-Founder, Co-President 2017-2019',
+          image: '/images/teams/alan.webp'
+        }, {
+          name: 'Jason Zhang',
+          title: 'Co-President, 2019-2020',
+          image: '/images/teams/jason.webp'
+        }, {
+          name: 'Alex Patel',
+          title: 'Co-President, 2019-2020',
+          image: '/images/teams/alexP.webp'
+        }, {
+          name: 'Sean Yang',
+          title: 'Co-President, 2020-2021',
+          image: '/images/teams/sean.webp'
+        }, {
+          name: 'Conner Yin',
+          title: 'Vice President, 2020-2021',
+          image: '/images/teams/ryan.webp'
+        }, {
+          name: 'Winbert Zhang',
+          title: 'Vice President, 2020-2021',
+          image: '/images/teams/winbert.webp'
+        }
+      ],
+      pastMembers: [
+        {
+          name: 'William Huang',
+          title: 'Former Director of Marketing',
+          image: '/images/teams/william.webp'
+        },
+        {
+          name: 'Victor Du',
+          title: 'Former Director of Technology',
+          image: '/images/teams/victor.webp'
+        }, {
+          name: 'Bill Wang',
+          title: 'Former Head of Finance',
+          image: '/images/teams/bill.webp'
+        }, {
+          name: 'Luca Palermo',
+          title: 'Former Head of Problem Writing',
+          image: '/images/teams/luca.webp'
+        }, {
+          name: 'Lucille Shield',
+          title: 'Head Organizer of Fall 2019 MIHS Programming Contest',
+          image: '/images/teams/lucille.webp'
+        }, {
+          name: 'Peter Ye',
+          title: 'Head Organizer of the 2019 CGS Programming Contest',
+          image: '/images/teams/peter.webp'
+        }, {
+          name: 'Jonathan Guo',
+          title: 'Programming Lead for the 2019 CGS Programming Contest ',
+          image: '/images/teams/jonathan.webp'
+        }, {
+          name: 'James Richardson',
+          title: 'Lesson Creator: AP Computer Science',
+          image: '/images/teams/james.webp'
+        }, {
+          name: 'Robert Chen',
+          title: 'Lesson Creator: USACO Problems',
+          image: '/images/teams/robert.webp'
+        }, {
+          name: 'Valliappan Valliappan',
+          title: 'Lesson Creator: iOS with Swift',
+          image: '/images/teams/valliappan.webp'
+        }, {
+          name: 'Thomas Short',
+          title: 'Finance Lead for Fall 2019 MIHS Programming Contest',
+          image: '/images/teams/thomas.webp'
+        }, {
+          name: 'Mathus Leungpathomaram',
+          title: 'Director of Oregon Events, 2018-2019',
+          image: '/images/teams/mathus.webp'
+        }, {
+          name: 'Marshal Xu',
+          title: 'Head Organizer of Fall 2018 CGS Programming Contest',
+          image: '/images/teams/marshal.webp'
+        }, {
+          name: 'Albert Huang',
+          title: 'Former Problem Writer',
+          image: '/images/teams/albert.webp'
+        }, {
+          name: 'Helen Feng',
+          title: 'Former Logistics Coordinator',
+          image: '/images/teams/helen.webp'
+        }, {
+          name: 'Alex Niu',
+          title: 'Former Logistics Coordinator',
+          image: '/images/teams/alexN.webp'
         }
       ]
     }
