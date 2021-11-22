@@ -91,6 +91,16 @@
         <TeamSection header="Current Team" :team="members" />
       </div>
     </v-sheet>
+    <v-sheet>
+      <div class="pt-2 text-center">
+        Past Leadership section
+      </div>
+    </v-sheet>
+    <v-sheet>
+      <div class="pt-2 text-center">
+        Past Member section
+      </div>
+    </v-sheet>
   </div>
 </template>
 
