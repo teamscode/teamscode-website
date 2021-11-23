@@ -7,7 +7,7 @@
           {{ content.title }}
         </h2>
         <div class="text-h6 text-lg-h5 mt-4">
-          {{ content.date }} on {{ content.place }}
+          {{ content.date }} at {{ content.place }}
         </div>
       </v-container>
     </v-sheet>

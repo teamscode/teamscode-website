@@ -22,7 +22,7 @@
         <v-chip class="mr-1 mb-2">
           {{ post.date }}
         </v-chip>
-        <v-chip class="mr-1 mb-2">
+        <v-chip v-if="post.participants" class="mr-1 mb-2">
           {{ post.participants }}
         </v-chip>
       </div>
