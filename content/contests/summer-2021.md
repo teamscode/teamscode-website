@@ -5,7 +5,8 @@ date_machine: 2021-07-31
 place: Youtube Live
 participants: 349 participants
 status: Past
-image: '/images/contest-1.webp'
+image: '/images/contests/virtual-contest.webp'
+status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 30px; text-align: center;">

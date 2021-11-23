@@ -5,7 +5,8 @@ date_machine: 2020-07-25
 participants: 296 participants
 status: Past
 place: Youtube Live
-image: '/images/contest-1.webp'
+image: '/images/contests/virtual-contest.webp'
+status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
