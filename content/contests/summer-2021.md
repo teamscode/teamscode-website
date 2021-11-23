@@ -1,5 +1,5 @@
 ---
-title: Summer 2021 Virtual Contest
+title: Summer 2021 Virtual Programming Contest
 date: Jul 31st, 2021
 date_machine: 2021-07-31
 place: Youtube Live
