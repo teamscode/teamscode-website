@@ -6,7 +6,6 @@ place: Youtube Live
 participants: 349 participants
 status: Past
 image: '/images/contests/virtual-contest.webp'
-status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 30px; text-align: center;">
