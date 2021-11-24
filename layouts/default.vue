@@ -136,8 +136,8 @@ export default {
         title: 'Contact',
         link: '/contact'
       }, {
-        title: 'Affiliates',
-        link: '/affiliates'
+        title: 'Sponsors',
+        link: '/sponsor'
       }, {
         title: 'About',
         link: '/about'

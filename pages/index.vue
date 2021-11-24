@@ -253,17 +253,23 @@
               Our awesome sponsors and partners help us bring a better contest to more people.
             </div>
             <div class="mt-4 d-none d-md-block">
-              <nuxt-link to="#" class="text-decoration-none font-weight-bold text-h6">
+              <v-btn to="/sponsor" outlined large color="primary">
                 Learn More
-              </nuxt-link>
+                <v-icon right dark>
+                  mdi-arrow-right
+                </v-icon>
+              </v-btn>
             </div>
           </v-col>
           <v-col cols="12" md="6">
             <SponsorLogos :logos="logos" />
             <div class="d-md-none text-right mt-4 mr-4">
-              <nuxt-link to="#" class="text-decoration-none font-weight-bold text-h6">
+              <v-btn to="/sponsor" outlined large color="primary">
                 Learn More
-              </nuxt-link>
+                <v-icon right dark>
+                  mdi-arrow-right
+                </v-icon>
+              </v-btn>
             </div>
           </v-col>
         </v-row>

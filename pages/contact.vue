@@ -4,11 +4,11 @@
       <v-container class="py-8">
         <div class="text-center">
           <h2 class="text-h3 text-lg-h2">
-            {{ title }}
+            Get in touch with us
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
-              {{ subtitle }}
+              Ways to connect with TeamsCode for inquiries and support
             </div>
           </v-responsive>
         </div>
@@ -53,8 +53,6 @@
 export default {
   data () {
     return {
-      title: 'Get in touch with us',
-      subtitle: 'Ways to connect with TeamsCode for inquiries and support',
       contacts: [
         {
           title: 'Join our Discord server',
@@ -71,8 +69,15 @@ export default {
           buttonLink: 'mailto:contact@teamscode.org'
         },
         {
+          title: 'Sponsor TeamsCode',
+          content: 'Here is our sponsorship deck. Please email us if you have any question!',
+          purposes: ['Sponsorship Inquiries'],
+          buttonText: 'Sponsorship Deck',
+          buttonLink: 'https://docs.google.com/document/d/1zYSRbs4-UStunbSw_y8x4N6zHoJPnXn5pb5YUg8xVrI'
+        },
+        {
           title: 'Donate to TeamsCode',
-          content: 'Click the button below to donate to our PayPal. TeamsCode is a student led organization, and any support is appreciated!',
+          content: 'Click the button below to donate to our PayPal. Any support is appreciated!',
           purposes: ['Donation'],
           buttonText: 'Donate to TeamsCode',
           buttonLink: 'https://www.paypal.com/donate/?hosted_button_id=EZB9M55P996QU'
