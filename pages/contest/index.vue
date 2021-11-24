@@ -19,7 +19,14 @@
     <v-sheet class="py-3">
       <v-container class="py-10">
         <v-row>
-          <v-col v-for="(card, i) in contests" :key="i" cols="12" lg="4" md="6">
+          <v-col
+            v-for="(card, i) in contests"
+            :key="i"
+            cols="12"
+            lg="4"
+            md="6"
+            xl="3"
+          >
             <ContestCard :post="card" />
           </v-col>
         </v-row>

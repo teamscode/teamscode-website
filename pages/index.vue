@@ -223,9 +223,9 @@
     </v-sheet>
 
     <v-sheet color="surface">
-      <v-container class="py-4 py-lg-8 text-center">
+      <v-container class="py-4 py-lg-6 text-center">
         <div class="text-h4 text-md-h3">
-          Please contact us for sponsorship inquiries!
+          Please contact us if you have any questions!
         </div>
         <v-btn
           :x-large="$vuetify.breakpoint.mdAndUp"
@@ -325,7 +325,7 @@ export default {
       }, {
         icon: 'mdi-gift',
         title: 'Neat Prizes',
-        description: 'On each contest, TeamsCode offers cash prize to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners!'
+        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners!'
       }, {
         icon: 'mdi-file-document-multiple',
         title: 'Curated Problem Set',

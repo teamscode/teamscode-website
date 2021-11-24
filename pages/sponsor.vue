@@ -4,11 +4,11 @@
       <v-container class="py-8">
         <div class="text-center">
           <h2 class="text-h3 text-lg-h2">
-            Our sponsors and affiliates
+            Our sponsors and friend organizations
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
-              Organizations that support and partner with TeamsCode
+              Companies and organizations that support and partner with TeamsCode
             </div>
           </v-responsive>
         </div>
@@ -17,9 +17,9 @@
     <v-sheet>
       <v-container>
         <div class="text-center mt-4 mb-3">
-          <h1 class="pb-1">
+          <h2 class="pb-1">
             <b>Partners</b>
-          </h1>
+          </h2>
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://x-camp.academy/#/"><v-img
               src="/images/partners/xcamp.webp"
@@ -34,9 +34,9 @@
           </v-row>
         </div>
         <div class="text-center mt-8 mb-3">
-          <h1 class="pb-1">
+          <h2 class="pb-1">
             <b>Gold Sponsors</b>
-          </h1>
+          </h2>
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://www.janestreet.com/"><v-img
               src="/images/partners/janestreet.webp"
@@ -46,9 +46,9 @@
           </v-row>
         </div>
         <div class="text-center mt-8 mb-3">
-          <h1 style="padding-bottom: 10px;">
+          <h2 style="padding-bottom: 10px;">
             <b>Bronze Sponsors</b>
-          </h1>
+          </h2>
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://www.youtube.com/c/replityt/videos"><v-img
               src="/images/partners/replit.webp"
@@ -58,9 +58,9 @@
           </v-row>
         </div>
         <div class="text-center mt-8 mb-3">
-          <h1 class="pb-1">
+          <h2 class="pb-1">
             <b>Previous Sponsors</b>
-          </h1>
+          </h2>
           <v-row class="align-center justify-center my-2 mx-10">
             <a target="_blank" href="https://www.codewithus.com/en"><v-img
               src="/images/partners/codewithus.webp"
@@ -159,6 +159,42 @@
             /></a>
           </v-row>
         </div>
+        <div class="text-center mt-8 mb-3">
+          <h2 class="pb-1">
+            <b>Affiliates</b>
+          </h2>
+          <v-row class="align-center justify-center my-2">
+            <a target="_blank" href="https://joincpi.org/"><v-img
+              src="/images/partners/cpi.webp"
+              alt="CPI"
+              style="width: 300px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://www.compcs.org/"><v-img src="/images/partners/ccc.webp" alt="CCC" style="width: 220px;" /></a>
+          </v-row>
+        </div>
+      </v-container>
+    </v-sheet>
+    <v-sheet class="bg-sheet" dark>
+      <v-container class="text-center py-4">
+        <h1 class="font-weight-light">
+          Would like to sponsor TeamsCode?
+        </h1>
+
+        <v-btn
+          color="accent"
+          to="/contact"
+          :x-large="$vuetify.breakpoint.mdAndUp"
+          large
+          class="my-3"
+        >
+          Get in touch
+        </v-btn>
+
+        <div class="text-body-1 text-md-h6 font-weight-light">
+          <v-responsive max-width="800" class="mx-auto">
+            Thank you for your consideration! Please click on the button the view our contact method and sponsorship deck.
+          </v-responsive>
+        </div>
       </v-container>
     </v-sheet>
   </div>
@@ -170,6 +206,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.bg-sheet {
+  background: linear-gradient(90deg, rgb(54 90 127) 0%, rgb(11 20 38) 100%);
+}
 </style>
