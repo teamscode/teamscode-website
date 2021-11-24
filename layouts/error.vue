@@ -1,7 +1,7 @@
 <template>
   <div id="notfound">
     <div class="notfound">
-      <div class="notfound-bg">
+      <div class="notfound-bg d-none d-md-block">
         <div />
         <div />
         <div />
