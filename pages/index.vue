@@ -10,10 +10,22 @@
             TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
           </h2>
           <div class="mt-4 mt-xl-10">
-            <v-btn x-large class="my-1 mr-sm-1 w-full w-sm-auto" color="primary" to="/contest">
+            <v-btn
+              :x-large="$vuetify.breakpoint.smAndUp"
+              large
+              class="my-1 mr-sm-1 w-full w-sm-auto"
+              color="primary"
+              to="/contest"
+            >
               Browse Contests
             </v-btn>
-            <v-btn x-large class="my-1 ml-sm-1 w-full w-sm-auto" href="https://discord.com/invite/48W8ttCANJ" target="_blank">
+            <v-btn
+              :x-large="$vuetify.breakpoint.smAndUp"
+              large
+              class="my-1 ml-sm-1 w-full w-sm-auto"
+              href="https://discord.com/invite/8pg89SS"
+              target="_blank"
+            >
               Join Discord
             </v-btn>
           </div>
@@ -109,9 +121,9 @@
             </div>
           </div>
           <v-btn
+            :x-large="$vuetify.breakpoint.mdAndUp"
             large
-            md-x-large
-            href="https://discord.com/invite/48W8ttCANJ"
+            href="https://discord.com/invite/8pg89SS"
             target="_blank"
             class="mt-4 mx-sm-2 w-full w-sm-auto"
             color="primary"
@@ -215,7 +227,13 @@
         <div class="text-h4 text-md-h3">
           Please contact us for sponsorship inquiries!
         </div>
-        <v-btn md-x-large large class="mt-4 mx-sm-2 w-full w-sm-auto" color="primary" to="/contact">
+        <v-btn
+          :x-large="$vuetify.breakpoint.mdAndUp"
+          large
+          class="mt-4 mx-sm-2 w-full w-sm-auto"
+          color="primary"
+          to="/contact"
+        >
           Contact Us
         </v-btn>
       </v-container>

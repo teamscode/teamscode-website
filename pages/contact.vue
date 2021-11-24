@@ -61,7 +61,7 @@ export default {
           content: 'The best way to stay updated is to join our Discord server. It\'s our main communication method during contests.',
           purposes: ['Contest Updates', 'Ask Questions'],
           buttonText: 'Join Discord',
-          buttonLink: 'https://discord.com/invite/48W8ttCANJ'
+          buttonLink: 'https://discord.com/invite/8pg89SS'
         },
         {
           title: 'Email TeamsCode',
