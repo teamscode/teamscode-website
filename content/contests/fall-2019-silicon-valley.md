@@ -6,6 +6,7 @@ date: Oct 26th, 2019
 date_machine: 2019-10-26
 image: '/images/contests/mvhs.webp'
 status: Past
+participants: 35 participants
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 20px; text-align: center;">
