@@ -4,7 +4,7 @@
       <v-container class="py-6 py-sm-12 text-center">
         <v-responsive max-width="800" class="mx-auto">
           <h1 class="text-h4 text-sm-h3 mb-4">
-            Making programming fun
+            TeamsCode programming contests
           </h1>
           <v-text-field
             v-model="query"
