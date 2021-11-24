@@ -9,7 +9,7 @@ participants: 153 participants
 status: Past
 ---
 
-<div style="float: right; margin-right: -140px; margin-left: 10px; text-align: center;">
+<div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Platinum Sponsors</b></h1>
   <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
   <h1 style="text-align: left;"><b>Gold Sponsors</b></h1>

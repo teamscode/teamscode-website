@@ -9,7 +9,7 @@ participants: 26 participants
 status: Past
 ---
 
-<div style="float: right; margin-right: -120px; margin-left: 10px; text-align: center;">
+<div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Bronze Sponsors</b></h1>
   <a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.webp" alt="Brainium" style="width: 200px;"></a>
 </div>

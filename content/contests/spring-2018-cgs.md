@@ -9,7 +9,7 @@ image: '/images/contests/catlin_gabel.webp'
 status: Past
 ---
 
-<div style="float: right; margin-right: -140px; margin-left: 10px; text-align: center;">
+<div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Gold Sponsors</b></h1>
   <a href="https://www.silabs.com/"><img src="/images/partners/siliconlabs.webp" alt="Silicon Labs" style="width: 180px; margin-right: 20px;"></a> <br> 
 </div>

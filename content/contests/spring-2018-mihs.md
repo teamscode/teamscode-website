@@ -9,7 +9,7 @@ image: '/images/contests/mihs.webp'
 status: Past
 ---
 
-<div style="float: right; margin-right: -140px; margin-left: 10px; text-align: center;">
+<div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Gold Sponsors</b></h1>
   <a href="https://jetbrains.com"><img src="/images/partners/jetbrains.webp" alt="JetBrains" style="width: 150px; margin-right: 20px;"></a> <br> 
   <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 100px; margin-right: 20px;"></a>
@@ -81,29 +81,29 @@ There was a great turnout of 99 students, or 43 teams. The contest was held in t
 
 <div>
   <a href="https://jetbrains.com">
-    <img src="/images/partners/jetbrains.webp" alt="JetBrains" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/jetbrains.webp" alt="JetBrains" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 <div>
   <a href="https://www.topcoder.com/">
-    <img src="/images/partners/topcoder.webp" alt="Topcoder" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/topcoder.webp" alt="Topcoder" style="width: 300px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
 <div>
   <a href="https://twilio.com">
-    <img src="/images/partners/twilio.webp" alt="Silicon Labs" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/twilio.webp" alt="Silicon Labs" style="width: 300px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 <div>
   <a href="https://www.pagliacci.com/">
-    <img src="/images/partners/pagliacci.webp" alt="Pagliacci Pizza" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/pagliacci.webp" alt="Pagliacci Pizza" style="width: 100px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
 <div>
   <a href="http://pscsta.org/">
-    <img src="/images/partners/pscsta.webp" alt="PSCSTA" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/pscsta.webp" alt="PSCSTA" style="width: 200px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
