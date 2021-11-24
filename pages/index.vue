@@ -7,7 +7,7 @@
             High quality and fun <span class="primary--text">team programming contest</span> for everyone
           </h1>
           <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
-            TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting
+            TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
           </h2>
           <div class="mt-4 mt-xl-10">
             <v-sheet elevation="2" rounded class="d-flex w-full">
@@ -26,7 +26,7 @@
             </v-sheet>
           </div>
         </v-col>
-        <v-col cols="12" lg="5" class="d-none d-lg-block">
+        <v-col cols="12" lg="5" class="d-none d-lg-flex">
           <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/static/images/hero.webp')" alt="" />
         </v-col>
       </v-row>
@@ -37,27 +37,106 @@
         <path d="m-3.90909,6l48.30303,16c48.30303,16 144.90908,48 241.51514,48c96.60606,0 193.21211,-32 289.81817,-32c96.60606,0 193.21211,32 289.81817,53.3c96.60606,21.7 193.21211,31.7 289.81817,16c96.60606,-16.3 193.21211,-58.3 241.51514,-80l48.30303,-21.3l0,160l-48.30303,0c-48.30303,0 -144.90908,0 -241.51514,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -241.51514,0l-48.30303,0l0,-160z" />
       </svg>
       <v-container class="py-4 py-lg-8">
-        <div class="d-none d-md-block">
+        <div class="text-center text-md-left">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            By the numbers
+            Our Events
           </div>
           <h2 class="text-h3 text-lg-h2">
-            Enthusiastic coders from around the globe
+            Making competitive programming fun
           </h2>
           <div class="text-h6 text-lg-h5 mt-4">
-            Some statistics from TemasCode Summer 2021 Contest, one of our largest contests
+            Our unique team competitive programming contests aim to provide a fun and enjoyable experience to programmers at all levels! Keep scrolling to explore our contests.
           </div>
         </div>
-        <div class="text-center d-md-none">
+        <div class="mt-6">
+          <div
+            v-for="(item, i) in contestFeatures"
+            :key="i"
+            class="mt-4"
+          >
+            <v-card class="py-4 px-2" color="surface">
+              <div class="d-flex">
+                <div class="mr-2">
+                  <v-sheet
+                    color="blue-grey"
+                    rounded
+                    class="pa-2"
+                    style="margin-top: 3px"
+                    dark
+                  >
+                    <v-icon>{{ item.icon }}</v-icon>
+                  </v-sheet>
+                </div>
+                <div>
+                  <div class="text-h5 font-weight-bold">
+                    {{ item.title }}
+                  </div>
+                  <div class="text-body mt-1">
+                    {{ item.description }}
+                  </div>
+                </div>
+              </div>
+            </v-card>
+          </div>
+        </div>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet color="surface">
+      <v-container class="py-4 py-lg-8">
+        <div class="text-center">
+          <h2 class="text-h3 text-lg-h2 mb-3">
+            Recent online programming contests
+          </h2>
+        </div>
+        <v-row class="mt-6">
+          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
+            <ContestCard :post="card" />
+          </v-col>
+        </v-row>
+        <div class="mt-4 text-right">
+          <v-btn to="/contest" outlined large color="primary">
+            More Contests
+            <v-icon right dark>
+              mdi-arrow-right
+            </v-icon>
+          </v-btn>
+        </div>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet>
+      <v-container class="py-4 py-lg-8">
+        <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
+          <div class="text-center text-lg-left">
+            <div class="text-h4 text-md-h3">
+              Interested or have questions?
+            </div>
+            <div class="text-h4 text-md-h3 primary--text">
+              Join our Discord server!
+            </div>
+          </div>
+          <v-btn large md-x-large href="https://discord.com/invite/48W8ttCANJ" class="mt-4 mx-sm-2 w-full w-sm-auto" color="primary">
+            Join Discord
+          </v-btn>
+        </div>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet color="surface">
+      <v-container class="py-4 py-lg-8">
+        <div class="text-center">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             By the numbers
           </div>
           <h2 class="text-h3 text-lg-h2">
-            Enthusiastic coders from around the globe
+            A contest for coders around the globe
           </h2>
-          <div class="text-h6 text-lg-h5 mt-4">
-            Some statistics from TemasCode Summer 2021 Contest, one of our largest contests
-          </div>
+          <v-responsive max-width="1200" class="mx-auto">
+            <div class="text-h6 text-lg-h5 mt-4">
+              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TemasCode Summer 2021 Contest, one of our largest contests.
+            </div>
+          </v-responsive>
         </div>
         <v-row class="mt-6" dense>
           <v-col
@@ -80,59 +159,22 @@
       </v-container>
     </v-sheet>
 
-    <v-sheet color="surface" class="py-4">
-      <v-container class="py-10">
-        <div class="text-center">
-          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            Our Events
-          </div>
-          <h2 class="text-h3 text-lg-h2 mb-3">
-            Online competitive programming contests
-          </h2>
-        </div>
-        <v-row class="mt-6">
-          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
-            <ContestCard :post="card" />
-          </v-col>
-        </v-row>
-        <div class="mt-4 text-right">
-          <v-btn to="/contest" outlined large color="primary">
-            More Contests
-            <v-icon right dark>
-              mdi-arrow-right
-            </v-icon>
-          </v-btn>
-        </div>
-      </v-container>
-    </v-sheet>
-
     <v-sheet>
       <v-container class="py-4 py-lg-8">
-        <div class="d-none d-md-block">
+        <div class="text-center text-md-left">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            In Details
+            Our Organization
           </div>
           <h2 class="text-h3 text-lg-h2">
             More than just a competition
           </h2>
           <div class="text-h6 text-lg-h5 mt-4">
-            TeamsCode is not just another computer science contest, but a student led organization with a mission of promoting computer science education
-          </div>
-        </div>
-        <div class="text-center d-md-none">
-          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            In Details
-          </div>
-          <h2 class="text-h3 text-lg-h2">
-            More than just a competition
-          </h2>
-          <div class="text-h6 text-lg-h5 mt-4">
-            TeamsCode is not just another computer science contest, but a student led organization with a mission of promoting computer science education
+            Besides hosting competitions, TeamsCode aims to foster a tight-knit community of coders with a mission of promoting computer science education.
           </div>
         </div>
         <v-row class="mt-6">
           <v-col
-            v-for="(item, i) in features"
+            v-for="(item, i) in organizationFeatures"
             :key="i"
             cols="12"
             md="6"
@@ -150,7 +192,7 @@
                   <div class="text-h5 font-weight-bold">
                     {{ item.title }}
                   </div>
-                  <div class="font-weight-regular mt-1">
+                  <div class="text-body mt-1">
                     {{ item.description }}
                   </div>
                 </div>
@@ -170,43 +212,20 @@
     </v-sheet>
 
     <v-sheet color="surface">
-      <v-container class="py-8">
-        <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
-          <div class="text-center text-lg-left">
-            <div class="text-h3">
-              Interested or have questions?
-            </div>
-            <div class="text-h3 primary--text">
-              Contact us or join our Discord!
-            </div>
-          </div>
-          <div class="mt-6">
-            <v-btn x-large href="https://discord.com/invite/48W8ttCANJ" class="my-1 mr-sm-1 w-full w-sm-auto" color="primary">
-              Join Discord
-            </v-btn>
-            <v-btn x-large to="/contact" class="my-1 ml-sm-1 w-full w-sm-auto">
-              Contact Us
-            </v-btn>
-          </div>
+      <v-container class="py-4 py-lg-8 text-center">
+        <div class="text-h4 text-md-h3">
+          Please contact us for sponsorship inquiries!
         </div>
+        <v-btn md-x-large large class="mt-4 mx-sm-2 w-full w-sm-auto" color="primary" to="/contact">
+          Contact Us
+        </v-btn>
       </v-container>
     </v-sheet>
 
     <v-sheet class="py-6">
       <v-container class="py-4 py-lg-8">
         <v-row>
-          <v-col class="d-md-none" cols="12" md="6">
-            <div class="text-center text-uppercase font-weight-bold body-2 primary--text mb-2">
-              Our Partners and Sponsors
-            </div>
-            <h2 class="text-center text-h3 text-lg-h2">
-              They help make things possible and better
-            </h2>
-            <div class="text-center text-h6 text-lg-h5 mt-5">
-              Our awesome sponsors and partners help us bring a better contest to more people
-            </div>
-          </v-col>
-          <v-col class="d-none d-md-block" cols="12" md="6">
+          <v-col class="text-center text-md-left" cols="12" md="6">
             <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
               Our Partners and Sponsors
             </div>
@@ -214,7 +233,7 @@
               They help make things possible and better
             </h2>
             <div class="text-h6 text-lg-h5 mt-5">
-              Our awesome sponsors and partners help us bring a better contest to more people
+              Our awesome sponsors and partners help us bring a better contest to more people.
             </div>
             <div class="mt-4">
               <nuxt-link to="#" class="text-decoration-none font-weight-bold text-h6">
@@ -259,22 +278,39 @@ export default {
         title: 'Lines of Code',
         value: '302K'
       }],
-      features: [{
+      organizationFeatures: [{
         icon: 'mdi-account-group',
         title: 'Team Environment',
-        description: 'TeamsCode contests create an inspirational environment for computer science students to collaborate on programming problems and meet new people'
+        description: 'TeamsCode contests create an inspirational environment for computer science students to collaborate on programming problems and meet new people.'
       }, {
         icon: 'mdi-book-open-page-variant',
         title: 'Lead by Students',
-        description: 'TeamsCode is made for students, by students. We work with our partners to deliver an enjoyable experience to computer science students'
+        description: 'TeamsCode is made for students, by students. We work with our partners to deliver an enjoyable experience to computer science students.'
       }, {
         icon: 'mdi-pencil',
         title: 'Make Things Happen',
-        description: 'If you are interested in helping us organize contests, please join us! Enthusiastics take different roles in TeamsCode and work together to make contests happen'
+        description: 'If you are interested in helping us organize contests, please join us! Enthusiastics take different roles in TeamsCode and work together to make contests happen.'
       }, {
         icon: 'mdi-discord',
         title: 'Friendly Community',
-        description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people'
+        description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people.'
+      }],
+      contestFeatures: [{
+        icon: 'mdi-head-lightbulb',
+        title: 'Inspirational Contests',
+        description: 'Work with your friends to solve challenging competitive programming problem and inspire each other. There are always more than one way to solve a problem, just like there are to collaborate on a contest! Team! Code!'
+      }, {
+        icon: 'mdi-gift',
+        title: 'Neat Prizes',
+        description: 'On each contest, TeamsCode offers cash prize to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners!'
+      }, {
+        icon: 'mdi-file-document-multiple',
+        title: 'Curated Problem Set',
+        description: 'TeamsCode\'s problem sets are carefully created by our problem writing team (many of the members are in USACO Platinum!). These problems cover a variety of topics in different levels while featuring an interesting context.'
+      }, {
+        icon: 'mdi-message-alert',
+        title: 'Instant Feedback',
+        description: 'TeamsCode Contest System offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],
       logos: [{
         image: require('@/static/images/partners/xcamp.webp'),

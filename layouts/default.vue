@@ -48,7 +48,7 @@
     <v-main>
       <Nuxt />
     </v-main>
-    <v-footer color="transparent">
+    <v-footer color="surface">
       <v-container class="py-5">
         <v-row>
           <v-col cols="12" md="4">

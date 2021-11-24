@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-sheet color="transparent">
+    <v-sheet color="surface">
       <v-container class="py-8">
         <div class="text-center">
           <h2 class="text-h3 text-lg-h2">
