@@ -3,7 +3,7 @@
     <v-sheet class="bg" dark>
       <v-container class="py-6 py-sm-12 text-center">
         <v-responsive max-width="800" class="mx-auto">
-          <h1 class="text-h4 text-sm-h3 mb-4">
+          <h1 class="text-h4 text-sm-h3 text-md-h2 mb-4">
             TeamsCode programming contests
           </h1>
           <v-text-field
@@ -19,7 +19,7 @@
     <v-sheet class="py-3">
       <v-container class="py-10">
         <v-row>
-          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
+          <v-col v-for="(card, i) in contests" :key="i" cols="12" lg="4" md="6">
             <ContestCard :post="card" />
           </v-col>
         </v-row>

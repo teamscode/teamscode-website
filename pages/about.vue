@@ -2,7 +2,7 @@
   <div>
     <v-sheet color="surface">
       <v-container class="py-6 py-lg-12 text-center">
-        <h1 class="text-h4 text-sm-h3 text-md-h2 text-lg-h1">
+        <h1 class="text-h2 text-lg-h1">
           All about <span class="primary--text">TeamsCode</span>
         </h1>
         <h2 class="text-h6 text-sm-h5 text--lighten-2 mt-4 ">

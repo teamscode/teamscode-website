@@ -2,8 +2,8 @@
   <div>
     <v-container class="py-6">
       <v-row>
-        <v-col cols="12" md="6" lg="7">
-          <h1 class="text-h4 text-sm-h3 text-lg-h1 mt-xl-4">
+        <v-col cols="12" lg="7">
+          <h1 class="text-h2 text-lg-h1 mt-xl-4">
             High quality and fun <span class="primary--text">team programming contest</span> for everyone
           </h1>
           <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
@@ -26,7 +26,7 @@
             </v-sheet>
           </div>
         </v-col>
-        <v-col cols="12" md="6" lg="5" class="d-none d-md-block">
+        <v-col cols="12" lg="5" class="d-none d-lg-block">
           <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/static/images/hero.webp')" alt="" />
         </v-col>
       </v-row>
@@ -181,7 +181,7 @@
             </div>
           </div>
           <div class="mt-6">
-            <v-btn x-large class="my-1 mr-sm-1 w-full w-sm-auto" color="primary">
+            <v-btn x-large href="https://discord.com/invite/48W8ttCANJ" class="my-1 mr-sm-1 w-full w-sm-auto" color="primary">
               Join Discord
             </v-btn>
             <v-btn x-large to="/contact" class="my-1 ml-sm-1 w-full w-sm-auto">
