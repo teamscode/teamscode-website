@@ -192,7 +192,7 @@
 
         <div class="text-body-1 text-md-h6 font-weight-light">
           <v-responsive max-width="800" class="mx-auto">
-            Thank you for your consideration! Please click on the button the view our contact method and sponsorship deck.
+            Thank you for your consideration! Please click on the button to view our contact methods and sponsorship deck.
           </v-responsive>
         </div>
       </v-container>
