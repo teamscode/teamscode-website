@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model="drawer" app temporary>
       <v-list dense nav>
         <v-subheader class="text-uppercase font-weight-bold">
-          Menu
+          TeamsCode
         </v-subheader>
         <v-list-item v-for="(item, index) in menu" :key="index" :to="item.link">
           <v-list-item-content>

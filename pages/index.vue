@@ -235,7 +235,7 @@
             <div class="text-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people.
             </div>
-            <div class="mt-4">
+            <div class="mt-4 d-none d-md-block">
               <nuxt-link to="#" class="text-decoration-none font-weight-bold text-h6">
                 Learn More
               </nuxt-link>
@@ -243,7 +243,7 @@
           </v-col>
           <v-col cols="12" md="6">
             <SponsorLogos :logos="logos" />
-            <div class="d-md-none text-right mt-4 mr-12">
+            <div class="d-md-none text-right mt-4 mr-4">
               <nuxt-link to="#" class="text-decoration-none font-weight-bold text-h6">
                 Learn More
               </nuxt-link>
