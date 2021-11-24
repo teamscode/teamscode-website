@@ -10,20 +10,12 @@
             TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
           </h2>
           <div class="mt-4 mt-xl-10">
-            <v-sheet elevation="2" rounded class="d-flex w-full">
-              <v-text-field
-                placeholder=" Subscribe to our mailing list"
-                hide-details
-                flat
-                solo
-                height="80"
-                full-width
-                prepend-inner-icon="mdi-email"
-              />
-              <v-btn x-large class="ma-1 mx-sm-1 w-sm-auto" color="success">
-                Subscribe
-              </v-btn>
-            </v-sheet>
+            <v-btn x-large class="my-1 mr-sm-1 w-full w-sm-auto" color="primary" to="/contest">
+              Browse Contests
+            </v-btn>
+            <v-btn x-large class="my-1 ml-sm-1 w-full w-sm-auto" href="https://discord.com/invite/48W8ttCANJ" target="_blank">
+              Join Discord
+            </v-btn>
           </div>
         </v-col>
         <v-col cols="12" lg="5" class="d-none d-lg-flex">
@@ -116,7 +108,14 @@
               Join our Discord server!
             </div>
           </div>
-          <v-btn large md-x-large href="https://discord.com/invite/48W8ttCANJ" class="mt-4 mx-sm-2 w-full w-sm-auto" color="primary">
+          <v-btn
+            large
+            md-x-large
+            href="https://discord.com/invite/48W8ttCANJ"
+            target="_blank"
+            class="mt-4 mx-sm-2 w-full w-sm-auto"
+            color="primary"
+          >
             Join Discord
           </v-btn>
         </div>
