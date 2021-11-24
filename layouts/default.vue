@@ -97,19 +97,7 @@
               Newsletter
             </div>
             <div style="width: 80px; height: 4px" class="mb-5 mt-1 secondary" />
-            <div class="d-flex flex-column flex-lg-row w-full">
-              <v-text-field
-                outlined
-                solo
-                label="Your email"
-                dense
-                height="44"
-                class="mr-lg-2"
-              />
-              <v-btn large color="secondary">
-                Subscribe
-              </v-btn>
-            </div>
+            <MailchimpForm />
             <div class="text-center text-md-right mt-4 mt-lg-2">
               Connect
               <v-btn fab small color="secondary" class="ml-2">
