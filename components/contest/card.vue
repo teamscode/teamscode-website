@@ -40,7 +40,7 @@ export default {
   },
   computed: {
     link () {
-      return `/contest/${this.post.slug}`
+      return `/contests/${this.post.slug}`
     }
   }
 }

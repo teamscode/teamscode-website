@@ -34,7 +34,7 @@ We hope to achieve part of this through further transparency of TeamsCode, but w
 
 - Stability and Expansion
 
-Our last goal is twofold: we want to maintain the events that we have (<a class="a" href="/contest/spring-2019-mihs/">MIHS in Washington</a> and <a class="a" href="/contest/catlin-gabel-fall/">CGS in Oregon</a>) while growing TeamsCode to more locations.
+Our last goal is twofold: we want to maintain the events that we have (<a class="a" href="/contests/spring-2019-mihs/">MIHS in Washington</a> and <a class="a" href="/contests/catlin-gabel-fall/">CGS in Oregon</a>) while growing TeamsCode to more locations.
 
 In the summer of 2018, we tried to pursue hosting an event in California. We emailed over fifty teachers and other contacts, but could not find anybody interested in supporting this idea.
 

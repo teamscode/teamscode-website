@@ -149,7 +149,7 @@ export default {
       drawer: null,
       menu: [{
         title: 'Contests',
-        link: '/contest'
+        link: '/contests'
       }, {
         title: 'Blog',
         link: '/blog'
@@ -158,7 +158,7 @@ export default {
         link: '/contact'
       }, {
         title: 'Sponsors',
-        link: '/sponsor'
+        link: '/sponsors'
       }, {
         title: 'About',
         link: '/about'

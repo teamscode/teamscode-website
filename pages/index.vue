@@ -15,7 +15,7 @@
               large
               class="my-1 mr-sm-1 w-full w-sm-auto"
               color="primary"
-              to="/contest"
+              to="/contests"
             >
               Browse Contests
             </v-btn>
@@ -99,7 +99,7 @@
           </v-col>
         </v-row>
         <div class="mt-4 text-right">
-          <v-btn to="/contest" outlined large color="primary">
+          <v-btn to="/contests" outlined large color="primary">
             More Contests
             <v-icon right dark>
               mdi-arrow-right
@@ -253,7 +253,7 @@
               Our awesome sponsors and partners help us bring a better contest to more people.
             </div>
             <div class="mt-4 d-none d-md-block">
-              <v-btn to="/sponsor" outlined large color="primary">
+              <v-btn to="/sponsors" outlined large color="primary">
                 Learn More
                 <v-icon right dark>
                   mdi-arrow-right
@@ -264,7 +264,7 @@
           <v-col cols="12" md="6">
             <SponsorLogos :logos="logos" />
             <div class="d-md-none text-right mt-4 mr-4">
-              <v-btn to="/sponsor" outlined large color="primary">
+              <v-btn to="/sponsors" outlined large color="primary">
                 Learn More
                 <v-icon right dark>
                   mdi-arrow-right
