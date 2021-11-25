@@ -7,7 +7,7 @@ date: '2018-09-25'
 author: Chris Elliott
 ---
 
-Since the Spring of 2017, we've hosted nearly 100 students at every <a class="a" href="https://teamscode.com/contests">MIHS Programming Contest</a>; however, we're always trying to introduce more students to computer science, promoting new discoveries and simply providing a fun experience. This fall, thanks to the help of our biggest sponsors -- <a class="a" href="http://smartcodingschool.com/">Smart Coding School</a> and <a class="a" href="https://audian.com/">Audian</a> -- we are able to offer free registration to all participants!
+Since the Spring of 2017, we've hosted nearly 100 students at every MIHS Programming Contest; however, we're always trying to introduce more students to computer science, promoting new discoveries and simply providing a fun experience. This fall, thanks to the help of our biggest sponsors -- <a class="a" href="http://smartcodingschool.com/">Smart Coding School</a> and <a class="a" href="https://audian.com/">Audian</a> -- we are able to offer free registration to all participants!
 
 While this decision seems simple on the surface, creating a free event brings unique challenges. For one, the average attrition rate for hackathons is around 30-50%, <a class="a" href="https://guide.mlh.io/Organizer-Timeline/1-Month-Before/Headcount.html">according to MLH</a>. To be fair, hackathons are different than programming contests -- hackathons encourage students to come and generally create whatever they want, while programming contests are much more structured. This naturally leads to a greater attrition rate for hackathons since no registrants are really <i>obligated</i> to show up.
 

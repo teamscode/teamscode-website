@@ -6,7 +6,7 @@ date: '2019-03-23'
 author: Alan Bi
 ---
 
-On March 16, 2019, TeamsCode hosted its <a class="a" href="/contests/spring-2019-mihs-programming-contest/">fifth biannual MIHS Programming Contest</a> and seventh total event, bringing our total participant count to over 600. It's fair to say that the organization has come a long way since its founding in 2017. 
+On March 16, 2019, TeamsCode hosted its <a class="a" href="/contest/spring-2019-mihs/">fifth biannual MIHS Programming Contest</a> and seventh total event, bringing our total participant count to over 600. It's fair to say that the organization has come a long way since its founding in 2017. 
 
 Now, this also means that we have a lot of registration data. I figured this was a good opportunity to analyze the demographics of our participants and other interesting insights like what programming languages they choose, what team sizes they prefer, etc. 
 

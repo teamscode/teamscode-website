@@ -10,7 +10,7 @@ author: Chris Elliott
 Welcome to our first blog post! This is the place to find what TeamsCode members are working on -- from programming contests across the Pacific Northwest to online courses for computer science. For now, I'll list our current goals for the Fall of 2018:
 
 - Create three programming contests, one in Washington, Oregon, and California
-- Build new courses on our <a class="a" href="/learn">Learn</a> page.
+- Build new courses on our Learn page.
 - Partner with companies around the PNW to bring coding to more students.
 - Build an online Slack community for high school students to discover computer science.
 
