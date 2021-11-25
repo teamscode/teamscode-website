@@ -1,8 +1,8 @@
 ---
 title: TeamsCode's internal resources
 description:  The tools we use to host our contests and manage our logistics.
-image: /images/blogs/internal-resources.webp
-date: 2019-04-12
+image: '/images/blogs/internal-resources.webp'
+date: '2019-04-12'
 author: Alan Bi
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Spring 2021 Virtual Programming Contest
-date: 2021-04-24
+date: '2021-04-24'
 participants: 327 participants
 status: Past
 place: Youtube Live

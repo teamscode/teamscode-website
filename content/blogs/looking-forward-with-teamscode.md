@@ -1,8 +1,8 @@
 ---
 title: Looking forward with TeamsCode
 description:  Planning for the rest of the school year and promoting further transparency.
-image: /images/blogs/looking-forward.webp
-date: 2019-03-25
+image: '/images/blogs/looking-forward.webp'
+date: '2019-03-25'
 author: Chris Elliott
 ---
 

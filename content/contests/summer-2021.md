@@ -1,6 +1,6 @@
 ---
 title: Summer 2021 Virtual Programming Contest
-date: 2021-07-31
+date: '2021-07-31'
 place: Youtube Live
 participants: 349 participants
 status: Past

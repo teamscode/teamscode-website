@@ -1,9 +1,9 @@
 ---
 title: Our First Free Event
 description:  In order to share our passion for team coding competitions with as many students as possible, we have worked extra hard to create a free contest!
-image: /images/blogs/free_contest.webp
+image: '/images/blogs/free_contest.webp'
 image_source: Creative Stall from the Noun Project
-date: 2018-09-25
+date: '2018-09-25'
 author: Chris Elliott
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Sponsor Feature - Smart Coding School
 description: Learn about Smart Coding School, the Co-host and Platinum sponsor of the MIHS Programming Contest.
-image: /images/partners/smartcodingschool.webp
-date: 2018-10-09
+image: '/images/partners/smartcodingschool.webp'
+date: '2018-10-09'
 author: Chris Elliott
 ---
 

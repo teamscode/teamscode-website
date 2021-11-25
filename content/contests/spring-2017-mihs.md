@@ -1,6 +1,6 @@
 ---
 title: Spring 2017 MIHS Programming Contest
-date: 2017-04-01
+date: '2017-04-01'
 contest_location_link: https://www.google.com/maps/dir/''/mercer+island+high+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x54906bdae7961a9d:0x6e6caf34f523feb?sa=X&ved=2ahUKEwievorr45fdAhWEIjQIHTEbCswQ9RcwD3oECAoQEQ
 place: Mercer Island High School
 participants: 103 participants

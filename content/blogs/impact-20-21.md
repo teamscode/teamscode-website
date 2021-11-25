@@ -1,8 +1,8 @@
 ---
 title: "TeamsCode 2020 - 2021: Year in Review"
 description: The TeamsCode contests hosted in the past year and our future endeavors.
-image: /images/blogs/tc-20-21.webp
-date: 2020-08-11
+image: '/images/blogs/tc-20-21.webp'
+date: '2020-08-11'
 author: Sean Yang; edited by Jay Dharmadhikari
 ---
 

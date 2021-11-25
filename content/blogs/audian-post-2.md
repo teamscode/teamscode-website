@@ -1,8 +1,8 @@
 ---
 title: "Audian and TeamsCode: Two Organizations With One Goal"
 description: How Audian and TeamsCode share their commitment to support the CS community.
-image: /images/partners/audian.webp
-date: 2020-02-02
+image: '/images/partners/audian.webp'
+date: '2020-02-02'
 author: Alex Patel and Luca Palermo
 ---
 

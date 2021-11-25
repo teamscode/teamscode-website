@@ -1,6 +1,6 @@
 ---
 title: Spring 2018 CGS Programming Contest
-date: 2018-04-07
+date: '2018-04-07'
 place_link: https://www.google.com/maps/dir/''/catlin+gabel+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x549509433a879379:0x688f19935355949f?sa=X&ved=2ahUKEwj2kdrV45fdAhXfHTQIHUdLBt0Q9RcwE3oECAcQEw
 place: Catlin Gabel School
 participants: 20 participants
@@ -13,11 +13,6 @@ status: Past
   <a href="https://www.silabs.com/"><img src="/images/partners/siliconlabs.webp" alt="Silicon Labs" style="width: 180px; margin-right: 20px;"></a> <br> 
 </div>
 
-# _Interested in joining our team?_
-
-Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!
-
-<a href = "/contests/create"><button class = "contests-header-section-button" style="margin-top:10px">JOIN OUR TEAM</button></a>
 
 # The first Oregon programming contest
 

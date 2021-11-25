@@ -2,7 +2,7 @@
 title: Fall 2019 Silicon Valley Programming Contest
 place: Union Church of Cupertino
 place_link: https://www.google.com/maps/place/Union+Church+of+Cupertino/@37.3307326,-122.079577,12.75z/data=!4m5!3m4!1s0x808fb44d7e01624b:0x6a7aa396687f0f9a!8m2!3d37.3223342!4d-122.0392881
-date: 2019-10-26
+date: '2019-10-26'
 image: '/images/contests/mvhs.webp'
 status: Past
 participants: 35 participants

@@ -1,8 +1,8 @@
 ---
 title: Analyzing registration data from our contests
 description:  Taking a look at the demographics and preferences of participants from past MIHS programming contests. 
-image: /images/blogs/analyzing-registration.webp
-date: 2019-03-23
+image: '/images/blogs/analyzing-registration.webp'
+date: '2019-03-23'
 author: Alan Bi
 ---
 

@@ -2,7 +2,7 @@
 title: Spring 2019 MIHS Programming Contest
 place: Mercer Island High School
 place_link: https://www.google.com/maps/place/Mercer+Island+High+School/@47.5719538,-122.2202913,17z/data=!4m12!1m6!3m5!1s0x54906bdae7961a9d:0x6e6caf34f523feb!2sMercer+Island+High+School!8m2!3d47.5719538!4d-122.2181026!3m4!1s0x54906bdae7961a9d:0x6e6caf34f523feb!8m2!3d47.5719538!4d-122.2181026
-date: 2019-03-16
+date: '2019-03-16'
 participants: 142 participants
 image: '/images/contests/mihs.webp'
 status: Past
@@ -15,12 +15,6 @@ status: Past
   <a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-bottom: 70px; margin-right: 20px; display block;"></a>
   <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 200px; margin-right: 20px; display: block;"></a>
 </div>
-
-# _Interested in joining our team?_
-
-Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!
-
-<a href = "/contests/create"><button class = "contests-header-section-button" style="margin-top:10px">JOIN OUR TEAM</button></a>
 
 # Our fifth biannual programming contest
 

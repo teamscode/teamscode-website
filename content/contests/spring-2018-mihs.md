@@ -1,6 +1,6 @@
 ---
 title: Spring 2018 MIHS Programming Contest
-date: 2018-03-31
+date: '2018-03-31'
 place_link: https://www.google.com/maps/dir/''/mercer+island+high+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x54906bdae7961a9d:0x6e6caf34f523feb?sa=X&ved=2ahUKEwievorr45fdAhWEIjQIHTEbCswQ9RcwD3oECAoQEQ
 place: Mercer Island High School
 participants: 99 participants
@@ -19,11 +19,6 @@ status: Past
   <a href="https://topcoder.com"><img src="/images/partners/topcoder.webp" alt="Topcoder" style="width: 180px; margin-right: 20px;"></a>
 </div>
 
-# _Interested in joining our team?_
-
-Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!
-
-<a href = "/contests/create"><button class = "contests-header-section-button" style="margin-top:10px">JOIN OUR TEAM</button></a>
 
 # Our third biannual programming contest
 

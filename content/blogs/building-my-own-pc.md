@@ -1,9 +1,9 @@
 ---
 title: Building my own PC
 description: How and why I built my own PC, and why you should as well.
-image: /images/blogs/build_own_pc.webp
+image: '/images/blogs/build_own_pc.webp'
 image_source: Patrick Tomasso on Unsplash
-date: 2018-11-14
+date: '2018-11-14'
 author: Thomas Short
 ---
 

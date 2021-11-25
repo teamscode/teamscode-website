@@ -2,7 +2,7 @@
 title: Catlin Gabel Fall Programming Contest
 place: Catlin Gabel School
 place_link: https://www.google.com/maps/dir/''/catlin+gabel+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x549509433a879379:0x688f19935355949f?sa=X&ved=2ahUKEwj2kdrV45fdAhXfHTQIHUdLBt0Q9RcwE3oECAcQEw
-date: 2018-11-17
+date: '2018-11-17'
 participants: 27 participants
 image: '/images/contests/catlin_gabel.webp'
 status: Past
@@ -18,12 +18,6 @@ status: Past
   <br>
   <a href="https://www.tech4kidsclub.org/"><img src="/images/partners/t4k.webp" alt="Tech4Kids" style="width: 180px;"></a>
 </div>
-
-# _Interested in joining our team?_
-
-Click the button below to apply to our team. We are looking for interested middle school or high school students who want to spread their passion for computer science to their peers. Apply today to join our 501(c)(3) nonprofit and help make a difference!
-
-<a href = "/contests/create"><button class = "contests-header-section-button" style="margin-top:10px">JOIN OUR TEAM</button></a>
 
 # Our second biannual programming contest in Oregon
 

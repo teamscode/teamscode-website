@@ -1,9 +1,9 @@
 ---
 title: Programming Contest Languages
 description: Learn about the benefits and drawbacks of the different programming languages used in competitive contests.
-image: /images/blogs/programming_languages.webp
+image: '/images/blogs/programming_languages.webp'
 image_source: CodeCondo (codecondo.com)
-date: 2018-10-31
+date: '2018-10-31'
 author: Alex Patel
 ---
 
