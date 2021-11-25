@@ -154,6 +154,9 @@ export default {
         title: 'Blog',
         link: '/blog'
       }, {
+        title: 'Resources',
+        link: '/resources'
+      }, {
         title: 'Contact',
         link: '/contact'
       }, {
