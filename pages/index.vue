@@ -108,6 +108,43 @@
         </div>
       </v-container>
     </v-sheet>
+    <v-sheet color="surface">
+      <v-container class="py-4 py-lg-8">
+        <v-row>
+          <v-col cols="12" md="4">
+            <h2 class="text-h3 text-lg-h2">
+              Browse our list of programming resources
+            </h2>
+          </v-col>
+          <v-col cols="12" md="8" class="pa-md-0">
+            <v-row>
+              <v-col v-for="(item, i) in resourceFeatures" :key="i" cols="12" md="6">
+                <div class="d-flex align-center">
+                  <div class="mr-2">
+                    <v-sheet color="white" rounded class="pa-2">
+                      <v-icon>{{ item.icon }}</v-icon>
+                    </v-sheet>
+                  </div>
+                  <div>
+                    <div class="text-h5">
+                      {{ item.title }}
+                    </div>
+                  </div>
+                </div>
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
+        <div class="mt-8 text-right">
+          <v-btn to="/resources" outlined large color="primary">
+            Browse Resources
+            <v-icon right dark>
+              mdi-arrow-right
+            </v-icon>
+          </v-btn>
+        </div>
+      </v-container>
+    </v-sheet>
 
     <v-sheet>
       <v-container class="py-4 py-lg-8">
@@ -300,6 +337,20 @@ export default {
       }, {
         title: 'Lines of Code',
         value: '302K'
+      }],
+      resourceFeatures: [{
+        icon: 'mdi-trophy-variant',
+        title: 'Other Competitive Programming Contests'
+      }, {
+        icon: 'mdi-book',
+        title: 'Competitive Programming Books'
+      }, {
+        icon: 'mdi-account-cowboy-hat',
+        title: 'USACO Related Resources'
+      },
+      {
+        icon: 'mdi-file-code',
+        title: 'Algorithm Resources and Templates'
       }],
       organizationFeatures: [{
         icon: 'mdi-account-group',
