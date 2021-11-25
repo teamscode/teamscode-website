@@ -109,7 +109,7 @@ export default {
   data () {
     return {
       exec: [{
-        name: 'Ethen Peng',
+        name: 'Ethan Peng',
         title: 'Co-President',
         image: '/images/teams/ethan.webp',
         bio: 'Ethan is a senior at Los Altos High School. He started learning programming two years ago, and competitive programming one year ago. He is excited to help bring quality contests to computer science students. Outside of programming, he plays tennis and watches Chinese dramas.'
@@ -184,9 +184,13 @@ export default {
           title: 'Co-President, 2020-2021',
           image: '/images/teams/sean.webp'
         }, {
+          name: 'Ryan Hsu',
+          title: 'Co-President, 2020-2021',
+          image: '/images/teams/ryan.webp'
+        }, {
           name: 'Conner Yin',
           title: 'Vice President, 2020-2021',
-          image: '/images/teams/ryan.webp'
+          image: '/images/teams/conner.webp'
         }, {
           name: 'Winbert Zhang',
           title: 'Vice President, 2020-2021',
