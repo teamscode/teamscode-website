@@ -100,13 +100,34 @@
             <MailchimpForm />
             <div class="text-center text-md-right mt-4 mt-lg-2">
               Connect
-              <v-btn fab small color="secondary" class="ml-2">
+              <v-btn
+                fab
+                small
+                color="secondary"
+                target="_blank"
+                href="https://github.com/teamscode"
+                class="ml-2"
+              >
                 <v-icon>mdi-github</v-icon>
               </v-btn>
-              <v-btn fab small color="secondary" class="ml-2">
+              <v-btn
+                fab
+                small
+                color="secondary"
+                target="_blank"
+                href="https://discord.com/invite/8pg89SS"
+                class="ml-2"
+              >
                 <v-icon>mdi-discord</v-icon>
               </v-btn>
-              <v-btn fab small color="secondary" class="ml-2">
+              <v-btn
+                fab
+                small
+                color="secondary"
+                target="_blank"
+                href="https://www.instagram.com/teamscode/"
+                class="ml-2"
+              >
                 <v-icon>mdi-instagram</v-icon>
               </v-btn>
             </div>
