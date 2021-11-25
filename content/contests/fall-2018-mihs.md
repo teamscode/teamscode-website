@@ -59,12 +59,12 @@ Honorable Mentions: Teams _Byte Force_, _Bones S_, and _OR '1'='1'_
 
 # Contest files
 
-[Advanced scoreboard](/assets/docs/fall_2018_mihs/advanced_scoreboard.pdf)  
-[Intermediate scoreboard](/assets/docs/fall_2018_mihs/intermediate_scoreboard.pdf)
+[Advanced scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_mihs/advanced_scoreboard.pdf)  
+[Intermediate scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_mihs/intermediate_scoreboard.pdf)
 
-[Problem packet](/assets/docs/fall_2018_mihs/problem_set.pdf)  
-[Judges answer packet](/assets/docs/fall_2018_mihs/judges_data.pdf)  
-[Input text files](/assets/docs/fall_2018_mihs/inputs_outputs.zip)
+[Problem packet](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_mihs/problem_set.pdf)  
+[Judges answer packet](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_mihs/judges_data.pdf)  
+[Input text files](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_mihs/inputs_outputs.zip)
 
 ## Pictures
 

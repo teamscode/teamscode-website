@@ -57,11 +57,11 @@ There was a great turnout of 27 students, or 13 teams. The contest was held at C
 
 # Contest files
 
-[Scoreboard](/assets/docs/fall_2018_cgs/scoreboard.pdf)  
-[Advanced division problem set](/assets/docs/fall_2018_cgs/advanced_problem_set.pdf)  
-[Intermediate division problem set](/assets/docs/fall_2018_cgs/intermediate_problem_set.pdf)  
-[Input files](/assets/docs/fall_2018_cgs/judges_data.pdf)  
-[Judge outputs](/assets/docs/fall_2018_cgs/inputs_outputs.zip)  
+[Scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_cgs/scoreboard.pdf)  
+[Advanced division problem set](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_cgs/advanced_problem_set.pdf)  
+[Intermediate division problem set](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_cgs/intermediate_problem_set.pdf)  
+[Input files](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_cgs/judges_data.pdf)  
+[Judge outputs](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2018_cgs/inputs_outputs.zip)  
 
 ## Pictures
 

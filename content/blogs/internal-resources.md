@@ -181,7 +181,7 @@ Similar to Facebook, we post updates on <a class="a" href="https://twitter.com/t
 
 <img src="/images/blogs/resources-canva.webp" alt="Canva" width="100%">
 
-<a class="a" href="https://www.canva.com/">Canva</a> is an alternative to Piktochart; we've used it for such things as our <a class="a" href="https://teamscode.com/assets/press_images/infographic.pdf">infographic</a>. Like Piktochart, Canva provides a ton of free templates for you to choose from. 
+<a class="a" href="https://www.canva.com/">Canva</a> is an alternative to Piktochart; we've used it for such things as our infographic. Like Piktochart, Canva provides a ton of free templates for you to choose from. 
 
 <pre>
 

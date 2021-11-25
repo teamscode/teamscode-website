@@ -51,11 +51,11 @@ This was our first programming contest in California, and we hope to host more! 
 
 # Contest files
 
-[Advanced scoreboard](/assets/docs/fall_2019_mvhs/advanced_scoreboard.pdf)  
-[Intermediate scoreboard](/assets/docs/fall_2019_mvhs/intermediate_scoreboard.pdf)
+[Advanced scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2019_mvhs/advanced_scoreboard.pdf)  
+[Intermediate scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2019_mvhs/intermediate_scoreboard.pdf)
 
-[Problem packet](/assets/docs/fall_2019_mvhs/problem_set.pdf)  
-[Judges answer packet](/assets/docs/fall_2019_mvhs/judges_data.pdf)
+[Problem packet](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2019_mvhs/problem_set.pdf)  
+[Judges answer packet](https://files.teamscode.us-sjo1.upcloudobjects.com/fall_2019_mvhs/judges_data.pdf)
 
 # Sponsors
 

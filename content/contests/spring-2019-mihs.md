@@ -54,12 +54,12 @@ There was a great turnout of 142 students, or 68 teams. The contest was held in 
 
 # Contest files
 
-[Advanced scoreboard](/assets/docs/spring_2019_mihs/advanced_scoreboard.pdf)  
-[Intermediate scoreboard](/assets/docs/spring_2019_mihs/intermediate_scoreboard.pdf)
+[Advanced scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/spring_2019_mihs/advanced_scoreboard.pdf)  
+[Intermediate scoreboard](https://files.teamscode.us-sjo1.upcloudobjects.com/spring_2019_mihs/intermediate_scoreboard.pdf)
 
-[Problem packet](/assets/docs/spring_2019_mihs/problem_set.pdf)  
-[Judges answer packet](/assets/docs/spring_2019_mihs/judges_data.pdf)  
-[Input text files](/assets/docs/spring_2019_mihs/inputs_outputs.zip)
+[Problem packet](https://files.teamscode.us-sjo1.upcloudobjects.com/spring_2019_mihs/problem_set.pdf)  
+[Judges answer packet](https://files.teamscode.us-sjo1.upcloudobjects.com/spring_2019_mihs/judges_data.pdf)  
+[Input text files](https://files.teamscode.us-sjo1.upcloudobjects.com/spring_2019_mihs/inputs_outputs.zip)
 
 ## Pictures
 

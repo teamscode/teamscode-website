@@ -45,7 +45,7 @@ There was a great turnout of 77 students, or 35 teams. The contest was held at t
 
 # Contest files
 
-[Problem packet](/assets/docs/spring_2019_bhs/problem_set.pdf) 
+[Problem packet](https://files.teamscode.us-sjo1.upcloudobjects.com/spring_2019_bhs/problem_set.pdf) 
 
 
 ## Pictures
