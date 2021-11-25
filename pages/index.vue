@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="py-6">
+    <v-container class="pb-6 pt-8">
       <v-row>
         <v-col cols="12" lg="7">
           <h1 class="text-h2 text-lg-h1 mt-xl-4">
@@ -182,7 +182,7 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
-              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TemasCode Summer 2021 Contest, one of our largest events.
+              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TeamsCode Summer 2021 Contest, one of our largest events.
             </div>
           </v-responsive>
         </div>
