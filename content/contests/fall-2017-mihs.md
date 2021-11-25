@@ -1,7 +1,6 @@
 ---
 title: Fall 2017 MIHS Programming Contest
-date: Oct 21st, 2017
-date_machine: 2017-10-21
+date: 2017-10-21
 contest_location_link: https://www.google.com/maps/dir/''/mercer+island+high+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x54906bdae7961a9d:0x6e6caf34f523feb?sa=X&ved=2ahUKEwievorr45fdAhWEIjQIHTEbCswQ9RcwD3oECAoQEQ
 place: Mercer Island High School
 participants: 90 participants

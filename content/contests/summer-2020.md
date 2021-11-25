@@ -1,7 +1,6 @@
 ---
 title: Summer 2020 Virtual Programming Contest
-date: Jul 25th, 2020
-date_machine: 2020-07-25
+date: 2020-07-25
 participants: 296 participants
 status: Past
 place: Youtube Live

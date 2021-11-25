@@ -2,8 +2,7 @@
 title: Spring 2019 MIHS Programming Contest
 place: Mercer Island High School
 place_link: https://www.google.com/maps/place/Mercer+Island+High+School/@47.5719538,-122.2202913,17z/data=!4m12!1m6!3m5!1s0x54906bdae7961a9d:0x6e6caf34f523feb!2sMercer+Island+High+School!8m2!3d47.5719538!4d-122.2181026!3m4!1s0x54906bdae7961a9d:0x6e6caf34f523feb!8m2!3d47.5719538!4d-122.2181026
-date: Mar 16th, 2019
-date_machine: 2019-03-16
+date: 2019-03-16
 participants: 142 participants
 image: '/images/contests/mihs.webp'
 status: Past

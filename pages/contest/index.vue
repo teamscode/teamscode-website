@@ -10,7 +10,7 @@
             v-model="query"
             outlined
             filled
-            placeholder="Search for contest"
+            placeholder="Search for contests"
             prepend-inner-icon="mdi-magnify"
           />
         </v-responsive>
@@ -47,17 +47,17 @@ export default {
     }
   },
   async fetch () {
-    this.contests = await this.$content('contests').sortBy('date_machine', 'desc').fetch()
+    this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
   },
   watch: {
     async query () {
-      this.contests = await this.$content('contests').search(this.query).sortBy('date_machine', 'desc').fetch()
+      this.contests = await this.$content('contests').search(this.query).sortBy('date', 'desc').fetch()
     }
   }
 }
 </script>
 
-<style>
+<style scoped>
   .bg {
   background-image: url("/images/contest-background.webp");
   background-image: linear-gradient(

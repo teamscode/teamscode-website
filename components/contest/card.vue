@@ -20,7 +20,7 @@
       </div>
       <div class="mt-3">
         <v-chip class="mr-1 mb-2">
-          {{ post.date }}
+          {{ post.date | formatDate }}
         </v-chip>
         <v-chip v-if="post.participants" class="mr-1 mb-2">
           {{ post.participants }}

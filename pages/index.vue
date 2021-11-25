@@ -145,7 +145,7 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
-              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TemasCode Summer 2021 Contest, one of our largest contests.
+              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TemasCode Summer 2021 Contest, one of our largest events.
             </div>
           </v-responsive>
         </div>
@@ -320,19 +320,19 @@ export default {
       }],
       contestFeatures: [{
         icon: 'mdi-head-lightbulb',
-        title: 'Inspirational Contests',
+        title: 'Team Contests',
         description: 'Work with your friends to solve challenging competitive programming problem and inspire each other. There are always more than one way to solve a problem, just like there are to collaborate on a contest! Team! Code!'
       }, {
         icon: 'mdi-gift',
-        title: 'Neat Prizes',
-        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners!'
+        title: 'Our Prizes',
+        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners! Forgot to mention - everyone participated in our contests get a free Repl.it hacker plan!'
       }, {
         icon: 'mdi-file-document-multiple',
-        title: 'Curated Problem Set',
+        title: 'Our Problem Set',
         description: 'TeamsCode\'s problem sets are carefully created by our problem writing team (many of the members are in USACO Platinum!). These problems cover a variety of topics in different levels while featuring an interesting context.'
       }, {
         icon: 'mdi-message-alert',
-        title: 'Instant Feedback',
+        title: 'Our Technology',
         description: 'TeamsCode Contest System offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],
       logos: [{
@@ -358,7 +358,7 @@ export default {
     }
   },
   async fetch () {
-    this.contests = await this.$content('contests').limit(3).sortBy('date_machine', 'desc').fetch()
+    this.contests = await this.$content('contests').limit(3).sortBy('date', 'desc').fetch()
   },
   head () {
     return {

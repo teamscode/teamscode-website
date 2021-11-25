@@ -2,8 +2,7 @@
 title: Catlin Gabel Fall Programming Contest
 place: Catlin Gabel School
 place_link: https://www.google.com/maps/dir/''/catlin+gabel+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x549509433a879379:0x688f19935355949f?sa=X&ved=2ahUKEwj2kdrV45fdAhXfHTQIHUdLBt0Q9RcwE3oECAcQEw
-date: Nov 17th, 2018
-date_machine: 2018-11-17
+date: 2018-11-17
 participants: 27 participants
 image: '/images/contests/catlin_gabel.webp'
 status: Past
