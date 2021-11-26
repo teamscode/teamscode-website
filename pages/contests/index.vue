@@ -49,11 +49,24 @@ export default {
   async fetch () {
     this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
   },
+  head () {
+    return {
+      title: 'Contests',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'TeamsCode\'s online programming contests and offlie hackathons. Click on cards to view and register for TeamsCode competitions.'
+        }
+      ]
+    }
+  },
   watch: {
     async query () {
       this.contests = await this.$content('contests').search(this.query).sortBy('date', 'desc').fetch()
     }
   }
+
 }
 </script>
 

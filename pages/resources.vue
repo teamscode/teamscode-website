@@ -215,6 +215,18 @@ export default {
       ]
     }
   },
+  head () {
+    return {
+      title: 'Resources',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'TeamsCode\'s list of helpful competitive programming and USACO resources. Feel free to use them to sharpen your coding skill.'
+        }
+      ]
+    }
+  },
   methods: {
     expandAll () {
       const arr = []

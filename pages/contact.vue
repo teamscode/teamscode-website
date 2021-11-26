@@ -91,6 +91,18 @@ export default {
         }
       ]
     }
+  },
+  head () {
+    return {
+      title: 'Contact',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'TeamsCode\'s contact method. You can reach us through Discord and email. Donate to TeamsCode. Join TeamsCode\'s organizer team.'
+        }
+      ]
+    }
   }
 }
 </script>

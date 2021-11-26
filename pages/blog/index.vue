@@ -46,6 +46,18 @@ export default {
   async fetch () {
     this.blogs = await this.$content('blogs').sortBy('date', 'desc').fetch()
   },
+  head () {
+    return {
+      title: 'Blog',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Our blog posts. Posts about TeamsCode and our sponsors.'
+        }
+      ]
+    }
+  },
   watch: {
     async query () {
       this.blogs = await this.$content('blogs').search(this.query).sortBy('date', 'desc').fetch()

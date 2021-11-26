@@ -266,6 +266,18 @@ export default {
         }
       ]
     }
+  },
+  head () {
+    return {
+      title: 'About',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'About TeamsCode. What is TeamsCode? TeamsCode is a student-run 501(c)(3) non-profit that works to encourage middle school and high school students to study computer science. We work with teachers and sponsors to create awesome programming contests – both online and in-person!'
+        }
+      ]
+    }
   }
 }
 </script>

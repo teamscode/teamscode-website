@@ -148,6 +148,10 @@ export default {
     return {
       drawer: null,
       menu: [{
+        title: 'Home',
+        link: '/'
+      },
+      {
         title: 'Contests',
         link: '/contests'
       }, {
