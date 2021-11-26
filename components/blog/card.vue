@@ -2,10 +2,10 @@
   <v-card :to="link">
     <v-container>
       <v-row>
-        <v-col cols="4">
+        <v-col cols="12" md="4">
           <v-img class="rounded-lg" :src="post.image" height="250" />
         </v-col>
-        <v-col cols="8">
+        <v-col cols="12" md="8">
           <div class="pa-2 pa-md-3">
             <div class="title font-weight-bold text-h5 text-md-h4">
               {{ post.title }}

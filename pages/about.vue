@@ -2,7 +2,7 @@
   <div>
     <v-sheet color="surface">
       <v-container class="py-6 py-lg-12 text-center">
-        <h1 class="text-h2 text-lg-h1">
+        <h1 class="text-h3 text-sm-h2 text-md-h1">
           All about <span class="primary--text">TeamsCode</span>
         </h1>
         <h2 class="text-h6 text-sm-h5 text--lighten-2 mt-4 ">
@@ -17,10 +17,10 @@
             <v-img src="/images/about-background.webp" class="rounded-lg elevation-6" height="100%" />
           </v-col>
           <v-col cols="12" lg="6" xl="8">
-            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            <div class="text-uppercase font-weight-bold body-2 primary--text mb-2 text-center text-md-left">
               TeamsCode
             </div>
-            <h2 class="text-h3 text-lg-h2">
+            <h2 class="text-h4 text-sm-h3 text-lg-h2 text-center text-md-left">
               From in-person events to virtual contests
             </h2>
             <div class="text-body mt-5">
@@ -48,10 +48,10 @@
       <v-container class="pt-8 pb-0">
         <div class="text-center">
           <div>
-            <div class="text-h3 primary--text">
+            <div class="text-h4 text-sm-h3 text-lg-h2 primary--text">
               Would like to join us?
             </div>
-            <div class="text-h3 mt-1">
+            <div class="text-h4 text-sm-h3 text-lg-h2 mt-1">
               We are always open to new ideas!
             </div>
           </div>
@@ -63,7 +63,7 @@
               Apply Now
             </v-btn>
           </div>
-          <div class="mt-3">
+          <div class="text-body mt-3">
             Make sure that you read the TeamsCode Application Packet before applying to understand your responsibilities.
           </div>
         </div>
@@ -75,7 +75,7 @@
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             TeamsCode
           </div>
-          <h2 class="text-h3 text-lg-h2">
+          <h2 class="text-h4 text-sm-h3 text-lg-h2">
             Our leadership and organizers
           </h2>
         </div>

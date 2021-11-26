@@ -3,7 +3,7 @@
     <v-sheet color="surface">
       <v-container class="py-8">
         <div class="text-center">
-          <h2 class="text-h3 text-lg-h2">
+          <h2 class="text-h4 text-sm-h3 text-md-h2">
             Get in touch with us
           </h2>
           <v-responsive max-width="1200" class="mx-auto">

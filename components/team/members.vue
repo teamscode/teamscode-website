@@ -10,13 +10,13 @@
       <v-col cols="12" md="8" class="pa-md-0">
         <div v-for="(person, i) in people" :key="i">
           <v-divider v-if="i !== 0" />
-          <div class="d-flex align-center py-3">
-            <div class="mr-4">
+          <v-row class="align-center py-3">
+            <v-col cols="12" md="4" lg="3" class="pr-4 text-center">
               <v-avatar size="190">
                 <v-img :src="person.image" />
               </v-avatar>
-            </div>
-            <div>
+            </v-col>
+            <v-col cols="12" md="8" lg="9">
               <div class="text-h5">
                 {{ person.name }}
               </div>
@@ -26,8 +26,8 @@
               <div class="text-body mt-3">
                 {{ person.bio }}
               </div>
-            </div>
-          </div>
+            </v-col>
+          </v-row>
         </div>
       </v-col>
     </v-row>

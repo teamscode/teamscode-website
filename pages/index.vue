@@ -45,10 +45,10 @@
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             Our Events
           </div>
-          <h2 class="text-h3 text-lg-h2">
+          <h2 class="text-h4 text-sm-h3 text-lg-h2">
             Making competitive programming fun
           </h2>
-          <div class="text-h6 text-lg-h5 mt-4">
+          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
             Our unique team competitive programming contests aim to provide a fun and enjoyable experience to programmers at all levels! Keep scrolling to explore our contests.
           </div>
         </div>
@@ -89,12 +89,19 @@
     <v-sheet color="surface">
       <v-container class="py-4 py-lg-8">
         <div class="text-center">
-          <h2 class="text-h3 text-lg-h2 mb-3">
+          <h2 class="text-h4 text-sm-h3 text-lg-h2 mb-3">
             Recent online programming contests
           </h2>
         </div>
         <v-row class="mt-6">
-          <v-col v-for="(card, i) in contests" :key="i" cols="12" md="4">
+          <v-col
+            v-for="(card, i) in contestDisplay"
+            :key="i"
+            cols="12"
+            md="6"
+            lg="4"
+            xl="3"
+          >
             <ContestCard :post="card" />
           </v-col>
         </v-row>
@@ -112,7 +119,7 @@
       <v-container class="py-4 py-lg-8">
         <v-row>
           <v-col cols="12" md="4">
-            <h2 class="text-h3 text-lg-h2">
+            <h2 class="text-h4 text-sm-h3 text-lg-h2 text-center text-md-left">
               Browse our list of programming resources
             </h2>
           </v-col>
@@ -150,10 +157,10 @@
       <v-container class="py-4 py-lg-8">
         <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
           <div class="text-center text-lg-left">
-            <div class="text-h4 text-md-h3">
+            <div class="text-h4 text-sm-h3 text-lg-h2">
               Interested or have questions?
             </div>
-            <div class="text-h4 text-md-h3 primary--text">
+            <div class="text-h4 text-sm-h3 text-lg-h2 primary--text">
               Join our Discord server!
             </div>
           </div>
@@ -177,11 +184,11 @@
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             By the numbers
           </div>
-          <h2 class="text-h3 text-lg-h2">
+          <h2 class="text-h4 text-sm-h3 text-lg-h2">
             A contest for coders around the globe
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-h6 text-lg-h5 mt-4">
+            <div class="text-body text-sm-h6 text-lg-h5 mt-4">
               TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TeamsCode Summer 2021 Contest, one of our largest events.
             </div>
           </v-responsive>
@@ -213,10 +220,10 @@
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             Our Organization
           </div>
-          <h2 class="text-h3 text-lg-h2">
+          <h2 class="text-h4 text-sm-h3 text-lg-h2">
             More than just a competition
           </h2>
-          <div class="text-h6 text-lg-h5 mt-4">
+          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
             Besides hosting competitions, TeamsCode aims to foster a tight-knit community of coders with a mission of promoting computer science education.
           </div>
         </div>
@@ -261,7 +268,7 @@
 
     <v-sheet color="surface">
       <v-container class="py-4 py-lg-6 text-center">
-        <div class="text-h4 text-md-h3">
+        <div class="text-h4 text-sm-h3 text-lg-h2">
           Please contact us if you have any questions!
         </div>
         <v-btn
@@ -283,10 +290,10 @@
             <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
               Our Partners and Sponsors
             </div>
-            <h2 class="text-h3 text-lg-h2">
+            <h2 class="text-h4 text-sm-h3 text-lg-h2">
               They help make things possible and better
             </h2>
-            <div class="text-h6 text-lg-h5 mt-5">
+            <div class="text-body text-sm-h6 text-lg-h5 mt-5">
               Our awesome sponsors and partners help us bring a better contest to more people.
             </div>
             <div class="mt-4 d-none d-md-block">
@@ -409,11 +416,24 @@ export default {
     }
   },
   async fetch () {
-    this.contests = await this.$content('contests').limit(3).sortBy('date', 'desc').fetch()
+    this.contests = await this.$content('contests').limit(4).sortBy('date', 'desc').fetch()
   },
   head () {
     return {
       title: 'Home'
+    }
+  },
+  computed: {
+    contestDisplay () {
+      if (this.$vuetify.breakpoint.xl) {
+        return this.contests
+      } else if (this.$vuetify.breakpoint.lg) {
+        return this.contests.slice(0, 3)
+      } else if (this.$vuetify.breakpoint.md) {
+        return this.contests
+      } else {
+        return this.contests.slice(0, 3)
+      }
     }
   }
 }

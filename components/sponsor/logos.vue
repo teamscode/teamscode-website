@@ -4,9 +4,8 @@
       <v-col
         v-for="(logo, index) in logos"
         :key="index"
-        cols="12"
+        cols="6"
         align-self="center"
-        sm="6"
       >
         <div class="mx-2 my-1">
           <a :href="logo.link">
