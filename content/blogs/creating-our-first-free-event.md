@@ -15,11 +15,11 @@ However, even a 20% attrition rate for our programming contests could negatively
 
 Ultimately, we've decided to add a <a class="a" href="https://teamscode.typeform.com/to/ARgRBX">de-registration form</a> in an effort to encourage those who can't attend to notify us. We've made this process as short and simple as possible -- don't worry, no long forms!
 
-Our efforts in creating this free contest are part of a larger mission to allow everybody to try coding in a supportive, team-focused environment. One of the most common worries is <a class="a" href="https://medium.com/@ruhackhers/hackherstory-imposter-syndrome-9b787cac8d7f">imposter syndrome</a>: the idea that one "does not belong here." To counter this idea, we've provided several contest resources on TeamsCode's <a class="a" href="https://teamscode.com/learn">learn</a> section.
+Our efforts in creating this free contest are part of a larger mission to allow everybody to try coding in a supportive, team-focused environment. One of the most common worries is <a class="a" href="https://medium.com/@ruhackhers/hackherstory-imposter-syndrome-9b787cac8d7f">imposter syndrome</a>: the idea that one "does not belong here." To counter this idea, we've provided several contest resources on TeamsCode's <a class="a" href="https://v1.teamscode.org/learn">learn</a> section.
 
 <img width="100%" src="/images/blogs/teamscode_lessons.webp"/>
 
-You can find all of our past programming contest problems in the <a class="a" href="http://teamscode.com/learn/programming-practice/">programming practice</a> section of our website, and we will also be adding a problem submission system so students can practice before arriving at our events! Additionally, we have a completely free<a class="a" href="https://teamscode.com/learn/ap-computer-science"> AP Computer Science course</a> where students can learn new concepts and apply these at our contests.
+You can find all of our past programming contest problems in the <a class="a" href="http://v1.teamscode.org/learn/programming-practice/">programming practice</a> section of our website, and we will also be adding a problem submission system so students can practice before arriving at our events! Additionally, we have a completely free<a class="a" href="https://v1.teamscode.org/learn/ap-computer-science"> AP Computer Science course</a> where students can learn new concepts and apply these at our contests.
 
 We encourage students to meet up with their team before coming to our contest, and actually practicing some of the problems -- you'll be surprised by how much you can learn! But either way, don't forget: just by signing up for our contest, you're already eligible for a prize through our raffle!
 

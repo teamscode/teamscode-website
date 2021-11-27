@@ -88,7 +88,7 @@ Pay.gov
 
 <img src="/images/blogs/resources-drive.webp" alt="Drive" width="100%">
 
-As mentioned in a <a class="a" href="https://teamscode.com/blog/looking-forward-with-teamscode/">previous blog post</a>, we store all of our files in a shared <a class="a" href="https://drive.google.com">Google Drive</a> folder. This includes things like our problem sets, input files, scoreboards, registration data, contacts, finances, and much, much more. Organizing a programming contest requires a lot of planning, so it's useful to have a centralized location for all your resources. 
+As mentioned in a <a class="a" href="https://v1.teamscode.org/blog/looking-forward-with-teamscode/">previous blog post</a>, we store all of our files in a shared <a class="a" href="https://drive.google.com">Google Drive</a> folder. This includes things like our problem sets, input files, scoreboards, registration data, contacts, finances, and much, much more. Organizing a programming contest requires a lot of planning, so it's useful to have a centralized location for all your resources. 
 
 **Slack**
 

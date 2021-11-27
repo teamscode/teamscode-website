@@ -16,6 +16,6 @@ Now, let's get on to what makes this contest different from the rest:
 - Opening speech by Brandon Bazemore from Audian
 - Last but not least, **free registration for all participants!**
 
-Check out the full details of the event at <a class="a" href="https://teamscode.com/contests/fall-2018-mihs-programming-contest">https://teamscode.com/mihs</a> or register <a class="a" href="https://teamscode.typeform.com/to/gzxD6v">here</a>. 
+Check out the full details of the event at <a class="a" href="https://v1.teamscode.org/contests/fall-2018-mihs-programming-contest">https://v1.teamscode.org/mihs</a> or register <a class="a" href="https://teamscode.typeform.com/to/gzxD6v">here</a>. 
 
 We hope to see you at the contest!
