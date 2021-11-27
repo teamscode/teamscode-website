@@ -52,7 +52,7 @@
                     <v-list-item-title v-text="resource.description" />
                   </v-list-item-content>
                   <v-list-item-action-text>
-                    <a target="_blank" :href="resource.link">{{ resource.link }}</a>
+                    <a target="_blank" :href="resource.link">{{ $vuetify.breakpoint.mdAndUp ? resource.link : 'Link' }}</a>
                   </v-list-item-action-text>
                 </v-list-item>
                 <v-divider
