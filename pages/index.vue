@@ -189,7 +189,7 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-body text-sm-h6 text-lg-h5 mt-4">
-              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics from TeamsCode Summer 2021 Contest, one of our largest events.
+              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics* from TeamsCode Summer 2021 Contest, one of our largest events.
             </div>
           </v-responsive>
         </div>
@@ -211,6 +211,9 @@
             </v-card>
           </v-col>
         </v-row>
+        <div class="text-caption mt-2">
+          *Data extracted and compiled from TeamsCode Contest System's internal database and contest registration info during Summer 2021 contest.
+        </div>
       </v-container>
     </v-sheet>
 

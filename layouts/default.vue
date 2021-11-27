@@ -32,13 +32,13 @@
           </span>
         </nuxt-link>
         <v-spacer />
-        <div class="d-none d-md-block">
+        <div class="d-none d-md-flex">
           <v-btn
             v-for="(item, index) in menu"
             :key="index"
             text
+            style="margin-right: 5px"
             :to="item.link"
-            class="mx-1"
           >
             {{ item.title }}
           </v-btn>
