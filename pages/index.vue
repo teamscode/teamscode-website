@@ -43,7 +43,7 @@
       <v-container class="py-4 py-lg-8">
         <div class="text-center text-md-left">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            Our Events
+            Our Mission
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
             Making competitive programming fun
