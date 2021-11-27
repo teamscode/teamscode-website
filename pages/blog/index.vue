@@ -44,7 +44,11 @@ export default {
     }
   },
   async fetch () {
-    this.blogs = await this.$content('blogs').sortBy('date', 'desc').fetch()
+    if (this.query) {
+      this.blogs = await this.$content('blogs').search(this.query).sortBy('date', 'desc').fetch()
+    } else {
+      this.blogs = await this.$content('blogs').sortBy('date', 'desc').fetch()
+    }
   },
   head () {
     return {
@@ -59,8 +63,8 @@ export default {
     }
   },
   watch: {
-    async query () {
-      this.blogs = await this.$content('blogs').search(this.query).sortBy('date', 'desc').fetch()
+    query () {
+      this.$fetch()
     }
   }
 }

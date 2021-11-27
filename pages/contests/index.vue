@@ -47,7 +47,11 @@ export default {
     }
   },
   async fetch () {
-    this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
+    if (this.query) {
+      this.contests = await this.$content('contests').search(this.query).sortBy('date', 'desc').fetch()
+    } else {
+      this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
+    }
   },
   head () {
     return {
@@ -62,8 +66,8 @@ export default {
     }
   },
   watch: {
-    async query () {
-      this.contests = await this.$content('contests').search(this.query).sortBy('date', 'desc').fetch()
+    query () {
+      this.$fetch()
     }
   }
 

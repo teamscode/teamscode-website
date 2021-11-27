@@ -24,9 +24,12 @@
 
 <script>
 export default {
-  data () {
-    return {
-      content: {}
+  async asyncData ({ params, error, $content }) {
+    const content = (await $content('blogs').where({ slug: params.slug }).fetch())[0]
+    if (!content) {
+      error({ statusCode: 404, message: '404 Not Found' })
+    } else {
+      return { content }
     }
   },
   async fetch () {
