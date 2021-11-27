@@ -31,6 +31,18 @@ export default {
   },
   async fetch () {
     this.content = (await this.$content('blogs').where({ slug: this.$route.params.slug }).fetch())[0]
+  },
+  head () {
+    return {
+      title: this.content.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.content.description
+        }
+      ]
+    }
   }
 }
 </script>
