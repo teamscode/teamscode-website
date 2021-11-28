@@ -19,7 +19,7 @@
       @click="drawer = !drawer"
     >
       <v-icon right>
-        mdi-menu
+        {{ mdiMenu }}
       </v-icon>
     </v-btn>
 
@@ -81,13 +81,13 @@
             <div style="width: 80px; height: 4px" class="mb-5 mt-1 secondary" />
             <div class="d-flex mb-2 font-weight-bold">
               <v-icon color="secondary lighten-1" class="mr-2">
-                mdi-email-outline
+                {{ mdiEmailOutline }}
               </v-icon>
               <a href="mailto:contact@teamscode.org" class="text-decoration-none secondary--text">contact@teamscode.org</a>
             </div>
             <div class="d-flex mb-2 text--lighten-2 text--secondary text-body-1">
               <v-icon color="secondary lighten-1" class="mr-2">
-                mdi-map-marker-outline
+                {{ mdiMapMarkerOutline }}
               </v-icon>
               8106 SE 79th St, Mercer Island, Washington 98040
             </div>
@@ -108,7 +108,7 @@
                 href="https://github.com/teamscode"
                 class="ml-2"
               >
-                <v-icon>mdi-github</v-icon>
+                <v-icon>{{ mdiGithub }}</v-icon>
               </v-btn>
               <v-btn
                 fab
@@ -118,7 +118,7 @@
                 href="https://discord.com/invite/8pg89SS"
                 class="ml-2"
               >
-                <v-icon>mdi-discord</v-icon>
+                <v-icon>{{ mdiDiscord }}</v-icon>
               </v-btn>
               <v-btn
                 fab
@@ -128,7 +128,7 @@
                 href="https://www.instagram.com/teamscode/"
                 class="ml-2"
               >
-                <v-icon>mdi-instagram</v-icon>
+                <v-icon>{{ mdiInstagram }}</v-icon>
               </v-btn>
             </div>
           </v-col>
@@ -143,9 +143,16 @@
 </template>
 
 <script>
+import { mdiMenu, mdiEmailOutline, mdiMapMarkerOutline, mdiGithub, mdiDiscord, mdiInstagram } from '@mdi/js'
 export default {
   data () {
     return {
+      mdiMenu,
+      mdiEmailOutline,
+      mdiMapMarkerOutline,
+      mdiGithub,
+      mdiDiscord,
+      mdiInstagram,
       drawer: null,
       menu: [{
         title: 'Home',

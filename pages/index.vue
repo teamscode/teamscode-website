@@ -109,7 +109,7 @@
           <v-btn to="/contests" outlined large color="primary">
             More Contests
             <v-icon right dark>
-              mdi-arrow-right
+              {{ mdiArrowRight }}
             </v-icon>
           </v-btn>
         </div>
@@ -146,7 +146,7 @@
           <v-btn to="/resources" outlined large color="primary">
             Browse Resources
             <v-icon right dark>
-              mdi-arrow-right
+              {{ mdiArrowRight }}
             </v-icon>
           </v-btn>
         </div>
@@ -262,7 +262,7 @@
           <v-btn to="/about" outlined large color="primary">
             Learn More
             <v-icon right dark>
-              mdi-arrow-right
+              {{ mdiArrowRight }}
             </v-icon>
           </v-btn>
         </div>
@@ -303,7 +303,7 @@
               <v-btn to="/sponsors" outlined large color="primary">
                 Learn More
                 <v-icon right dark>
-                  mdi-arrow-right
+                  {{ mdiArrowRight }}
                 </v-icon>
               </v-btn>
             </div>
@@ -314,7 +314,7 @@
               <v-btn to="/sponsors" outlined large color="primary">
                 Learn More
                 <v-icon right dark>
-                  mdi-arrow-right
+                  {{ mdiArrowRight }}
                 </v-icon>
               </v-btn>
             </div>
@@ -326,9 +326,23 @@
 </template>
 
 <script>
+import { mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert } from '@mdi/js'
 export default {
   data () {
     return {
+      mdiArrowRight,
+      mdiTrophyVariant,
+      mdiBook,
+      mdiAccountCowboyHat,
+      mdiFileCode,
+      mdiAccountGroup,
+      mdiBookOpenPageVariant,
+      mdiPencil,
+      mdiDiscord,
+      mdiHeadLightbulb,
+      mdiGift,
+      mdiFileDocumentMultiple,
+      mdiMessageAlert,
       stats: [{
         title: 'Registrations',
         value: '467'
@@ -349,50 +363,50 @@ export default {
         value: '302K'
       }],
       resourceFeatures: [{
-        icon: 'mdi-trophy-variant',
+        icon: mdiTrophyVariant,
         title: 'Other Competitive Programming Contests'
       }, {
-        icon: 'mdi-book',
+        icon: mdiBook,
         title: 'Competitive Programming Books'
       }, {
-        icon: 'mdi-account-cowboy-hat',
+        icon: mdiAccountCowboyHat,
         title: 'USACO Related Resources'
       },
       {
-        icon: 'mdi-file-code',
+        icon: mdiFileCode,
         title: 'Algorithm Resources and Templates'
       }],
       organizationFeatures: [{
-        icon: 'mdi-account-group',
+        icon: mdiAccountGroup,
         title: 'Team Environment',
         description: 'TeamsCode contests create an inspirational environment for computer science students to collaborate on programming problems and meet new people.'
       }, {
-        icon: 'mdi-book-open-page-variant',
+        icon: mdiBookOpenPageVariant,
         title: 'Lead by Students',
         description: 'TeamsCode is made for students, by students. We work with our partners to deliver an enjoyable experience to computer science students.'
       }, {
-        icon: 'mdi-pencil',
+        icon: mdiPencil,
         title: 'Make Things Happen',
         description: 'If you are interested in helping us organize contests, please join us! Enthusiastics take different roles in TeamsCode and work together to make contests happen.'
       }, {
-        icon: 'mdi-discord',
+        icon: mdiDiscord,
         title: 'Friendly Community',
         description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people.'
       }],
       contestFeatures: [{
-        icon: 'mdi-head-lightbulb',
+        icon: mdiHeadLightbulb,
         title: 'Team Contests',
         description: 'Work with your friends to solve challenging competitive programming problem and inspire each other. There is always more than one creative way to solve a problem, just like there are to collaborate on a contest! '
       }, {
-        icon: 'mdi-gift',
+        icon: mdiGift,
         title: 'Our Prizes',
         description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners! Besides that, everyone who participates in our contests get a free Repl.it hacker plan!'
       }, {
-        icon: 'mdi-file-document-multiple',
+        icon: mdiFileDocumentMultiple,
         title: 'Our Problem Set',
         description: 'TeamsCode\'s problem sets are carefully created by our problem writing team (many of the members are in USACO Platinum!). These problems cover a variety of topics in different levels while featuring an interesting context.'
       }, {
-        icon: 'mdi-message-alert',
+        icon: mdiMessageAlert,
         title: 'Our Technology',
         description: 'TeamsCode Contest System offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],

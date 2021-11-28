@@ -68,14 +68,19 @@
 </template>
 
 <script>
+import { mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode } from '@mdi/js'
 export default {
   data () {
     return {
+      mdiTrophyVariant,
+      mdiBook,
+      mdiAccountCowboyHat,
+      mdiFileCode,
       panel: [],
       resources: [
         {
           category: 'Other Competitive Programming Contests',
-          icon: 'mdi-trophy-variant',
+          icon: mdiTrophyVariant,
           list: [
             {
               description: 'USACO',
@@ -111,7 +116,7 @@ export default {
         },
         {
           category: 'Competitive Programming Books',
-          icon: 'mdi-book',
+          icon: mdiBook,
           list: [
             {
               description: 'CP Handbook',
@@ -151,7 +156,7 @@ export default {
         },
         {
           category: 'USACO Related Resources',
-          icon: 'mdi-account-cowboy-hat',
+          icon: mdiAccountCowboyHat,
           list: [{
             description: 'USACO Checklist',
             link: 'https://docs.google.com/spreadsheets/d/1z2k-fv6q9KPHDuZu1arBvwIuKZ4HCoBRfHQR0UryPMQ/edit?usp=sharing'
@@ -180,7 +185,7 @@ export default {
         },
         {
           category: 'Algorithm Resources and Templates',
-          icon: 'mdi-file-code',
+          icon: mdiFileCode,
           list: [
             {
               description: 'Aeren\'s Template',

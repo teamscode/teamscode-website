@@ -11,7 +11,7 @@
             outlined
             filled
             placeholder="Search for contests"
-            prepend-inner-icon="mdi-magnify"
+            :prepend-inner-icon="mdiMagnify"
           />
         </v-responsive>
       </v-container>
@@ -39,9 +39,11 @@
 </template>
 
 <script>
+import { mdiMagnify } from '@mdi/js'
 export default {
   data () {
     return {
+      mdiMagnify,
       query: '',
       contests: []
     }

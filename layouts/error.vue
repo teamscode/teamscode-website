@@ -17,15 +17,16 @@
         go home
       </nuxt-link>
       <div class="notfound-social">
-        <a href="#"><v-icon>mdi-discord</v-icon></a>
-        <a href="#"><v-icon>mdi-instagram</v-icon></a>
-        <a href="#"><v-icon>mdi-email</v-icon></a>
+        <a href="#"><v-icon>{{ mdiDiscord }}</v-icon></a>
+        <a href="#"><v-icon>{{ mdiInstagram }}</v-icon></a>
+        <a href="#"><v-icon>{{ mdiEmail }}</v-icon></a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { mdiDiscord, mdiInstagram, mdiEmail } from '@mdi/js'
 export default {
   props: {
     error: {
@@ -35,16 +36,17 @@ export default {
   },
   data () {
     return {
+      mdiDiscord,
+      mdiInstagram,
+      mdiEmail,
       pageNotFound: '404 Not Found',
       otherError: 'An error occurred'
     }
   },
   head () {
     const title = this.error.statusCode === 404 ? this.pageNotFound : this.otherError
-    const meta = this.error.statusCode === 404 ? [{ name: 'robots', content: 'noindex,nofollow' }] : []
     return {
-      title,
-      meta
+      title
     }
   }
 }

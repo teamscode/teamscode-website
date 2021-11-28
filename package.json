@@ -9,6 +9,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@mdi/js": "^6.5.95",
     "@nuxt/content": "^1.15.0",
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/sitemap": "nuxt-community/sitemap-module#feat/static-crawler",

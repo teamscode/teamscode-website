@@ -21,8 +21,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;600;700;800;900&display=swap' },
-      ...config.icons.map(href => ({ rel: 'stylesheet', href }))
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;600;700;800;900&display=swap' }
     ]
   },
 
@@ -65,7 +64,8 @@ export default {
       optionsPath: '~/configs/vuetify.js',
       treeShake: true,
       defaultAssets: {
-        font: false
+        font: false,
+        icons: false
       }
     }]
   ],
