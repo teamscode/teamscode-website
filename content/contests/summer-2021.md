@@ -18,6 +18,8 @@ image: '/images/contests/virtual-contest.webp'
   <a href="https://www.youtube.com/c/replityt/videos"><img src="/images/partners/replit.webp" alt="Replit" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
 </div>
 
+The contest is over, but you can solve the problems here: https://codeforces.com/gym/103241
+
 # Winners #
 
 **Advanced Division**
