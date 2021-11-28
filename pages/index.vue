@@ -382,11 +382,11 @@ export default {
       contestFeatures: [{
         icon: 'mdi-head-lightbulb',
         title: 'Team Contests',
-        description: 'Work with your friends to solve challenging competitive programming problem and inspire each other. There are always more than one way to solve a problem, just like there are to collaborate on a contest! Team! Code!'
+        description: 'Work with your friends to solve challenging competitive programming problem and inspire each other. There is always more than one creative way to solve a problem, just like there are to collaborate on a contest! '
       }, {
         icon: 'mdi-gift',
         title: 'Our Prizes',
-        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners! Forgot to mention - everyone participated in our contests get a free Repl.it hacker plan!'
+        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners! Besides that, everyone who participates in our contests get a free Repl.it hacker plan!'
       }, {
         icon: 'mdi-file-document-multiple',
         title: 'Our Problem Set',
