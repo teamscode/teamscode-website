@@ -73,8 +73,22 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/google-gtag',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    routes: [
+      {
+        url: '/contests',
+        changefreq: 'daily'
+      },
+      {
+        url: '/blog',
+        changefreq: 'daily'
+      }
+    ]
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
