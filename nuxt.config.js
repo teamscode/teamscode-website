@@ -78,6 +78,7 @@ export default {
   ],
 
   sitemap: {
+    hostname: 'www.teamscode.org',
     routes: [
       {
         url: '/contests',
