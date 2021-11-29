@@ -9,7 +9,7 @@
         <v-col class="grow">
           <v-icon class="mr-2">
             {{ mdiBell }}
-          </v-icon>This is TeamsCode's <strong>new website</strong>! Click to read our blog post on the redesign.
+          </v-icon>This is TeamsCode's <strong>new website</strong>! Checkout our blog post on the redesign.
         </v-col>
         <v-col class="shrink">
           <v-btn to="/blog/teamscodes-new-website" outlined>
