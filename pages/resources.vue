@@ -32,7 +32,7 @@
             v-for="item in resources"
             :key="item.category"
           >
-            <v-expansion-panel-header class="text-h5">
+            <v-expansion-panel-header class="text-h5" :expand-icon="mdiChevronDown">
               <v-row no-gutters class="align-center">
                 <v-icon>
                   {{ item.icon }}
@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import { mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode } from '@mdi/js'
+import { mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiChevronDown } from '@mdi/js'
 export default {
   data () {
     return {
@@ -76,6 +76,7 @@ export default {
       mdiBook,
       mdiAccountCowboyHat,
       mdiFileCode,
+      mdiChevronDown,
       panel: [],
       resources: [
         {
