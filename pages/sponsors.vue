@@ -210,7 +210,7 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'Our sponsors help us bring a better contests to more people. We partner with coding schools and other nonprofit organizations to spread CS education to high school students.'
-        }
+        }, { hid: 'robots', name: 'robots', content: 'index,follow' }
       ]
     }
   }

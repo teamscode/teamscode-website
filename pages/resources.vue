@@ -228,7 +228,7 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'TeamsCode\'s list of helpful competitive programming and USACO resources. Feel free to use them to sharpen your coding skill.'
-        }
+        }, { hid: 'robots', name: 'robots', content: 'index,follow' }
       ]
     }
   },
