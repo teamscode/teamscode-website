@@ -1,5 +1,26 @@
 <template>
   <div>
+    <v-alert
+      v-model="banner"
+      color="blue-grey"
+      dark
+    >
+      <v-row align="center" class="px-1">
+        <v-col class="grow">
+          <v-icon class="mr-2">
+            {{ mdiBell }}
+          </v-icon>This is TeamsCode's <strong>new website</strong>! Click to read our blog post on the redesign.
+        </v-col>
+        <v-col class="shrink">
+          <v-btn to="/blog/teamscodes-new-website" outlined>
+            Blog Post
+            <v-icon right>
+              {{ mdiArrowRight }}
+            </v-icon>
+          </v-btn>
+        </v-col>
+      </v-row>
+    </v-alert>
     <v-container class="pb-6 pt-8">
       <v-row>
         <v-col cols="12" lg="7">
@@ -326,7 +347,10 @@
 </template>
 
 <script>
-import { mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert } from '@mdi/js'
+import {
+  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert,
+  mdiBell
+} from '@mdi/js'
 export default {
   data () {
     return {
@@ -343,6 +367,8 @@ export default {
       mdiGift,
       mdiFileDocumentMultiple,
       mdiMessageAlert,
+      mdiBell,
+      banner: true,
       stats: [{
         title: 'Registrations',
         value: '467'
