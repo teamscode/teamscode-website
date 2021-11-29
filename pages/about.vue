@@ -160,6 +160,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/weiming.webp',
           bio: 'Weiming Zhou is a sophomore attending Prestonwood Christian Academy in Plano, Texas. He has been doing competitive programming with C++ for almost 3 years and recently made Usaco Plat on the Us Open 2021. In his free time, he will probably be reading a book or playing chess online. He is very much looking forward to the experience of setting problems and introducing new problem solving techniques and algorithms to others.'
+        },
+        {
+          name: 'Angie Niu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/angie.webp',
+          bio: 'Angie Niu is a sophomore at Newport High School. She is interested in programming and has taken several Java coding lessons. In her spare time, Angie enjoys playing volleyball and baking. She is excited to help bring high quality TeamsCode competitions to passionate programmers.'
         }
       ],
       pastLeadership: [
