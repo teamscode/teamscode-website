@@ -162,6 +162,12 @@ export default {
           bio: 'Weiming Zhou is a sophomore attending Prestonwood Christian Academy in Plano, Texas. He has been doing competitive programming with C++ for almost 3 years and recently made Usaco Plat on the Us Open 2021. In his free time, he will probably be reading a book or playing chess online. He is very much looking forward to the experience of setting problems and introducing new problem solving techniques and algorithms to others.'
         },
         {
+          name: 'Allen Wu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/allen.webp',
+          bio: 'Allen Wu is currently a freshman at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Gold and a Candidate Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
+        },
+        {
           name: 'Angie Niu',
           title: 'Logistics Coordinator',
           image: '/images/teams/angie.webp',
