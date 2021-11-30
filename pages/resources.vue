@@ -220,19 +220,19 @@ export default {
           list: [
             {
               description: 'AP Computer Science A',
-              link: 'https://v1.teamscode.org/learn/ap-computer-science/'
+              link: 'https://archive.teamscode.org/learn/ap-computer-science/'
             },
             {
               description: 'Programming Practice',
-              link: 'https://v1.teamscode.org/learn/programming-practice/'
+              link: 'https://archive.teamscode.org/learn/programming-practice/'
             },
             {
               description: 'USACO Problems',
-              link: 'https://v1.teamscode.org/learn/usaco/'
+              link: 'https://archive.teamscode.org/learn/usaco/'
             },
             {
               description: 'iOS with Swift',
-              link: 'https://v1.teamscode.org/learn/ios/'
+              link: 'https://archive.teamscode.org/learn/ios/'
             }
           ]
         }
