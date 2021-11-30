@@ -25,4 +25,4 @@ Anyone is welcomed to contribute to our organization! Please open an issue or pu
 
 ## Contact
 
-If you have any questions, feel free to contact us at https://www.teamscode.org/contact or contact@teamscode.org. For questions regarding joining the team, view the application packet at https://www.teamscode.org/contact.
+If you have any questions, feel free to contact us at https://www.teamscode.org/contact or contact@teamscode.org. For questions regarding joining the team, please see the join our team section at https://www.teamscode.org/contact.
