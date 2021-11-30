@@ -355,18 +355,6 @@ export default {
   data () {
     return {
       mdiArrowRight,
-      mdiTrophyVariant,
-      mdiBook,
-      mdiAccountCowboyHat,
-      mdiFileCode,
-      mdiAccountGroup,
-      mdiBookOpenPageVariant,
-      mdiPencil,
-      mdiDiscord,
-      mdiHeadLightbulb,
-      mdiGift,
-      mdiFileDocumentMultiple,
-      mdiMessageAlert,
       mdiBell,
       banner: true,
       stats: [{

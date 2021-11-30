@@ -68,14 +68,10 @@
 </template>
 
 <script>
-import { mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiChevronDown } from '@mdi/js'
+import { mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiChevronDown, mdiBookOpen } from '@mdi/js'
 export default {
   data () {
     return {
-      mdiTrophyVariant,
-      mdiBook,
-      mdiAccountCowboyHat,
-      mdiFileCode,
       mdiChevronDown,
       panel: [],
       resources: [
@@ -215,6 +211,28 @@ export default {
             }, {
               description: 'User-made ICPC Syllabus',
               link: 'https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4'
+            }
+          ]
+        },
+        {
+          category: 'TeamsCode Original Resources',
+          icon: mdiBookOpen,
+          list: [
+            {
+              description: 'AP Computer Science A',
+              link: 'https://v1.teamscode.org/learn/ap-computer-science/'
+            },
+            {
+              description: 'Programming Practice',
+              link: 'https://v1.teamscode.org/learn/programming-practice/'
+            },
+            {
+              description: 'USACO Problems',
+              link: 'https://v1.teamscode.org/learn/usaco/'
+            },
+            {
+              description: 'iOS with Swift',
+              link: 'https://v1.teamscode.org/learn/ios/'
             }
           ]
         }
