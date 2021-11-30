@@ -137,6 +137,9 @@
         <div class="text-center caption">
           © TeamsCode 2021. All Rights Reserved.
         </div>
+        <div class="text-center caption">
+          TeamsCode is a 501(c)(3) nonprofit organization.
+        </div>
       </v-container>
     </v-footer>
   </v-app>
