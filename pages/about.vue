@@ -176,7 +176,7 @@ export default {
       ],
       pastLeadership: [
         {
-          name: 'Chris Elliot',
+          name: 'Chris Elliott',
           title: 'Co-Founder, Co-President 2017-2019',
           image: '/images/teams/chris.webp'
         }, {
