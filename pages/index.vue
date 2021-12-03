@@ -425,23 +425,17 @@ export default {
         description: 'TeamsCode Contest System offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],
       logos: [{
-        image: require('@/static/images/partners/xcamp.webp'),
-        link: '#'
+        image: require('@/static/images/partners/xcamp.webp')
       }, {
-        image: require('@/static/images/partners/digipen.webp'),
-        link: '#'
+        image: require('@/static/images/partners/digipen.webp')
       }, {
-        image: require('@/static/images/partners/cpi.webp'),
-        link: '#'
+        image: require('@/static/images/partners/cpi.webp')
       }, {
-        image: require('@/static/images/partners/ccc.webp'),
-        link: '#'
+        image: require('@/static/images/partners/ccc.webp')
       }, {
-        image: require('@/static/images/partners/janestreet.webp'),
-        link: '#'
+        image: require('@/static/images/partners/janestreet.webp')
       }, {
-        image: require('@/static/images/partners/replit.webp'),
-        link: '#'
+        image: require('@/static/images/partners/replit.webp')
       }],
       contests: []
     }

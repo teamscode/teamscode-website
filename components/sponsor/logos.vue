@@ -8,9 +8,7 @@
         align-self="center"
       >
         <div class="mx-2 my-1">
-          <a :href="logo.link">
-            <v-img :src="logo.image" />
-          </a>
+          <v-img :src="logo.image" />
         </div>
       </v-col>
     </v-row>
