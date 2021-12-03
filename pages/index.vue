@@ -5,7 +5,7 @@
       color="blue-grey"
       dark
     >
-      <v-row align="center" class="px-1">
+      <v-row align="center" class="px-1 d-none d-sm-flex">
         <v-col class="grow">
           <v-icon class="mr-2">
             {{ mdiBell }}
@@ -20,6 +20,17 @@
           </v-btn>
         </v-col>
       </v-row>
+      <div class="d-sm-none">
+        This is TeamsCode's <strong>new website</strong>! Checkout our blog post on the redesign.
+        <div class="text-right mt-1">
+          <v-btn to="/blog/teamscodes-new-website" outlined>
+            Blog Post
+            <v-icon right>
+              {{ mdiArrowRight }}
+            </v-icon>
+          </v-btn>
+        </div>
+      </div>
     </v-alert>
     <v-container class="pb-6 pt-8">
       <v-row>
