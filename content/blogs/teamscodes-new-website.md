@@ -20,9 +20,9 @@ As we connected closer with the competitive programming community while growing 
   <div style="text-align:center;">TeamsCode's new website</div>
 </div>
 
-Thanks to Nuxt.js and Vuetify, we were able to prototype our new website within a week. The prototype served as a concept-proof model and gave us an overview of what the new site might look like. Progressively, we created a redesigned landing page to help our participants better learn about our contests and engage with our sponsors. After that, we made a refreshed about page and imported previous blog posts, contest announcements. We then added a new resources page and gathered feedback from our participants before publishing the new website to https://www.teamscode.org.
+Thankful to Nuxt.js and Vuetify, we were able to prototype our new website within a week. The prototype served as a concept-proof model and gave us an overview of what the new site might look like. Progressively, we created a redesigned landing page to help our participants better learn about our contests and engage with our sponsors. After that, we made a refreshed about page and imported previous blog posts, contest announcements. We then added a new resources page and gathered feedback from our participants before publishing the new website to https://www.teamscode.org.
 
-Inspired by our previous Jekyll site, our new website features a modern material design based style. The website enhances the overall user experience by using cards to display information and buttons to interact with our visitors. We also took inspiration from our previous website on structuring as well. The landing page contains streamlined details on our contest and organization in general, while the contests page is where all our previous events can be found and searched. Besides that, the about page demonstrates TeamsCode's mission and members, the blog page provides updates to our participants, and the contact page lists all of our contact methods. In addition to these, the brand new resources page features a curated list of competitive programming resources that can be found helpful by our competitors and computer science students in general.
+Inspired by the Jekyll site, our new website features a modern material design based style. The website enhances the overall user experience by using cards to display information and buttons to interact with visitors. We also took site structuring ideas from our previous website. The landing page contains streamlined details on our contest and organization in general, while the contests page is where all our previous events can be found and searched. Besides that, the about page demonstrates TeamsCode's mission, the blog page provides updates to our participants, and the contact page lists all of our contact methods. In addition to these, the brand new resources page features a curated list of competitive programming resources that can be found helpful by our competitors and computer science students in general.
 
 <div style="text-align:center; margin-bottom:40px; margin-top:40px;">
   <img src="/images/blogs/new-resources-page.webp" alt="New Resources Page" width="95%">
@@ -32,6 +32,8 @@ Inspired by our previous Jekyll site, our new website features a modern material
 On the technology side, the new framework enables TeamsCode to create new pages and add further information rapidly, helping our organization to adapt and implement new ideas. The redesigned website is the first step to technology innovations that prepare TeamsCode to reach a larger competitive programming community.
 
 The retired Jekyll website is still accessible at https://archive.teamscode.org, but for archive purpose only and will not be updated for new events. Great thanks to all contributors to our Jekyll site. TeamsCode would not be where it is right now without them. We are planning to open-source our new site once some cleanup is completed.
+
+*Update: the source code is now available at https://github.com/teamscode/teamscode.org"
 
 While preparing for our April contest, we hope you had an awesome Thanksgiving break!
 
