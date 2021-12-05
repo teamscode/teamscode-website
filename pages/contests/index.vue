@@ -71,6 +71,9 @@ export default {
     query () {
       this.$fetch()
     }
+  },
+  mounted () {
+    this.$gtag('event', 'browse_contests', { screen_name: 'Contests' })
   }
 
 }

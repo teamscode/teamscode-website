@@ -55,8 +55,7 @@
               :x-large="$vuetify.breakpoint.smAndUp"
               large
               class="my-1 ml-sm-1 w-full w-sm-auto"
-              href="https://discord.com/invite/8pg89SS"
-              target="_blank"
+              @click="discordLink"
             >
               Join Discord
             </v-btn>
@@ -199,10 +198,9 @@
           <v-btn
             :x-large="$vuetify.breakpoint.mdAndUp"
             large
-            href="https://discord.com/invite/8pg89SS"
-            target="_blank"
             class="mt-4 mx-sm-2 w-full w-sm-auto"
             color="primary"
+            @click="discordLink"
           >
             Join Discord
           </v-btn>
@@ -477,6 +475,12 @@ export default {
       } else {
         return this.contests.slice(0, 3)
       }
+    }
+  },
+  methods: {
+    discordLink () {
+      this.$gtag('event', 'discord', { screen_name: 'Home' })
+      window.open('https://discord.com/invite/8pg89SS', '_blank')
     }
   }
 }

@@ -1,6 +1,6 @@
 import config from './configs'
 
-const { gaId, adsId } = config.analytics
+const { gaId } = config.analytics
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -41,16 +41,14 @@ export default {
     { src: '~/filters/uppercase.js' },
     { src: '~/filters/trim.js' },
     { src: '~/filters/placeholder.js' },
-    { src: '~/filters/formatDate.js' }
+    { src: '~/filters/formatDate.js' },
+    { src: '~/plugins/analytics.js' }
   ],
 
   'google-gtag': {
     id: gaId,
     debug: false, // enable to track in dev mode
-    disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
-    additionalAccounts: [{
-      id: adsId // required if you are adding additional IDs
-    }]
+    disableAutoPageTrack: false // disable if you don't want to track each page route with router.afterEach(...).
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -37,7 +37,10 @@
                   </v-chip>
                 </div>
                 <v-spacer />
-                <v-btn :href="item.buttonLink" target="_blank" color="primary">
+                <v-btn v-if="item.buttonLink" :href="item.buttonLink" target="_blank" color="primary">
+                  {{ item.buttonText }}
+                </v-btn>
+                <v-btn v-else-if="item.buttonAction" color="primary" @click="item.buttonAction">
                   {{ item.buttonText }}
                 </v-btn>
               </v-card-actions>
@@ -59,7 +62,7 @@ export default {
           content: 'The best way to stay updated is to join our Discord server. It\'s our main communication method during contests.',
           purposes: ['Contest Updates', 'Ask Questions'],
           buttonText: 'Join Discord',
-          buttonLink: 'https://discord.com/invite/8pg89SS'
+          buttonAction: this.discordLink
         },
         {
           title: 'Email TeamsCode',
@@ -73,7 +76,7 @@ export default {
           content: 'Here is our sponsorship deck. Please email us if you have any question!',
           purposes: ['Sponsorship Inquiries'],
           buttonText: 'Sponsorship Deck',
-          buttonLink: 'https://docs.google.com/document/d/1zYSRbs4-UStunbSw_y8x4N6zHoJPnXn5pb5YUg8xVrI'
+          buttonAction: this.sponsorshipDeck
         },
         {
           title: 'Donate to TeamsCode',
@@ -102,6 +105,16 @@ export default {
           content: 'TeamsCode\'s contact method. You can reach us through Discord and email. Donate to TeamsCode. Join TeamsCode\'s organizer team.'
         }, { hid: 'robots', name: 'robots', content: 'index,follow' }
       ]
+    }
+  },
+  methods: {
+    discordLink () {
+      this.$gtag('event', 'discord', { screen_name: 'Contact' })
+      window.open('https://discord.com/invite/8pg89SS', '_blank')
+    },
+    sponsorshipDeck () {
+      this.$gtag('event', 'sponsorship_deck', { screen_name: 'Contact' })
+      window.open('https://docs.google.com/document/d/1zYSRbs4-UStunbSw_y8x4N6zHoJPnXn5pb5YUg8xVrI', '_blank')
     }
   }
 }

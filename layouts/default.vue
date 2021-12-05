@@ -114,9 +114,8 @@
                 fab
                 small
                 color="secondary"
-                target="_blank"
-                href="https://discord.com/invite/8pg89SS"
                 class="ml-2"
+                @click="discordLink"
               >
                 <v-icon>{{ mdiDiscord }}</v-icon>
               </v-btn>
@@ -180,6 +179,12 @@ export default {
         title: 'About',
         link: '/about'
       }]
+    }
+  },
+  methods: {
+    discordLink () {
+      this.$gtag('event', 'discord', { screen_name: 'Footer' })
+      window.open('https://discord.com/invite/8pg89SS', '_blank')
     }
   }
 }
