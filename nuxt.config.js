@@ -41,8 +41,7 @@ export default {
     { src: '~/filters/uppercase.js' },
     { src: '~/filters/trim.js' },
     { src: '~/filters/placeholder.js' },
-    { src: '~/filters/formatDate.js' },
-    { src: '~/plugins/analytics.js' }
+    { src: '~/filters/formatDate.js' }
   ],
 
   'google-gtag': {
