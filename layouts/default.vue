@@ -26,7 +26,7 @@
     <v-app-bar app height="70">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
         <nuxt-link to="/" class="d-flex align-center text-decoration-none mr-3">
-          <img src="/images/logo.png" alt="" height="42" class="mr-2">
+          <img src="/images/logo.png" alt="" width="42" height="42" class="mr-2">
           <span class="font-weight-bold text-h5">
             TEAMSCODE
           </span>
