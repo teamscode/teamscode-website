@@ -66,7 +66,8 @@ export default {
         font: false,
         icons: false
       }
-    }]
+    }],
+    'nuxt-compress'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -30,6 +30,7 @@
     "eslint": "^7.29.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.12.1",
+    "nuxt-compress": "^5.0.0",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.1"
   }
