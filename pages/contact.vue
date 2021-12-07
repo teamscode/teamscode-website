@@ -103,7 +103,7 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'TeamsCode\'s contact method. You can reach us through Discord and email. Donate to TeamsCode. Join TeamsCode\'s organizer team.'
-        }, { hid: 'robots', name: 'robots', content: 'index,follow' }
+        }
       ]
     }
   },

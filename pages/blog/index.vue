@@ -60,7 +60,7 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'Our blog posts. Posts about TeamsCode and our sponsors.'
-        }, { hid: 'robots', name: 'robots', content: 'index,follow' }
+        }
       ]
     }
   },

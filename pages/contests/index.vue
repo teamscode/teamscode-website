@@ -63,7 +63,7 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'TeamsCode\'s online programming contests and offlie hackathons. Click on cards to view and register for TeamsCode competitions.'
-        }, { hid: 'robots', name: 'robots', content: 'index,follow' }
+        }
       ]
     }
   },

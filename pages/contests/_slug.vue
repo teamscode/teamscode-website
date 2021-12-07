@@ -37,7 +37,7 @@ export default {
           hid: 'description',
           name: 'description',
           content: this.content.title
-        }, { hid: 'robots', name: 'robots', content: 'index,follow' }
+        }
       ]
     }
   }
