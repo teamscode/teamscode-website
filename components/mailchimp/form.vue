@@ -39,7 +39,7 @@
       </div>
     </v-form>
     <div class="text-caption mt-1 mt-lg-0">
-      By subscribing to our mailing list, you consent to receive promotional emails from TeamsCode.
+      By subscribing to our mailing list, you agree to receive promotional emails from TeamsCode.
     </div>
   </div>
 </template>

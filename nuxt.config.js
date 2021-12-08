@@ -66,15 +66,30 @@ export default {
         icons: false
       }
     }],
-    'nuxt-compress'
+    'nuxt-compress',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/google-gtag',
     '@nuxt/content',
-    'nuxt-webfontloader',
-    '@nuxtjs/sitemap'
+    'nuxt-webfontloader'
+  ],
+
+  robots: [
+    {
+      UserAgent: '*',
+      Disallow: '/files/'
+    },
+    {
+      UserAgent: '*',
+      Disallow: '/images/'
+    },
+    {
+      Sitemap: 'http://www.teamscode.org/sitemap.xml'
+    }
   ],
 
   webfontloader: {
