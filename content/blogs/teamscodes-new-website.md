@@ -33,7 +33,7 @@ On the technology side, the new framework enables TeamsCode to create new pages 
 
 The retired Jekyll website is still accessible at https://archive.teamscode.org, but for archive purpose only and will not be updated for new events. Great thanks to all contributors to our Jekyll site. TeamsCode would not be where it is right now without them. We are planning to open-source our new site once some cleanup is completed.
 
-*Update: the source code is now available at https://github.com/teamscode/teamscode.org"
+*Update: the source code is now available at https://github.com/teamscode/teamscode.org*
 
 While preparing for our April contest, we hope you had an awesome Thanksgiving break!
 
