@@ -88,7 +88,7 @@ export default {
       Disallow: '/images/'
     },
     {
-      Sitemap: 'http://www.teamscode.org/sitemap.xml'
+      Sitemap: 'https://www.teamscode.org/sitemap.xml'
     }
   ],
 
