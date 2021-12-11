@@ -1,37 +1,5 @@
 <template>
   <div>
-    <v-alert
-      v-model="banner"
-      color="blue-grey"
-      dark
-    >
-      <v-row align="center" class="px-1 d-none d-sm-flex">
-        <v-col class="grow">
-          <v-icon class="mr-2">
-            {{ mdiBell }}
-          </v-icon>This is TeamsCode's <strong>new website</strong>! Checkout our blog post on the redesign.
-        </v-col>
-        <v-col class="shrink">
-          <v-btn to="/blog/teamscodes-new-website" outlined>
-            Blog Post
-            <v-icon right>
-              {{ mdiArrowRight }}
-            </v-icon>
-          </v-btn>
-        </v-col>
-      </v-row>
-      <div class="d-sm-none">
-        This is TeamsCode's <strong>new website</strong>! Checkout our blog post on the redesign.
-        <div class="text-right mt-1">
-          <v-btn to="/blog/teamscodes-new-website" outlined>
-            Blog Post
-            <v-icon right>
-              {{ mdiArrowRight }}
-            </v-icon>
-          </v-btn>
-        </div>
-      </div>
-    </v-alert>
     <v-container class="pb-6 pt-8">
       <v-row>
         <v-col cols="12" lg="7">
@@ -357,14 +325,12 @@
 
 <script>
 import {
-  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert,
-  mdiBell
+  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert
 } from '@mdi/js'
 export default {
   data () {
     return {
       mdiArrowRight,
-      mdiBell,
       banner: true,
       stats: [{
         title: 'Registrations',
