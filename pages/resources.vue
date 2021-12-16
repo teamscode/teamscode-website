@@ -8,7 +8,7 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
-              We compiled a list of high quality competitive programming resources to help programmers of all levels sharpen their skill.
+              A list of high quality competitive programming resources to help programmers of all levels sharpen their skills
             </div>
           </v-responsive>
         </div>
