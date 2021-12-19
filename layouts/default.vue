@@ -129,6 +129,16 @@
               >
                 <v-icon>{{ mdiInstagram }}</v-icon>
               </v-btn>
+              <v-btn
+                fab
+                small
+                color="secondary"
+                target="_blank"
+                href="https://www.youtube.com/channel/UC31_7D9OcjYJXmtwwGCsTrw"
+                class="ml-2"
+              >
+                <v-icon>{{ mdiYoutube }}</v-icon>
+              </v-btn>
             </div>
           </v-col>
         </v-row>
@@ -145,7 +155,7 @@
 </template>
 
 <script>
-import { mdiMenu, mdiEmailOutline, mdiMapMarkerOutline, mdiGithub, mdiDiscord, mdiInstagram } from '@mdi/js'
+import { mdiMenu, mdiEmailOutline, mdiMapMarkerOutline, mdiGithub, mdiDiscord, mdiInstagram, mdiYoutube } from '@mdi/js'
 export default {
   data () {
     return {
@@ -155,6 +165,7 @@ export default {
       mdiGithub,
       mdiDiscord,
       mdiInstagram,
+      mdiYoutube,
       drawer: null,
       menu: [{
         title: 'Home',
