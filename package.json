@@ -24,14 +24,14 @@
     "@babel/eslint-parser": "^7.14.7",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "nuxt-community/sitemap-module#feat/static-crawler",
     "@nuxtjs/vuetify": "^1.12.1",
     "eslint": "^7.29.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.12.1",
     "nuxt-compress": "^5.0.0",
     "sass": "^1.30.0",
-    "sass-loader": "^10.1.1",
-    "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/sitemap": "nuxt-community/sitemap-module#feat/static-crawler"
+    "sass-loader": "^10.1.1"
   }
 }
