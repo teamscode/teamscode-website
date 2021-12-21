@@ -157,10 +157,10 @@
         <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
           <div class="text-center text-lg-left">
             <div class="text-h4 text-sm-h3 text-lg-h2">
-              Interested or have questions?
+              Our next contest is planned for April 2022
             </div>
             <div class="text-h4 text-sm-h3 text-lg-h2 primary--text">
-              Join our Discord server!
+              Join Discord to stay updated!
             </div>
           </div>
           <v-btn
@@ -173,6 +173,45 @@
             Join Discord
           </v-btn>
         </div>
+      </v-container>
+    </v-sheet>
+    <v-sheet>
+      <v-container class="py-0">
+        <v-divider />
+      </v-container>
+    </v-sheet>
+    <v-sheet>
+      <v-container class="py-6">
+        <NewsletterForm>
+          <div class="d-flex flex-column flex-lg-row align-center">
+            <div class="text-h4 mr-2">
+              You can also signup to our newsletters
+            </div>
+            <div class="d-flex flex-column flex-sm-row w-full mt-4 mt-lg-0">
+              <v-text-field
+                id="EMAIL"
+                type="text"
+                solo
+                hide-details
+                name="EMAIL"
+                placeholder="Please enter your email"
+                dense
+                height="44"
+                full-width
+                class="mr-sm-2 mb-2 mb-sm-0 flex-grow-1"
+              />
+              <v-btn
+                form="sib-form"
+                type="submit"
+                large
+                color="secondary"
+                @click="trackMailing"
+              >
+                Subscribe
+              </v-btn>
+            </div>
+          </div>
+        </NewsletterForm>
       </v-container>
     </v-sheet>
 
@@ -447,6 +486,9 @@ export default {
     discordLink () {
       this.$gtag('event', 'discord', { screen_name: 'Home' })
       window.open('https://discord.com/invite/8pg89SS', '_blank')
+    },
+    trackMailing () {
+      this.$gtag('event', 'mailing', { screen_name: 'Home' })
     }
   }
 }

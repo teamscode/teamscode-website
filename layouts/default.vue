@@ -97,7 +97,29 @@
               Newsletter
             </div>
             <div style="width: 80px; height: 4px" class="mb-5 mt-1 secondary" />
-            <MailchimpForm />
+            <NewsletterForm>
+              <div class="d-flex flex-column flex-lg-row w-full">
+                <v-text-field
+                  id="EMAIL"
+                  type="text"
+                  outlined
+                  solo
+                  dense
+                  name="EMAIL"
+                  height="44"
+                  class="input required email mr-lg-2"
+                />
+                <v-btn
+                  form="sib-form"
+                  type="submit"
+                  large
+                  color="secondary"
+                  @click="trackMailing"
+                >
+                  Subscribe
+                </v-btn>
+              </div>
+            </NewsletterForm>
             <div class="text-center text-md-right mt-4 mt-lg-2">
               Connect
               <v-btn
@@ -196,6 +218,9 @@ export default {
     discordLink () {
       this.$gtag('event', 'discord', { screen_name: 'Footer' })
       window.open('https://discord.com/invite/8pg89SS', '_blank')
+    },
+    trackMailing () {
+      this.$gtag('event', 'mailing', { screen_name: 'Footer' })
     }
   }
 }
