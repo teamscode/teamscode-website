@@ -16,6 +16,40 @@
         </v-responsive>
       </v-container>
     </v-sheet>
+    <v-sheet color="surface">
+      <v-container class="py-4">
+        <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
+          <div class="text-center text-lg-left">
+            <div class="text-h4 mr-2">
+              Our next contest is planned for April 2022
+            </div>
+            <div class="text-h4 mr-2 primary--text">
+              Join Discord or mailing list to stay updated!
+            </div>
+          </div>
+          <v-spacer />
+          <v-row class="mt-lg-1 mt-4 mb-2">
+            <v-btn
+              :x-large="$vuetify.breakpoint.mdAndUp"
+              large
+              class="mx-sm-2 w-full w-sm-auto"
+              to="/contact"
+            >
+              Newsletter
+            </v-btn>
+            <v-btn
+              :x-large="$vuetify.breakpoint.mdAndUp"
+              large
+              class="mx-sm-2 w-full w-sm-auto mt-sm-0 mt-2"
+              color="primary"
+              @click="discordLink"
+            >
+              Join Discord
+            </v-btn>
+          </v-row>
+        </div>
+      </v-container>
+    </v-sheet>
     <v-sheet class="py-3">
       <v-container class="py-10">
         <v-row>
