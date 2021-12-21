@@ -1,0 +1,5 @@
+/contests/summer-2021-virtual-programming-contest /contests/summer-2021 301
+/contests/fall-2019-silicon-valley-programming-contest /contests/fall-2019-silicon-valley 301
+/learn /resources 301
+/press https://archive.teamscode.org/press 301
+/learn/* https://archive.teamscode.org/learn/:splat

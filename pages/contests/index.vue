@@ -51,7 +51,7 @@
       </v-container>
     </v-sheet>
     <v-sheet class="py-3">
-      <v-container class="py-10">
+      <v-container class="py-4">
         <v-row>
           <v-col
             v-for="(card, i) in contests"
