@@ -29,7 +29,7 @@
             <a target="_blank" href="https://digipen.edu"><v-img
               src="/images/partners/digipen.webp"
               alt="DigiPen"
-              style="width: 250px; margin-right: 30px;"
+              style="width: 250px;"
             /></a>
           </v-row>
         </div>
@@ -53,6 +53,11 @@
             <a target="_blank" href="https://www.youtube.com/c/replityt/videos"><v-img
               src="/images/partners/replit.webp"
               alt="Replit"
+              style="width: 180px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://www.wolfram.com"><v-img
+              src="/images/partners/wolfram.webp"
+              alt="wolfram"
               style="width: 180px;"
             /></a>
           </v-row>

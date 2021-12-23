@@ -445,11 +445,11 @@ export default {
       }, {
         image: require('@/static/images/partners/cpi.webp')
       }, {
-        image: require('@/static/images/partners/ccc.webp')
-      }, {
         image: require('@/static/images/partners/janestreet.webp')
       }, {
         image: require('@/static/images/partners/replit.webp')
+      }, {
+        image: require('@/static/images/partners/wolfram.webp')
       }],
       contests: []
     }
