@@ -14,4 +14,20 @@
 /contests/spring-2017-mihs-programming-contest/ /contests/spring-2017-mihs 301
 /learn/ /resources 301
 /press/ https://archive.teamscode.org/press 301
+/contests/summer-2021-virtual-programming-contest /contests/summer-2021 301
+/contests/spring-2021-virtual-programming-contest /contests/spring-2021 301
+/contests/fall-2020-virtual-programming-contest /contests/fall-2020 301
+/contests/fall-2019-mihs-programming-contest /contests/fall-2019-mihs 301
+/contests/fall-2019-silicon-valley-programming-contest /contests/fall-2019-silicon-valley 301
+/contests/spring-2019-bellevue-programming-contest /contests/spring-2019-bellevue 301
+/contests/spring-2019-cgs-programming-contest /contests/spring-2019-cgs 301
+/contests/spring-2019-mihs-programming-contest /contests/spring-2019-mihs 301
+/contests/catlin-gabel-fall-programming-contest /contests/catlin-gabel-fall 301
+/contests/fall-2018-mihs-programming-contest /contests/fall-2018-mihs 301
+/contests/spring-2018-cgs-programming-contest /contests/spring-2018-cgs 301
+/contests/spring-2018-mihs-programming-contest /contests/spring-2018-mihs 301
+/contests/fall-2017-mihs-programming-contest /contests/fall-2017-mihs 301
+/contests/spring-2017-mihs-programming-contest /contests/spring-2017-mihs 301
+/learn /resources 301
+/press https://archive.teamscode.org/press 301
 /learn/* https://archive.teamscode.org/learn/:splat
