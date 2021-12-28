@@ -81,10 +81,6 @@ export default {
   robots: [
     {
       UserAgent: '*',
-      Disallow: '/files/'
-    },
-    {
-      UserAgent: '*',
       Disallow: '/images/'
     },
     {
