@@ -40,10 +40,10 @@ There was a great turnout of 20 students, or 10 teams. The contest was held in t
 
 # Contest files
 
-[Scoreboard](https://www.teamscode.org/files/spring_2018_cgs/scoreboard.pdf)  
-[Problem packet](https://www.teamscode.org/files/spring_2018_cgs/problem_set.pdf)  
-[Judges answer packet](https://www.teamscode.org/files/spring_2018_cgs/judges_data.pdf)  
-[Input text files](https://www.teamscode.org/files/spring_2018_cgs/inputs_outputs.zip)
+[Scoreboard](https://teamscode.blob.core.windows.net/public-files/spring_2018_cgs/scoreboard.pdf)  
+[Problem packet](https://teamscode.blob.core.windows.net/public-files/spring_2018_cgs/problem_set.pdf)  
+[Judges answer packet](https://teamscode.blob.core.windows.net/public-files/spring_2018_cgs/judges_data.pdf)  
+[Input text files](https://teamscode.blob.core.windows.net/public-files/spring_2018_cgs/inputs_outputs.zip)
 
 ## Pictures
 

@@ -45,7 +45,7 @@ There was a great turnout of 77 students, or 35 teams. The contest was held at t
 
 # Contest files
 
-[Problem packet](https://www.teamscode.org/files/spring_2019_bhs/problem_set.pdf) 
+[Problem packet](https://teamscode.blob.core.windows.net/public-files/spring_2019_bhs/problem_set.pdf) 
 
 
 ## Pictures

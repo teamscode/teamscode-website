@@ -46,11 +46,11 @@ There was a great turnout of 90 students, or 36 teams. The contest was held in t
 
 # Contest files
 <!--Not the correct links, I'll fix when I create real pdfs.-->
-[Advanced scoreboard](https://www.teamscode.org/files/fall_2017_mihs/advanced_scoreboard.pdf)  
-[Intermediate scoreboard](https://www.teamscode.org/files/fall_2017_mihs/intermediate_scoreboard.pdf)  
-[Problem packet](https://www.teamscode.org/files/fall_2017_mihs/problem_set.pdf)  
-[Judges answer packet](https://www.teamscode.org/files/fall_2017_mihs/judges_data.pdf)  
-[Input text files](https://www.teamscode.org/files/fall_2017_mihs/inputs_outputs.zip)
+[Advanced scoreboard](https://teamscode.blob.core.windows.net/public-files/fall_2017_mihs/advanced_scoreboard.pdf)  
+[Intermediate scoreboard](https://teamscode.blob.core.windows.net/public-files/fall_2017_mihs/intermediate_scoreboard.pdf)  
+[Problem packet](https://teamscode.blob.core.windows.net/public-files/fall_2017_mihs/problem_set.pdf)  
+[Judges answer packet](https://teamscode.blob.core.windows.net/public-files/fall_2017_mihs/judges_data.pdf)  
+[Input text files](https://teamscode.blob.core.windows.net/public-files/fall_2017_mihs/inputs_outputs.zip)
 
 ## Pictures
 

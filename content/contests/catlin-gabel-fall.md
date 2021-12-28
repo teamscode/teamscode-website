@@ -51,11 +51,11 @@ There was a great turnout of 27 students, or 13 teams. The contest was held at C
 
 # Contest files
 
-[Scoreboard](https://www.teamscode.org/files/fall_2018_cgs/scoreboard.pdf)  
-[Advanced division problem set](https://www.teamscode.org/files/fall_2018_cgs/advanced_problem_set.pdf)  
-[Intermediate division problem set](https://www.teamscode.org/files/fall_2018_cgs/intermediate_problem_set.pdf)  
-[Input files](https://www.teamscode.org/files/fall_2018_cgs/judges_data.pdf)  
-[Judge outputs](https://www.teamscode.org/files/fall_2018_cgs/inputs_outputs.zip)  
+[Scoreboard](https://teamscode.blob.core.windows.net/public-files/fall_2018_cgs/scoreboard.pdf)  
+[Advanced division problem set](https://teamscode.blob.core.windows.net/public-files/fall_2018_cgs/advanced_problem_set.pdf)  
+[Intermediate division problem set](https://teamscode.blob.core.windows.net/public-files/fall_2018_cgs/intermediate_problem_set.pdf)  
+[Input files](https://teamscode.blob.core.windows.net/public-files/fall_2018_cgs/judges_data.pdf)  
+[Judge outputs](https://teamscode.blob.core.windows.net/public-files/fall_2018_cgs/inputs_outputs.zip)  
 
 ## Pictures
 

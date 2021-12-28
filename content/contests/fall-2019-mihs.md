@@ -50,12 +50,12 @@ There was a great turnout of 144 students, or 65 teams. The contest was held in 
 
 # Contest files
 
-[Advanced scoreboard](https://www.teamscode.org/files/fall_2019_mihs/advanced_scoreboard.pdf)  
-[Intermediate scoreboard](https://www.teamscode.org/files/fall_2019_mihs/intermediate_scoreboard.pdf)
+[Advanced scoreboard](https://teamscode.blob.core.windows.net/public-files/fall_2019_mihs/advanced_scoreboard.pdf)  
+[Intermediate scoreboard](https://teamscode.blob.core.windows.net/public-files/fall_2019_mihs/intermediate_scoreboard.pdf)
 
-[Problem packet](https://www.teamscode.org/files/fall_2019_mihs/problem_set.pdf)  
-[Judges answer packet](https://www.teamscode.org/files/fall_2019_mihs/judges_data.pdf)  
-[Input text files](https://www.teamscode.org/files/fall_2019_mihs/inputs.zip)
+[Problem packet](https://teamscode.blob.core.windows.net/public-files/fall_2019_mihs/problem_set.pdf)  
+[Judges answer packet](https://teamscode.blob.core.windows.net/public-files/fall_2019_mihs/judges_data.pdf)  
+[Input text files](https://teamscode.blob.core.windows.net/public-files/fall_2019_mihs/inputs.zip)
 
 # Pictures
 
