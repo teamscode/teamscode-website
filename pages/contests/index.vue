@@ -28,7 +28,7 @@
             </div>
           </div>
           <v-spacer />
-          <v-row class="mt-lg-1 mt-4 mb-2">
+          <div class="mt-lg-1 mt-4 mb-2">
             <v-btn
               :x-large="$vuetify.breakpoint.mdAndUp"
               large
@@ -46,7 +46,7 @@
             >
               Join Discord
             </v-btn>
-          </v-row>
+          </div>
         </div>
       </v-container>
     </v-sheet>
