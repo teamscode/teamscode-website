@@ -419,7 +419,7 @@ export default {
       }, {
         icon: mdiDiscord,
         title: 'Friendly Community',
-        description: 'Join our community by cliking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many link-minded people.'
+        description: 'Join our community by clicking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many like-minded people.'
       }],
       contestFeatures: [{
         icon: mdiHeadLightbulb,
