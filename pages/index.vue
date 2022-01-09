@@ -226,7 +226,7 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-body text-sm-h6 text-lg-h5 mt-4">
-              TeamsCode is a space for computer science enthusiastics to sharpen their coding skill regardless of nation. Here are some statistics* from TeamsCode Summer 2021 Contest, one of our largest events.
+              TeamsCode is a space for computer science enthusiasts to sharpen their coding skill regardless of nation. Here are some statistics* from TeamsCode Summer 2021 Contest, one of our largest events.
             </div>
           </v-responsive>
         </div>
@@ -415,7 +415,7 @@ export default {
       }, {
         icon: mdiPencil,
         title: 'Make Things Happen',
-        description: 'If you are interested in helping us organize contests, please join us! Enthusiastics take different roles in TeamsCode and work together to make contests happen.'
+        description: 'If you are interested in helping us organize contests, please join us! Organizers take different roles in TeamsCode and work together to make contests happen.'
       }, {
         icon: mdiDiscord,
         title: 'Friendly Community',
