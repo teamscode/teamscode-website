@@ -108,6 +108,12 @@ export default {
   },
   mounted () {
     this.$gtag('event', 'browse_contests', { screen_name: 'Contests' })
+  },
+  methods: {
+    discordLink () {
+      this.$gtag('event', 'discord', { screen_name: 'Contests' })
+      window.open('https://discord.com/invite/8pg89SS', '_blank')
+    }
   }
 
 }
