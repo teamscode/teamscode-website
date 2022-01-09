@@ -106,7 +106,7 @@ export default {
               link: 'https://www.topcoder.com/community/competitive-programming/'
             },
             {
-              description: 'Contest Calender',
+              description: 'Contest Calendar',
               link: 'https://clist.by/'
             }
           ]
