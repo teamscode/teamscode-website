@@ -15,7 +15,53 @@
       </v-container>
     </v-sheet>
     <v-sheet>
-      <v-container class="py-4 py-lg-8">
+      <v-container class="py-4 py-lg-6">
+        <v-row>
+          <v-col cols="12" lg="6">
+            <h4 class="text-h4">
+              Receive updates in your inbox
+            </h4>
+            <div class="text-h6 text-lg-h5 mt-2">
+              Subscribe to TeamsCode's newsletters to receive announcements and updates.
+            </div>
+          </v-col>
+          <v-col cols="12" lg="6">
+            <NewsletterForm>
+              <div class="d-flex flex-column flex-sm-row w-full">
+                <v-text-field
+                  id="EMAIL"
+                  type="text"
+                  solo
+                  hide-details
+                  height="64"
+                  name="EMAIL"
+                  placeholder="Please enter your email"
+
+                  full-width
+                  class="mr-sm-2 mb-2 mb-sm-0 flex-grow-1"
+                />
+                <v-btn
+                  form="sib-form"
+                  type="submit"
+                  x-large
+                  color="primary"
+                  @click="trackMailing"
+                >
+                  Subscribe
+                </v-btn>
+              </div>
+            </NewsletterForm>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-sheet>
+    <v-sheet>
+      <v-container>
+        <v-divider />
+      </v-container>
+    </v-sheet>
+    <v-sheet>
+      <v-container class="py-4 py-lg-6">
         <v-row>
           <v-col
             v-for="(item, i) in contacts"
@@ -115,6 +161,9 @@ export default {
     sponsorshipDeck () {
       this.$gtag('event', 'sponsorship_deck', { screen_name: 'Contact' })
       window.open('https://docs.google.com/document/d/1zYSRbs4-UStunbSw_y8x4N6zHoJPnXn5pb5YUg8xVrI', '_blank')
+    },
+    trackMailing () {
+      this.$gtag('event', 'mailing', { screen_name: 'Contact' })
     }
   }
 }
