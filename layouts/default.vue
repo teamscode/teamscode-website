@@ -166,7 +166,7 @@
         </v-row>
         <v-divider class="my-3" />
         <div class="text-center caption">
-          © TeamsCode 2021. All Rights Reserved.
+          © TeamsCode {{ new Date().getFullYear() }}. All Rights Reserved.
         </div>
         <div class="text-center caption">
           TeamsCode is a 501(c)(3) nonprofit organization.
