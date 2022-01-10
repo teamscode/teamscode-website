@@ -50,11 +50,6 @@
             <b>Bronze Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://www.youtube.com/c/replityt/videos"><v-img
-              src="/images/partners/replit.webp"
-              alt="Replit"
-              style="width: 180px; margin-right: 30px;"
-            /></a>
             <a target="_blank" href="https://www.wolfram.com"><v-img
               src="/images/partners/wolfram.webp"
               alt="wolfram"
@@ -67,15 +62,20 @@
             <b>Previous Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2 mx-10">
+            <a target="_blank" href="https://www.youtube.com/c/replityt/videos"><v-img
+              src="/images/partners/replit.webp"
+              alt="Replit"
+              style="width: 100px; margin-right: 20px;"
+            /></a>
             <a target="_blank" href="https://www.codewithus.com/en"><v-img
               src="/images/partners/codewithus.webp"
               alt="Code With Us"
-              style="width: 80px; margin-right: 40px;"
+              style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="http://smartcodingschool.com"><v-img
               src="/images/partners/smartcodingschool.webp"
               alt="Smart Coding School"
-              style="width: 80px; margin-right: 40px;"
+              style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://audian.com"><v-img
               src="/images/partners/audian.webp"

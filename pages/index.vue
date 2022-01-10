@@ -334,7 +334,7 @@
               They help make things possible and better
             </h2>
             <div class="text-body text-sm-h6 text-lg-h5 mt-5">
-              Our awesome sponsors and partners help us bring a better contest to more people.
+              Our awesome sponsors help us organize a better contest. We also partner with other competitive programming organizations to foster a tight-knit community.
             </div>
             <div class="mt-4 d-none d-md-block">
               <v-btn to="/sponsors" outlined large color="primary">
@@ -447,9 +447,9 @@ export default {
       }, {
         image: require('@/static/images/partners/janestreet.webp')
       }, {
-        image: require('@/static/images/partners/replit.webp')
-      }, {
         image: require('@/static/images/partners/wolfram.webp')
+      }, {
+        image: require('@/static/images/partners/lit.webp')
       }],
       contests: []
     }
