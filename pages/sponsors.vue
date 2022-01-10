@@ -174,7 +174,8 @@
               alt="CPI"
               style="width: 300px; margin-right: 30px;"
             /></a>
-            <a target="_blank" href="https://www.compcs.org/"><v-img src="/images/partners/ccc.webp" alt="CCC" style="width: 220px;" /></a>
+            <a target="_blank" href="https://www.compcs.org/"><v-img src="/images/partners/ccc.webp" alt="CCC" style="width: 220px; margin-right: 30px;" /></a>
+            <a target="_blank" href="https://lit.lhsmathcs.org/"><v-img src="/images/partners/lit.webp" alt="LIT" style="width: 220px;" /></a>
           </v-row>
         </div>
       </v-container>
