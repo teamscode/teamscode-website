@@ -428,7 +428,7 @@ export default {
       }, {
         icon: mdiGift,
         title: 'Our Prizes',
-        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top finishers in Intermediate and Advanced division as well as cool prizes for raffle winners! Besides that, everyone who participates in our contests get a free Repl.it hacker plan!'
+        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top high school finishers in Intermediate and Advanced division while everyone is welcomed to participate. We also have cool prizes for raffle winners! '
       }, {
         icon: mdiFileDocumentMultiple,
         title: 'Our Problem Set',
@@ -436,7 +436,7 @@ export default {
       }, {
         icon: mdiMessageAlert,
         title: 'Our Technology',
-        description: 'TeamsCode Contest System offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
+        description: 'TeamsCode Contest Portal offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],
       logos: [{
         image: require('@/static/images/partners/xcamp.webp')
