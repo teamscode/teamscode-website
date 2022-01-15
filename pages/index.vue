@@ -450,6 +450,10 @@ export default {
         image: require('@/static/images/partners/wolfram.webp')
       }, {
         image: require('@/static/images/partners/lit.webp')
+      }, {
+        image: require('@/static/images/partners/ccc.webp')
+      }, {
+        image: require('@/static/images/partners/hpi.webp')
       }],
       contests: []
     }
