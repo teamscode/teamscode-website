@@ -30,7 +30,7 @@
           </div>
         </v-col>
         <v-col cols="12" lg="5" class="d-none d-lg-flex">
-          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('@/static/images/hero.webp')" alt="" />
+          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('/static/images/hero.webp')" :lazy-src="require('/static/images/hero-placeholder.webp')" alt="Hero" />
         </v-col>
       </v-row>
     </v-container>
