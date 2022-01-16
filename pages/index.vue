@@ -470,6 +470,18 @@ export default {
           name: 'description',
           content: 'TeamsCode is a student-led 501(c)(3) organization that spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.'
         }
+      ],
+      link: [
+        {
+          rel: 'preload',
+          as: 'image',
+          href: '/images/hero-placeholder.webp'
+        },
+        {
+          rel: 'preload',
+          as: 'image',
+          href: '/images/hero.webp'
+        }
       ]
     }
   },
