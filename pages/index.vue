@@ -451,7 +451,7 @@ export default {
       }, {
         image: require('@/static/images/partners/lit.webp')
       }, {
-        image: require('@/static/images/partners/ccc.webp')
+        image: require('@/static/images/partners/mbit.webp')
       }, {
         image: require('@/static/images/partners/hpi.webp')
       }],

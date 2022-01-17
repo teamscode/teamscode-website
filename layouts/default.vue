@@ -103,6 +103,7 @@
                   id="EMAIL"
                   type="text"
                   outlined
+                  placeholder="Please enter your email"
                   solo
                   dense
                   name="EMAIL"
