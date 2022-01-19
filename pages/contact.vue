@@ -160,7 +160,7 @@ export default {
     },
     sponsorshipDeck () {
       this.$gtag('event', 'sponsorship_deck', { screen_name: 'Contact' })
-      window.open('https://docs.google.com/document/d/1zYSRbs4-UStunbSw_y8x4N6zHoJPnXn5pb5YUg8xVrI', '_blank')
+      window.open('https://teamscode.blob.core.windows.net/public-files/sponsorship_deck.pdf', '_blank')
     },
     trackMailing () {
       this.$gtag('event', 'mailing', { screen_name: 'Contact' })
