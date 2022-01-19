@@ -165,7 +165,7 @@ export default {
           name: 'Allen Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/allen.webp',
-          bio: 'Allen Wu is currently a freshman at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Platinum and a Candidate Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
+          bio: 'Allen Wu is currently a freshman at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Platinum and a Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
         },
         {
           name: 'Angie Niu',
