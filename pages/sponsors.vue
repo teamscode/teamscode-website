@@ -176,8 +176,9 @@
             /></a>
             <a target="_blank" href="https://www.compcs.org/"><v-img src="/images/partners/ccc.webp" alt="CCC" style="width: 220px; margin-right: 30px;" /></a>
             <a target="_blank" href="https://lit.lhsmathcs.org/"><v-img src="/images/partners/lit.webp" alt="LIT" style="width: 220px; margin-right: 30px;" /></a>
-            <a target="_blank" href="https://www.harkerprogrammingclub.org/"><v-img src="/images/partners/hpi.webp" alt="HPI" style="width: 220px; 30px;" /></a>
-            <a target="_blank" href="https://mbit.mbhs.edu/"><v-img src="/images/partners/mbit.webp" alt="HPI" style="width: 220px;" /></a>
+            <a target="_blank" href="https://www.harkerprogrammingclub.org/"><v-img src="/images/partners/hpi.webp" alt="HPI" style="width: 220px; margin-right: 30px;" /></a>
+            <a target="_blank" href="https://mbit.mbhs.edu/"><v-img src="/images/partners/mbit.webp" alt="mBIT" style="width: 220px; margin-right: 30px;" /></a>
+            <a target="_blank" href="https://www.noctemdevelopment.org/"><v-img src="/images/partners/noctem.webp" alt="Noctem" style="width: 160px;" /></a>
           </v-row>
         </div>
       </v-container>
@@ -185,7 +186,7 @@
     <v-sheet class="bg-sheet" dark>
       <v-container class="text-center py-4">
         <h1 class="font-weight-light">
-          Would like to sponsor TeamsCode?
+          Want to sponsor TeamsCode?
         </h1>
 
         <v-btn

@@ -114,6 +114,9 @@
         </div>
       </v-container>
     </v-sheet>
+    <v-container>
+      <v-divider />
+    </v-container>
     <v-sheet color="surface">
       <v-container class="py-4 py-lg-8">
         <v-row>
