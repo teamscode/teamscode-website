@@ -132,7 +132,7 @@ export default {
         name: 'Harry Chen',
         title: 'Vice President - Technology',
         image: '/images/teams/harry.webp',
-        bio: 'Harry is a sophomore at Northwood High School in Irvine, California. He started competitive programming in C++ 2 years ago and is currently in USACO Gold. In addition to that, Harry does full-stack web development and maintains TeamsCode\'s website and contest system. Harry is excited to bring enjoyable contests to TeamsCoders. In his free time, he likes to play tennis and watch movies.'
+        bio: 'Harry is a sophomore at Northwood High School in Irvine, California. He started competitive programming in C++ 2 years ago and is currently in USACO Gold. Harry also does full-stack web development and he maintains TeamsCode\'s website and contest portal. Harry is excited to help bring enjoyable contest experiences to more TeamsCoders. In his free time, he likes to play tennis.'
       }],
       members: [
         {
