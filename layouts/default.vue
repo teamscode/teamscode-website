@@ -85,12 +85,6 @@
               </v-icon>
               <a href="mailto:contact@teamscode.org" class="text-decoration-none secondary--text">contact@teamscode.org</a>
             </div>
-            <div class="d-flex mb-2 text--lighten-2 text--secondary text-body-1">
-              <v-icon color="secondary lighten-1" class="mr-2">
-                {{ mdiMapMarkerOutline }}
-              </v-icon>
-              8106 SE 79th St, Mercer Island, Washington 98040
-            </div>
           </v-col>
           <v-col cols="12" md="4">
             <div class="text-h6 text-lg-h5 font-weight-bold">
