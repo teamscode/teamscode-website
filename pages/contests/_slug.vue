@@ -1,32 +1,150 @@
 <template>
   <div>
-    <v-sheet color="surface">
-      <v-container class="py-4 py-lg-8">
-        <div style="width: 80px; height: 4px" class="mb-3 secondary" />
-        <h2 class="text-h3 text-lg-h2 mb-3">
-          {{ content.title }}
-        </h2>
-        <div class="text-h6 text-lg-h5 mt-4">
-          {{ content.date | formatDate }} at {{ content.place }}
-        </div>
-      </v-container>
-    </v-sheet>
-    <v-sheet>
-      <v-container class="py-4 py-lg-4">
-        <nuxt-content :document="content" />
-      </v-container>
-    </v-sheet>
+    <div v-if="content.new_layout">
+      <v-sheet class="bg" dark>
+        <v-container class="py-4 py-lg-8">
+          <div style="width: 80px; height: 4px" class="mb-3 secondary" />
+          <h2 class="text-h3 text-lg-h2 mb-3">
+            {{ content.title }}
+          </h2>
+          <div class="text-h6 text-lg-h5 mt-4">
+            {{ content.date | formatDate }} {{ content.time }}
+          </div>
+          <div class="mt-2">
+            <v-btn
+              large
+              href="https://discord.com/invite/8pg89SS"
+              target="_blank"
+              class="mr-2"
+            >
+              Discord Server
+            </v-btn>
+            <v-btn
+              large
+              class="mr-2"
+              @click="currentTab=1;$vuetify.goTo('#contest-details')"
+            >
+              Registration Info
+            </v-btn>
+            <v-btn
+              large
+              class="mr-2"
+              to="/contact"
+              target="_blank"
+            >
+              Contact Info
+            </v-btn>
+          </div>
+        </v-container>
+      </v-sheet>
+      <v-sheet>
+        <v-container class="py-4 py-lg-4">
+          <v-alert
+            v-if="content.status==='Upcoming'"
+            type="info"
+            outlined
+            :icon="mdiInformation"
+          >
+            We will be updating this page with specific details and links as contest date approaches. Register now to receive updates!
+          </v-alert>
+          <h2 class="text-h4 py-2">
+            Schedule Overview
+          </h2>
+          <v-divider />
+          <v-timeline class="mt-2">
+            <v-timeline-item v-for="event in content.timeline" :key="event[0]">
+              <template #opposite>
+                <span
+                  class="text-h6 font-weight-bold"
+                  v-text="event[0]"
+                />
+              </template>
+              <v-card class="elevation-2">
+                <v-card-title class="text-h6" style="word-break: normal">
+                  {{ event[1] }}
+                </v-card-title>
+                <v-card-text>
+                  {{ event[2] }}
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+          </v-timeline>
+        </v-container>
+        <v-container class="py-4 py-lg-4">
+          <h2 id="contest-details" class="text-h4 py-2">
+            Contest Details
+          </h2>
+          <v-divider />
+          <v-tabs v-model="currentTab" grow class="mt-2">
+            <v-tab v-for="tab in content.tabs" :key="tab.slug">
+              {{ tab.name }}
+            </v-tab>
+          </v-tabs>
+          <v-tabs-items v-model="currentTab" class="mt-2">
+            <v-tab-item v-for="tab in content.tabs" :key="tab.slug">
+              <nuxt-content :document="tab" />
+            </v-tab-item>
+          </v-tabs-items>
+          <div class="text-right">
+            <v-btn v-if="currentTab!==0" large class="mr-2" @click="$vuetify.goTo('#contest-details');currentTab-=1">
+              <v-icon left>
+                {{ mdiArrowLeft }}
+              </v-icon>
+              {{ content.tabs[currentTab-1].name }}
+            </v-btn>
+            <v-btn v-if="currentTab!==content.tabs.length-1" large color="primary" @click="$vuetify.goTo('#contest-details');currentTab+=1">
+              {{ content.tabs[currentTab+1].name }}
+              <v-icon right dark>
+                {{ mdiArrowRight }}
+              </v-icon>
+            </v-btn>
+          </div>
+        </v-container>
+      </v-sheet>
+    </div>
+    <div v-else>
+      <v-sheet color="surface">
+        <v-container class="py-4 py-lg-8">
+          <div style="width: 80px; height: 4px" class="mb-3 secondary" />
+          <h2 class="text-h3 text-lg-h2 mb-3">
+            {{ content.title }}
+          </h2>
+          <div class="text-h6 text-lg-h5 mt-4">
+            {{ content.date | formatDate }} at {{ content.place }}
+          </div>
+        </v-container>
+      </v-sheet>
+      <v-sheet>
+        <v-container class="py-4 py-lg-4">
+          <nuxt-content :document="content" />
+        </v-container>
+      </v-sheet>
+    </div>
   </div>
 </template>
 
 <script>
+import { mdiInformation, mdiArrowRight, mdiArrowLeft } from '@mdi/js'
 export default {
   async asyncData ({ params, error, $content }) {
     const content = (await $content('contests').where({ slug: params.slug }).fetch())[0]
     if (!content) {
       error({ statusCode: 404, message: '404 Not Found' })
+    } else if (content.new_layout) {
+      const fetchQueue = []
+      content.tabs.forEach(tabSlug => fetchQueue.push($content(`contests/${params.slug}`).where({ slug: tabSlug }).fetch()))
+      content.tabs = (await Promise.all(fetchQueue)).map(match => match[0])
+      return { content }
     } else {
       return { content }
+    }
+  },
+  data () {
+    return {
+      currentTab: 0,
+      mdiInformation,
+      mdiArrowLeft,
+      mdiArrowRight
     }
   },
   head () {
@@ -43,3 +161,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .bg {
+  background-image: url("/images/contest-background.webp");
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(16 57 92 / 96%),
+      rgba(0 0 0 / 0.9)
+    ),
+    url("/images/contest-background.webp");
+  background-size: cover;
+  background-position: center;
+}
+</style>

@@ -47,7 +47,7 @@ export default {
   },
   async fetch () {
     if (this.query) {
-      this.blogs = await this.$content('blogs').search(this.query).sortBy('date', 'desc').fetch()
+      this.blogs = await this.$content('blogs').search(this.query).fetch()
     } else {
       this.blogs = await this.$content('blogs').sortBy('date', 'desc').fetch()
     }
