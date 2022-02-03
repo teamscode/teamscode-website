@@ -26,6 +26,6 @@ timeline:
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solution and instantly access feedback until 4:30 PM.'
   -
     - '4:30-5:00 PM'
-    - 'Raffle and Winners Announcement + Closing Ceremony'
+    - 'Raffle and Contest Winners Announcement + Closing Ceremony'
     - 'Tune to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
 ---
