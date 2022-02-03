@@ -9,9 +9,9 @@
           <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
             TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
           </h2>
-          <v-alert type="info" class="mt-2" outlined :icon="mdiBell">
-            Spring 2022 Contest Registration is open! Access contest rules and registration from Browse Contests page.
-          </v-alert>
+          <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
+            Registration is open for Spring 2022 Contest! Access contest rules and details on Browse Contests page.
+          </h2>
           <div class="mt-4 mt-xl-10">
             <v-btn
               :x-large="$vuetify.breakpoint.smAndUp"
