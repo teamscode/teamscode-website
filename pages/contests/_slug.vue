@@ -15,20 +15,20 @@
               large
               href="https://discord.com/invite/8pg89SS"
               target="_blank"
-              class="mr-2"
+              class="mr-2 mt-1 w-full w-sm-auto"
             >
               Discord Server
             </v-btn>
             <v-btn
               large
-              class="mr-2"
+              class="mr-2 mt-1 w-full w-sm-auto"
               @click="currentTab=1;$vuetify.goTo('#contest-details')"
             >
               Registration Info
             </v-btn>
             <v-btn
               large
-              class="mr-2"
+              class="mr-2 mt-1 w-full w-sm-auto"
               to="/contact"
               target="_blank"
             >
@@ -45,13 +45,13 @@
             outlined
             :icon="mdiInformation"
           >
-            We will be updating this page with specific details and links as contest date approaches. Register now to receive updates!
+            We will be updating this page with specific details and links as contest date approaches. Register now to receive updates and announcements in your inbox!
           </v-alert>
           <h2 class="text-h4 py-2">
             Schedule Overview
           </h2>
           <v-divider />
-          <v-timeline class="mt-2">
+          <v-timeline class="mt-4 d-none d-sm-block">
             <v-timeline-item v-for="event in content.timeline" :key="event[0]">
               <template #opposite>
                 <span
@@ -59,7 +59,7 @@
                   v-text="event[0]"
                 />
               </template>
-              <v-card class="elevation-2">
+              <v-card>
                 <v-card-title class="text-h6" style="word-break: normal">
                   {{ event[1] }}
                 </v-card-title>
@@ -69,30 +69,58 @@
               </v-card>
             </v-timeline-item>
           </v-timeline>
+          <div class="mt-2 d-sm-none">
+            <v-card v-for="event in content.timeline" :key="event[0]" class="mt-1">
+              <v-card-title class="text-h6" style="word-break: normal">
+                <b>{{ event[0] }}</b>
+              </v-card-title>
+              <v-card-subtitle>
+                {{ event[1] }}
+              </v-card-subtitle>
+              <v-card-text>
+                {{ event[2] }}
+              </v-card-text>
+            </v-card>
+          </div>
         </v-container>
         <v-container class="py-4 py-lg-4">
           <h2 id="contest-details" class="text-h4 py-2">
             Contest Details
           </h2>
           <v-divider />
-          <v-tabs v-model="currentTab" grow class="mt-2">
-            <v-tab v-for="tab in content.tabs" :key="tab.slug">
-              {{ tab.name }}
-            </v-tab>
-          </v-tabs>
+          <v-card>
+            <v-tabs v-model="currentTab" :vertical="$vuetify.breakpoint.smAndDown" grow class="mt-4" center-active>
+              <v-tab v-for="tab in content.tabs" :key="tab.slug">
+                {{ tab.name }}
+              </v-tab>
+            </v-tabs>
+          </v-card>
           <v-tabs-items v-model="currentTab" class="mt-2">
             <v-tab-item v-for="tab in content.tabs" :key="tab.slug">
               <nuxt-content :document="tab" />
             </v-tab-item>
           </v-tabs-items>
-          <div class="text-right">
-            <v-btn v-if="currentTab!==0" large class="mr-2" @click="$vuetify.goTo('#contest-details');currentTab-=1">
+          <div class="text-right mt-2">
+            <v-btn
+              v-if="currentTab!==0"
+              class="mr-2"
+              :text="!$vuetify.breakpoint.smAndUp"
+              :small="!$vuetify.breakpoint.smAndUp"
+              @click="$vuetify.goTo('#contest-details');currentTab-=1"
+            >
               <v-icon left>
                 {{ mdiArrowLeft }}
               </v-icon>
               {{ content.tabs[currentTab-1].name }}
             </v-btn>
-            <v-btn v-if="currentTab!==content.tabs.length-1" large color="primary" @click="$vuetify.goTo('#contest-details');currentTab+=1">
+            <v-btn
+              v-if="currentTab!==content.tabs.length-1"
+              class="mr-2"
+              :text="!$vuetify.breakpoint.smAndUp"
+              :small="!$vuetify.breakpoint.smAndUp"
+              color="primary"
+              @click="$vuetify.goTo('#contest-details');currentTab+=1"
+            >
               {{ content.tabs[currentTab+1].name }}
               <v-icon right dark>
                 {{ mdiArrowRight }}
