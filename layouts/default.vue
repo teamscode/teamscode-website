@@ -44,7 +44,7 @@
           </v-btn>
         </div>
       </v-container>
-      <template v-if="currentPath!=='/contests/spring-2022'" #extension>
+      <template v-if="!$route.path.startsWith('/contests/spring-2022')" #extension>
         <v-container class="py-0">
           <v-row>
             <div class="ml-2 mt-1 text-subtitle-1">
@@ -223,11 +223,6 @@ export default {
         title: 'About',
         link: '/about'
       }]
-    }
-  },
-  computed: {
-    currentPath () {
-      return this.$route.path
     }
   },
   methods: {
