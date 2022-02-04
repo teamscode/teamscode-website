@@ -23,7 +23,7 @@
       </v-icon>
     </v-btn>
 
-    <v-app-bar app height="70">
+    <v-app-bar app height="65">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
         <nuxt-link to="/" class="d-flex align-center text-decoration-none mr-3">
           <img src="/images/logo.png" alt="" width="42" height="42" class="mr-2">
@@ -44,6 +44,21 @@
           </v-btn>
         </div>
       </v-container>
+      <template v-if="currentPath!=='/contests/spring-2022'" #extension>
+        <v-container class="py-0">
+          <v-row>
+            <div class="ml-2 mt-1 text-subtitle-1">
+              TeamsCode Spring 2022 Contest is planned on Apr 02th, 2022. Featuring guest speaker Brian Dean.
+            </div>
+            <v-spacer />
+            <v-btn class="mr-3" color="primary" to="/contests/spring-2022">
+              SIGN UP NOW <v-icon right>
+                {{ mdiArrowRight }}
+              </v-icon>
+            </v-btn>
+          </v-row>
+        </v-container>
+      </template>
     </v-app-bar>
     <v-main>
       <Nuxt />
@@ -172,7 +187,7 @@
 </template>
 
 <script>
-import { mdiMenu, mdiEmailOutline, mdiMapMarkerOutline, mdiGithub, mdiDiscord, mdiInstagram, mdiYoutube } from '@mdi/js'
+import { mdiArrowRight, mdiMenu, mdiEmailOutline, mdiMapMarkerOutline, mdiGithub, mdiDiscord, mdiInstagram, mdiYoutube } from '@mdi/js'
 export default {
   data () {
     return {
@@ -183,6 +198,7 @@ export default {
       mdiDiscord,
       mdiInstagram,
       mdiYoutube,
+      mdiArrowRight,
       drawer: null,
       menu: [{
         title: 'Home',
@@ -207,6 +223,11 @@ export default {
         title: 'About',
         link: '/about'
       }]
+    }
+  },
+  computed: {
+    currentPath () {
+      return this.$route.path
     }
   },
   methods: {

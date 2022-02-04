@@ -30,7 +30,7 @@ export default {
 
   content: {
     // Only search in title and description
-    fullTextSearchFields: ['title', 'description', 'place', 'date', 'participants', 'status']
+    fullTextSearchFields: () => ['title', 'description', 'place', 'date', 'participants', 'status', 'author', 'slug', 'text']
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

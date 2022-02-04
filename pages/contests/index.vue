@@ -16,40 +16,6 @@
         </v-responsive>
       </v-container>
     </v-sheet>
-    <v-sheet color="surface">
-      <v-container class="py-4">
-        <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
-          <div class="text-center text-lg-left">
-            <div class="text-h4 mr-2">
-              Our next contest is planned for April 2022
-            </div>
-            <div class="text-h4 mr-2 primary--text">
-              Join Discord or mailing list to stay updated!
-            </div>
-          </div>
-          <v-spacer />
-          <div class="mt-lg-1 mt-4 mb-2">
-            <v-btn
-              :x-large="$vuetify.breakpoint.mdAndUp"
-              large
-              class="mx-sm-2 w-full w-sm-auto"
-              to="/contact"
-            >
-              Newsletter
-            </v-btn>
-            <v-btn
-              :x-large="$vuetify.breakpoint.mdAndUp"
-              large
-              class="mx-sm-2 w-full w-sm-auto mt-sm-0 mt-2"
-              color="primary"
-              @click="discordLink"
-            >
-              Join Discord
-            </v-btn>
-          </div>
-        </div>
-      </v-container>
-    </v-sheet>
     <v-sheet class="py-3">
       <v-container class="py-4">
         <v-row>
@@ -84,7 +50,7 @@ export default {
   },
   async fetch () {
     if (this.query) {
-      this.contests = await this.$content('contests').search(this.query).sortBy('date', 'desc').fetch()
+      this.contests = await this.$content('contests').search(this.query).fetch()
     } else {
       this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
     }

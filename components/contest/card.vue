@@ -1,5 +1,5 @@
 <template>
-  <v-card :to="link">
+  <v-card :to="link" :elevation="post.status==='Upcoming'?4:2">
     <v-img :src="post.image" height="200">
       <div class="text-right font-weight-bold">
         <v-chip v-if="post.status==='Upcoming'" text-color="white" color="green" class="ma-1">

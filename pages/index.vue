@@ -9,6 +9,9 @@
           <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
             TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
           </h2>
+          <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
+            Registration is open for Spring 2022 Contest! Access contest rules and details on Browse Contests page.
+          </h2>
           <div class="mt-4 mt-xl-10">
             <v-btn
               :x-large="$vuetify.breakpoint.smAndUp"
@@ -160,10 +163,10 @@
         <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
           <div class="text-center text-lg-left">
             <div class="text-h4 text-sm-h3 text-lg-h2">
-              Our next contest is planned for April 2022
+              Registration open for Spring 2022 Contest
             </div>
             <div class="text-h4 text-sm-h3 text-lg-h2 primary--text">
-              Join Discord to stay updated!
+              Sign up now to stay updated!
             </div>
           </div>
           <v-btn
@@ -171,9 +174,9 @@
             large
             class="mt-4 mx-sm-2 w-full w-sm-auto"
             color="primary"
-            @click="discordLink"
+            to="/contests/spring-2022"
           >
-            Join Discord
+            View Contest
           </v-btn>
         </div>
       </v-container>
@@ -367,12 +370,13 @@
 
 <script>
 import {
-  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert
+  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert, mdiBell
 } from '@mdi/js'
 export default {
   data () {
     return {
       mdiArrowRight,
+      mdiBell,
       banner: true,
       stats: [{
         title: 'Registrations',
