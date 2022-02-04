@@ -15,7 +15,7 @@ timeline:
   -
     - '9:00-11:00 AM'
     - 'Speaker Events with Brian Dean and Jonathan Paulson'
-    - 'Attend speaker events featuring Brian Dean, the head of USA Computing Olympiad, and Jonathan Paulson, Software Engineer at Amazon Web Services.'
+    - 'Attend speaker events featuring Brian Dean, the head of USA Computing Olympiad, and Jonathan Paulson.'
   -
     - '1:00-1:30 PM'
     - 'Opening Ceremony and Rule Review'
