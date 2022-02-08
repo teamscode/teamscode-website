@@ -30,7 +30,7 @@
               href="https://contest.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
-              @click="trackRegistration"
+              @click="openRegistration"
             >
               Contest Website
             </v-btn>
@@ -109,7 +109,7 @@
           </v-card>
           <v-tabs-items v-model="currentTab" class="mt-2">
             <v-tab-item v-for="tab in content.tabs" :key="tab.slug">
-              <v-btn v-if="tab.name==='Registration'" class="mt-2" large color="primary" @click="trackRegistration">
+              <v-btn v-if="tab.name==='Registration'" class="mt-2" large color="primary" @click="openRegistration">
                 Register Now
               </v-btn>
               <nuxt-content :document="tab" />
@@ -203,8 +203,7 @@ export default {
     }
   },
   methods: {
-    trackRegistration () {
-      console.log('hi')
+    openRegistration () {
       this.$gtag('event', 'signup', { screen_name: 'Contest Page' })
       window.open('https://contest.teamscode.org/?register=direct', '_blank')
     },
