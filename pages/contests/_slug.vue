@@ -13,9 +13,15 @@
           <div class="mt-2">
             <v-btn
               large
-              href="https://discord.com/invite/8pg89SS"
-              target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
+              @click="currentTab=1;$vuetify.goTo('#contest-details')"
+            >
+              Registration Instructions
+            </v-btn>
+            <v-btn
+              large
+              class="mr-2 mt-1 w-full w-sm-auto"
+              @click="discordLink"
             >
               Discord Server
             </v-btn>
@@ -24,15 +30,9 @@
               href="https://contest.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
+              @click="trackRegistration"
             >
               Contest Website
-            </v-btn>
-            <v-btn
-              large
-              class="mr-2 mt-1 w-full w-sm-auto"
-              @click="currentTab=1;$vuetify.goTo('#contest-details')"
-            >
-              Registration Info
             </v-btn>
             <v-btn
               large
@@ -64,8 +64,12 @@
               <template #opposite>
                 <span
                   class="text-h6 font-weight-bold"
-                  v-text="event[0]"
-                />
+                >
+                  {{ event[0] }}
+                </span>
+                <span class="text-h6">
+                  Pacific Time
+                </span>
               </template>
               <v-card>
                 <v-card-title class="text-h6" style="word-break: normal">
@@ -105,6 +109,9 @@
           </v-card>
           <v-tabs-items v-model="currentTab" class="mt-2">
             <v-tab-item v-for="tab in content.tabs" :key="tab.slug">
+              <v-btn v-if="tab.name==='Registration'" class="mt-2" large color="primary" @click="trackRegistration">
+                Register Now
+              </v-btn>
               <nuxt-content :document="tab" />
             </v-tab-item>
           </v-tabs-items>
@@ -193,6 +200,17 @@ export default {
           content: this.content.title
         }
       ]
+    }
+  },
+  methods: {
+    trackRegistration () {
+      console.log('hi')
+      this.$gtag('event', 'signup', { screen_name: 'Contest Page' })
+      window.open('https://contest.teamscode.org/?register=direct', '_blank')
+    },
+    discordLink () {
+      this.$gtag('event', 'discord', { screen_name: 'Contest Page' })
+      window.open('https://discord.com/invite/8pg89SS', '_blank')
     }
   }
 }

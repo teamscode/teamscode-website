@@ -19,11 +19,10 @@ Welcome to TeamsCode contests! Each team will only need one account on TeamsCode
 <br>
 Once you have these information, you can begin creating an account by following the below instructions.
 
-1. Navigate to [TeamsCode Contest Portal](https://contest.teamscode.org) ([https://contest.teamscode.org](https://contest.teamscode.org)).
-2. Click the "Register" button at the top right corner.
-3. Fill in the information about your team, all field are required. Team member 1 will be treated as the **team captain**. All teammates will receive the team password, so please use something that you are comfortable sharing with the rest of the team.
-4. Click register!
-5. Once you successful registered an account, all team members will receive a confirmation email at their inbox. The confirmation email will contain your team username and password. Please also check your promotion and spam folder if you couldn't find the email.
+1. Click on the "**Register Now**" button on top of this section. You will be guided to our Contest Portal and a registration window will pop up automatically.
+2. Fill in the information about your team, all field are required. Team member 1 will be treated as the **team captain**. All teammates will receive the team password, so please use something that you are comfortable sharing with the rest of the team.
+3. Click register!
+4. Once you successful registered an account, all team members will receive a confirmation email at their inbox. The confirmation email will contain your team username and password. Please also check your promotion and spam folder if you couldn't find the email.
 
 <br>
 Thank you for signing up! Save the contest date in your calendar and remember to submit at least one solution to be eligible for raffle!

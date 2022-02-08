@@ -24,7 +24,7 @@ name: Rules and Information
 <br>
 
 * Description: an overview of the problem.
-* Input Format: specifies how the input will be formatted, including constraints on the size of parameters.
+* Input Format: specifies how the input will be formatted, including constraints on the size of parameters. (constraints may be stated in the Description).
 * Output Format: specifies how the output should be formatted - if you don’t follow this format exactly, your answer will most likely be marked as incorrect.
 * Sample Input: provides a sample input to help you test your code.
 * Sample Output: provides the expected output to the sample input.
@@ -53,11 +53,24 @@ name: Rules and Information
 
 <br>
 
-* Novice/Intermediate/Advanced: There are around 10 total problems in ascending order of difficulty.
-* Novice/Intermediate/Advanced: Each problem has 10 tests. Easy problem tests are worth **10 points** each, Medium problem tests are worth **20 points** each, and Hard problem test cases are worth **30 points** each — Maximum of 3,000 points if all problems are correct.
-  * Note that each test may have multiple test cases where each test case must be solved correctly to get points for the test.
+### Problem Difficulty
+
+* There are ~10 total problems in ascending order of difficulty.
+
+### Problem Points
+
+* Each problem has some number of tests (usually 10 or 20). The entire problem is worth some number of points (usually 100). If you solve X tests correctly for a problem with Y tests and N total points, you get (X/Y * N) points.
+* Note that each test may have multiple test cases where each test case must be solved correctly to get points for the test.
 * Output must match **exactly** with expected output to receive points for the test case - there is no partial credit.
-* Ties will be broken by the timestamp on the last submission that increases your total score.
+
+### Problem Tests
+
+* The first test is always the sample given in the problem.
+* Some problems will have explicitly stated subtasks. For example, a problem with 10 tests may have tests 1-5 with N<=10 and tests 6-10 with N<=100.
+
+### Ties
+
+* Ties will be broken by the timestamp on the last correctly submitted problem.
 
 <br>
 
@@ -65,7 +78,7 @@ name: Rules and Information
 
 <br>
 
-* $3000+ in Amazon gift cards, raffle prizes, and Wolfram|Alpha Notebook Edition($72 in value each)
+* $4500+ in Amazon gift cards, raffle prizes, and Wolfram|Alpha Notebook Edition.
 * The top 5 scoring teams from the advanced division will win amazon gift cards, top 2 from intermediate will win amazon gift cards. The exact amounts each team member will win is listed here:
   <br>**Advanced**
   * 1st: $100 each

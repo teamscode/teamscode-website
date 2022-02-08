@@ -5,7 +5,7 @@ name: Sponsors
 
 <br>
 
-## Partner - <a href="https://x-camp.academy">X-Camp</a>
+## Partner - <a href="https://x-camp.academy" target="_blank">X-Camp</a>
 
 <a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
@@ -20,13 +20,13 @@ X-Camp prioritizes personalized education, with problem sets tailored to each st
 
 X-Camp’s staff are composed of senior software engineers from major technology companies in Silicon Valley. They have strong support from international and domestic competition winners.
 
-For more information, please visit <a href="https://x-camp.academy">their website</a>.
+For more information, please visit <a href="https://x-camp.academy" target="_blank">their website</a>.
 
 <br>
 
-## Partner - <a href="https://www.digipen.edu/">DigiPen</a>
+## Partner - <a href="https://www.digipen.edu/" target="_blank">DigiPen</a>
 
-<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.digipen.edu/" target="_blank"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About DigiPen
 
@@ -44,13 +44,13 @@ Some highlights:
 
 ·  DigiPen graduates are credited on 1,600+ commercial game titles
 
-For more information, please visit <a href="https://www.digipen.edu">their website</a>.
+For more information, please visit <a href="https://www.digipen.edu" target="_blank">their website</a>.
 
 <br>
 
-## Gold Sponsor - <a href="https://www.janestreet.com">Jane Street</a>
+## Gold Sponsor - <a href="https://www.janestreet.com" target="_blank">Jane Street</a>
 
-<a href="https://www.janestreet.com"><img src="/images/partners/janestreet.webp" alt="Jane Street" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.janestreet.com" target="_blank"><img src="/images/partners/janestreet.webp" alt="Jane Street" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Jane Street
 
@@ -58,9 +58,9 @@ Jane Street is a quantitative trading firm with offices worldwide. They hire sma
 
 <br>
 
-## Bronze Sponsor - <a href="https://www.wolfram.com">Wolfram</a>
+## Bronze Sponsor - <a href="https://www.wolfram.com" target="_blank">Wolfram</a>
 
-<a href="https://www.wolfram.com"><img src="/images/partners/wolfram.webp" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.wolfram.com" target="_blank"><img src="/images/partners/wolfram.webp" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Wolfram
 
@@ -68,8 +68,8 @@ The Wolfram Language allows programmers to operate at a significantly higher lev
 
 <br>
 
-## Affiliate -  <a href="https://www.joincpi.org/">Competitive Programming Initiative</a>
+## Affiliate -  <a href="https://www.joincpi.org/" target="_blank">Competitive Programming Initiative</a>
 
-<a href="https://joincpi.org/"><img src="/images/partners/cpi.webp" alt="CPI" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://joincpi.org/" target="_blank"><img src="/images/partners/cpi.webp" alt="CPI" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
-If you're interested in more high school programming contests, sign up for the Competitive Programming Initiative's contest <a href="https://joincpi.org/contests">here</a>.
+If you're interested in more high school programming contests, sign up for the Competitive Programming Initiative's contest <a href="https://joincpi.org/contests" target="_blank">here</a>.
