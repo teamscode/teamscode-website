@@ -69,16 +69,16 @@ name: Rules and Information
 * The top 5 scoring teams from the advanced division will win amazon gift cards, top 2 from intermediate will win amazon gift cards. The exact amounts each team member will win is listed here:
   <br>**Advanced**
   * 1st: $100 each
-  * 2nd: $50 each
-  * 3rd: $25 each
-  * 4th: $15 each
+  * 2nd: $75 each
+  * 3rd: $50 each
+  * 4th: $25 each
   * 5th: $10 each
   **Intermediate**
   * 1st: $40 each
-  * 2nd: $10 each
+  * 2nd: $20 each
   * 3rd: $10 each
   **Novice**
-  * 1st:$20 each
+  * 1st: $20 each
   Members from the top team in the advanced division will receive custom TeamsCode t-shirts.
 * Everyone in your team will earn one raffle ticket once you submit your first solution.
 * Raffle prizes will be drawn in the last half hour of the contest using a random number generator - we will email those selected for shipment details immediately following the contest.
