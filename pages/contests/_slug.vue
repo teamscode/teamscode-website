@@ -21,6 +21,14 @@
             </v-btn>
             <v-btn
               large
+              href="https://contest.teamscode.org"
+              target="_blank"
+              class="mr-2 mt-1 w-full w-sm-auto"
+            >
+              Contest Website
+            </v-btn>
+            <v-btn
+              large
               class="mr-2 mt-1 w-full w-sm-auto"
               @click="currentTab=1;$vuetify.goTo('#contest-details')"
             >
