@@ -44,11 +44,26 @@
           </v-btn>
         </div>
       </v-container>
-      <template v-if="!$route.path.startsWith('/contests/spring-2022')" #extension>
+      <template v-if="!$route.path.startsWith('/contests/spring-2022')&&$vuetify.breakpoint.lgAndUp" #extension>
         <v-container class="py-0">
-          <v-row>
+          <v-row wrap>
             <div class="ml-2 mt-1 text-subtitle-1">
               TeamsCode Spring 2022 Contest is planned on Apr 02th, 2022. Featuring guest speaker Brian Dean.
+            </div>
+            <v-spacer />
+            <v-btn class="mr-3" color="primary" to="/contests/spring-2022">
+              SIGN UP NOW <v-icon right>
+                {{ mdiArrowRight }}
+              </v-icon>
+            </v-btn>
+          </v-row>
+        </v-container>
+      </template>
+      <template v-else-if="!$route.path.startsWith('/contests/spring-2022')&&$vuetify.breakpoint.smAndUp" #extension>
+        <v-container class="py-0">
+          <v-row wrap>
+            <div class="ml-2 mt-1 text-subtitle-1">
+              TeamsCode's Next Contest is planned on Apr 02th, 2022.
             </div>
             <v-spacer />
             <v-btn class="mr-3" color="primary" to="/contests/spring-2022">

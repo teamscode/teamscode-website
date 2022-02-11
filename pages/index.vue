@@ -1,6 +1,9 @@
 <template>
   <div>
-    <v-container class="pb-6 pt-8">
+    <v-container class="pb-6 pt-6">
+      <v-alert color="primary" outlined :icon="mdiBell">
+        Registration is open for Spring 2022 Contest! Browse Contests to view contest details and rules.
+      </v-alert>
       <v-row>
         <v-col cols="12" lg="7">
           <h1 class="text-h2 text-lg-h1 mt-xl-4">
@@ -8,9 +11,6 @@
           </h1>
           <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
             TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
-          </h2>
-          <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
-            Registration is open for Spring 2022 Contest! Access contest rules and details on Browse Contests page.
           </h2>
           <div class="mt-4 mt-xl-10">
             <v-btn
