@@ -79,7 +79,7 @@ name: Rules and Information
 <br>
 
 * $4500+ in Amazon gift cards, raffle prizes, and Wolfram|Alpha Notebook Edition.
-* The top 5 scoring teams from the advanced division will win amazon gift cards, top 2 from intermediate will win amazon gift cards. The exact amounts each team member will win is listed here:
+* The top 5 scoring teams from the advanced division, top 3 from the intermediate division, and top 1 from the novice division will win amazon gift cards as well as a Wolfram|Alpha Notebook Edition. The exact amounts each team member will win is listed here:
   <br>**Advanced**
   * 1st: $100 each
   * 2nd: $75 each
