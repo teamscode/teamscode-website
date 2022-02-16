@@ -13,9 +13,22 @@ name: Rules and Information
 * May not receive any help from anyone outside of their team.
 * Teams may use multiple computers and submit answers in multiple languages.
 * Pre-written code and online reference guides are allowed (Essentially internet is allowed as long as you’re not asking people how to solve our problem).
-* There are **three divisions**: **Novice**, **Intermediate**, and **Advanced**. The novice division is intended for students who know programming (taking or have taken APCS/USACO Bronze-Silver) but have not started competitive programming; the intermediate division is intended for students with some competitive programming experience(USACO Silver to Gold); the advanced division is intended for anyone who is confident in their competitive programming ability (USACO Gold and above).
+* There are three divisions: **Novice**, **Intermediate**, and **Advanced**.
+  * The novice division is intended for students who know programming but have not started or have just started competitive programming:
+    * Taking or have taken APCS
+    * USACO Bronze-Silver
+    * 0 - 1300 Codeforces rating
+  * The intermediate division is intended for students with some competitive programming experience:
+    * USACO Silver to Gold
+    * 1300 - 1900 Codeforces rating
+  * The advanced division is intended for anyone who is confident in their competitive programming ability:
+    * USACO Gold and above
+    * 1900+ Codeforces rating
 * Contest page [https://contest.teamscode.org](https://contest.teamscode.org)
 * Join our discord server here: [https://discord.com/invite/8pg89SS](https://discord.com/invite/8pg89SS) for important contest announcements or if you have any questions.
+* Try more problems from the last contest:
+  * <https://codeforces.com/gym/103241>
+  * You will need to make a codeforces account: <https://codeforces.com/register>
 
 <br>
 
@@ -59,7 +72,7 @@ name: Rules and Information
 
 ### Problem Points
 
-* Each problem has some number of tests (usually 10 or 20). The entire problem is worth some number of points (usually 100). If you solve X tests correctly for a problem with Y tests and N total points, you get (X/Y * N) points.
+* All problems are each worth 100 points. Each problem has some number of tests (usually 10 or 20). If you solve X tests correctly for a problem with Y tests, you get (X/Y * 100) points.
 * Note that each test may have multiple test cases where each test case must be solved correctly to get points for the test.
 * Output must match **exactly** with expected output to receive points for the test case - there is no partial credit.
 
