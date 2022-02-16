@@ -5,7 +5,7 @@
         <v-subheader class="text-uppercase font-weight-bold">
           TeamsCode
         </v-subheader>
-        <v-list-item v-for="(item, index) in menu" :key="index" :to="item.link">
+        <v-list-item v-for="(item, index) in allPages" :key="index" :to="item.link">
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
@@ -33,15 +33,46 @@
         </nuxt-link>
         <v-spacer />
         <div class="d-none d-md-flex">
-          <v-btn
+          <div
             v-for="(item, index) in menu"
             :key="index"
-            text
-            style="margin-right: 5px"
-            :to="item.link"
           >
-            {{ item.title }}
-          </v-btn>
+            <v-btn
+              v-if="item.link"
+              text
+              style="margin-right: 5px"
+              :to="item.link"
+            >
+              {{ item.title }}
+            </v-btn>
+            <v-menu
+              v-else-if="item.children"
+              offset-y
+            >
+              <template #activator="{ on, attrs }">
+                <v-btn
+                  text
+                  style="margin-right: 5px"
+                  v-bind="attrs"
+                  v-on="on"
+                >
+                  {{ item.title }}
+                </v-btn>
+              </template>
+              <v-list>
+                <v-list-item
+                  v-for="(child, cindex) in item.children"
+                  :key="cindex"
+                  link
+                  :to="child.link"
+                >
+                  <v-list-item-title>
+                    {{ child.title }}
+                  </v-list-item-title>
+                </v-list-item>
+              </v-list>
+            </v-menu>
+          </div>
         </div>
       </v-container>
       <template v-if="!$route.path.startsWith('/contests/spring-2022')&&$vuetify.breakpoint.lgAndUp" #extension>
@@ -87,7 +118,7 @@
             </div>
             <div style="width: 80px; height: 4px" class="mb-5 mt-1 secondary" />
             <div class="d-flex flex-wrap">
-              <div v-for="(link, i) in menu" :key="i" class="w-half body-1 mb-1">
+              <div v-for="(link, i) in allPages" :key="i" class="w-half body-1 mb-1">
                 <nuxt-link
                   v-if="link.link"
                   class="text-decoration-none secondary--text text--lighten-2"
@@ -232,12 +263,25 @@ export default {
         title: 'Contact',
         link: '/contact'
       }, {
-        title: 'Sponsors',
-        link: '/sponsors'
+        title: 'Partners',
+        children: [{ title: 'Sponsors', link: '/sponsors' }, { title: 'Affiliates', link: '/affiliates' }]
       }, {
         title: 'About',
         link: '/about'
       }]
+    }
+  },
+  computed: {
+    allPages () {
+      const pages = []
+      this.menu.forEach((item) => {
+        if (item.link) {
+          pages.push(item)
+        } else if (item.children) {
+          item.children.forEach((child) => { pages.push(child) })
+        }
+      })
+      return pages
     }
   },
   methods: {
