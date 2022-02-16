@@ -82,12 +82,12 @@ export default {
   },
   head () {
     return {
-      title: 'Sponsors',
+      title: 'Affiliates',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Our sponsors help us bring a better contests to more people. We partner with coding schools and other nonprofit organizations to spread CS education to high school students.'
+          content: 'Our partners and friend organizations. We work with other CS clubs and competitions to foster a community.'
         }
       ]
     }
