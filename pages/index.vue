@@ -344,7 +344,13 @@
             </div>
             <div class="mt-4 d-none d-md-block">
               <v-btn to="/sponsors" outlined large color="primary">
-                Learn More
+                Sponsors
+                <v-icon right dark>
+                  {{ mdiArrowRight }}
+                </v-icon>
+              </v-btn>
+              <v-btn to="/affiliates" outlined large color="primary" class="ml-2">
+                Affiliates
                 <v-icon right dark>
                   {{ mdiArrowRight }}
                 </v-icon>

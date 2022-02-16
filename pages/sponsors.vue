@@ -4,7 +4,7 @@
       <v-container class="py-8">
         <div class="text-center">
           <h2 class="text-h3 text-lg-h2">
-            Our sponsors and friend organizations
+            Our partners and sponsors
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-h6 text-lg-h5 mt-4">
@@ -162,23 +162,6 @@
               alt="Lions"
               style="width:80px;"
             /></a>
-          </v-row>
-        </div>
-        <div class="text-center mt-8 mb-3">
-          <h2 class="pb-1">
-            <b>Affiliates</b>
-          </h2>
-          <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://joincpi.org/"><v-img
-              src="/images/partners/cpi.webp"
-              alt="CPI"
-              style="width: 300px; margin-right: 30px;"
-            /></a>
-            <a target="_blank" href="https://www.compcs.org/"><v-img src="/images/partners/ccc.webp" alt="CCC" style="width: 220px; margin-right: 30px;" /></a>
-            <a target="_blank" href="https://lit.lhsmathcs.org/"><v-img src="/images/partners/lit.webp" alt="LIT" style="width: 220px; margin-right: 30px;" /></a>
-            <a target="_blank" href="https://www.harkerprogrammingclub.org/"><v-img src="/images/partners/hpi.webp" alt="HPI" style="width: 220px; margin-right: 30px;" /></a>
-            <a target="_blank" href="https://mbit.mbhs.edu/"><v-img src="/images/partners/mbit.webp" alt="mBIT" style="width: 220px; margin-right: 30px;" /></a>
-            <a target="_blank" href="https://www.noctemdevelopment.org/"><v-img src="/images/partners/noctem.webp" alt="Noctem" style="width: 160px;" /></a>
           </v-row>
         </div>
       </v-container>
