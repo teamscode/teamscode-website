@@ -27,5 +27,5 @@ timeline:
   -
     - '4:30-5:00 PM'
     - 'Raffle and Contest Winners Announcement + Closing Ceremony'
-    - 'Tune to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
+    - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
 ---
