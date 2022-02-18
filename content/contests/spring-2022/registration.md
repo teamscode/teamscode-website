@@ -14,7 +14,7 @@ Welcome to TeamsCode contests! Each team will only need one account on TeamsCode
 * A team name, be creative and keep it appropriate.
 * A username, this will be your unique login handler.
 * A team password, this password will be shared among all team members.
-* The name, email, and high school graduation year of each team member.
+* The name, email, and high school graduation year of each team member. If any team member has graduated from high school, simply put the year they graduated in the high school graduation year field.
 
 <br>
 Once you have these information, you can begin creating an account by following the below instructions.
