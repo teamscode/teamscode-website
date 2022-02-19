@@ -13,17 +13,17 @@ name: Rules and Information
 * May not receive any help from anyone outside of their team.
 * Teams may use multiple computers and submit answers in multiple languages.
 * Pre-written code and online reference guides are allowed (Essentially internet is allowed as long as you’re not asking people how to solve our problem).
-* There are three divisions: **Novice**, **Intermediate**, and **Advanced**.
+* There are three divisions: **Novice**, **Intermediate**, and **Advanced**. We expect each division will be interesting for participants of the following skill levels:
   * The novice division is intended for students who know programming but have not started or have just started competitive programming:
     * Taking or have taken APCS
     * USACO Bronze-Silver
     * 0 - 1300 Codeforces rating
   * The intermediate division is intended for students with some competitive programming experience:
     * USACO Silver to Gold
-    * 1300 - 1900 Codeforces rating
+    * 1000 - 1800 Codeforces rating
   * The advanced division is intended for anyone who is confident in their competitive programming ability:
     * USACO Gold and above
-    * 1900+ Codeforces rating
+    * 1600+ Codeforces rating
 * Contest page [https://contest.teamscode.org](https://contest.teamscode.org)
 * Join our discord server here: [https://discord.com/invite/8pg89SS](https://discord.com/invite/8pg89SS) for important contest announcements or if you have any questions.
 * Try more problems from the last contest:
