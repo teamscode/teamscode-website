@@ -9,8 +9,8 @@ name: Rules and Information
 
 <br>
 
-* Only middle or high school students (rising 6th - senior) are eligible for prizes, however everyone (college students, workers) is welcome to compete.
-* May not receive any help from anyone outside of their team.
+* Only teams with only middle or high school students (rising 6th - senior) are eligible for prizes, however everyone (college students, workers) is welcome to compete.
+* Each team may have up to 4 people. Team members may not receive any help from anyone outside of their team.
 * Teams may use multiple computers and submit answers in multiple languages.
 * Pre-written code and online reference guides are allowed (Essentially internet is allowed as long as you’re not asking people how to solve our problem).
 * There are three divisions: **Novice**, **Intermediate**, and **Advanced**. We expect each division will be interesting for participants of the following skill levels:
