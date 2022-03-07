@@ -7,6 +7,22 @@ tabs:
   - sponsors
 title: Spring 2022 Virtual Programming Contest
 date: '2022-04-02'
+brief_info:
+  -
+    - 'Date'
+    - 'Apr 2nd, 2022'
+  -
+    - 'Team Size'
+    - '1-4 People'
+  -
+    - 'Fee'
+    - 'Free'
+  -
+    - 'Prize Pool'
+    - '$4500+'
+team_size: '1-4'
+fee: 'Free'
+divisions: '3'
 time: '9:00 AM - 5:00 PM Pacific Time'
 status: Upcoming
 place: Youtube Live

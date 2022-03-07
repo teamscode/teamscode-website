@@ -47,14 +47,26 @@
       </v-sheet>
       <v-sheet>
         <v-container class="py-4 py-lg-4">
-          <v-alert
+          <!--v-alert
             v-if="content.status==='Upcoming'"
             type="info"
             outlined
             :icon="mdiInformation"
           >
             We will be updating this page with specific details and links as contest date approaches. Register now to receive updates and announcements in your inbox!
-          </v-alert>
+          </v-alert-->
+          <v-row class="text-center mb-2">
+            <v-col v-for="card in content.brief_info" :key="card[0]" cols="12" md="3" class="pb-0">
+              <v-card class="pa-2">
+                <div class="text-h5 font-weight-medium">
+                  {{ card[1] }}
+                </div>
+                <div class="text-body text--secondary">
+                  {{ card[0] }}
+                </div>
+              </v-card>
+            </v-col>
+          </v-row>
           <h2 class="text-h4 py-2">
             Schedule Overview
           </h2>

@@ -2,6 +2,17 @@
 slug: rules
 name: Rules and Information
 ---
+<br>
+
+## Speaker Information
+
+</br>
+
+* Brian Dean - Brian Dean received his PhD from MIT in 2005 and is currently Professor and Chair of the computer science division in the Clemson University School of Computing.  He also directs the USACO, which promotes algorithmic problem-solving at the high-school level and trains the team of top high-school computing students fielded by the USA at the International Olympiad in Informatics.
+* Jonathon Paulson - Jonathan has been a USACO coach since 2014. He started competitive programming in 2009 with ACM-ICPC at Carnegie Mellon; his team placed 11th in ICPC 2013. He placed 7th in Google Code Jam 2013 and 3rd in Advent of Code 2019.  [Here](https://www.youtube.com/channel/UCuWLIm0l4sDpEe28t41WITA) is his competitive programming YouTube channel.  He works as a software engineer at Jump Trading.
+* Schedule:
+  * 9:00-10:00 / Brian Dean - Background on USACO and his current research at the intersection of algorithmic computer science, game theory, AI, and biomedical applications.
+  * 10:00-11:00 / Jonathan Paulson - Careers in computer science and current big areas in the field.
 
 <br>
 
