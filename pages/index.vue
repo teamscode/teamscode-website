@@ -1,9 +1,6 @@
 <template>
   <div>
     <v-container class="pb-6 pt-6">
-      <v-alert color="primary" outlined :icon="mdiBell">
-        Registration is open for Spring 2022 Contest! Browse Contests to view contest details and rules.
-      </v-alert>
       <v-row>
         <v-col cols="12" lg="7">
           <h1 class="text-h2 text-lg-h1 mt-xl-4">
