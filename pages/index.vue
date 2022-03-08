@@ -30,7 +30,7 @@
           </div>
         </v-col>
         <v-col cols="12" lg="5" class="d-none d-lg-flex">
-          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" :src="require('/static/images/hero.webp')" :lazy-src="require('/static/images/hero-placeholder.webp')" alt="Hero" />
+          <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" src="/images/hero.webp" lazy-src="/images/hero-placeholder.webp" alt="Hero" />
         </v-col>
       </v-row>
     </v-container>
@@ -449,21 +449,21 @@ export default {
         description: 'TeamsCode Contest Portal offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],
       logos: [{
-        image: require('@/static/images/partners/xcamp.webp')
+        image: '/images/partners/xcamp.webp'
       }, {
-        image: require('@/static/images/partners/digipen.webp')
+        image: '/images/partners/digipen.webp'
       }, {
-        image: require('@/static/images/partners/cpi.webp')
+        image: '/images/partners/cpi.webp'
       }, {
-        image: require('@/static/images/partners/janestreet.webp')
+        image: '/images/partners/janestreet.webp'
       }, {
-        image: require('@/static/images/partners/wolfram.webp')
+        image: '/images/partners/wolfram.webp'
       }, {
-        image: require('@/static/images/partners/lit.webp')
+        image: '/images/partners/lit.webp'
       }, {
-        image: require('@/static/images/partners/mbit.webp')
+        image: '/images/partners/mbit.webp'
       }, {
-        image: require('@/static/images/partners/hpi.webp')
+        image: '/images/partners/hpi.webp'
       }],
       contests: []
     }

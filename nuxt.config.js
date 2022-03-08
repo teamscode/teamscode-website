@@ -64,7 +64,8 @@ export default {
       defaultAssets: {
         font: false,
         icons: false
-      }
+      },
+      extractCSS: true
     }],
     'nuxt-compress',
     '@nuxtjs/robots',
