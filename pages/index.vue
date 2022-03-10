@@ -321,7 +321,7 @@
         </v-row>
         <div class="mt-4 text-right">
           <v-btn to="/about" outlined large color="primary">
-            Learn More
+            About TeamsCode
             <v-icon right dark>
               {{ mdiArrowRight }}
             </v-icon>
@@ -379,7 +379,13 @@
             <SponsorLogos :logos="logos" />
             <div class="d-md-none text-right mt-4 mr-4">
               <v-btn to="/sponsors" outlined large color="primary">
-                Learn More
+                Sponsors
+                <v-icon right dark>
+                  {{ mdiArrowRight }}
+                </v-icon>
+              </v-btn>
+              <v-btn to="/affiliates" outlined large color="primary" class="ml-2">
+                Affiliates
                 <v-icon right dark>
                   {{ mdiArrowRight }}
                 </v-icon>
@@ -455,19 +461,19 @@ export default {
       }],
       contestFeatures: [{
         icon: mdiHeadLightbulb,
-        title: 'Team Contests',
-        description: 'Work with your friends to solve challenging competitive programming problem and inspire each other. There is always more than one creative way to solve a problem, just like there are to collaborate on a contest! '
+        title: 'Contest Format',
+        description: 'Our contests encourage teaming up with your friends to solve interesting competitive programming problem and inspire each other. Either divide and conquer or start a discussion on challenging problems.'
       }, {
         icon: mdiGift,
-        title: 'Our Prizes',
+        title: 'Contest Prizes',
         description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top high school finishers in Intermediate and Advanced division while everyone is welcomed to participate. We also have cool prizes for raffle winners! '
       }, {
         icon: mdiFileDocumentMultiple,
-        title: 'Our Problem Set',
-        description: 'TeamsCode\'s problem sets are carefully created by our problem writing team (many of the members are in USACO Platinum!). These problems cover a variety of topics in different levels while featuring an interesting context.'
+        title: 'Contest Problem Set',
+        description: 'TeamsCode\'s problem sets are carefully created by our problem writing team. These problems cover a variety of topics in different levels while featuring an interesting context.'
       }, {
         icon: mdiMessageAlert,
-        title: 'Our Technology',
+        title: 'Contest Technology',
         description: 'TeamsCode Contest Portal offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
       }],
       logos: [{

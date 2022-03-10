@@ -31,7 +31,7 @@
                   </div>
                   <div class="text-right">
                     <v-btn depressed color="primary" :href="affiliate.link" target="_blank">
-                      Their Website
+                      Website
                     </v-btn>
                   </div>
                 </div>
