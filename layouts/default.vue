@@ -1,20 +1,8 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" app temporary>
-      <v-list dense nav>
-        <v-subheader class="text-uppercase font-weight-bold">
-          TeamsCode
-        </v-subheader>
-        <v-list-item v-for="(item, index) in menu" :key="index" :to="item.link">
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-
     <v-app-bar
       app
+      height="56"
       :extension-height="$vuetify.breakpoint.smAndDown ? 0 : 60"
     >
       <v-container class="d-flex pa-0 align-center">
@@ -30,7 +18,7 @@
         <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
           Registration is open for TeamsCode Spring 2022 Contest!
         </div>
-        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/spring-2022')">
+        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2022" class="mr-1" :disabled="$route.path.startsWith('/contests/spring-2022')">
           Upcoming Contest<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
@@ -39,7 +27,7 @@
 
       <template #extension>
         <v-container class="py-0 d-none d-md-block fill-height">
-          <v-divider />
+          <v-divider class="ml-0" />
           <v-row class="d-flex justify-space-between mt-1 text-body-2 text-lg-body-1 layout-menu">
             <div
               v-for="(item, index) in menu"
@@ -48,7 +36,6 @@
               <v-btn
                 v-if="item.link"
                 text
-                style="margin-right: 5px"
                 :to="item.link"
               >
                 <span class="text-uppercase">{{ item.title }}</span>
@@ -58,39 +45,7 @@
         </v-container>
       </template>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" app temporary>
-      <v-list dense nav>
-        <v-subheader class="text-uppercase font-weight-bold">
-          TeamsCode
-        </v-subheader>
-        <v-list-item v-for="(item, index) in allPages" :key="index" :to="item.link">
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-      <template #append>
-        <div class="pa-2">
-          <v-btn color="primary" to="/contests/spring-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/spring-2022')">
-            Upcoming Contest<v-icon right>
-              {{ mdiArrowRight }}
-            </v-icon>
-          </v-btn>
-        </div>
-      </template>
-    </v-navigation-drawer>
-
-    <v-btn
-      class="d-md-none drawer-button"
-      rounded
-      @click="drawer = !drawer"
-    >
-      <v-icon right>
-        {{ mdiMenu }}
-      </v-icon>
-    </v-btn>
-
-    <v-main>
+    <v-main style="padding-top: 116px">
       <Nuxt />
     </v-main>
     <v-footer color="surface">
@@ -213,6 +168,37 @@
         </div>
       </v-container>
     </v-footer>
+    <v-navigation-drawer v-model="drawer" app temporary>
+      <v-list dense nav>
+        <v-subheader class="text-uppercase font-weight-bold">
+          TeamsCode
+        </v-subheader>
+        <v-list-item v-for="(item, index) in allPages" :key="index" :to="item.link">
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+      <template #append>
+        <div class="pa-2">
+          <v-btn color="primary" to="/contests/spring-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/spring-2022')">
+            Upcoming Contest<v-icon right>
+              {{ mdiArrowRight }}
+            </v-icon>
+          </v-btn>
+        </div>
+      </template>
+    </v-navigation-drawer>
+
+    <v-btn
+      class="d-md-none drawer-button"
+      rounded
+      @click="drawer = !drawer"
+    >
+      <v-icon right>
+        {{ mdiMenu }}
+      </v-icon>
+    </v-btn>
   </v-app>
 </template>
 
