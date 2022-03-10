@@ -5,12 +5,79 @@
         <v-subheader class="text-uppercase font-weight-bold">
           TeamsCode
         </v-subheader>
+        <v-list-item v-for="(item, index) in menu" :key="index" :to="item.link">
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-app-bar
+      app
+      :extension-height="$vuetify.breakpoint.smAndDown ? 0 : 60"
+    >
+      <v-container class="d-flex pa-0 align-center">
+        <nuxt-link to="/" class="d-flex align-center text-decoration-none ">
+          <v-img src="/images/logo.png" alt="TeamsCode Logo" width="42" height="42" class="mr-2" />
+          <span class="font-weight-bold text-h5">
+            TEAMSCODE
+          </span>
+        </nuxt-link>
+
+        <v-spacer />
+
+        <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
+          Registration is open for TeamsCode Spring 2022 Contest!
+        </div>
+        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/spring-2022')">
+          Upcoming Contest<v-icon right>
+            {{ mdiArrowRight }}
+          </v-icon>
+        </v-btn>
+      </v-container>
+
+      <template #extension>
+        <v-container class="py-0 d-none d-md-block fill-height">
+          <v-divider />
+          <v-row class="d-flex justify-space-between mt-1 text-body-2 text-lg-body-1 layout-menu">
+            <div
+              v-for="(item, index) in menu"
+              :key="index"
+            >
+              <v-btn
+                v-if="item.link"
+                text
+                style="margin-right: 5px"
+                :to="item.link"
+              >
+                <span class="text-uppercase">{{ item.title }}</span>
+              </v-btn>
+            </div>
+          </v-row>
+        </v-container>
+      </template>
+    </v-app-bar>
+    <v-navigation-drawer v-model="drawer" app temporary>
+      <v-list dense nav>
+        <v-subheader class="text-uppercase font-weight-bold">
+          TeamsCode
+        </v-subheader>
         <v-list-item v-for="(item, index) in allPages" :key="index" :to="item.link">
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <template #append>
+        <div class="pa-2">
+          <v-btn color="primary" to="/contests/spring-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/spring-2022')">
+            Upcoming Contest<v-icon right>
+              {{ mdiArrowRight }}
+            </v-icon>
+          </v-btn>
+        </div>
+      </template>
     </v-navigation-drawer>
 
     <v-btn
@@ -23,89 +90,6 @@
       </v-icon>
     </v-btn>
 
-    <v-app-bar app height="65">
-      <v-container class="py-0 px-0 px-sm-2 fill-height">
-        <nuxt-link to="/" class="d-flex align-center text-decoration-none mr-3">
-          <img src="/images/logo.png" alt="" width="42" height="42" class="mr-2">
-          <span class="font-weight-bold text-h5">
-            TEAMSCODE
-          </span>
-        </nuxt-link>
-        <v-spacer />
-        <div class="d-none d-md-flex">
-          <div
-            v-for="(item, index) in menu"
-            :key="index"
-          >
-            <v-btn
-              v-if="item.link"
-              text
-              style="margin-right: 5px"
-              :to="item.link"
-            >
-              {{ item.title }}
-            </v-btn>
-            <v-menu
-              v-else-if="item.children"
-              offset-y
-            >
-              <template #activator="{ on, attrs }">
-                <v-btn
-                  text
-                  style="margin-right: 5px"
-                  v-bind="attrs"
-                  v-on="on"
-                >
-                  {{ item.title }}
-                </v-btn>
-              </template>
-              <v-list>
-                <v-list-item
-                  v-for="(child, cindex) in item.children"
-                  :key="cindex"
-                  link
-                  :to="child.link"
-                >
-                  <v-list-item-title>
-                    {{ child.title }}
-                  </v-list-item-title>
-                </v-list-item>
-              </v-list>
-            </v-menu>
-          </div>
-        </div>
-      </v-container>
-      <template v-if="!$route.path.startsWith('/contests/spring-2022')&&$vuetify.breakpoint.lgAndUp" #extension>
-        <v-container class="py-0">
-          <v-row wrap>
-            <div class="ml-2 mt-1 text-subtitle-1">
-              TeamsCode Spring 2022 Contest is planned on Apr 02th, 2022. Featuring guest speaker Brian Dean.
-            </div>
-            <v-spacer />
-            <v-btn class="mr-3" color="primary" to="/contests/spring-2022">
-              SIGN UP NOW <v-icon right>
-                {{ mdiArrowRight }}
-              </v-icon>
-            </v-btn>
-          </v-row>
-        </v-container>
-      </template>
-      <template v-else-if="!$route.path.startsWith('/contests/spring-2022')&&$vuetify.breakpoint.smAndUp" #extension>
-        <v-container class="py-0">
-          <v-row wrap>
-            <div class="ml-2 mt-1 text-subtitle-1">
-              TeamsCode's Next Contest is planned on Apr 02th, 2022.
-            </div>
-            <v-spacer />
-            <v-btn class="mr-3" color="primary" to="/contests/spring-2022">
-              SIGN UP NOW <v-icon right>
-                {{ mdiArrowRight }}
-              </v-icon>
-            </v-btn>
-          </v-row>
-        </v-container>
-      </template>
-    </v-app-bar>
     <v-main>
       <Nuxt />
     </v-main>
@@ -263,8 +247,12 @@ export default {
         title: 'Contact',
         link: '/contact'
       }, {
-        title: 'Partners',
-        children: [{ title: 'Sponsors', link: '/sponsors' }, { title: 'Affiliates', link: '/affiliates' }]
+        title: 'Sponsors',
+        link: '/sponsors'
+      },
+      {
+        title: 'Affiliates',
+        link: '/affiliates'
       }, {
         title: 'About',
         link: '/about'
