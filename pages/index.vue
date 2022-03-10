@@ -8,8 +8,15 @@
         <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
           TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
         </h2>
-        <v-alert class="mt-6" type="info" rounded text :icon="mdiBell">
-          Registration is open for our Spring 2022 Virtual Contest, featuring guest speaker Brian Dean. Browse Contests to check out our upcoming event!
+        <v-alert
+          class="mt-6"
+          color="primary"
+          rounded
+          text
+          transition="none"
+          :icon="mdiBell"
+        >
+          Registration is open for our Spring 2022 Virtual Contest, featuring guest speaker Brian Dean! Browse Contests to check out our upcoming event!
         </v-alert>
         <div class="mt-4">
           <v-btn
