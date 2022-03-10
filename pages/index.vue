@@ -18,7 +18,7 @@
         >
           Registration is open for our Spring 2022 Virtual Contest, featuring guest speaker Brian Dean! Browse Contests to check out our upcoming event!
         </v-alert>
-        <div class="mt-4">
+        <div id="button-section" class="mt-4">
           <v-btn
             :x-large="$vuetify.breakpoint.smAndUp"
             large
@@ -42,7 +42,7 @@
     <svg class="logos-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1442 163">
       <path d="m-3.90909,6l48.30303,16c48.30303,16 144.90908,48 241.51514,48c96.60606,0 193.21211,-32 289.81817,-32c96.60606,0 193.21211,32 289.81817,53.3c96.60606,21.7 193.21211,31.7 289.81817,16c96.60606,-16.3 193.21211,-58.3 241.51514,-80l48.30303,-21.3l0,160l-48.30303,0c-48.30303,0 -144.90908,0 -241.51514,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -241.51514,0l-48.30303,0l0,-160z" />
     </svg>
-    <v-container class="py-4 py-lg-6">
+    <v-container class="pb-4 pt-4 pb-lg-6">
       <div class="text-center text-md-left">
         <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
           Our Mission
@@ -566,5 +566,10 @@ filter: grayscale(100%) brightness(2);
 }
 .logos5 a:hover img {
   filter: none;
+}
+@media only screen and (min-width: 600px) {
+  #button-section {
+    height: 40px;
+  }
 }
 </style>

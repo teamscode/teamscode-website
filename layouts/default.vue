@@ -45,7 +45,16 @@
         </v-container>
       </template>
     </v-app-bar>
-    <v-main style="padding-top: 116px">
+    <v-btn
+      class="d-md-none drawer-button"
+      rounded
+      @click="drawer = !drawer"
+    >
+      <v-icon right>
+        {{ mdiMenu }}
+      </v-icon>
+    </v-btn>
+    <v-main id="main-content">
       <Nuxt />
     </v-main>
     <v-footer color="surface">
@@ -189,16 +198,6 @@
         </div>
       </template>
     </v-navigation-drawer>
-
-    <v-btn
-      class="d-md-none drawer-button"
-      rounded
-      @click="drawer = !drawer"
-    >
-      <v-icon right>
-        {{ mdiMenu }}
-      </v-icon>
-    </v-btn>
   </v-app>
 </template>
 
@@ -276,5 +275,10 @@ export default {
   top: 60px;
   left: -22px;
   z-index: 6;
+}
+@media only screen and (min-width: 960px) {
+  #main-content {
+    padding-top: 116px !important;
+  }
 }
 </style>
