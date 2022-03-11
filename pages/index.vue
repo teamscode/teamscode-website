@@ -133,13 +133,8 @@
         </div>
       </v-container>
     </v-sheet>
-    <v-sheet>
-      <v-container>
-        <v-divider />
-      </v-container>
-    </v-sheet>
-    <v-sheet>
-      <v-container class="py-4 py-lg-8">
+    <v-sheet color="surface">
+      <v-container class="py-4 py-lg-8 mt-2">
         <v-row>
           <v-col cols="12" md="4">
             <h2 class="text-h4 text-sm-h3 text-lg-h2 text-center text-md-left">
