@@ -19,8 +19,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,900' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -68,6 +67,11 @@ export default {
       },
       extractCSS: true
     }],
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Roboto: [100, 200, 300, 400, 700, 900]
+      }
+    }],
     'nuxt-compress',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap'
@@ -76,8 +80,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/google-gtag',
-    '@nuxt/content',
-    'nuxt-webfontloader'
+    '@nuxt/content'
   ],
 
   robots: [
