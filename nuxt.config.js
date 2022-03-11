@@ -19,7 +19,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,900' }
     ]
   },
 
@@ -88,12 +89,6 @@ export default {
       Sitemap: 'https://www.teamscode.org/sitemap.xml'
     }
   ],
-
-  webfontloader: {
-    google: {
-      families: ['Heebo:100,200,300,400,600,700,800,900&display=swap']
-    }
-  },
 
   sitemap: {
     hostname: 'https://www.teamscode.org',
