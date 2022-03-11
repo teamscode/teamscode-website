@@ -67,6 +67,11 @@ export default {
       },
       extractCSS: true
     }],
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Roboto: [100, 200, 300, 400, 700, 900]
+      }
+    }],
     'nuxt-compress',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap'
@@ -75,8 +80,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/google-gtag',
-    '@nuxt/content',
-    'nuxt-webfontloader'
+    '@nuxt/content'
   ],
 
   robots: [
@@ -88,12 +92,6 @@ export default {
       Sitemap: 'https://www.teamscode.org/sitemap.xml'
     }
   ],
-
-  webfontloader: {
-    google: {
-      families: ['Heebo:100,200,300,400,600,700,800,900&display=swap']
-    }
-  },
 
   sitemap: {
     hostname: 'https://www.teamscode.org',
