@@ -74,11 +74,7 @@ export default {
     }],
     'nuxt-compress',
     '@nuxtjs/robots',
-    '@nuxtjs/sitemap'
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
+    '@nuxtjs/sitemap',
     '@nuxtjs/google-gtag',
     '@nuxt/content'
   ],
@@ -105,9 +101,5 @@ export default {
         changefreq: 'daily'
       }
     ]
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
   }
 }
