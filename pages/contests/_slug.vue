@@ -67,6 +67,9 @@
               </v-card>
             </v-col>
           </v-row>
+          <div class="text-body-1 py-2">
+            {{ content.description }}
+          </div>
           <h2 class="text-h4 py-2">
             Schedule Overview
           </h2>
@@ -209,7 +212,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.content.title
+          content: this.content.description || this.content.title
         }
       ]
     }
