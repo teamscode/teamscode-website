@@ -186,6 +186,11 @@ import { mdiInformation, mdiArrowRight, mdiArrowLeft } from '@mdi/js'
 export default {
   async asyncData ({ params, error, $content }) {
     const content = (await $content('contests').where({ slug: params.slug }).fetch())[0]
+    try {
+      this.$gtag('event', params.slug, { screen_name: 'Contest Page' })
+    } catch (_) {
+
+    }
     if (!content) {
       error({ statusCode: 404, message: '404 Not Found' })
     } else if (content.new_layout) {
