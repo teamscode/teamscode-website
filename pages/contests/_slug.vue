@@ -187,7 +187,7 @@ export default {
   async asyncData ({ params, error, $content }) {
     const content = (await $content('contests').where({ slug: params.slug }).fetch())[0]
     try {
-      this.$gtag('event', params.slug, { screen_name: 'Contest Page' })
+      this.$gtag('event', params.slug.replace(/-/g, '_'), { screen_name: 'Contest Page' })
     } catch (_) {
 
     }
