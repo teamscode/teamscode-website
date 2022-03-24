@@ -56,7 +56,7 @@
             We will be updating this page with specific details and links as contest date approaches. Register now to receive updates and announcements in your inbox!
           </v-alert-->
           <v-row class="text-center mb-2">
-            <v-col v-for="card in content.brief_info" :key="card[0]" cols="12" md="3" class="pb-0">
+            <v-col v-for="card in content.cards" :key="card[0]" cols="12" md="3" class="pb-0">
               <v-card class="pa-2">
                 <div class="text-h5 font-weight-medium">
                   {{ card[1] }}
