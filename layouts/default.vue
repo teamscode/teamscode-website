@@ -125,7 +125,6 @@
               </div>
             </NewsletterForm>
             <div class="text-center text-md-right mt-4 mt-lg-2">
-              Connect
               <v-btn
                 fab
                 small
