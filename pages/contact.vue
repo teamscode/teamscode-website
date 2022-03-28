@@ -156,7 +156,7 @@ export default {
   methods: {
     discordLink () {
       this.$gtag('event', 'discord', { screen_name: 'Contact' })
-      window.open('https://discord.com/invite/8pg89SS', '_blank')
+      window.open('https://go.teamscode.org/discord', '_blank')
     },
     sponsorshipDeck () {
       this.$gtag('event', 'sponsorship_deck', { screen_name: 'Contact' })

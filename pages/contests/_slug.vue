@@ -27,20 +27,19 @@
             </v-btn>
             <v-btn
               large
-              href="https://contest.teamscode.org"
+              href="https://go.teamscode.org/live"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
-              @click="openRegistration"
             >
-              Contest Website
+              Youtube Livestream
             </v-btn>
             <v-btn
               large
-              class="mr-2 mt-1 w-full w-sm-auto"
-              to="/contact"
+              href="https://contest.teamscode.org"
               target="_blank"
+              class="mr-2 mt-1 w-full w-sm-auto"
             >
-              Contact Info
+              Contest Website
             </v-btn>
           </div>
         </v-container>
@@ -229,7 +228,7 @@ export default {
     },
     discordLink () {
       this.$gtag('event', 'discord', { screen_name: 'Contest Page' })
-      window.open('https://discord.com/invite/8pg89SS', '_blank')
+      window.open('https://go.teamscode.org/discord', '_blank')
     }
   }
 }

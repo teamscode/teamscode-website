@@ -17,7 +17,7 @@
         go home
       </nuxt-link>
       <div class="notfound-social">
-        <a href="https://discord.com/invite/8pg89SS"><v-icon>{{ mdiDiscord }}</v-icon></a>
+        <a href="https://go.teamscode.org/discord"><v-icon>{{ mdiDiscord }}</v-icon></a>
         <a href="https://www.instagram.com/teamscode/"><v-icon>{{ mdiInstagram }}</v-icon></a>
         <a href="mailto:contact@teamscode.org"><v-icon>{{ mdiEmail }}</v-icon></a>
       </div>

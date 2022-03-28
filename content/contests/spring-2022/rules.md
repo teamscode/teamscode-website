@@ -36,7 +36,7 @@ name: Rules and Information
     * USACO Gold and above
     * 1600+ Codeforces rating
 * Contest page [https://contest.teamscode.org](https://contest.teamscode.org)
-* Join our discord server here: [https://discord.com/invite/8pg89SS](https://discord.com/invite/8pg89SS) for important contest announcements or if you have any questions.
+* Join our discord server here: [https://go.teamscode.org/discord](https://go.teamscode.org/discord) for important contest announcements or if you have any questions.
 * Try more problems from the last contest:
   * <https://codeforces.com/gym/103241>
   * You will need to make a codeforces account: <https://codeforces.com/register>

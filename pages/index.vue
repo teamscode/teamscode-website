@@ -535,7 +535,7 @@ export default {
   methods: {
     discordLink () {
       this.$gtag('event', 'discord', { screen_name: 'Home' })
-      window.open('https://discord.com/invite/8pg89SS', '_blank')
+      window.open('https://go.teamscode.org/discord', '_blank')
     },
     trackMailing () {
       this.$gtag('event', 'mailing', { screen_name: 'Home' })
