@@ -83,7 +83,7 @@ name: Rules and Information
 
 ### Problem Points
 
-* All problems are each worth 100 points. Each problem has some number of tests (usually 10 or 20). Sample test worth 0 point. If you solve X judge tests correctly for a problem with Y judge tests, you get (X/Y * 100) points.
+* All problems are each worth 100 points. Each problem has some number of tests (usually 10 or 20). Sample test is worth 0 point. If you solve X non-sample tests correctly for a problem with Y non-sample tests, you get (X/Y * 100) points.
 * Note that each test may have multiple test cases where each test case must be solved correctly to get points for the test.
 * Output must match **exactly** with expected output to receive points for the test case - there is no partial credit.
 
