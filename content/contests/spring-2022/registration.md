@@ -9,6 +9,10 @@ name: Registration
 
 <br>
 
+**Registration has closed. Thank you for signing up!**
+
+<br>
+
 Welcome to TeamsCode contests! Each team will only need one account on TeamsCode Contest Portal to participate, and we recommend the team captain to register for your team. Before getting started, make sure you have confirmed the following with your team:
 
 * A team name, be creative and keep it appropriate.

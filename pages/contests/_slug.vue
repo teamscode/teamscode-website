@@ -134,7 +134,14 @@
           </v-card>
           <v-tabs-items v-model="currentTab" class="mt-2">
             <v-tab-item v-for="tab in content.tabs" :key="tab.slug">
-              <v-btn v-if="tab.name==='Registration'" class="mt-2" large color="primary" @click="openRegistration">
+              <v-btn
+                v-if="tab.name==='Registration'"
+                class="mt-2"
+                large
+                color="primary"
+                disabled
+                @click="openRegistration"
+              >
                 Register Now
               </v-btn>
               <nuxt-content :document="tab" />
