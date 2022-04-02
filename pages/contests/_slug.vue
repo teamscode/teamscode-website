@@ -116,6 +116,9 @@
               </v-card-text>
             </v-card>
           </div>
+          <div class="mt-4">
+            See starting time in your timezone: <a target="_blank" :href="content.time_link">{{ content.time_link }}</a>
+          </div>
         </v-container>
         <v-container class="py-4 py-lg-4">
           <h2 id="contest-details" class="text-h4 py-2">

@@ -29,6 +29,7 @@ timeline:
     - '4:30-5:00 PM'
     - 'Raffle and Contest Winners Announcement + Closing Ceremony'
     - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
+time_link: https://go.teamscode.org/time
 cards:
   -
     - 'Date'
