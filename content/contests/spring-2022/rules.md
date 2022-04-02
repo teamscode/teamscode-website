@@ -13,6 +13,7 @@ name: Rules and Information
 * Schedule:
   * 9:00-10:00 / Brian Dean - Background on USACO and his current research at the intersection of algorithmic computer science, game theory, AI, and biomedical applications.
   * 10:00-11:00 / Jonathan Paulson - Careers in computer science and current big areas in the field.
+* Link to the Zoom Webinar that hosts the speaker event: <https://go.teamscode.org/webinar>
 
 <br>
 

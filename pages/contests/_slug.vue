@@ -39,7 +39,7 @@
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
             >
-              Guest Speaker
+              Zoom Webinar
             </v-btn>
             <v-btn
               large
