@@ -35,6 +35,14 @@
             </v-btn>
             <v-btn
               large
+              href="https://go.teamscode.org/webinar"
+              target="_blank"
+              class="mr-2 mt-1 w-full w-sm-auto"
+            >
+              Guest Speaker
+            </v-btn>
+            <v-btn
+              large
               href="https://contest.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
