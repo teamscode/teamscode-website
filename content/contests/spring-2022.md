@@ -8,7 +8,7 @@ tabs:
 title: Spring 2022 Virtual Programming Contest
 date: '2022-04-02'
 time: '9:00 AM - 5:00 PM Pacific Time'
-status: Upcoming
+status: Past
 place: Youtube Live
 image: /images/contests/virtual-contest.webp
 description: 'TeamsCode Spring 2022 Online Programming Contest will take place on Saturday, April 2nd, from 9 to 5 PM (Pacific Time) through a Youtube livestream! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be three divisions: Novice, Intermediate, and Advanced. In addition to our algorithmic competition, TeamsCode will be featuring two speakers, Brian Dean, the head of USA Computing Olympiad (USACO), and Jonathan Paulson, an avid competitive programmer and USACO staff member. Over 4500 dollars worth of prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
@@ -43,4 +43,65 @@ cards:
   -
     - 'Prize Pool'
     - '$4500+'
+winners:
+  -
+    - 'Advanced Division'
+    -
+      -
+        - 'cowng'
+        - 'Ryan Bai, Rohin Garg, Benjamin Chen, Darren Li'
+      -
+        - 'Fun Club'
+        - 'Tymofii Reizin, Roman Yanushevskyi, Anton Kaminskyi, Alisa Potemkina'
+      -
+        - 'lazyredpanda (collegiate)'
+        - 'zany, Everule, Elephant, Jeroen Op Beek'
+      -
+        - 'mike4235 fanclub'
+        - 'Tran Xuan Bach, Pham Quoc Hung, Dao Ngoc Ha, Nguyen Quang Minh'
+      -
+        - 'X-camp n^n'
+        - 'Thomas Liu, Alex Chen, Brian Xue, Michael Huang'
+      -
+        - 'Batswana Potato Pride'
+        - 'Ko Kin Fung Nicholas, Wang Chi Ho, Xie Lingrui, Ip Tsz Oi'
+  -
+    - 'Intermediate Division'
+    -
+      -
+        - 'I ❤️ Teamscode'
+        - 'Shiva Oswal, Joshua Cantwell, Arjun Subramanian, Catherine Yu'
+      -
+        - 'Finite Automata'
+        - 'Hongning Wang, Nelson Huang, Sarah Xuan, Sophie Xuan'
+      -
+        - 'ProgrammersNotFound'
+        - 'Ethan Do, Ian Jia, Bohan Yao'
+      -
+        - 'O(rizont)'
+        - 'Guzun Veacelsav, Esanu Mihai, Vorona Victor, Timur Degteari'
+      -
+        - 'Swag Factory'
+        - 'Joshua Liu, Daniel Pitzele, Julian Shah, Kevin Yang'
+  -
+    - 'Novice Division'
+    -
+      -
+        - 'Daniel Douche (collegiate)'
+        - 'Soum, Anirudh'
+      -
+        - 'AlphaStar Ada - Air'
+        - 'Trisha Sabadra, Arjun Subramanian, Christopher Sakaliyski, Ryka Chopra'
+      -
+        - 'AlphaStar Ada - Fire'
+        - 'Adrita Samanta, Kevin Li, Raymond Peng'
+      -
+        - 'the duck goes meow'
+        - 'Tyler Xiao, Maria Wang, Mika Okamoto'
+      -
+        - '02'
+        - 'Alec Zhang, Sathvik Chundru'
+      -
+        - 'Coding Craps'
+        - 'Srivaths P'
 ---

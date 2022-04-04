@@ -10,7 +10,7 @@
           <div class="text-h6 text-lg-h5 mt-4">
             {{ content.date | formatDate }} {{ content.time }}
           </div>
-          <div class="mt-2">
+          <div v-if="content.status==='Upcoming'" class="mt-2">
             <v-btn
               large
               class="mr-2 mt-1 w-full w-sm-auto"
@@ -54,14 +54,6 @@
       </v-sheet>
       <v-sheet>
         <v-container class="py-4 py-lg-4">
-          <!--v-alert
-            v-if="content.status==='Upcoming'"
-            type="info"
-            outlined
-            :icon="mdiInformation"
-          >
-            We will be updating this page with specific details and links as contest date approaches. Register now to receive updates and announcements in your inbox!
-          </v-alert-->
           <v-row class="text-center mb-2">
             <v-col v-for="card in content.cards" :key="card[0]" cols="12" md="3" class="pb-0">
               <v-card class="pa-2">
@@ -76,6 +68,20 @@
           </v-row>
           <div class="text-body-1 py-2">
             {{ content.description }}
+          </div>
+          <div v-if="content.status==='Past'" class="my-2">
+            <h2 class="text-h4 py-2">
+              Contest Winners
+            </h2>
+            <v-divider />
+            <v-row class="mt-2">
+              <v-col v-for="division in content.winners" :key="division[0]" lg="4" cols="12">
+                <div class="text-h5 ml-1">
+                  {{ division[0] }}
+                </div>
+                <ContestRank :winners="division[1]" />
+              </v-col>
+            </v-row>
           </div>
           <h2 class="text-h4 py-2">
             Schedule Overview
