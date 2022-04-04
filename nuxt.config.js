@@ -40,7 +40,8 @@ export default {
     { src: '~/filters/uppercase.js' },
     { src: '~/filters/trim.js' },
     { src: '~/filters/placeholder.js' },
-    { src: '~/filters/formatDate.js' }
+    { src: '~/filters/formatDate.js' },
+    { src: '~/filters/ordinal.js' }
   ],
 
   'google-gtag': {
