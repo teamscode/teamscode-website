@@ -9,7 +9,7 @@
           TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
         </h2>
         <h2 class="text-h6 font-weight-bold secondary--text mt-6">
-          Registration is open for our Spring 2022 Virtual Contest, featuring guest speaker Brian Dean! Browse Contests to check out our upcoming event!
+          Winners announced for Spring 2022 Virtual Contest! Browse Contests to view top teams.
         </h2>
         <div id="button-section" class="mt-4">
           <v-btn
@@ -90,10 +90,12 @@
           <v-responsive max-width="1200" class="mx-auto" />
         </div>
 
-        <div style="width: 80px; height: 4px" class="mb-2 mt-8 secondary" />
-        <h3 class="text-h4">
-          Upcoming Contests
-        </h3>
+        <div v-if="upcomingContest.length>0">
+          <div style="width: 80px; height: 4px" class="mb-2 mt-8 secondary" />
+          <h3 class="text-h4">
+            Upcoming Contests
+          </h3>
+        </div>
 
         <v-row class="mt-1">
           <v-col
@@ -105,10 +107,12 @@
           </v-col>
         </v-row>
 
-        <div style="width: 80px; height: 4px" class="mb-2 mt-8 secondary" />
-        <h3 class="text-h4">
-          Past Contests
-        </h3>
+        <div v-if="pastContest.length>0">
+          <div style="width: 80px; height: 4px" class="mb-2 mt-8 secondary" />
+          <h3 class="text-h4">
+            Past Contests
+          </h3>
+        </div>
 
         <v-row class="mt-1">
           <v-col

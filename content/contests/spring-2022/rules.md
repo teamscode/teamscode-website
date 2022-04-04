@@ -95,7 +95,7 @@ name: Rules and Information
 
 ### Ties
 
-* Ties will be broken by the timestamp on the last correctly submitted problem.
+* Ties will be broken by the timestamp on the last submission that increases your total score.
 
 <br>
 
