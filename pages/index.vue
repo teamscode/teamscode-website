@@ -249,7 +249,7 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-body text-sm-h6 text-lg-h5 mt-4">
-              TeamsCode is a space for computer science enthusiasts to sharpen their coding skill regardless of nation. Here are some statistics* from TeamsCode Summer 2021 Contest, one of our largest events.
+              TeamsCode is a space for computer science enthusiasts to sharpen their coding skill regardless of nation. Here are some statistics* from TeamsCode Spring 2022 Contest, one of our largest events.
             </div>
           </v-responsive>
         </div>
@@ -409,23 +409,14 @@ export default {
       mdiMessageAlert,
       banner: true,
       stats: [{
-        title: 'Registrations',
-        value: '467'
-      }, {
-        title: 'Teams',
-        value: '197'
-      }, {
-        title: 'US States',
-        value: '16'
-      }, {
-        title: 'Countries',
-        value: '22'
+        title: 'Participants',
+        value: '561'
       }, {
         title: 'Problem Attempts',
-        value: '4.9K'
+        value: '7.3K'
       }, {
         title: 'Lines of Code',
-        value: '302K'
+        value: '616K'
       }],
       resourceFeatures: [{
         icon: mdiTrophyVariant,
