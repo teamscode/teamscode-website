@@ -10,6 +10,7 @@ date: '2022-04-02'
 time: '9:00 AM - 5:00 PM Pacific Time'
 status: Past
 place: Youtube Live
+participants: '561'
 image: /images/contests/virtual-contest.webp
 description: 'TeamsCode Spring 2022 Online Programming Contest will take place on Saturday, April 2nd, from 9 to 5 PM (Pacific Time) through a Youtube livestream! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be three divisions: Novice, Intermediate, and Advanced. In addition to our algorithmic competition, TeamsCode will be featuring two speakers, Brian Dean, the head of USA Computing Olympiad (USACO), and Jonathan Paulson, an avid competitive programmer and USACO staff member. Over 4500 dollars worth of prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
 timeline:
@@ -32,17 +33,17 @@ timeline:
 time_link: https://go.teamscode.org/time
 cards:
   -
-    - 'Date'
-    - 'Apr 2nd, 2022'
+    - 'Contest Participants'
+    - '561'
   -
-    - 'Team Size'
-    - '1-4 People'
+    - 'USACO Finalists/EGOI USA Team'
+    - '12'
   -
-    - 'Last Day to Register'
-    - 'Apr 1st, 2022'
+    - 'Growth in Number of Participants'
+    - '60.7%'
   -
-    - 'Prize Pool'
-    - '$4500+'
+    - 'Event Duration'
+    - '5 Hours 45 Minutes'
 winners:
   -
     - 'Advanced Division'

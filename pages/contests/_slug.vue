@@ -55,7 +55,7 @@
       <v-sheet>
         <v-container class="py-4 py-lg-4">
           <v-row class="text-center mb-2">
-            <v-col v-for="card in content.cards" :key="card[0]" cols="12" md="3" class="pb-0">
+            <v-col v-for="card in content.cards" :key="card[0]" cols="12" md="6" class="pb-0">
               <v-card class="pa-2">
                 <div class="text-h5 font-weight-medium">
                   {{ card[1] }}
