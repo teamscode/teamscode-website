@@ -16,7 +16,7 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
-          Winners announced for TeamsCode Spring 2022 Contest!
+          TeamsCode Spring 2022 Winners Announced!
         </div>
         <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2022" class="mr-1" :disabled="$route.path.startsWith('/contests/spring-2022')">
           Top Teams<v-icon right>

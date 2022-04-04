@@ -9,7 +9,7 @@
           TeamsCode spreads computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
         </h2>
         <h2 class="text-h6 font-weight-bold secondary--text mt-6">
-          Winners announced for Spring 2022 Virtual Contest! Browse Contests to view top teams.
+          TeamsCode Spring 2022 Winners Announced!! Browse Contests to view top teams.
         </h2>
         <div id="button-section" class="mt-4">
           <v-btn
