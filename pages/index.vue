@@ -272,7 +272,7 @@
           </v-col>
         </v-row>
         <div class="text-caption mt-2">
-          *Data extracted and compiled from TeamsCode Contest System's internal database and contest registration info during Summer 2021 contest.
+          *Data extracted and compiled from TeamsCode Contest System's internal database and contest registration info during Spring 2022 contest.
         </div>
       </v-container>
     </v-sheet>
