@@ -77,7 +77,9 @@ export default {
         { name: 'Harker Programming Invitational', link: 'https://www.harkerprogrammingclub.org/', image: '/images/partners/hpi.webp', content: 'HPI is an annual programming competition hosted in March by The Harker School\'s Programming Club. Teams of up to 3 students compete to solve problems designed to test their algorithmic knowledge. This year\'s theme is Space & CS, and the event will be held virtually on March 13, 2022.' },
         { name: 'Montgomery Blair Informatics Tournament', link: 'https://mbit.mbhs.edu/', image: '/images/partners/mbit.webp', content: 'mBIT is a competitive programming competition for middle and high school students of all skill levels, organized by students from Montgomery Blair High School.' },
         { name: 'Noctem', link: 'https://www.noctemdevelopment.org/', image: '/images/partners/noctem.webp', content: 'Noctem is a non-profit organization dedicated to promoting problem solving in computer science through competitive programming competitions.' },
-        { name: 'Competitive Computing Club', link: 'https://www.compcs.org/', image: '/images/partners/ccc.webp', content: 'CompCS helps competitive programming beginners become advanced through support from the team.' }
+        { name: 'Competitive Computing Club', link: 'https://www.compcs.org/', image: '/images/partners/ccc.webp', content: 'CompCS helps competitive programming beginners become advanced through support from the team.' },
+        { name: 'TJ IOI', link: 'https://activities.tjhsst.edu/tjioi/', image: '/images/partners/tjoi.webp' },
+        { name: 'traverse[cs] Computer Science Competition', link: 'https://traverse-cs.org', image: '/images/partners/traversecs.webp' }
       ]
     }
   },
