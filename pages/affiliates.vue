@@ -79,7 +79,7 @@ export default {
         { name: 'Noctem', link: 'https://www.noctemdevelopment.org/', image: '/images/partners/noctem.webp', content: 'Noctem is a non-profit organization dedicated to promoting problem solving in computer science through competitive programming competitions.' },
         { name: 'Competitive Computing Club', link: 'https://www.compcs.org/', image: '/images/partners/ccc.webp', content: 'CompCS helps competitive programming beginners become advanced through support from the team.' },
         { name: 'TJIOI', link: 'https://activities.tjhsst.edu/tjioi/', image: '/images/partners/tjioi.webp', content: 'TJIOI is Thomas Jefferson High School for Science and Technology’s annual programming contest, designed to encourage the involvement of middle and high schoolers with computer science.' },
-        { name: 'traverse[cs]', link: 'https://traverse-cs.org', image: '/images/partners/traversecs.webp' }
+        { name: 'traverse[cs]', link: 'https://traverse-cs.org', image: '/images/partners/traversecs.webp', content: 'traverse[cs] is an organization dedicated to giving students opportunities to explore computer science and competitive programming by organizing free coding contests.' }
       ]
     }
   },
