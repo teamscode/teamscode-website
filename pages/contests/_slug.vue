@@ -122,8 +122,11 @@
               </v-card-text>
             </v-card>
           </div>
-          <div class="mt-4">
+          <div class="mt-4" v-if="content.time_link">
             See starting time in your timezone: <a target="_blank" :href="content.time_link">{{ content.time_link }}</a>
+          </div>
+          <div class="mt-4" v-if="content.timeline_tentative">
+            This schedule is tentative and is subject to change.
           </div>
         </v-container>
         <v-container class="py-4 py-lg-4">
@@ -145,7 +148,6 @@
                 class="mt-2"
                 large
                 color="primary"
-                disabled
                 @click="openRegistration"
               >
                 Register Now
