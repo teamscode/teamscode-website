@@ -231,9 +231,12 @@ export default {
       ]
     }
   },
+  mounted () {
+    this.$gtag('event', 'view_contest', { screen_name: this.content.title })
+  },
   methods: {
     openRegistration () {
-      this.$gtag('event', 'signup', { screen_name: 'Contest Page' })
+      this.$gtag('event', 'signup', { screen_name: this.content.title })
       window.open('https://contest.teamscode.org/?register=direct', '_blank')
     },
     discordLink () {
