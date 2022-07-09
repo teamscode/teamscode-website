@@ -76,7 +76,7 @@
             TeamsCode
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
-            Our leadership and organizers
+            Leaders and organizers
           </h2>
         </div>
       </v-container>
