@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="12" md="4">
           <div style="width: 80px; height: 4px" class="mb-3 secondary" />
-          <h2 class="text-h4">
+          <h2 class="text-h5 text-sm-h4">
             {{ header }}
           </h2>
         </v-col>

@@ -34,7 +34,7 @@
           >
             <v-expansion-panel-header class="text-h5" :expand-icon="mdiChevronDown">
               <v-row no-gutters class="align-center">
-                <v-icon>
+                <v-icon class="d-none d-sm-block">
                   {{ item.icon }}
                 </v-icon>
                 <div class="ml-1 text-h6">

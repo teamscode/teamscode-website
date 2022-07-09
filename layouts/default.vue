@@ -16,10 +16,10 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
-          TeamsCode Spring 2022 Winners Announced!
+          TeamsCode Summer 2022 Contest is coming this August!
         </div>
-        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2022" class="mr-1" :disabled="$route.path.startsWith('/contests/spring-2022')">
-          Top Teams<v-icon right>
+        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/summer-2022" class="mr-1" :disabled="$route.path.startsWith('/contests/summer-2022')">
+          Signup Now<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>
@@ -189,7 +189,7 @@
       </v-list>
       <template #append>
         <div class="pa-2">
-          <v-btn color="primary" to="/contests/spring-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/spring-2022')">
+          <v-btn color="primary" to="/contests/summer-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/summer-2022')">
             Upcoming Contest<v-icon right>
               {{ mdiArrowRight }}
             </v-icon>

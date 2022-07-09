@@ -33,18 +33,13 @@
             /></a>
           </v-row>
         </div>
-        <div class="text-center mt-8 mb-3">
+        <!--div class="text-center mt-8 mb-3">
           <h2 class="pb-1">
             <b>Gold Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://www.janestreet.com/"><v-img
-              src="/images/partners/janestreet.webp"
-              alt="Jane Street"
-              style="width: 220px;"
-            /></a>
           </v-row>
-        </div>
+        </div-->
         <div class="text-center mt-8 mb-3">
           <h2 style="padding-bottom: 10px;">
             <b>Bronze Sponsors</b>
@@ -53,7 +48,22 @@
             <a target="_blank" href="https://www.wolfram.com"><v-img
               src="/images/partners/wolfram.webp"
               alt="wolfram"
-              style="width: 180px;"
+              style="width: 160px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://www.interviewcake.com"><v-img
+              src="/images/partners/interviewcake.webp"
+              alt="interview cake"
+              style="width: 200px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://www.desmos.com"><v-img
+              src="/images/partners/desmos.webp"
+              alt="desmos"
+              style="width: 160px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://www.replit.com"><v-img
+              src="/images/partners/replit.webp"
+              alt="replit"
+              style="width: 160px;"
             /></a>
           </v-row>
         </div>
@@ -62,9 +72,9 @@
             <b>Previous Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2 mx-10">
-            <a target="_blank" href="https://www.youtube.com/c/replityt/videos"><v-img
-              src="/images/partners/replit.webp"
-              alt="Replit"
+            <a target="_blank" href="https://www.janestreet.com/"><v-img
+              src="/images/partners/janestreet.webp"
+              alt="JaneStreet"
               style="width: 100px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://www.codewithus.com/en"><v-img
@@ -184,7 +194,7 @@
 
         <div class="text-body-1 text-md-h6 font-weight-light">
           <v-responsive max-width="800" class="mx-auto">
-            Thank you for your consideration! Please click on the button to view our contact methods and sponsorship deck.
+            Please click on the button to view our contact methods and sponsorship deck.
           </v-responsive>
         </div>
       </v-container>
