@@ -27,22 +27,6 @@
             </v-btn>
             <v-btn
               large
-              href="https://go.teamscode.org/live"
-              target="_blank"
-              class="mr-2 mt-1 w-full w-sm-auto"
-            >
-              Youtube Livestream
-            </v-btn>
-            <v-btn
-              large
-              href="https://go.teamscode.org/webinar"
-              target="_blank"
-              class="mr-2 mt-1 w-full w-sm-auto"
-            >
-              Zoom Webinar
-            </v-btn>
-            <v-btn
-              large
               href="https://contest.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
@@ -122,10 +106,10 @@
               </v-card-text>
             </v-card>
           </div>
-          <div class="mt-4" v-if="content.time_link">
+          <div v-if="content.time_link" class="mt-4">
             See starting time in your timezone: <a target="_blank" :href="content.time_link">{{ content.time_link }}</a>
           </div>
-          <div class="mt-4" v-if="content.timeline_tentative">
+          <div v-if="content.timeline_tentative" class="mt-4">
             This schedule is tentative and is subject to change.
           </div>
         </v-container>
