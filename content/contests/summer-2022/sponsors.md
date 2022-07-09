@@ -78,8 +78,11 @@ Desmos Studio is a Public Benefit Corporation with a goal of helping everyone le
 
 <br>
 
-## Affiliate -  <a href="https://www.joincpi.org/" target="_blank">Competitive Programming Initiative</a>
+## Bronze Sponsor - <a href="https://www.replit.com" target="_blank">replit</a>
 
-<a href="https://joincpi.org/" target="_blank"><img src="/images/partners/cpi.webp" alt="CPI" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.replit.com" target="_blank"><img src="/images/partners/replit.webp" alt="Desmos" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
-If you're interested in more high school programming contests, sign up for the Competitive Programming Initiative's contest <a href="https://joincpi.org/contests" target="_blank">here</a>.
+### About replit
+
+Our mission is to bring the next billion software creators online. We build powerful, simple tools and platforms for learners, educators, and developers.
+<br>

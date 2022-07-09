@@ -19,8 +19,8 @@ timeline:
     - 'Join us at Youtube Livestream to watch the opening ceremony. We will also be going over the rules of the contest.'
   -
     - '8:30-11:30 AM'
-    - 'Coding time! Last submission by 4:30 PM'
-    - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solution and instantly access feedback until 4:30 PM.'
+    - 'Coding time! Last submission by 11:30 AM'
+    - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solution and instantly access feedback until 11:30 AM.'
   -
     - '11:30 AM - 1:00 PM'
     - 'Break time while we finalize the ranklist!'
