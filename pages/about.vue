@@ -172,6 +172,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/angie.webp',
           bio: 'Angie Niu is a sophomore at Newport High School. She is interested in programming and has taken several Java coding lessons. In her spare time, Angie enjoys playing volleyball and baking. She is excited to help bring high quality TeamsCode competitions to passionate programmers.'
+        },
+        {
+          name: 'Timothy Gao',
+          title: 'Problem Writer',
+          image: '/images/teams/timothy.webp',
+          bio: 'Timothy is a Senior at Amador Valley High School who has been actively participating in programming competitions since Freshman year. Thanks to the supportive competitive programming community, he discovered a passion for algorithms and programming as a whole. He is thrilled to problem-set for Teamscode in order to help promote the sport and give back to its incredible community.'
         }
       ],
       pastLeadership: [
