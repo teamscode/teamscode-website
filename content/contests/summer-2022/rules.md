@@ -91,7 +91,7 @@ name: Rules and Information
 
 <br>
 
-* $4000+ awards in Amazon gift cards and Wolfram|Alpha Notebook Edition will be given to high-performing teams. All contest participants receive free Replit Hacker Plan and Interview Cake access. See below for details.
+* $4000 of awards in Amazon gift cards and Wolfram|Alpha Notebook Edition will be given to high-performing teams. All contest participants receive free Replit Hacker Plan and Interview Cake access. See below for details.
 * The top 5 scoring teams from the advanced division, top 4 from the intermediate division, and top 4 from the novice division will win amazon gift cards as well as a Wolfram|Alpha Notebook Edition. The exact amounts each team member will win is listed here:
   <br>**Advanced**
   * 1st: $50 each
