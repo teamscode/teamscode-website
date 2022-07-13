@@ -91,7 +91,7 @@ name: Rules and Information
 
 <br>
 
-* $4500+ in Amazon gift cards, raffle prizes, and Wolfram|Alpha Notebook Edition.
+* $4000+ awards in Amazon gift cards and Wolfram|Alpha Notebook Edition will be given to high-performing teams. All contest participants receive free Replit Hacker Plan and Interview Cake access. See below for details.
 * The top 5 scoring teams from the advanced division, top 4 from the intermediate division, and top 4 from the novice division will win amazon gift cards as well as a Wolfram|Alpha Notebook Edition. The exact amounts each team member will win is listed here:
   <br>**Advanced**
   * 1st: $50 each
@@ -109,7 +109,7 @@ name: Rules and Information
   * 2nd: $10 each
   * 3rd: $10 each
   * 4th: $10 each
-* Everyone in your team will earn one raffle ticket once you submit your first solution.
+* When you submit your first submission, everyone in your team will be eligible to receive 1 month of Replit Hacker plan ($7) and 1 month of Interview Cake access ($149+) for free. Each member in your team will also receive 1 raffle ticket.
 * Raffle prizes will be drawn in the last half hour of the contest using a random number generator - we will email those selected for shipment details immediately following the contest.
-* We all still finalizing raffle prize details.
+* We all still finalizing raffle prizes.
 <br>

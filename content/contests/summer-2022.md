@@ -28,7 +28,7 @@ timeline:
   -
     - '1:00-3:00 PM'
     - 'Speaker Events'
-    - 'We are still finalizing our speaker events schedule and will update it here as soon as we get it!'
+    - 'Speaker events featuring Peter Washington. We are still finalizing the schedule and will update it here as soon as we have it!'
   -
     - '3:00-3:30 PM'
     - 'Raffle and Contest Winners Announcement + Closing Ceremony'
