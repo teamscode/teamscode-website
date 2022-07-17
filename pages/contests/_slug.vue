@@ -21,7 +21,8 @@
             <v-btn
               large
               class="mr-2 mt-1 w-full w-sm-auto"
-              @click="discordLink"
+              href="https://go.teamscode.org/discord"
+              target="_blank"
             >
               Discord Server
             </v-btn>
@@ -132,7 +133,8 @@
                 class="mt-2"
                 large
                 color="primary"
-                @click="openRegistration"
+                href="https://contest.teamscode.org/?register=direct"
+                target="_blank"
               >
                 Register Now
               </v-btn>
@@ -195,11 +197,6 @@ import { mdiInformation, mdiArrowRight, mdiArrowLeft } from '@mdi/js'
 export default {
   async asyncData ({ params, error, $content }) {
     const content = (await $content('contests').where({ slug: params.slug }).fetch())[0]
-    try {
-      this.$gtag('event', params.slug.replace(/-/g, '_'), { screen_name: 'Contest Page' })
-    } catch (_) {
-
-    }
     if (!content) {
       error({ statusCode: 404, message: '404 Not Found' })
     } else if (content.new_layout) {
@@ -229,16 +226,6 @@ export default {
           content: this.content.description || this.content.title
         }
       ]
-    }
-  },
-  methods: {
-    openRegistration () {
-      this.$gtag('event', 'signup', { screen_name: 'Contest Page' })
-      window.open('https://contest.teamscode.org/?register=direct', '_blank')
-    },
-    discordLink () {
-      this.$gtag('event', 'discord', { screen_name: 'Contest Page' })
-      window.open('https://go.teamscode.org/discord', '_blank')
     }
   }
 }

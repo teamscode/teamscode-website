@@ -76,7 +76,7 @@ export default {
     'nuxt-compress',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
-    '@nuxtjs/google-gtag',
+    '@nuxtjs/gtm',
     '@nuxt/content'
   ],
 
@@ -89,6 +89,13 @@ export default {
       Sitemap: 'https://www.teamscode.org/sitemap.xml'
     }
   ],
+
+  gtm: {
+    id: 'GTM-KZSX9DH',
+    pageTracking: true,
+    enabled: true,
+    scriptURL: 'https://www.googletagmanager.com/gtag/js'
+  },
 
   sitemap: {
     hostname: 'https://www.teamscode.org',

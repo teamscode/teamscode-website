@@ -118,7 +118,6 @@
                   type="submit"
                   large
                   color="secondary"
-                  @click="trackMailing"
                 >
                   Subscribe
                 </v-btn>
@@ -140,7 +139,8 @@
                 small
                 color="secondary"
                 class="ml-2"
-                @click="discordLink"
+                href="https://go.teamscode.org/discord"
+                target="_blank"
               >
                 <v-icon>{{ mdiDiscord }}</v-icon>
               </v-btn>
@@ -254,15 +254,6 @@ export default {
         }
       })
       return pages
-    }
-  },
-  methods: {
-    discordLink () {
-      this.$gtag('event', 'discord', { screen_name: 'Footer' })
-      window.open('https://go.teamscode.org/discord', '_blank')
-    },
-    trackMailing () {
-      this.$gtag('event', 'mailing', { screen_name: 'Footer' })
     }
   }
 }

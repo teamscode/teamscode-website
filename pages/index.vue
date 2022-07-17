@@ -23,7 +23,8 @@
           <v-btn
             x-large
             class="my-1 ml-sm-1 w-full w-sm-auto"
-            @click="discordLink"
+            href="https://go.teamscode.org/discord"
+            target="_blank"
           >
             Join Discord
           </v-btn>
@@ -236,7 +237,6 @@
                 type="submit"
                 large
                 color="secondary"
-                @click="trackMailing"
               >
                 Subscribe
               </v-btn>
@@ -516,15 +516,6 @@ export default {
       } else {
         return contests.slice(0, 3)
       }
-    }
-  },
-  methods: {
-    discordLink () {
-      this.$gtag('event', 'discord', { screen_name: 'Home' })
-      window.open('https://go.teamscode.org/discord', '_blank')
-    },
-    trackMailing () {
-      this.$gtag('event', 'mailing', { screen_name: 'Home' })
     }
   }
 }

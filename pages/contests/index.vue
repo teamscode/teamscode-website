@@ -103,17 +103,7 @@ export default {
     query () {
       this.$fetch()
     }
-  },
-  mounted () {
-    this.$gtag('event', 'browse_contests', { screen_name: 'Contests' })
-  },
-  methods: {
-    discordLink () {
-      this.$gtag('event', 'discord', { screen_name: 'Contests' })
-      window.open('https://go.teamscode.org/discord', '_blank')
-    }
   }
-
 }
 </script>
 

@@ -83,10 +83,7 @@
                   </v-chip>
                 </div>
                 <v-spacer />
-                <v-btn v-if="item.buttonLink" :href="item.buttonLink" target="_blank" color="primary">
-                  {{ item.buttonText }}
-                </v-btn>
-                <v-btn v-else-if="item.buttonAction" color="primary" @click="item.buttonAction">
+                <v-btn :href="item.buttonLink" target="_blank" color="primary">
                   {{ item.buttonText }}
                 </v-btn>
               </v-card-actions>
@@ -108,7 +105,7 @@ export default {
           content: 'The best way to stay updated is to join our Discord server. It\'s our main communication method during contests.',
           purposes: ['Contest Updates', 'Ask Questions'],
           buttonText: 'Join Discord',
-          buttonAction: this.discordLink
+          buttonLink: 'https://go.teamscode.org/discord'
         },
         {
           title: 'Email TeamsCode',
@@ -122,7 +119,7 @@ export default {
           content: 'Here is our sponsorship deck. Please email us if you have any question!',
           purposes: ['Sponsorship Inquiries'],
           buttonText: 'Sponsorship Deck',
-          buttonAction: this.sponsorshipDeck
+          buttonLink: 'https://teamscode.blob.core.windows.net/public-files/sponsorship_deck.pdf'
         },
         {
           title: 'Donate to TeamsCode',
@@ -151,19 +148,6 @@ export default {
           content: 'TeamsCode\'s contact method. You can reach us through Discord and email. Donate to TeamsCode. Join TeamsCode\'s organizer team.'
         }
       ]
-    }
-  },
-  methods: {
-    discordLink () {
-      this.$gtag('event', 'discord', { screen_name: 'Contact' })
-      window.open('https://go.teamscode.org/discord', '_blank')
-    },
-    sponsorshipDeck () {
-      this.$gtag('event', 'sponsorship_deck', { screen_name: 'Contact' })
-      window.open('https://teamscode.blob.core.windows.net/public-files/sponsorship_deck.pdf', '_blank')
-    },
-    trackMailing () {
-      this.$gtag('event', 'mailing', { screen_name: 'Contact' })
     }
   }
 }
