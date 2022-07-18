@@ -115,7 +115,7 @@
                 />
                 <v-btn
                   form="sib-form"
-                  class="mailing"
+                  class="mailing_list_signup"
                   type="submit"
                   large
                   color="secondary"

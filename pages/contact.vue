@@ -45,7 +45,7 @@
                   type="submit"
                   x-large
                   color="primary"
-                  class="mailing"
+                  class="mailing_list_signup"
                 >
                   Subscribe
                 </v-btn>
