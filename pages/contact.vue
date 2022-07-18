@@ -45,7 +45,7 @@
                   type="submit"
                   x-large
                   color="primary"
-                  @click="trackMailing"
+                  class="mailing"
                 >
                   Subscribe
                 </v-btn>

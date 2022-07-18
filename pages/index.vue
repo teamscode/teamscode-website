@@ -184,68 +184,6 @@
       </v-container>
     </v-sheet>
 
-    <!--v-sheet>
-      <v-container class="py-4 py-lg-8">
-        <div class="d-flex flex-column flex-lg-row justify-space-between align-center">
-          <div class="text-center text-lg-left">
-            <div class="text-h4 text-sm-h3 text-lg-h2">
-              Summer 2022 Contest is around the corner!
-            </div>
-            <div class="text-h4 text-sm-h3 text-lg-h2 primary--text">
-              Register now to stay updated
-            </div>
-          </div>
-          <v-btn
-            :x-large="$vuetify.breakpoint.mdAndUp"
-            large
-            class="mt-4 mx-sm-2 w-full w-sm-auto"
-            color="primary"
-            to="/contests/spring-2022"
-          >
-            View Contest
-          </v-btn>
-        </div>
-      </v-container>
-    </v-sheet-->
-    <!--v-sheet>
-      <v-container class="py-0">
-        <v-divider />
-      </v-container>
-    </v-sheet>
-    <v-sheet>
-      <v-container class="py-6">
-        <NewsletterForm>
-          <div class="d-flex flex-column flex-lg-row align-center">
-            <div class="text-h4 mr-2">
-              You can also subscribe to our newsletters
-            </div>
-            <div class="d-flex flex-column flex-sm-row w-full mt-4 mt-lg-0">
-              <v-text-field
-                id="EMAIL"
-                type="text"
-                solo
-                hide-details
-                name="EMAIL"
-                placeholder="Please enter your email"
-                dense
-                height="44"
-                full-width
-                class="mr-sm-2 mb-2 mb-sm-0 flex-grow-1"
-              />
-              <v-btn
-                form="sib-form"
-                type="submit"
-                large
-                color="secondary"
-              >
-                Subscribe
-              </v-btn>
-            </div>
-          </div>
-        </NewsletterForm>
-      </v-container>
-    </v-sheet-->
-
     <v-sheet>
       <v-container class="py-4 py-lg-8">
         <div class="text-center">
