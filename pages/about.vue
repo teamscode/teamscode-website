@@ -122,7 +122,7 @@ export default {
         name: 'Joe Li',
         title: 'Vice President - Logistics',
         image: '/images/teams/joe.webp',
-        bio: 'Joe Li is a sophomore at The Harker School. He is fluent in C++ and Java, and he is a current USACO Platinum Competitor. In addition to competitive programming, he also does AI and web development. He also enjoys violin and karate. As a Teamscode officer, he is happy to contribute to an organization that promotes competitive programming.'
+        bio: 'Joe Li is a junior at The Harker School. He is fluent in C++ and Java, and he is a current USACO Platinum Competitor. In addition to competitive programming, he also does AI and web development. He also enjoys violin and karate. As a Teamscode officer, he is happy to contribute to an organization that promotes competitive programming.'
       }, {
         name: 'Elijah Huang',
         title: 'Vice President - Problem Writing',
@@ -132,7 +132,7 @@ export default {
         name: 'Harry Chen',
         title: 'Vice President - Technology',
         image: '/images/teams/harry.webp',
-        bio: 'Harry is a sophomore at Northwood High School in Irvine, California. He started competitive programming in C++ 2 years ago and is currently in USACO Gold. Harry also does full-stack web development and he maintains TeamsCode\'s website and contest portal. Harry is excited to help bring enjoyable contest experiences to more TeamsCoders. In his free time, he likes to play tennis.'
+        bio: 'Harry is a junior at Northwood High School in Southern California. First exposed to programming in 6th grade, Harry enjoys designing complex systems and creating solutions to challenging problems. Besides being an active competitive programmer for three years, Harry has experience in full-stack web development and coding enterprise applications. He joins TeamsCode to help make the contest more accessible and more elegant, and he\'s currently in charge of the technology aspect of TeamsCode. In his free time, Harry likes to play tennis and ski.'
       }],
       members: [
         {
