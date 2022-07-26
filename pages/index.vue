@@ -410,7 +410,7 @@ export default {
       }, {
         image: '/images/partners/mbit.webp'
       }, {
-        image: '/images/partners/hpi.webp'
+        image: '/images/partners/hyperx.png'
       }],
       contests: []
     }

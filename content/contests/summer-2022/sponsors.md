@@ -24,7 +24,13 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <br>
 
-## Partner - <a href="https://www.digipen.edu/" target="_blank">DigiPen</a>
+## Gold Sponsor - <a href="https://hyperx.com" target="_blank">HyperX</a>
+
+<a href="https://hyperx.com"><img src="/images/partners/hyperx.png" alt="HyperX" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+<br>
+
+## Bronze Sponsor - <a href="https://www.digipen.edu/" target="_blank">DigiPen</a>
 
 <a href="https://www.digipen.edu/" target="_blank"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 

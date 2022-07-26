@@ -24,22 +24,27 @@
             <a target="_blank" href="https://x-camp.academy/#/"><v-img
               src="/images/partners/xcamp.webp"
               alt="X-Camp"
-              style="width: 230px; margin-right: 30px;"
+              style="max-width: 230px; margin-right: 30px;"
             /></a>
             <a target="_blank" href="https://digipen.edu"><v-img
               src="/images/partners/digipen.webp"
               alt="DigiPen"
-              style="width: 250px;"
+              style="max-width: 250px;"
             /></a>
           </v-row>
         </div>
-        <!--div class="text-center mt-8 mb-3">
+        <div class="text-center mt-8 mb-3">
           <h2 class="pb-1">
             <b>Gold Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
+            <a target="_blank" href="https://hyperx.com"><v-img
+              src="/images/partners/hyperx.png"
+              alt="X-Camp"
+              style="max-width: 230px;"
+            /></a>
           </v-row>
-        </div-->
+        </div>
         <div class="text-center mt-8 mb-3">
           <h2 style="padding-bottom: 10px;">
             <b>Bronze Sponsors</b>
