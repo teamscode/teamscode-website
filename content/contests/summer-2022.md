@@ -4,6 +4,7 @@ tabs:
   - rules
   - speakers
   - registration
+  - prizes
   - example
   - sponsors
 title: Summer 2022 Virtual Programming Contest
