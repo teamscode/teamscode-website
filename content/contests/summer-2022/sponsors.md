@@ -28,6 +28,12 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <a href="https://hyperx.com"><img src="/images/partners/hyperx.png" alt="HyperX" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
+### About HyperX
+
+HyperX's mission has been to develop gaming products for all types of gamers – headsets, keyboards, mice, charging accessories for console players, and mousepads – for the gaming community and beyond. The award-winning HyperX brand is known for consistently delivering products that provide superior comfort, aesthetics, performance, and reliability. HyperX gear is the choice of celebrity ambassadors, pro gamers, and tech enthusiasts worldwide because it’s designed by people with a passion for gaming. We’ve shipped over 20 million gaming headsets, one million keyboards and one million microphones worldwide, and don’t plan on slowing down.
+
+Join the global #HyperXFamily and learn how HyperX products can enhance your console experience and boost performance for both you and your PC, console or mobile device. Whatever your skill level, whatever genres you play, however you play, we embrace all gaming enthusiasts everywhere with our core belief — We’re All Gamers.
+
 <br>
 
 ## Bronze Sponsor - <a href="https://www.digipen.edu/" target="_blank">DigiPen</a>
