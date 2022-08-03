@@ -40,8 +40,13 @@
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://hyperx.com"><v-img
               src="/images/partners/hyperx.png"
-              alt="X-Camp"
-              style="max-width: 230px;"
+              alt="HyperX"
+              style="max-width: 230px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://digitalocean.com"><v-img
+              src="/images/partners/digitalocean.png"
+              alt="DigitalOcean"
+              style="max-width: 230px; margin-bottom: 25px;"
             /></a>
           </v-row>
         </div>

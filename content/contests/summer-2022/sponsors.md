@@ -36,6 +36,16 @@ Join the global #HyperXFamily and learn how HyperX products can enhance your con
 
 <br>
 
+## Gold Sponsor - <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>
+
+<a href="https://digitalocean.com"><img src="/images/partners/digitalocean.png" alt="DigitalOcean" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About DigitalOcean
+
+DigitalOcean simplifies cloud computing so builders can spend more time creating software that changes the world.
+
+<br>
+
 ## Bronze Sponsor - <a href="https://www.digipen.edu/" target="_blank">DigiPen</a>
 
 <a href="https://www.digipen.edu/" target="_blank"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
