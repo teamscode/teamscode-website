@@ -398,7 +398,7 @@ export default {
       logos: [{
         image: '/images/partners/xcamp.webp'
       }, {
-        image: '/images/partners/digipen.webp'
+        image: '/images/partners/digitalocean.png'
       }, {
         image: '/images/partners/cpi.webp'
       }, {
