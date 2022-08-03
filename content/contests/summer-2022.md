@@ -38,14 +38,14 @@ timeline:
 timeline_tentative: true
 cards:
   -
-    - 'Date'
-    - 'Aug 6th, 2022'
+    - 'Languages'
+    - 'Python/Java/C++'
   -
     - 'Team Size'
     - '1-4 People'
   -
-    - 'Event Time'
-    - '8 AM - 3:30 PM Pacific Time'
+    - 'Total Prize Value'
+    - '$8000+'
   -
     - 'Divisions'
     - 'Novice/Intermediate/Advanced'
