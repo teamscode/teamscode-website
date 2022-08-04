@@ -13,7 +13,7 @@ time: '9:15 AM - 3:30 PM Pacific Time'
 status: Upcoming
 place: Youtube Live
 image: /images/contests/virtual-contest.webp
-description: 'TeamsCode Summer 2022 Online Programming Contest will take place on Saturday, August 6th, from 8 AM to 3:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be three divisions: Novice, Intermediate, and Advanced. Thousands of dollars worth of prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
+description: 'TeamsCode Summer 2022 Online Programming Contest will take place on Saturday, August 6th, from 9:15 AM to 3:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be three divisions: Novice, Intermediate, and Advanced. Thousands of dollars worth of prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
 timeline:
   -
     - '9:15-9:45 AM'
@@ -21,7 +21,7 @@ timeline:
     - 'Join us at Youtube Livestream to watch the opening ceremony. We will also be going over the rules of the contest.'
   -
     - '9:45 AM-12:45 PM'
-    - 'Coding time! Last submission by 11:30 AM'
+    - 'Coding time! Last submission by 12:45 PM'
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 11:30 AM.'
   -
     - '12:45-1:00 PM'
