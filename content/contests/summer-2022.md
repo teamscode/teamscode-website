@@ -30,12 +30,12 @@ timeline:
   -
     - '1:00-3:00 PM'
     - 'Speaker Events featuring Peter Washington'
-    - 'Join Dr. Peter Washington on Zoom Webinar to learn about Data Science for Digital Behavioral Phenotyping. We are still confirming our second speaker and will soon be announced!'
+    - 'Join Dr. Peter Washington and Oliver Mensah on Youtube Livestream to learn about Data Science for Digital Behavioral Phenotyping and Computer Science: The Code, Content and Community Ways.'
   -
     - '3:00-3:30 PM'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
     - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
-timeline_tentative: true
+time_link: https://www.timeanddate.com/worldclock/fixedtime.html?msg=TeamsCode+Summer+2022+Opening+Ceremony&iso=20220806T0915&p1=137
 cards:
   -
     - 'Languages'

@@ -10,7 +10,7 @@ name: Prizes
 <br>
 
 * Over $8000 of awards in Amazon gift cards, HyperX gaming gears, and Wolfram|Alpha Notebook Edition will be given to high-performing teams. All contest participants receive free Replit Hacker Plan and Interview Cake access. See below for details.
-* The top 5 scoring teams from the advanced division, top 4 from the intermediate division, and top 4 from the novice division will win amazon gift cards. Top 5 teams from advanced, top 4 from intermediate, and top 1 from novice will win Wolfram|Alpha Notebook Edition. Top 3 teams from the advanced division also win HyperX gaming gears. The exact prizes each team member will win is listed here:
+* The top 5 scoring teams from the advanced division, top 4 from the intermediate division, and top 4 from the novice division will win amazon gift cards. Top 5 teams from advanced, top 4 from intermediate, and top 1 from novice will win Wolfram|Alpha Notebook Edition. Top 3 teams from the advanced division also win HyperX gaming gears. Top 5 teams from advanced also wins USACO mock test and 2 hours lecture from X-Camp. The exact prizes each team member will win is listed here:
   <br>**Advanced**
   * **1st** - $50 Giftcard, HyperX Cloud Alpha Headset, Alloy Origins Keyboard, Pulsefire Haste Wireless Mouse, and Fury S Mousepad each
   * **2nd** - $40 Giftcard, HyperX Cloud II Headset (Red), and Cloud Buds (Wireless) each

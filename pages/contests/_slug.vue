@@ -14,6 +14,14 @@
             <v-btn
               large
               class="mr-2 mt-1 w-full w-sm-auto"
+              href="https://go.teamscode.org/live"
+              target="_blank"
+            >
+              Youtube Livestream
+            </v-btn>
+            <v-btn
+              large
+              class="mr-2 mt-1 w-full w-sm-auto"
               @click="currentTab=1;$vuetify.goTo('#contest-details')"
             >
               Registration Instructions
@@ -108,10 +116,7 @@
             </v-card>
           </div>
           <div v-if="content.time_link" class="mt-4">
-            See starting time in your timezone: <a target="_blank" :href="content.time_link">{{ content.time_link }}</a>
-          </div>
-          <div v-if="content.timeline_tentative" class="mt-4">
-            This schedule is tentative and is subject to change.
+            See starting time in your timezone: <a target="_blank" :href="content.time_link">Link</a>
           </div>
         </v-container>
         <v-container class="py-4 py-lg-4">
@@ -135,9 +140,13 @@
                 color="primary"
                 href="https://contest.teamscode.org/?register=direct"
                 target="_blank"
+                disabled
               >
                 Register Now
               </v-btn>
+              <div class="mt-1">
+                Registration has closed. Thank you!
+              </div>
               <nuxt-content :document="tab" />
             </v-tab-item>
           </v-tabs-items>
