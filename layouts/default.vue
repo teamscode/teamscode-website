@@ -16,10 +16,10 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
-          TeamsCode Summer 2022 Contest is coming this August!
+          Winners announced for TeamsCode Summer 2022 Contest!
         </div>
         <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/summer-2022" class="mr-1" :disabled="$route.path.startsWith('/contests/summer-2022')">
-          Signup Now<v-icon right>
+          View Contest<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>

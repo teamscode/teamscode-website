@@ -9,16 +9,16 @@
           TeamsCode aims to spread computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
         </h2>
         <h2 class="text-h6 font-weight-bold secondary--text mt-6">
-          TeamsCode Summer 2022 is now accepting registrations! Click View Contest to check it out!
+          Winners of TeamsCode Summer 2022 Contest have been announced! Click Browse Contest to check it out!
         </h2>
         <div id="button-section" class="mt-4">
           <v-btn
             x-large
             class="my-1 mr-sm-1 w-full w-sm-auto"
             color="primary"
-            to="/contests/summer-2022"
+            to="/contests"
           >
-            View Contest
+            Browse Contest
           </v-btn>
           <v-btn
             x-large
@@ -364,11 +364,11 @@ export default {
       organizationFeatures: [{
         icon: mdiAccountGroup,
         title: 'A History of Growth',
-        description: 'Ever since 2017, we have aimed to bring something new or make a bigger impact at each contest. From a regional event to an international community.'
+        description: 'Ever since 2017, we have aimed to bring something new or make a bigger impact at each contest. From a regional event to an international community. Up to today, we have served more than 3000 participants.'
       }, {
         icon: mdiBookOpenPageVariant,
         title: 'Lead by Students',
-        description: 'TeamsCode\'s leadership team is composed of a group of students who truly cares. We make independent decisions for the good of the community.'
+        description: 'TeamsCode\'s leadership team is composed of a group of students who truly cares. We make independent decisions for the good of the community. We also partner with other student organizations to better serve the community.'
       }, {
         icon: mdiPencil,
         title: 'People Make Things Happen',
