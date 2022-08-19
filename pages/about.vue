@@ -109,30 +109,20 @@ export default {
   data () {
     return {
       exec: [{
-        name: 'Ethan Peng',
-        title: 'Co-President',
-        image: '/images/teams/ethan.webp',
-        bio: 'Ethan is a senior at Los Altos High School. He started learning programming two years ago, and competitive programming one year ago. He is excited to help bring quality contests to computer science students. Outside of programming, he plays tennis and watches Chinese dramas.'
-      }, {
-        name: 'Aayush Sheth',
-        title: 'Co-President',
-        image: '/images/teams/aayush.webp',
-        bio: 'Aayush is a senior at Tesla STEM Highschool in Washington state. He started learning competitive programming four years ago and is well-versed in C++ and Java. Outside of school, he enjoys learning economics, piano, and soccer. Through TeamsCode he hopes to develop his leadership and coordination skills.'
-      }, {
         name: 'Joe Li',
-        title: 'Vice President - Logistics',
+        title: 'Co-President',
         image: '/images/teams/joe.webp',
         bio: 'Joe Li is a junior at The Harker School. He is fluent in C++ and Java, and he is a current USACO Platinum Competitor. In addition to competitive programming, he also does AI and web development. He also enjoys violin and karate. As a Teamscode officer, he is happy to contribute to an organization that promotes competitive programming.'
       }, {
-        name: 'Elijah Huang',
-        title: 'Vice President - Problem Writing',
-        image: '/images/teams/elijah.webp',
-        bio: 'Elijah Huang is a senior at Basis Independent Silicon Valley in California. He started programming a year ago and is currently a USACO Platinum Competitor who has scored 700+ on the US Open and a Master on Codeforces. Apart from programming, Elijah enjoys binging a ludicrous amount of anime and going all out while rock climbing. He is thrilled to combine his passion and algorithmic knowledge to show others the beauty of programming.'
-      }, {
         name: 'Harry Chen',
-        title: 'Vice President - Technology',
+        title: 'Co-President',
         image: '/images/teams/harry.webp',
         bio: 'Harry is a junior at Northwood High School in Southern California. First exposed to programming in 6th grade, Harry enjoys designing complex systems and creating solutions to challenging problems. Besides being an active competitive programmer for three years, Harry has experience in full-stack web development and coding enterprise applications. He joins TeamsCode to help make the contest more accessible and more elegant, and he\'s currently in charge of the technology aspect of TeamsCode. In his free time, Harry likes to play tennis and ski.'
+      }, {
+        name: 'Charles Yates',
+        title: 'Vice President',
+        image: '/images/teams/charles.webp',
+        bio: 'Charles Yates is a junior at University Highschool in Socal. He has coded in C++ for 3 years, and made USACO Gold at 8th Grade. Outside of coding he does swimming and competitive math, as well as filming. Charles is excited to help fellow programmers gain more knowledge about coding. '
       }],
       members: [
         {
@@ -150,11 +140,6 @@ export default {
           title: 'Marketing Coordinator',
           image: '/images/teams/jay.webp',
           bio: 'Jay Dharmadhikari is a senior at Redmond High School in Redmond, WA. He has been interested in computer science, coding, and competitive programming since middle school. Outside of CS, he enjoys graphic design and music production. '
-        }, {
-          name: 'Charles Yates',
-          title: 'Problem Writer',
-          image: '/images/teams/charles.webp',
-          bio: 'Charles Yates is a junior at University Highschool in Socal. He has coded in C++ for 3 years, and made USACO Gold at 8th Grade. Outside of coding he does swimming and competitive math, as well as filming. Charles is excited to help fellow programmers gain more knowledge about coding. '
         }, {
           name: 'Weiming Zhou',
           title: 'Problem Writer',
@@ -213,6 +198,18 @@ export default {
           name: 'Winbert Zhang',
           title: 'Vice President, 2020-2021',
           image: '/images/teams/winbert.webp'
+        }, {
+          name: 'Ethan Peng',
+          title: 'Co-President, 2021-2022',
+          image: '/images/teams/ethan.webp'
+        }, {
+          name: 'Aayush Sheth',
+          title: 'Co-President, 2021-2022',
+          image: '/images/teams/aayush.webp'
+        }, {
+          name: 'Elijah Huang',
+          title: 'Vice President, 2021-2022',
+          image: '/images/teams/elijah.webp'
         }
       ],
       pastMembers: [
