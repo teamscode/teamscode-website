@@ -112,7 +112,7 @@ export default {
         name: 'Joe Li',
         title: 'Co-President',
         image: '/images/teams/joe.webp',
-        bio: 'Joe Li is a junior at The Harker School. He is fluent in C++ and Java, and he is a current USACO Platinum Competitor. In addition to competitive programming, he also does AI and web development. He also enjoys violin and karate. As a Teamscode officer, he is happy to contribute to an organization that promotes competitive programming.'
+        bio: 'Joe is a junior at the Harker School. His CS journey began in the fall of 2017, when he first started learning C++ with X-Camp, and he is currently a USACO Finalist. In his free time, he plays violin and does karate. He is extremely passionate about contributing to an organization that promotes competitive programming.'
       }, {
         name: 'Harry Chen',
         title: 'Co-President',
@@ -122,41 +122,36 @@ export default {
         name: 'Charles Yates',
         title: 'Vice President',
         image: '/images/teams/charles.webp',
-        bio: 'Charles Yates is a junior at University Highschool in Socal. He has coded in C++ for 3 years, and made USACO Gold at 8th Grade. Outside of coding he does swimming and competitive math, as well as filming. Charles is excited to help fellow programmers gain more knowledge about coding. '
+        bio: 'Charles Yates is a senior at University Highschool in Socal. He has coded in C++ for 3 years, and made USACO Gold at 8th Grade. Outside of coding he does swimming and competitive math, as well as filming. Charles is excited to help fellow programmers gain more knowledge about coding. '
       }],
       members: [
         {
           name: 'Sol Park',
           title: 'Problem Writer',
           image: '/images/teams/sol.webp',
-          bio: 'Sol Park is a sophomore in Mercer Island High School in Washington. He started programming at 5th grade using mainly Python and C++, achieving Silver in USACO at 9th grade. He enjoys participating in Destination Imagination and has been doing it for four years. Outside of school, he volunteers in a Korean School as a Teacher\'s Assistant. He is very excited in being part of an organization for promoting computer science among students. '
+          bio: 'Sol Park is a junior in Mercer Island High School in Washington. He started programming at 5th grade using mainly Python and C++, achieving Silver in USACO at 9th grade. He enjoys participating in Destination Imagination and has been doing it for four years. Outside of school, he volunteers in a Korean School as a Teacher\'s Assistant. He is very excited in being part of an organization for promoting computer science among students. '
         }, {
           name: 'Alex Du',
           title: 'Problem Writer',
           image: '/images/teams/alexD.webp',
-          bio: 'Alex is a sophomore at Cupertino High School in California. He started competitive programming in C++ three years ago. Outside of programming, he does math, plays volleyball, and enjoys spending time with friends. He\'s working to get more people into the world of competitive coding.'
-        }, {
-          name: 'Jay Dharmadhikari',
-          title: 'Marketing Coordinator',
-          image: '/images/teams/jay.webp',
-          bio: 'Jay Dharmadhikari is a senior at Redmond High School in Redmond, WA. He has been interested in computer science, coding, and competitive programming since middle school. Outside of CS, he enjoys graphic design and music production. '
+          bio: 'Alex is a junior at Cupertino High School in California. He started competitive programming in C++ three years ago. Outside of programming, he does math, plays volleyball, and enjoys spending time with friends. He\'s working to get more people into the world of competitive coding.'
         }, {
           name: 'Weiming Zhou',
           title: 'Problem Writer',
           image: '/images/teams/weiming.webp',
-          bio: 'Weiming Zhou is a sophomore attending Prestonwood Christian Academy in Plano, Texas. He has been doing competitive programming with C++ for almost 3 years and recently made Usaco Plat on the Us Open 2021. In his free time, he will probably be reading a book or playing chess online. He is very much looking forward to the experience of setting problems and introducing new problem solving techniques and algorithms to others.'
+          bio: 'Weiming Zhou is a junior attending Prestonwood Christian Academy in Plano, Texas. He has been doing competitive programming with C++ for almost 3 years and recently made Usaco Plat on the Us Open 2021. In his free time, he will probably be reading a book or playing chess online. He is very much looking forward to the experience of setting problems and introducing new problem solving techniques and algorithms to others.'
         },
         {
           name: 'Allen Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/allen.webp',
-          bio: 'Allen Wu is currently a freshman at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Platinum and a Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
+          bio: 'Allen Wu is currently a sophomore at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Platinum and a Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
         },
         {
           name: 'Angie Niu',
           title: 'Logistics Coordinator',
           image: '/images/teams/angie.webp',
-          bio: 'Angie Niu is a sophomore at Newport High School. She is interested in programming and has taken several Java coding lessons. In her spare time, Angie enjoys playing volleyball and baking. She is excited to help bring high quality TeamsCode competitions to passionate programmers.'
+          bio: 'Angie Niu is a junior at Newport High School. She is interested in programming and has taken several Java coding lessons. In her spare time, Angie enjoys playing volleyball and baking. She is excited to help bring high quality TeamsCode competitions to passionate programmers.'
         },
         {
           name: 'Timothy Gao',
@@ -278,6 +273,10 @@ export default {
           name: 'Alex Niu',
           title: 'Former Logistics Coordinator',
           image: '/images/teams/alexN.webp'
+        }, {
+          name: 'Jay Dharmadhikari',
+          title: 'Marketing Coordinator',
+          image: '/images/teams/jay.webp'
         }
       ]
     }
