@@ -122,7 +122,7 @@ export default {
         name: 'Joe Li',
         title: 'Vice President - Logistics',
         image: '/images/teams/joe.webp',
-        bio: 'Joe Li is a junior at The Harker School. He is fluent in C++ and Java, and he is a current USACO Platinum Competitor. In addition to competitive programming, he also does AI and web development. He also enjoys violin and karate. As a Teamscode officer, he is happy to contribute to an organization that promotes competitive programming.'
+        bio: 'Joe Li is a junior at The Harker School. He is fluent in C++ and Java, and he is a current USACO Finalist Competitor. In addition to competitive programming, he also does AI and web development. He also enjoys violin and karate. As a Teamscode officer, he is happy to contribute to an organization that promotes competitive programming.'
       }, {
         name: 'Elijah Huang',
         title: 'Vice President - Problem Writing',
