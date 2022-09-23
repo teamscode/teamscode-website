@@ -58,21 +58,8 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
-    ['@nuxtjs/vuetify', {
-      customVariables: ['~/assets/scss/vuetify/variables/_index.scss'],
-      optionsPath: '~/configs/vuetify.js',
-      treeShake: true,
-      defaultAssets: {
-        font: false,
-        icons: false
-      },
-      extractCSS: true
-    }],
-    ['@nuxtjs/google-fonts', {
-      families: {
-        Roboto: [100, 200, 300, 400, 700, 900]
-      }
-    }],
+    '@nuxtjs/vuetify',
+    '@nuxtjs/google-fonts',
     'nuxt-compress',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
@@ -89,6 +76,23 @@ export default {
       Sitemap: 'https://www.teamscode.org/sitemap.xml'
     }
   ],
+
+  googleFonts: {
+    families: {
+      Roboto: [100, 200, 300, 400, 700, 900]
+    }
+  },
+
+  vuetify: {
+    customVariables: ['~/assets/scss/vuetify/variables/_index.scss'],
+    optionsPath: '~/configs/vuetify.js',
+    treeShake: true,
+    defaultAssets: {
+      font: false,
+      icons: false
+    },
+    extractCSS: true
+  },
 
   gtm: {
     id: 'GTM-KZSX9DH',
@@ -108,6 +112,7 @@ export default {
         url: '/blog',
         changefreq: 'daily'
       }
-    ]
+    ],
+    trailingSlash: true
   }
 }
