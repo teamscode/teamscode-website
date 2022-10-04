@@ -2,30 +2,37 @@
   <div>
     <v-sheet>
       <v-container class="py-6 py-lg-8">
-        <h1 class="text-h3 text-md-h2 text-lg-h1">
-          Online <span class="primary--text">team programming contests</span> for students at all levels
-        </h1>
-        <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
-          TeamsCode aims to spread computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
-        </h2>
-        <div id="button-section" class="mt-4">
-          <v-btn
-            x-large
-            class="my-1 mr-sm-1 w-full w-sm-auto"
-            color="primary"
-            to="/contests"
-          >
-            Browse Contest
-          </v-btn>
-          <v-btn
-            x-large
-            class="my-1 ml-sm-1 w-full w-sm-auto"
-            href="https://go.teamscode.org/discord"
-            target="_blank"
-          >
-            Join Discord
-          </v-btn>
-        </div>
+        <v-row>
+          <v-col cols="12" lg="7">
+            <h1 class="text-h2 text-lg-h1 mt-xl-4">
+              TeamsCode <span class="primary--text">online coding contests</span> for all levels
+            </h1>
+            <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
+              TeamsCode aims to spread computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
+            </h2>
+            <div class="mt-4 mt-xl-10">
+              <v-btn
+                x-large
+                class="my-1 mr-sm-1 w-full w-sm-auto"
+                color="primary"
+                to="/contests"
+              >
+                Browse Contests
+              </v-btn>
+              <v-btn
+                x-large
+                class="my-1 ml-sm-1 w-full w-sm-auto"
+                href="https://go.teamscode.org/discord"
+                target="_blank"
+              >
+                Join Discord
+              </v-btn>
+            </div>
+          </v-col>
+          <v-col cols="12" lg="5" class="d-none d-lg-flex">
+            <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" src="/images/hero.webp" />
+          </v-col>
+        </v-row>
       </v-container>
     </v-sheet>
     <svg class="logos-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1442 163">
