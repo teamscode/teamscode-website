@@ -1,13 +1,13 @@
 <template>
   <div>
-    <v-sheet>
+    <v-sheet color="surface">
       <v-container class="py-6 py-lg-8">
         <v-row>
           <v-col cols="12" lg="7">
             <h1 class="text-h2 text-lg-h1 mt-xl-4">
-              TeamsCode <span class="primary--text">online coding contests</span> for all levels
+              High quality and fun <span class="primary--text">team programming contests</span> for everyone
             </h1>
-            <h2 class="text-h6 text-sm-h5 secondary--text mt-4">
+            <h2 class="text-h6 text-sm-h5 mt-4 secondary--text">
               TeamsCode aims to spread computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
             </h2>
             <div class="mt-4 mt-xl-10">
@@ -35,62 +35,64 @@
         </v-row>
       </v-container>
     </v-sheet>
-    <svg class="logos-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1442 163">
-      <path d="m-3.90909,6l48.30303,16c48.30303,16 144.90908,48 241.51514,48c96.60606,0 193.21211,-32 289.81817,-32c96.60606,0 193.21211,32 289.81817,53.3c96.60606,21.7 193.21211,31.7 289.81817,16c96.60606,-16.3 193.21211,-58.3 241.51514,-80l48.30303,-21.3l0,160l-48.30303,0c-48.30303,0 -144.90908,0 -241.51514,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -241.51514,0l-48.30303,0l0,-160z" />
-    </svg>
-    <v-container class="pb-4 pt-4 pb-lg-6">
-      <div class="text-center text-md-left">
-        <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-          Our Mission
-        </div>
-        <h2 class="text-h4 text-sm-h3 text-lg-h2">
-          An inspirational competitive programming experience
-        </h2>
-        <div class="text-body text-sm-h6 text-lg-h5 mt-4">
-          Our unique team competitive programming contests aim to provide a fun and enjoyable experience to students regardless of their skills. We thrive to achieve that with the following features.
-        </div>
-      </div>
-      <div class="mt-6">
-        <div
-          v-for="(item, i) in contestFeatures"
-          :key="i"
-          class="mt-4"
-        >
-          <v-card class="py-4 px-2">
-            <div class="d-flex">
-              <div class="mr-2">
-                <v-sheet
-                  color="blue-grey"
-                  rounded
-                  class="pa-2"
-                  style="margin-top: 3px"
-                  dark
-                >
-                  <v-icon>{{ item.icon }}</v-icon>
-                </v-sheet>
-              </div>
-              <div>
-                <div class="text-h5 font-weight-bold">
-                  {{ item.title }}
-                </div>
-                <div class="text-body mt-1">
-                  {{ item.description }}
-                </div>
-              </div>
-            </div>
-          </v-card>
-        </div>
-      </div>
-    </v-container>
-
     <v-sheet>
+      <svg class="logos-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1442 163">
+        <path d="m-3.90909,6l48.30303,16c48.30303,16 144.90908,48 241.51514,48c96.60606,0 193.21211,-32 289.81817,-32c96.60606,0 193.21211,32 289.81817,53.3c96.60606,21.7 193.21211,31.7 289.81817,16c96.60606,-16.3 193.21211,-58.3 241.51514,-80l48.30303,-21.3l0,160l-48.30303,0c-48.30303,0 -144.90908,0 -241.51514,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -289.81817,0c-96.60606,0 -193.21211,0 -241.51514,0l-48.30303,0l0,-160z" />
+      </svg>
+      <v-container class="pb-4 pt-0 pb-lg-6">
+        <div class="text-center text-md-left">
+          <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
+            Our Mission
+          </div>
+          <h2 class="text-h4 text-sm-h3 text-lg-h2">
+            An inspirational competitive programming experience
+          </h2>
+          <div class="text-body text-sm-h6 text-lg-h5 mt-4 secondary--text">
+            Our unique team competitive programming contests aim to provide a fun and enjoyable experience to students regardless of their skills. We thrive to achieve that with the following features.
+          </div>
+        </div>
+        <div class="mt-6">
+          <div
+            v-for="(item, i) in contestFeatures"
+            :key="i"
+            class="mt-4"
+          >
+            <v-card class="py-4 px-2">
+              <div class="d-flex">
+                <div class="mr-2">
+                  <v-sheet
+                    color="blue-grey"
+                    rounded
+                    class="pa-2"
+                    style="margin-top: 3px"
+                    dark
+                  >
+                    <v-icon>{{ item.icon }}</v-icon>
+                  </v-sheet>
+                </div>
+                <div>
+                  <div class="text-h5 font-weight-bold">
+                    {{ item.title }}
+                  </div>
+                  <div class="text-body mt-1">
+                    {{ item.description }}
+                  </div>
+                </div>
+              </div>
+            </v-card>
+          </div>
+        </div>
+      </v-container>
+    </v-sheet>
+
+    <v-sheet color="surface">
       <v-container class="py-4 py-lg-8">
         <div class="text-center">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
             Our Events
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2 mb-3">
-            Virtual contests for programmers
+            Team contests for programmers
           </h2>
           <v-responsive max-width="1200" class="mx-auto" />
         </div>
@@ -198,7 +200,7 @@
             A community of coders around the world
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-body text-sm-h6 text-lg-h5 mt-4">
+            <div class="text-body text-sm-h6 text-lg-h5 mt-4 secondary--text">
               Students and computer science enthusiasts around the world participate in TeamsCode events to sharpen their coding skills. Here are some statistics* from TeamsCode Spring 2022 Contest.
             </div>
           </v-responsive>
@@ -236,7 +238,7 @@
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
             By students, for students
           </h2>
-          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
+          <div class="text-body text-sm-h6 text-lg-h5 mt-4 secondary--text">
             TeamsCode is brought to you by a group of enthusiastic students that hope others can also share their enjoyment in computer science.
           </div>
         </div>
@@ -289,8 +291,8 @@
             <h2 class="text-h4 text-sm-h3 text-lg-h2">
               Supporting TeamsCode
             </h2>
-            <div class="text-body text-sm-h6 text-lg-h5 mt-5">
-              Our awesome sponsors aids us in organizing a better contest. We also partner with other competitive programming organizations to foster a tight-knit community.
+            <div class="text-body text-sm-h6 text-lg-h5 mt-5 secondary--text">
+              We partner with other competitive programming initiatives and companies to bring our contestants a better contest. Please consider sponsoring us!
             </div>
             <div class="mt-4 d-none d-md-block">
               <v-btn to="/sponsors" outlined large color="primary">
@@ -465,8 +467,8 @@ export default {
 
 <style scoped>
 .logos-bg {
-  fill: #f2f5f8;
-  background-color: white;
+  fill: #fff;
+  background-color: var(--v-surface-base);;
 }
 .logos5 img {
 filter: grayscale(100%) brightness(2);
