@@ -28,11 +28,6 @@ export default {
     '~/assets/scss/theme.scss'
   ],
 
-  content: {
-    // Only search in title and description
-    fullTextSearchFields: () => ['title', 'description', 'place', 'date', 'participants', 'status', 'author', 'slug']
-  },
-
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/filters/capitalize.js' },
@@ -67,6 +62,11 @@ export default {
     '@nuxt/content'
   ],
 
+  content: {
+    // Only search in title and description
+    fullTextSearchFields: () => ['title', 'description', 'place', 'date', 'participants', 'status', 'author', 'slug']
+  },
+
   robots: [
     {
       UserAgent: '*',
@@ -80,7 +80,9 @@ export default {
   googleFonts: {
     families: {
       Roboto: [100, 200, 300, 400, 700, 900]
-    }
+    },
+    download: true,
+    display: 'swap'
   },
 
   vuetify: {
