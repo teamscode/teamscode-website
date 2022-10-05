@@ -47,7 +47,7 @@
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
             An inspirational competitive programming experience
           </h2>
-          <div class="text-body text-sm-h6 text-lg-h5 mt-4 secondary--text">
+          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
             Our unique team competitive programming contests aim to provide a fun and enjoyable experience to students regardless of their skills. We thrive to achieve that with the following features.
           </div>
         </div>
@@ -200,7 +200,7 @@
             A community of coders around the world
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-body text-sm-h6 text-lg-h5 mt-4 secondary--text">
+            <div class="text-body text-sm-h6 text-lg-h5 mt-4">
               Students and computer science enthusiasts around the world participate in TeamsCode events to sharpen their coding skills. Here are some statistics* from TeamsCode Spring 2022 Contest.
             </div>
           </v-responsive>
@@ -238,7 +238,7 @@
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
             By students, for students
           </h2>
-          <div class="text-body text-sm-h6 text-lg-h5 mt-4 secondary--text">
+          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
             TeamsCode is brought to you by a group of enthusiastic students that hope others can also share their enjoyment in computer science.
           </div>
         </div>
@@ -291,7 +291,7 @@
             <h2 class="text-h4 text-sm-h3 text-lg-h2">
               Supporting TeamsCode
             </h2>
-            <div class="text-body text-sm-h6 text-lg-h5 mt-5 secondary--text">
+            <div class="text-body text-sm-h6 text-lg-h5 mt-5">
               We partner with other competitive programming initiatives and companies to bring our contestants a better contest. Please consider sponsoring us!
             </div>
             <div class="mt-4 d-none d-md-block">
