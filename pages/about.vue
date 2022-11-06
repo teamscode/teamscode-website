@@ -131,11 +131,6 @@ export default {
           image: '/images/teams/sol.jpg',
           bio: 'Sol Park is a junior in Mercer Island High School in Washington. He started programming at 5th grade using mainly Python and C++, achieving Silver in USACO at 9th grade. He enjoys participating in Destination Imagination and has been doing it for four years. Outside of school, he volunteers in a Korean School as a Teacher\'s Assistant. He is very excited in being part of an organization for promoting computer science among students. '
         }, {
-          name: 'Alex Du',
-          title: 'Problem Writer',
-          image: '/images/teams/alexD.jpg',
-          bio: 'Alex is a junior at Cupertino High School in California. He started competitive programming in C++ three years ago. Outside of programming, he does math, plays volleyball, and enjoys spending time with friends. He\'s working to get more people into the world of competitive coding.'
-        }, {
           name: 'Weiming Zhou',
           title: 'Problem Writer',
           image: '/images/teams/weiming.jpg',
@@ -160,6 +155,18 @@ export default {
           bio: 'Dustin is a junior at the Harker School who is passionate about computer science. He is in USACO\'s platinum division and a master on Codeforces, and is also interested in web development and artificial intelligence. In is spare time, he enjoys playing cello.'
         },
         {
+          name: 'James Leung',
+          title: 'Problem Writer',
+          image: '/images/teams/james.jpg',
+          bio: 'James is a junior at Hunter College High School. He started programming in C++ at 9th grade. He is passionate about working out, math, and New York City. He plays the alto saxophone for jazz band. He is excited to be with TeamsCode and spreading the joy of competitive programming. James has wrote math and computer science articles for magazines, and has taught USACO courses in Java and C++.'
+        },
+        {
+          name: 'Problem Writer',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/alejandro.jpg',
+          bio: 'Alejandro is a junior studying IB at Maristes Sants-Les Corts in Barcelona. He started competitive programming in December 2021 and in March 2022 made it to USACO Gold and managed to get bronze medal in the Spanish Olympiad. When he isn\'t thinking about problems (almost never) he does judo, reads, plays videogames with his friends or watches Star Wars. His goal with Teamscode is to create unique and interesting problems for others to enjoy.'
+        },
+        {
           name: 'Angie Niu',
           title: 'Marketing Director',
           image: '/images/teams/angie.jpg',
@@ -170,18 +177,6 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/allen.jpg',
           bio: 'Allen Wu is currently a sophomore at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Platinum and a Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
-        },
-        {
-          name: 'James Leung',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/james.jpg',
-          bio: 'James is a junior at Hunter College High School. He started programming in C++ at 9th grade. He is passionate about working out, math, and New York City. He plays the alto saxophone for jazz band. He is excited to be with TeamsCode and spreading the joy of competitive programming. James has wrote math and computer science articles for magazines, and has taught USACO courses in Java and C++.'
-        },
-        {
-          name: 'Alejandro Vivero',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/alejandro.jpg',
-          bio: 'Alejandro is a junior studying IB at Maristes Sants-Les Corts in Barcelona. He started competitive programming in December 2021 and in March 2022 made it to USACO Gold and managed to get bronze medal in the Spanish Olympiad. When he isn\'t thinking about problems (almost never) he does judo, reads, plays videogames with his friends or watches Star Wars. His goal with Teamscode is to create unique and interesting problems for others to enjoy.'
         },
         {
           name: 'Abhay Raj',
@@ -307,6 +302,10 @@ export default {
           name: 'Jay Dharmadhikari',
           title: 'Marketing Coordinator',
           image: '/images/teams/jay.jpg'
+        }, {
+          name: 'Alex Du',
+          title: 'Problem Writer',
+          image: '/images/teams/alexD.jpg'
         }
       ]
     }
