@@ -158,6 +158,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/timothy.webp',
           bio: 'Timothy is a Senior at Amador Valley High School who has been actively participating in programming competitions since Freshman year. Thanks to the supportive competitive programming community, he discovered a passion for algorithms and programming as a whole. He is thrilled to problem-set for Teamscode in order to help promote the sport and give back to its incredible community.'
+        },
+        {
+          name: 'Abhay Raj',
+          title: 'Web Developer',
+          image: '/images/teams/abhay.webp',
+          bio: 'Abhay Raj is a junior in Mercer Island High School in Washington. He started competitive programming in 9th grade. Apart from competitive programming, he enjoys attending robotics and math clubs. Apart from school, Abhay likes to run, draw, and 3D-print models. He looks forward to both promoting and maintaining the TeamsCode website and competitions. '
         }
       ],
       pastLeadership: [
