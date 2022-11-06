@@ -168,7 +168,7 @@ export default {
         },
         {
           name: 'Angie Niu',
-          title: 'Marketing Director',
+          title: 'Head of Marketing',
           image: '/images/teams/angie.jpg',
           bio: 'Angie Niu is a junior at Newport High School. She is interested in programming and has taken several Java coding lessons. In her spare time, Angie enjoys playing volleyball and baking. She is excited to help bring high quality TeamsCode competitions to passionate programmers.'
         },
