@@ -201,9 +201,31 @@
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
             <div class="text-body text-sm-h6 text-lg-h5 mt-4">
-              Students and computer science enthusiasts around the world participate in TeamsCode events to sharpen their coding skills. Here are some statistics* from TeamsCode Spring 2022 Contest.
+              Since 2017, students and computer science enthusiasts around the world participated in TeamsCode events to sharpen their coding skills.
             </div>
           </v-responsive>
+        </div>
+        <div class="mt-4">
+          <div class="primary--text ml-5 mb-n8">
+            Number of Contest Participants Over Time
+          </div>
+          <v-sparkline
+            :value="history.participants"
+            height="100"
+            label-size="4"
+            padding="16"
+            line-width="3"
+            stroke-linecap="round"
+          >
+            <template #label="item">
+              <tspan style="fill: grey;">
+                {{ history.contests[item.index] }}
+              </tspan>
+              <tspan dx="-5%" dy="1.3em" :style="'font-size: 5px;'">
+                {{ item.value }}
+              </tspan>
+            </template>
+          </v-sparkline>
         </div>
         <v-row class="mt-6" dense>
           <v-col
@@ -223,9 +245,6 @@
             </v-card>
           </v-col>
         </v-row>
-        <div class="text-caption mt-2">
-          *Data extracted and compiled from TeamsCode Contest System's internal database and contest registration info during Spring 2022 contest.
-        </div>
       </v-container>
     </v-sheet>
 
@@ -343,15 +362,19 @@ export default {
       mdiBell,
       mdiMessageAlert,
       banner: true,
+      history: {
+        participants: [103, 90, 119, 180, 168, 179, 296, 245, 327, 349, 561],
+        contests: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022']
+      },
       stats: [{
-        title: 'Participants',
-        value: '561'
+        title: 'Contests',
+        value: '11'
       }, {
-        title: 'Total Submissions',
-        value: '7.3K'
+        title: 'Total Participants',
+        value: '2617'
       }, {
-        title: 'Lines of Code',
-        value: '616K'
+        title: 'Countries Reached',
+        value: '22+'
       }],
       resourceFeatures: [{
         icon: mdiTrophyVariant,
