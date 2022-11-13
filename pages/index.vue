@@ -367,8 +367,8 @@ export default {
         contests: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022']
       },
       stats: [{
-        title: 'Contests',
-        value: '11'
+        title: 'Total Event Hours',
+        value: '90+'
       }, {
         title: 'Total Participants',
         value: '2617'
