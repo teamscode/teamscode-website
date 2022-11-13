@@ -161,8 +161,8 @@ export default {
           bio: 'James is a junior at Hunter College High School. He started programming in C++ at 9th grade. He is passionate about working out, math, and New York City. He plays the alto saxophone for jazz band. He is excited to be with TeamsCode and spreading the joy of competitive programming. James has wrote math and computer science articles for magazines, and has taught USACO courses in Java and C++.'
         },
         {
-          name: 'Problem Writer',
-          title: 'Logistics Coordinator',
+          name: 'Alejandro Vivero',
+          title: 'Problem Writer',
           image: '/images/teams/alejandro.jpg',
           bio: 'Alejandro is a junior studying IB at Maristes Sants-Les Corts in Barcelona. He started competitive programming in December 2021 and in March 2022 made it to USACO Gold and managed to get bronze medal in the Spanish Olympiad. When he isn\'t thinking about problems (almost never) he does judo, reads, plays videogames with his friends or watches Star Wars. His goal with Teamscode is to create unique and interesting problems for others to enjoy.'
         },
@@ -177,6 +177,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/allen.jpg',
           bio: 'Allen Wu is currently a sophomore at Newport High School. He has actively participated in competitive programming since March 2021 and has achieved USACO Platinum and a Master on Codeforces. Outside competitive programming, he also does competition math and plays piano (a lot). He is looking forward to helping TeamsCode deliver a better contest experience to competitive programmers!'
+        },
+        {
+          name: 'Maira Elahi',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/maira.jpg',
+          bio: 'Maira Elahi is currently a junior at Riverside Secondary School. Some of her many passions lie in computer science and emerging technologies. As such, she has been working on several projects, namely cancer and climate research involving deep learning, artificial intelligence, and nanotechnology. At Teamscode, she\'s thrilled to help deliver enriching competitions to so many passionate, enthusiastic programmers!'
         },
         {
           name: 'Abhay Raj',
