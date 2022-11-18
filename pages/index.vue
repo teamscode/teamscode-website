@@ -206,26 +206,15 @@
           </v-responsive>
         </div>
         <div class="mt-4">
-          <div class="primary--text ml-5 mb-n8">
+          <div class="primary--text ml-5">
             Number of Contest Participants Over Time
           </div>
-          <v-sparkline
-            :value="history.participants"
-            height="100"
-            label-size="4"
-            padding="16"
-            line-width="3"
-            stroke-linecap="round"
-          >
-            <template #label="item">
-              <tspan style="fill: grey;">
-                {{ history.contests[item.index] }}
-              </tspan>
-              <tspan dx="-5%" dy="1.3em" :style="'font-size: 5px;'">
-                {{ item.value }}
-              </tspan>
-            </template>
-          </v-sparkline>
+          <line-chart
+            :chart-data="chartData"
+            :chart-options="chartOptions"
+            chart-id="contestHistory"
+            class="mt-2"
+          />
         </div>
         <v-row class="mt-6" dense>
           <v-col
@@ -362,9 +351,24 @@ export default {
       mdiBell,
       mdiMessageAlert,
       banner: true,
-      history: {
-        participants: [103, 90, 119, 180, 168, 179, 296, 245, 327, 349, 561],
-        contests: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022']
+      chartData: {
+        datasets: [{
+          label: '# of Contest Participants',
+          borderWidth: 4,
+          borderColor: '#2E99D0',
+          backgroundColor: '#2E99D0',
+          data: [103, 90, 119, 180, 168, 179, 296, 245, 327, 349, 561]
+        }],
+        labels: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022']
+      },
+      chartOptions: {
+        responsive: true,
+        aspectRatio: 3,
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
       },
       stats: [{
         title: 'Total Event Hours',

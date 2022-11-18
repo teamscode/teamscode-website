@@ -36,7 +36,8 @@ export default {
     { src: '~/filters/trim.js' },
     { src: '~/filters/placeholder.js' },
     { src: '~/filters/formatDate.js' },
-    { src: '~/filters/ordinal.js' }
+    { src: '~/filters/ordinal.js' },
+    { src: '~/plugins/chart.js', mode: 'client' }
   ],
 
   'google-gtag': {
