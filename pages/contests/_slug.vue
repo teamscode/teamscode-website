@@ -22,7 +22,7 @@
             <v-btn
               large
               class="mr-2 mt-1 w-full w-sm-auto"
-              @click="currentTab=1;$vuetify.goTo('#contest-details')"
+              @click="currentTab=2;$vuetify.goTo('#contest-details')"
             >
               Registration Instructions
             </v-btn>
@@ -124,9 +124,12 @@
             Contest Details
           </h2>
           <v-divider />
+          <div class="mt-2">
+            We are still working on the grayed-out sections, stay tuned!
+          </div>
           <v-card>
             <v-tabs v-model="currentTab" :vertical="$vuetify.breakpoint.smAndDown" grow class="mt-4" center-active>
-              <v-tab v-for="tab in content.tabs" :key="tab.slug">
+              <v-tab v-for="tab in content.tabs" :key="tab.slug" :disabled="tab.disabled">
                 {{ tab.name }}
               </v-tab>
             </v-tabs>
@@ -140,13 +143,9 @@
                 color="primary"
                 href="https://contest.teamscode.org/?register=direct"
                 target="_blank"
-                disabled
               >
                 Register Now
               </v-btn>
-              <div class="mt-1">
-                Registration has closed. Thank you!
-              </div>
               <nuxt-content :document="tab" />
             </v-tab-item>
           </v-tabs-items>

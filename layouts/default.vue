@@ -16,9 +16,9 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
-          Summer 2022 contest winners are announced!
+          Spring 2023 contest registration is open!
         </div>
-        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/summer-2022" class="mr-1" :disabled="$route.path.startsWith('/contests/summer-2022')">
+        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2023" class="mr-1" :disabled="$route.path.startsWith('/contests/spring-2023')">
           View Contest<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
