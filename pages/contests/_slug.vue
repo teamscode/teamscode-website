@@ -14,14 +14,6 @@
             <v-btn
               large
               class="mr-2 mt-1 w-full w-sm-auto"
-              href="https://go.teamscode.org/live"
-              target="_blank"
-            >
-              Youtube Livestream
-            </v-btn>
-            <v-btn
-              large
-              class="mr-2 mt-1 w-full w-sm-auto"
               @click="currentTab=2;$vuetify.goTo('#contest-details')"
             >
               Registration Instructions
@@ -151,26 +143,26 @@
           </v-tabs-items>
           <div class="text-right mt-2">
             <v-btn
-              v-if="currentTab!==0"
+              v-if="previousTab!==-1"
               class="mr-2"
               :text="!$vuetify.breakpoint.smAndUp"
               :small="!$vuetify.breakpoint.smAndUp"
-              @click="$vuetify.goTo('#contest-details');currentTab-=1"
+              @click="$vuetify.goTo('#contest-details');currentTab=previousTab"
             >
               <v-icon left>
                 {{ mdiArrowLeft }}
               </v-icon>
-              {{ content.tabs[currentTab-1].name }}
+              {{ content.tabs[previousTab].name }}
             </v-btn>
             <v-btn
-              v-if="currentTab!==content.tabs.length-1"
+              v-if="nextTab!==-1"
               class="mr-2"
               :text="!$vuetify.breakpoint.smAndUp"
               :small="!$vuetify.breakpoint.smAndUp"
               color="primary"
-              @click="$vuetify.goTo('#contest-details');currentTab+=1"
+              @click="$vuetify.goTo('#contest-details');currentTab=nextTab"
             >
-              {{ content.tabs[currentTab+1].name }}
+              {{ content.tabs[nextTab].name }}
               <v-icon right dark>
                 {{ mdiArrowRight }}
               </v-icon>
@@ -234,6 +226,24 @@ export default {
           content: this.content.description || this.content.title
         }
       ]
+    }
+  },
+  computed: {
+    nextTab () {
+      for (let index = this.currentTab + 1; index < this.content.tabs.length; index++) {
+        if (!this.content.tabs[index].disabled) {
+          return index
+        }
+      }
+      return -1
+    },
+    previousTab () {
+      for (let index = this.currentTab - 1; index >= 0; index--) {
+        if (!this.content.tabs[index].disabled) {
+          return index
+        }
+      }
+      return -1
     }
   }
 }
