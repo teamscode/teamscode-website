@@ -31,3 +31,5 @@
 /learn /resources 301
 /press https://archive.teamscode.org/press 301
 /learn/* https://archive.teamscode.org/learn/:splat
+/contests/april-2023 /contests/spring-2023 301
+/contests/april-2023/ /contests/spring-2023/ 301
