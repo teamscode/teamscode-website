@@ -29,8 +29,8 @@ timeline:
     - 'Please take a short break while we get ready for the speaker events. If you need, feel free to eat lunch while listening to the speakers.'
   -
     - '1:00-3:00 PM'
-    - 'Speaker Events featuring Peter Washington'
-    - 'Join Dr. Peter Washington and Oliver Mensah on Youtube Livestream to learn about Data Science for Digital Behavioral Phenotyping and Computer Science: The Code, Content and Community Ways.'
+    - 'Speaker Event'
+    - 'We are still finalizing our speakers and will update this section ASAP!'
   -
     - '3:00-3:30 PM'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
