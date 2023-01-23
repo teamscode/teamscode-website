@@ -10,6 +10,9 @@
             <h2 class="text-h6 text-sm-h5 mt-4 secondary--text">
               TeamsCode aims to spread computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
             </h2>
+            <h2 class="text-h6 text-sm-h5 mt-4 secondary--text">
+              <b>Our upcoming virtual programming contest will take place on April 2nd, register now to stay updated!</b>
+            </h2>
             <div class="mt-4 mt-xl-10">
               <v-btn
                 x-large

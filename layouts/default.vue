@@ -15,11 +15,11 @@
 
         <v-spacer />
 
-        <div v-if="$vuetify.breakpoint.mdAndUp" class="mr-2 text-subtitle-1">
-          Spring 2023 contest registration is open!
+        <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/spring-2023')" class="mr-2 text-subtitle-1">
+          Spring 2023 programming contest is open to registration!
         </div>
-        <v-btn v-if="$vuetify.breakpoint.smAndUp" color="primary" to="/contests/spring-2023" class="mr-1" :disabled="$route.path.startsWith('/contests/spring-2023')">
-          View Contest<v-icon right>
+        <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/spring-2023')" color="primary" to="/contests/spring-2023" class="mr-1">
+          Register Now<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>
@@ -190,7 +190,7 @@
       </v-list>
       <template #append>
         <div class="pa-2">
-          <v-btn color="primary" to="/contests/summer-2022" class="mr-3" :disabled="$route.path.startsWith('/contests/summer-2022')">
+          <v-btn v-if="!$route.path.startsWith('/contests/spring-2023')" color="primary" to="/contests/spring-2023" class="mr-3">
             Upcoming Contest<v-icon right>
               {{ mdiArrowRight }}
             </v-icon>
