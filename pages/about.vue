@@ -117,7 +117,7 @@ export default {
         name: 'Harry Chen',
         title: 'Co-President',
         image: '/images/teams/harry.jpg',
-        bio: 'Harry is a junior at Northwood High School in Irvine. He started programming by solving elementary school math problems in python after getting annoyed by his homework. He is currently fluent in C++ and competes in USACO Platinum. Harry also enjoys coding web applications with TypeScript and Vue.js and is in charge of the backend development at TeamsCode. In his free time, Harry likes to play tennis and ski.'
+        bio: 'Harry is a junior at Northwood High School in Irvine. He first started programming by solving elementary school math problems in python after getting annoyed by his homework. He is currently fluent in C++ and competes in USACO Platinum. Harry also enjoys coding web applications with TypeScript and is in charge of the backend development at TeamsCode. In his free time, Harry likes to play tennis and ski.'
       }, {
         name: 'Charles Yates',
         title: 'Vice President',
