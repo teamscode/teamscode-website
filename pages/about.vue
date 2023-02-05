@@ -13,10 +13,10 @@
     <v-sheet>
       <v-container class="py-4 py-lg-8">
         <v-row>
-          <v-col cols="12" lg="6" xl="4">
+          <v-col cols="12" lg="6">
             <v-img src="/images/about-background.webp" class="rounded-lg elevation-6" height="100%" />
           </v-col>
-          <v-col cols="12" lg="6" xl="8">
+          <v-col cols="12" lg="6">
             <div class="text-uppercase font-weight-bold body-2 primary--text mb-2 text-center text-md-left">
               TeamsCode
             </div>
@@ -117,7 +117,7 @@ export default {
         name: 'Harry Chen',
         title: 'Co-President',
         image: '/images/teams/harry.jpg',
-        bio: 'Harry is a junior at Northwood High School in Southern California. First exposed to programming in 6th grade, Harry enjoys designing complex systems and creating solutions to challenging problems. Besides being an active competitive programmer for three years, Harry has experience in full-stack web development and coding enterprise applications. He joins TeamsCode to help make the contest more accessible and more elegant, and he\'s currently in charge of the technology aspect of TeamsCode. In his free time, Harry likes to play tennis and ski.'
+        bio: 'Harry is a junior at Northwood High School in Irvine. He started programming by solving elementary school math problems in python after getting annoyed by his homework. He is currently fluent in C++ and competes in USACO Platinum. Harry also enjoys coding web applications with TypeScript and Vue.js and is in charge of the backend development at TeamsCode. In his free time, Harry likes to play tennis and ski.'
       }, {
         name: 'Charles Yates',
         title: 'Vice President',
