@@ -60,7 +60,9 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     '@nuxtjs/gtm',
-    '@nuxt/content'],
+    '@nuxt/content',
+    'nuxt-delay-hydration'
+  ],
 
   content: {
     // Only search in title and description
@@ -117,5 +119,10 @@ export default {
       }
     ],
     trailingSlash: true
+  },
+
+  delayHydration: {
+    mode: 'mount',
+    debug: true
   }
 }
