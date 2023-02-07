@@ -7,7 +7,7 @@
             Our partners and sponsors
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-h6 text-lg-h5 mt-4">
+            <div class="text-body-1 mt-4">
               Companies and organizations that support and partner with TeamsCode
             </div>
           </v-responsive>
@@ -188,7 +188,7 @@
     </v-sheet>
     <v-sheet class="bg-sheet" dark>
       <v-container class="text-center py-4">
-        <h1 class="font-weight-light">
+        <h1 class="font-weight-light text-h4">
           Want to sponsor TeamsCode?
         </h1>
 
@@ -202,7 +202,7 @@
           Get in touch
         </v-btn>
 
-        <div class="text-body-1 text-md-h6 font-weight-light">
+        <div class="text-body-1">
           <v-responsive max-width="800" class="mx-auto">
             Please click on the button to view our contact methods and sponsorship deck.
           </v-responsive>

@@ -7,7 +7,7 @@
             Get in touch with us
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-h6 text-lg-h5 mt-4">
+            <div class="text-body-1 mt-4">
               Ways to connect with TeamsCode for inquiries and support
             </div>
           </v-responsive>
@@ -21,7 +21,7 @@
             <h4 class="text-h4">
               Receive updates in your inbox
             </h4>
-            <div class="text-h6 text-lg-h5 mt-2">
+            <div class="text-body-1 mt-2">
               Subscribe to TeamsCode's newsletters to receive announcements and updates.
             </div>
           </v-col>
@@ -73,7 +73,7 @@
               <div class="text-h5">
                 {{ item.title }}
               </div>
-              <div class="text-body secondary--text mt-2">
+              <div class="text-body-2 secondary--text mt-2">
                 {{ item.content }}
               </div>
               <v-card-actions>

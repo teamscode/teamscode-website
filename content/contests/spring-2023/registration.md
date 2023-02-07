@@ -3,11 +3,7 @@ slug: registration
 name: Registration
 ---
 
-<br>
-
 ## Registration Information
-
-<br>
 
 Welcome to TeamsCode contests! Each team will only need one account on TeamsCode Contest Portal to participate, and we recommend the team captain to register for your team. Before getting started, make sure you have confirmed the following with your team:
 

@@ -77,7 +77,7 @@
                   <div class="text-h5 font-weight-bold">
                     {{ item.title }}
                   </div>
-                  <div class="text-body-2 mt-1">
+                  <div class="text-body-2 mt-1 secondary--text">
                     {{ item.description }}
                   </div>
                 </div>
@@ -272,7 +272,7 @@
                   <div class="text-h5 font-weight-bold">
                     {{ item.title }}
                   </div>
-                  <div class="text-body-2 mt-1">
+                  <div class="text-body-2 mt-1 secondary--text">
                     {{ item.description }}
                   </div>
                 </div>
@@ -403,7 +403,7 @@ export default {
       }, {
         icon: mdiBookOpenPageVariant,
         title: 'Led by Students',
-        description: 'Since the first contest, TeamsCode has always been led by students. We believe that everyone at TeamsCode has the potential to lead a competitive programming contest and we encourage students to play an active role in the community.'
+        description: 'Since the first contest, TeamsCode has always been led by students. We believe that everyone at TeamsCode has the potential to lead a contest and we encourage them to play an active role in the community.'
       }, {
         icon: mdiPencil,
         title: 'Always Open to New Ideas',

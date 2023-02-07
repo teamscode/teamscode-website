@@ -7,7 +7,7 @@
             Competitive programming resources
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-h6 text-lg-h5 mt-4">
+            <div class="text-body-1 mt-4">
               A list of high quality competitive programming resources to help programmers of all levels sharpen their skills
             </div>
           </v-responsive>

@@ -7,7 +7,7 @@
             Our affiliates and friend organizations
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-h6 text-lg-h5 mt-4">
+            <div class="text-body-1 mt-4">
               Organizations TeamsCode partner with
             </div>
           </v-responsive>
@@ -26,7 +26,7 @@
                   <div class="title font-weight-bold text-h5">
                     {{ affiliate.name }}
                   </div>
-                  <div class="secondary--text text--lighten-1 text-body-1 mt-1 mb-4">
+                  <div class="secondary--text text--lighten-1 text-body-2 mt-1 mb-4">
                     {{ affiliate.content }}
                   </div>
                   <div class="text-right">

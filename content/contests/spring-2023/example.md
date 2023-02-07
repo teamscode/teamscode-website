@@ -3,8 +3,6 @@ slug: example
 name: Example Problem
 ---
 
-<br>
-
 ## Example Problem
 
 #### Summer 2021 Novice 3, Lattice Flowers

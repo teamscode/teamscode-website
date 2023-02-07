@@ -10,7 +10,7 @@
             <div class="title font-weight-bold text-h5 text-md-h4">
               {{ post.title }}
             </div>
-            <div class="mt-2 text-body text-md-h6">
+            <div class="mt-2 text-body-1">
               {{ post.description }}
             </div>
             <div class="mt-3">

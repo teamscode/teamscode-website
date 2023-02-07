@@ -18,7 +18,7 @@
       <div class="title font-weight-bold text-h6">
         {{ contest.title }}
       </div>
-      <div v-if="contest.description&&contest.status==='Upcoming'" class="my-1 text-body-2">
+      <div v-if="contest.description&&contest.status==='Upcoming'" class="my-1 text-body-2 secondary--text">
         {{ contest.description }}
       </div>
       <div class="mt-3">

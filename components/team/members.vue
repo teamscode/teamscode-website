@@ -23,7 +23,7 @@
               <div class="text-h6 secondary--text">
                 {{ person.title }}
               </div>
-              <div class="text-body mt-3">
+              <div class="text-body-2 mt-2">
                 {{ person.bio }}
               </div>
             </v-col>

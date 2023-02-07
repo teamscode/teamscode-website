@@ -51,7 +51,7 @@
               </v-card>
             </v-col>
           </v-row>
-          <div class="text-body-1 py-2">
+          <div class="text-body-2 py-2">
             {{ content.description }}
           </div>
           <div v-if="content.status==='Past'" class="my-2">
@@ -85,10 +85,10 @@
                 </span>
               </template>
               <v-card>
-                <v-card-title class="text-h6" style="word-break: normal">
+                <v-card-title class="text-h5" style="word-break: normal">
                   {{ event[1] }}
                 </v-card-title>
-                <v-card-text>
+                <v-card-text class="secondary--text text-body-2">
                   {{ event[2] }}
                 </v-card-text>
               </v-card>

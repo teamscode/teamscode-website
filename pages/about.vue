@@ -23,7 +23,7 @@
             <h2 class="text-h4 text-sm-h3 text-lg-h2 text-center text-md-left">
               From in-person events to virtual contests
             </h2>
-            <div class="text-body mt-5">
+            <div class="text-body-2 mt-5">
               <div>
                 TeamsCode is a student-run 501(c)(3) non-profit that works to encourage middle school and high school students to study computer science. We work with teachers and sponsors to create awesome programming contests – both online and in-person!
               </div>
@@ -63,7 +63,7 @@
               Apply Now
             </v-btn>
           </div>
-          <div class="text-body mt-3">
+          <div class="text-body-2 mt-3">
             Make sure that you read the TeamsCode Application Packet before applying to understand your responsibilities.
           </div>
         </div>

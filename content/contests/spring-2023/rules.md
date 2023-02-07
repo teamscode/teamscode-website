@@ -3,11 +3,7 @@ slug: rules
 name: Rules
 ---
 
-<br>
-
 ## General Rules
-
-<br>
 
 * Only teams with only middle or high school students (rising 6th - senior) are eligible for prizes, however everyone (college students, workers) is welcome to compete.
 * Each team may have up to 4 people. Team members may not receive any help from anyone outside of their team.
@@ -27,11 +23,7 @@ name: Rules
   * <https://codeforces.com/gym/103643>
   * You will need to make a codeforces account: <https://codeforces.com/register>
 
-<br>
-
 ## Problem Format
-
-<br>
 
 * Description: an overview of the problem.
 * Input Format: specifies how the input will be formatted, including constraints on the size of parameters. (constraints may be stated in the Description).
@@ -40,11 +32,7 @@ name: Rules
 * Sample Output: provides the expected output to the sample input.
 * Sample Explanation: provides an explanation of how the sample output was obtained from the sample input.
 
-<br>
-
 ## Submitting Solutions
-
-<br>
 
 * Allowed Languages: C++, C, Java, Python 2, Python 3
 * Solutions will be submitted through the contest page listed above. The code for each problem should be copy-pasted into the box that appears after clicking “Submit Code”.
@@ -57,11 +45,7 @@ name: Rules
 * Use **Standard Input** in your code. This means that test cases are directly typed into the console. Here’s an example for each of the allowed languages:<br>**Java:** `Scanner(System.in)`  **C++:** `cin>>` **Python:** `input()`    **C:** `scanf()`
 * Use **Standard Output** in your code. This means that the output directly prints to the console. Here’s what standard output looks like for each of the languages:<br>**Java:** `System.out.println()`  **C++:** `cout<<` **Python:** `print()` **C:** `printf()`
 
-<br>
-
 ## Scoring
-
-<br>
 
 ### Problem Difficulty
 
