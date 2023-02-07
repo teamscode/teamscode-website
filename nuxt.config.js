@@ -80,7 +80,8 @@ export default {
 
   googleFonts: {
     families: {
-      Roboto: [100, 200, 300, 400, 700, 900]
+      Roboto: [100, 200, 300],
+      Barlow: [400, 700, 900]
     },
     download: true,
     display: 'swap'
