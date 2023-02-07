@@ -4,23 +4,23 @@
       <v-container class="py-6 py-lg-8">
         <v-row>
           <v-col cols="12" lg="7">
-            <h1 class="text-h2 text-lg-h1 mt-xl-4">
-              High quality and fun <span class="primary--text">team programming contests</span> for everyone
+            <h1 class="text-h2 text-lg-h1">
+              Exercise <span class="primary--text">creative problem solving</span> with competitive programming contests
             </h1>
-            <h2 class="text-h6 text-sm-h5 mt-4 secondary--text">
-              TeamsCode aims to spread computer science education to high school students by organizing online contests where students work on quality competitive programming problems in a team setting.
+            <h2 class="text-body-1 mt-4 secondary--text">
+              Participate in TeamsCode Team Programming contests to challenge yourself with some inspiring competitive programming problems while having fun with your friends.
             </h2>
-            <h2 class="text-h6 text-sm-h5 mt-4 secondary--text">
-              <b>Our upcoming virtual programming contest will take place on April 2nd, register now to stay updated!</b>
+            <h2 class="text-body-1 mt-4 secondary--text">
+              <b>Our first virtual programming contest of the year will take place this April 2nd. Find the right division and signup as a team!</b>
             </h2>
-            <div class="mt-4 mt-xl-10">
+            <div class="mt-4">
               <v-btn
                 x-large
                 class="my-1 mr-sm-1 w-full w-sm-auto"
                 color="primary"
-                to="/contests"
+                to="/contests/spring-2023"
               >
-                Browse Contests
+                Spring 2023 Contest
               </v-btn>
               <v-btn
                 x-large
@@ -45,13 +45,13 @@
       <v-container class="pb-4 pt-0 pb-lg-6">
         <div class="text-center text-md-left">
           <div class="text-uppercase font-weight-bold body-2 primary--text mb-2">
-            Our Mission
+            Competitive Programming
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
-            An inspirational competitive programming experience
+            Engage your brain and level up your programming skills
           </h2>
-          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
-            Our unique team competitive programming contests aim to provide a fun and enjoyable experience to students regardless of their skills. We thrive to achieve that with the following features.
+          <div class="text-body-1 mt-4">
+            Our unique team competitive programming contests aim to provide an inspirational and enjoyable experience to computer science students regardless of their skills.
           </div>
         </div>
         <div class="mt-6">
@@ -64,7 +64,7 @@
               <div class="d-flex">
                 <div class="mr-2">
                   <v-sheet
-                    color="blue-grey"
+                    color="secondary"
                     rounded
                     class="pa-2"
                     style="margin-top: 3px"
@@ -77,7 +77,7 @@
                   <div class="text-h5 font-weight-bold">
                     {{ item.title }}
                   </div>
-                  <div class="text-body mt-1">
+                  <div class="text-body-2 mt-1">
                     {{ item.description }}
                   </div>
                 </div>
@@ -95,7 +95,7 @@
             Our Events
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2 mb-3">
-            Team contests for programmers
+            TeamsCode Virtual Programming Contests
           </h2>
           <v-responsive max-width="1200" class="mx-auto" />
         </div>
@@ -131,7 +131,6 @@
             cols="12"
             md="6"
             lg="4"
-            xl="3"
           >
             <ContestCard :contest="card" />
           </v-col>
@@ -200,10 +199,10 @@
             Past Contest Statistics
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
-            A community of coders around the world
+            Join a growing community of future computer scientists
           </h2>
           <v-responsive max-width="1200" class="mx-auto">
-            <div class="text-body text-sm-h6 text-lg-h5 mt-4">
+            <div class="text-body-1 mt-4">
               Since 2017, students and computer science enthusiasts around the world participated in TeamsCode events to sharpen their coding skills.
             </div>
           </v-responsive>
@@ -247,9 +246,9 @@
             Our Organization
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
-            By students, for students
+            A student organization for students
           </h2>
-          <div class="text-body text-sm-h6 text-lg-h5 mt-4">
+          <div class="text-body-1 mt-4">
             TeamsCode is brought to you by a group of enthusiastic students that hope others can also share their enjoyment in computer science.
           </div>
         </div>
@@ -273,7 +272,7 @@
                   <div class="text-h5 font-weight-bold">
                     {{ item.title }}
                   </div>
-                  <div class="text-body mt-1">
+                  <div class="text-body-2 mt-1">
                     {{ item.description }}
                   </div>
                 </div>
@@ -300,10 +299,10 @@
               Partners and Sponsors
             </div>
             <h2 class="text-h4 text-sm-h3 text-lg-h2">
-              Supporting TeamsCode
+              Support TeamsCode
             </h2>
-            <div class="text-body text-sm-h6 text-lg-h5 mt-5">
-              We partner with other competitive programming initiatives and companies to bring our contestants a better contest. Please consider sponsoring us!
+            <div class="text-body-1 mt-5">
+              We would like to thank our sponsors for supporting us! If you would like to help TeamsCode, please consider becoming a sponsor and get in touch with us!
             </div>
             <div class="mt-4 d-none d-md-block">
               <v-btn to="/sponsors" outlined large color="primary">
@@ -345,7 +344,7 @@
 
 <script>
 import {
-  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiDiscord, mdiHeadLightbulb, mdiGift, mdiFileDocumentMultiple, mdiMessageAlert, mdiBell
+  mdiArrowRight, mdiTrophyVariant, mdiBook, mdiAccountCowboyHat, mdiFileCode, mdiAccountGroup, mdiBookOpenPageVariant, mdiPencil, mdiLightbulbGroup, mdiHeadLightbulb, mdiGift, mdiMessageAlert, mdiBell
 } from '@mdi/js'
 export default {
   data () {
@@ -399,37 +398,37 @@ export default {
       }],
       organizationFeatures: [{
         icon: mdiAccountGroup,
-        title: 'A History of Growth',
-        description: 'Ever since 2017, we have aimed to bring something new or make a bigger impact at each contest. From a regional event to an international community. Up to today, we have served more than 3000 participants.'
+        title: 'Teamwork Makes TeamsCode',
+        description: 'TeamsCode is created by high school volunteers from all around the world. They write problems, organize logistics, and brought TeamsCode from a regional contest to an international competition.'
       }, {
         icon: mdiBookOpenPageVariant,
-        title: 'Lead by Students',
-        description: 'TeamsCode\'s leadership team is composed of a group of students who truly cares. We make independent decisions for the good of the community. We also partner with other student organizations to better serve the community.'
+        title: 'Led by Students',
+        description: 'Since the first contest, TeamsCode has always been led by students. We believe that everyone at TeamsCode has the potential to lead a competitive programming contest and we encourage students to play an active role in the community.'
       }, {
         icon: mdiPencil,
-        title: 'People Make Things Happen',
-        description: 'If you are interested in helping us organize contests, please join us! Organizers take different roles in TeamsCode and work together to make contests happen.'
+        title: 'Always Open to New Ideas',
+        description: 'If you have an idea about how to make the contest better and are interested in helping us organize contests, please join us! You can find the informational packet and organizer application on the about page.'
       }, {
-        icon: mdiDiscord,
-        title: 'Our Community on Discord',
-        description: 'Join our community by clicking on our Discord invitation link. Ask questions, discuss problems, or just hangout with many like-minded people.'
+        icon: mdiLightbulbGroup,
+        title: 'Build a Larger Community',
+        description: 'Besides improving our own contest TeamsCode also collaborate with other competitive programming contests. If you would like to become an affiliate, please contact us! Our contact information is on the contact page.'
       }],
       contestFeatures: [{
         icon: mdiHeadLightbulb,
-        title: 'Contest Format',
-        description: 'Our contests encourage teaming up with your friends to solve interesting competitive programming problem and inspire each other. Either divide and conquer or start a discussion on challenging problems.'
+        title: 'Solve Problems',
+        description: 'Solve competitive programming problems by employing your creativity and understanding of algorithms. Learn important problem solving skills and practice coding!'
+      }, {
+        icon: mdiAccountGroup,
+        title: 'Collaborate with Peers',
+        description: 'Team up with up to 3 friends and share a common experience! Share your understanding of computer science and work together to climb up the leaderboard.'
       }, {
         icon: mdiGift,
-        title: 'Contest Prizes',
-        description: 'On each contest, TeamsCode offers cash prize (up to $100 for each team member) to top high school finishers in Intermediate and Advanced division while everyone is welcomed to participate. We also have cool prizes for raffle winners! '
-      }, {
-        icon: mdiFileDocumentMultiple,
-        title: 'Contest Problem Set',
-        description: 'TeamsCode\'s problem sets are carefully created by our problem writing team. These problems cover a variety of topics in different levels while featuring an interesting context.'
+        title: 'Win Prizes',
+        description: 'In each contest, TeamsCode offers cash prizes, software subscriptions, and gaming ears to top high school finishers in all divisions. We also have cool prizes for raffle winners! '
       }, {
         icon: mdiMessageAlert,
-        title: 'Contest Technology',
-        description: 'TeamsCode Contest Portal offers a clean interface to submit solutions while getting instant feedback on test cases. It also has a real-time leaderboard to deliver the excitement of a programming contest to your screen!'
+        title: 'Learn Something New',
+        description: 'Competitive programming has dozens of algorithms and data structures for you to explore! Regardless of your skill level, you will always learn something new about computer science.'
       }],
       logos: [{
         image: '/images/partners/xcamp.webp'
@@ -468,28 +467,10 @@ export default {
   },
   computed: {
     upcomingContest () {
-      const contests = this.contests.filter(contest => contest.status === 'Upcoming')
-      if (this.$vuetify.breakpoint.xl) {
-        return contests
-      } else if (this.$vuetify.breakpoint.lg) {
-        return contests.slice(0, 3)
-      } else if (this.$vuetify.breakpoint.md) {
-        return contests
-      } else {
-        return contests.slice(0, 3)
-      }
+      return this.contests.filter(contest => contest.status === 'Upcoming')
     },
     pastContest () {
-      const contests = this.contests.filter(contest => contest.status !== 'Upcoming')
-      if (this.$vuetify.breakpoint.xl) {
-        return contests
-      } else if (this.$vuetify.breakpoint.lg) {
-        return contests.slice(0, 3)
-      } else if (this.$vuetify.breakpoint.md) {
-        return contests
-      } else {
-        return contests.slice(0, 3)
-      }
+      return this.contests.filter(contest => contest.status !== 'Upcoming')
     }
   }
 }
