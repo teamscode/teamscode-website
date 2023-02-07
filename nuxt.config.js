@@ -60,8 +60,7 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     '@nuxtjs/gtm',
-    '@nuxt/content'
-  ],
+    '@nuxt/content'],
 
   content: {
     // Only search in title and description
@@ -80,7 +79,7 @@ export default {
 
   googleFonts: {
     families: {
-      Roboto: [100, 200, 300],
+      Roboto: [100, 200, 300, 400, 700, 900],
       Barlow: [400, 700, 900]
     },
     download: true,
