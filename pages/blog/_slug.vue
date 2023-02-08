@@ -6,10 +6,10 @@
         <h2 class="text-h3 text-lg-h2 mb-3">
           {{ content.title }}
         </h2>
-        <div class="text-h6 text-lg-h5 mt-4">
+        <div class="text-body-1 mt-4">
           Posted on {{ content.date | formatDate }}
         </div>
-        <div class="text-h6 text-lg-h5 mt-1">
+        <div class="text-body-1 mt-1">
           Written by {{ content.author }}
         </div>
       </v-container>

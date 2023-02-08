@@ -44,7 +44,7 @@ $headings: (
     'weight': 400,
     'line-height': 2rem,
     'letter-spacing': 0em,
-    'font-family': 'Roboto',
+    'font-family': $heading-font-family,
     'text-transform': false),
   'subtitle-1': ('size': 1rem,
     'weight': 600,

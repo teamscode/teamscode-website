@@ -5,7 +5,7 @@
         <h1 class="text-h3 text-sm-h2 text-md-h1">
           All about <span class="primary--text">TeamsCode</span>
         </h1>
-        <h2 class="text-h6 text-sm-h5 text--lighten-2 mt-4 ">
+        <h2 class="text-body-1 text--lighten-2 mt-4 ">
           Our history, mission, and team
         </h2>
       </v-container>
