@@ -25,11 +25,11 @@ timeline:
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 12:30 PM.'
   -
     - '12:30-1:00 PM'
-    - 'Short Break'
+    - 'Lunch Break'
     - 'Please take a short break while we get ready for the speaker events. If you need, feel free to eat lunch while listening to the speakers.'
   -
     - '1:00-3:00 PM'
-    - 'Speaker Event'
+    - 'Speaker Events'
     - 'We are still finalizing our speakers and will update this section ASAP!'
   -
     - '3:00-3:30 PM'
