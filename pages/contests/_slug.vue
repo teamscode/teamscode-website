@@ -1,5 +1,15 @@
 <template>
   <div>
+    <v-btn
+      v-if="content.status==='Upcoming'"
+      class="reg-button"
+      color="primary"
+      href="https://contest.teamscode.org/?register=direct"
+      target="_blank"
+      large
+    >
+      Register Now
+    </v-btn>
     <div v-if="content.new_layout">
       <v-sheet class="bg" dark>
         <v-container class="py-4 py-lg-8">
@@ -11,13 +21,6 @@
             {{ content.date | formatDate }} {{ content.time }}
           </div>
           <div v-if="content.status==='Upcoming'" class="mt-2">
-            <v-btn
-              large
-              class="mr-2 mt-1 w-full w-sm-auto"
-              @click="currentTab=2;$vuetify.goTo('#contest-details')"
-            >
-              Registration Instructions
-            </v-btn>
             <v-btn
               large
               class="mr-2 mt-1 w-full w-sm-auto"
@@ -116,28 +119,15 @@
             Contest Details
           </h2>
           <v-divider />
-          <div class="mt-2">
-            We are still working on the grayed-out sections, stay tuned!
-          </div>
           <v-card>
             <v-tabs v-model="currentTab" :vertical="$vuetify.breakpoint.smAndDown" grow class="mt-4" center-active>
               <v-tab v-for="tab in content.tabs" :key="tab.slug" :disabled="tab.disabled">
-                {{ tab.name }}
+                {{ tab.name }} {{ tab.disabled?'(TBA)':'' }}
               </v-tab>
             </v-tabs>
           </v-card>
           <v-tabs-items v-model="currentTab" class="mt-2">
             <v-tab-item v-for="tab in content.tabs" :key="tab.slug">
-              <v-btn
-                v-if="tab.name==='Registration'"
-                class="mt-2"
-                large
-                color="primary"
-                href="https://contest.teamscode.org/?register=direct"
-                target="_blank"
-              >
-                Register Now
-              </v-btn>
               <nuxt-content :document="tab" />
             </v-tab-item>
           </v-tabs-items>
@@ -159,7 +149,6 @@
               class="mr-2"
               :text="!$vuetify.breakpoint.smAndUp"
               :small="!$vuetify.breakpoint.smAndUp"
-              color="primary"
               @click="$vuetify.goTo('#contest-details');currentTab=nextTab"
             >
               {{ content.tabs[nextTab].name }}
@@ -258,5 +247,11 @@ export default {
     );
   background-size: cover;
   background-position: center;
-}
+  }
+
+  .reg-button {
+    top: 140px;
+    position: fixed;
+    right: 40px;
+  }
 </style>
