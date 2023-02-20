@@ -21,6 +21,11 @@
             <b>Partners</b>
           </h2>
           <v-row class="align-center justify-center my-2">
+            <a target="_blank" href="https://www.janestreet.com/"><v-img
+              src="/images/partners/janestreet.webp"
+              alt="JaneStreet"
+              style="width: 250px;margin-right: 30px;"
+            /></a>
             <a target="_blank" href="https://x-camp.academy/#/"><v-img
               src="/images/partners/xcamp.webp"
               alt="X-Camp"
@@ -29,7 +34,7 @@
             <a target="_blank" href="https://digipen.edu"><v-img
               src="/images/partners/digipen.webp"
               alt="DigiPen"
-              style="max-width: 250px;"
+              style="max-width: 250px; "
             /></a>
           </v-row>
         </div>
@@ -79,14 +84,9 @@
         </div>
         <div class="text-center mt-8 mb-3">
           <h2 class="pb-1">
-            <b>Previous Sponsors</b>
+            <b>Past Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2 mx-10">
-            <a target="_blank" href="https://www.janestreet.com/"><v-img
-              src="/images/partners/janestreet.webp"
-              alt="JaneStreet"
-              style="width: 100px; margin-right: 20px;"
-            /></a>
             <a target="_blank" href="https://www.codewithus.com/en"><v-img
               src="/images/partners/codewithus.webp"
               alt="Code With Us"
