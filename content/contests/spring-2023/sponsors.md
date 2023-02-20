@@ -5,7 +5,7 @@ name: Sponsors
 
 <br>
 
-## Partner - <a href="https://x-camp.academy" target="_blank">X-Camp</a>
+## Platinum Sponsor - <a href="https://x-camp.academy" target="_blank">X-Camp</a>
 
 <a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
@@ -24,7 +24,7 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <br>
 
-## Partner - <a href="https://www.janestreet.com" target="_blank">Jane Street</a>
+## Platinum Sponsor - <a href="https://www.janestreet.com" target="_blank">Jane Street</a>
 
 <a href="https://www.janestreet.com" target="_blank"><img src="/images/partners/janestreet.webp" alt="Jane Street" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
