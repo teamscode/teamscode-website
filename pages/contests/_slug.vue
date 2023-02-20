@@ -6,6 +6,7 @@
       color="primary"
       href="https://contest.teamscode.org/?register=direct"
       target="_blank"
+      elevation="24"
       large
     >
       Register Now
@@ -253,5 +254,6 @@ export default {
     top: 140px;
     position: fixed;
     right: 40px;
+    z-index:999;
   }
 </style>
