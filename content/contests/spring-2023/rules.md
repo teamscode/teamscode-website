@@ -19,7 +19,7 @@ name: Rules
   * The advanced division is intended for anyone who is confident in their competitive programming ability:
     * USACO Gold and above
     * 1600+ Codeforces rating
-* Contest page [https://contest.teamscode.org](https://contest.teamscode.org)
+* Contest page [https://spring23.teamscode.org](https://spring23.teamscode.org)
 * Join our discord server here: [https://go.teamscode.org/discord](https://go.teamscode.org/discord) for important contest announcements or if you have any questions.
 * Try more problems from the last contest:
   * <https://codeforces.com/gym/103643>

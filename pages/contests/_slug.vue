@@ -4,7 +4,7 @@
       v-if="content.status==='Upcoming'"
       class="reg-button"
       color="primary"
-      href="https://contest.teamscode.org/?register=direct"
+      href="https://spring23.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -32,7 +32,7 @@
             </v-btn>
             <v-btn
               large
-              href="https://contest.teamscode.org"
+              href="https://spring23.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
             >
