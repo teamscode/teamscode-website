@@ -30,7 +30,7 @@ timeline:
   -
     - '1:00-3:00 PM'
     - 'Speaker Events'
-    - 'We are still finalizing our speakers and will update this section ASAP!'
+    - 'Mathematics to Aerospace: There and Back Again by Dr. Jane Bae from Caltech.'
   -
     - '3:00-3:30 PM'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
