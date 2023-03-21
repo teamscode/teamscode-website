@@ -2,7 +2,7 @@
   <div>
     <v-btn
       v-if="content.status==='Upcoming'"
-      class="reg-button"
+      class="reg-button d-md-flex d-none"
       color="primary"
       href="https://spring23.teamscode.org/?register=direct"
       target="_blank"
@@ -11,6 +11,30 @@
     >
       Register Now
     </v-btn>
+    <v-btn
+      v-if="content.status==='Upcoming'"
+      class="reg-button-tablet d-sm-flex d-md-none d-none"
+      color="primary"
+      href="https://spring23.teamscode.org/?register=direct"
+      target="_blank"
+      elevation="24"
+      large
+    >
+      Register Now
+    </v-btn>
+    <v-container class="reg-button-mobile d-sm-none d-flex px-4">
+      <v-btn
+        v-if="content.status==='Upcoming'"
+        block
+        color="primary"
+        href="https://spring23.teamscode.org/?register=direct"
+        target="_blank"
+        elevation="24"
+        large
+      >
+        Register Now
+      </v-btn>
+    </v-container>
     <div v-if="content.new_layout">
       <v-sheet class="bg" dark>
         <v-container class="py-4 py-lg-8">
@@ -254,6 +278,19 @@ export default {
     top: 140px;
     position: fixed;
     right: 40px;
+    z-index:999;
+  }
+
+  .reg-button-tablet {
+    top: 80px;
+    position: fixed;
+    right: 40px;
+    z-index:999;
+  }
+
+  .reg-button-mobile {
+    bottom: 20px;
+    position: fixed;
     z-index:999;
   }
 </style>
