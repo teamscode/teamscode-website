@@ -34,8 +34,8 @@ timeline:
   -
     - '2023-04-02 13:00:00'
     - '2023-04-02 14:00:00'
-    - 'Guest Speaker: Dr. Subho Majumdar'
-    - 'Building Responsible Public Policy in the Age of Machine Learning: Navigating the Complexities of Ethical Data Usage by Dr. Subho Majumdar.'
+    - 'Guest Speaker: Mr. Calvin Johnson'
+    - 'How to Harness the Power of Technology and Ethics by Mr. Calvin Johnson.'
   -
     - '2023-04-02 14:00:00'
     - '2023-04-02 15:00:00'

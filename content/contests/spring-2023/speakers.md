@@ -3,11 +3,11 @@ slug: speakers
 name: Guest Speakers
 ---
 
-## Dr. Subho Majumdar - Building Responsible Public Policy in the Age of Machine Learning: Navigating the Complexities of Ethical Data Usage
+## Mr. Calvin Johnson - How to Harness the Power of Technology and Ethics
 
-<img src="/images/speakers/drsubhmajumdar.png" height="200px" style="margin-top:10px;margin-bottom:10px">
+<img src="/images/speakers/mrcalvinjohnson.png" height="200px" style="margin-top:10px;margin-bottom:10px">
 
-Dr. Subho Majumdar is a technical leader in applied trustworthy machine learning who believes in a community-centric approach to data-driven decision-making. He has pioneered the use of trustworthy ML methods in industry settings, wrote a book, and founded multiple nonprofit efforts in this area—TrustML, Bias Buccaneers, and AVID. In past work, he has helped drive policy changes in government and nonprofit organizations through successful collaborations in the data for good space. Dr. Majumdar has more than 10 years of R&D experience in ML, data science, and statistics, with 30+ publications and 20+ filed patents (5 granted). Dr. Majumdar is a machine learning scientist at Twitch, where he leads applied science efforts in Responsible AI. Dr. Majumdar holds a Ph.D. and master's in statistics from the University of Minnesota Twin Cities. Previously, he earned another master's and a bachelor's degree in statistics from Indian Statistical Institute, Kolkata, India.
+Mr. Calvin Johnson is a current masters student at the University of Maine. Over the last eight years, he has pursued his goal of obtaining 3 degrees to help prepare him for the professional world. Throughout this journey, he has developed a unique mindset for global affairs, emerging tech, policy, and national security. His ultimate goal after graduating from UMaine (University of Maine - Orono) is to seek employment as a research assistant or program assistant involving work surrounding foreign policy, international affairs, technology, and effective communication involving misinformation. As an enthusiastic supporter of global relations, he seeks to help support a more diverse world while elevating democratic values abroad and at home.
 
 ## Dr. Jane Bae - Mathematics to Aerospace: There and Back Again
 
