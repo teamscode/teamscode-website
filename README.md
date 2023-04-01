@@ -1,4 +1,4 @@
-# TeamsCode's Official Website
+# TeamsCode Official Website
 
 *High quality and fun team programming contest for everyone*
 
