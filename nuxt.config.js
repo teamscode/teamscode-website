@@ -62,12 +62,17 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/gtm',
     '@nuxt/content',
+    '@nuxtjs/moment',
     'nuxt-delay-hydration'
   ],
 
   content: {
     // Only search in title and description
     fullTextSearchFields: () => ['title', 'description', 'place', 'date', 'participants', 'status', 'author', 'slug']
+  },
+
+  moment: {
+    timezone: true
   },
 
   robots: [

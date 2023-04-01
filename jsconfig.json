@@ -6,7 +6,11 @@
       "@/*": ["./*"],
       "~~/*": ["./*"],
       "@@/*": ["./*"]
-    }
+    },
+    "types": [
+      "@nuxt/types",
+      "@nuxtjs/moment",
+    ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

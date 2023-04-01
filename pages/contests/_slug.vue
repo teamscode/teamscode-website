@@ -43,7 +43,12 @@
             {{ content.title }}
           </h2>
           <div class="text-h6 text-lg-h5 mt-4">
-            {{ content.date | formatDate }} {{ content.time }}
+            <div v-if="content.new_timeline">
+              {{ $moment.tz(content.timeline[0][0], 'America/Los_Angeles').tz(timeZone).format('LL LT') }} - {{ $moment.tz(content.timeline[content.timeline.length-1][1], 'America/Los_Angeles').tz(timeZone).format('LL LT') }} {{ $moment.tz(timeZone).zoneName() }}
+            </div>
+            <div v-else>
+              {{ content.date | formatDate }} {{ content.time }}
+            </div>
           </div>
           <div v-if="content.status==='Upcoming'" class="mt-2">
             <v-btn
@@ -100,40 +105,115 @@
             Schedule Overview
           </h2>
           <v-divider />
-          <v-timeline class="mt-4 d-none d-sm-block">
-            <v-timeline-item v-for="event in content.timeline" :key="event[0]">
-              <template #opposite>
-                <span
-                  class="text-h6 font-weight-bold"
-                >
-                  {{ event[0] }}
-                </span>
-                <span class="text-h6">
-                  Pacific Time
-                </span>
-              </template>
-              <v-card>
-                <v-card-title class="text-h5" style="word-break: normal">
-                  {{ event[1] }}
+          <div v-if="content.new_timeline">
+            <v-row class="mt-1">
+              <v-col>
+                <v-autocomplete v-model="country" label="Country" :items="countries" />
+              </v-col>
+              <v-col>
+                <v-autocomplete v-model="timeZone" label="Time Zone" :items="timeZones" />
+              </v-col>
+            </v-row>
+
+            <v-timeline class="mt-4 d-none d-sm-block">
+              <v-timeline-item v-for="event in content.timeline" :key="event[0]">
+                <template #opposite>
+                  <span
+                    class="text-h6"
+                  >
+                    {{ $moment.tz(event[0], 'America/Los_Angeles').tz(timeZone).format('MMM Do') }}
+                  </span>
+                  <span
+                    class="text-h6 font-weight-bold"
+                  >
+                    {{ $moment.tz(event[0], 'America/Los_Angeles').tz(timeZone).format('LT') }} -
+                  </span>
+
+                  <span v-if="$moment.tz(event[0], 'America/Los_Angeles').tz(timeZone).format('LL')!=$moment.tz(event[1], 'America/Los_Angeles').tz(timeZone).format('LL')" class="text-h6">
+                    {{ $moment.tz(event[1], 'America/Los_Angeles').tz(timeZone).format('MMM Do') }}
+                  </span>
+
+                  <span
+                    class="text-h6 font-weight-bold"
+                  >
+                    {{ $moment.tz(event[1], 'America/Los_Angeles').tz(timeZone).format('LT') }}
+                  </span>
+                  <span class="text-h6">
+                    {{ $moment.tz(timeZone).zoneName() }}
+                  </span>
+                </template>
+                <v-card>
+                  <v-card-title class="text-h5" style="word-break: normal">
+                    {{ event[2] }}
+                  </v-card-title>
+                  <v-card-text class="secondary--text text-body-2">
+                    {{ event[3] }}
+                  </v-card-text>
+                </v-card>
+              </v-timeline-item>
+            </v-timeline>
+            <div class="mt-2 d-sm-none">
+              <v-card v-for="event in content.timeline" :key="event[0]" class="mt-1">
+                <v-card-title class="text-h6" style="word-break: normal">
+                  <span>
+                    {{ $moment.tz(event[0], 'America/Los_Angeles').tz(timeZone).format('MMM Do') }}
+                  </span>
+
+                  <span class="font-weight-bold">
+                    &nbsp;{{ $moment.tz(event[0], 'America/Los_Angeles').tz(timeZone).format('LT') }} -&nbsp;
+                  </span>
+
+                  <span v-if="$moment.tz(event[0], 'America/Los_Angeles').tz(timeZone).format('LL')!=$moment.tz(event[1], 'America/Los_Angeles').tz(timeZone).format('LL')">
+                    {{ $moment.tz(event[1], 'America/Los_Angeles').tz(timeZone).format('MMM Do') }}&nbsp;
+                  </span>
+
+                  <b>{{ $moment.tz(event[1], 'America/Los_Angeles').tz(timeZone).format('LT') }}</b>
                 </v-card-title>
-                <v-card-text class="secondary--text text-body-2">
+                <v-card-subtitle>
+                  {{ event[2] }}
+                </v-card-subtitle>
+                <v-card-text>
+                  {{ event[3] }}
+                </v-card-text>
+              </v-card>
+            </div>
+          </div>
+          <div v-else>
+            <v-timeline class="mt-4 d-none d-sm-block">
+              <v-timeline-item v-for="event in content.timeline" :key="event[0]">
+                <template #opposite>
+                  <span
+                    class="text-h6 font-weight-bold"
+                  >
+                    {{ event[0] }}
+                  </span>
+                  <span class="text-h6">
+                    Pacific Time
+                  </span>
+                </template>
+                <v-card>
+                  <v-card-title class="text-h5" style="word-break: normal">
+                    {{ event[1] }}
+                  </v-card-title>
+                  <v-card-text class="secondary--text text-body-2">
+                    {{ event[2] }}
+                  </v-card-text>
+                </v-card>
+              </v-timeline-item>
+            </v-timeline>
+            <div class="mt-2 d-sm-none">
+              <v-card v-for="event in content.timeline" :key="event[0]" class="mt-1">
+                <v-card-title class="text-h6" style="word-break: normal">
+                  <b>{{ event[0] }}</b>
+                </v-card-title>
+                <v-card-subtitle>
+                  {{ event[1] }}
+                </v-card-subtitle>
+                <v-card-text>
                   {{ event[2] }}
                 </v-card-text>
               </v-card>
-            </v-timeline-item>
-          </v-timeline>
-          <div class="mt-2 d-sm-none">
-            <v-card v-for="event in content.timeline" :key="event[0]" class="mt-1">
-              <v-card-title class="text-h6" style="word-break: normal">
-                <b>{{ event[0] }}</b>
-              </v-card-title>
-              <v-card-subtitle>
-                {{ event[1] }}
-              </v-card-subtitle>
-              <v-card-text>
-                {{ event[2] }}
-              </v-card-text>
-            </v-card>
+            </div>
           </div>
           <div v-if="content.time_link" class="mt-4">
             See starting time in your timezone: <a target="_blank" :href="content.time_link">Link</a>
@@ -209,7 +289,7 @@
 <script>
 import { mdiInformation, mdiArrowRight, mdiArrowLeft } from '@mdi/js'
 export default {
-  async asyncData ({ params, error, $content }) {
+  async asyncData ({ params, error, $content, $moment }) {
     const content = (await $content('contests').where({ slug: params.slug }).fetch())[0]
     if (!content) {
       error({ statusCode: 404, message: '404 Not Found' })
@@ -217,7 +297,10 @@ export default {
       const fetchQueue = []
       content.tabs.forEach(tabSlug => fetchQueue.push($content(`contests/${params.slug}`).where({ slug: tabSlug }).fetch()))
       content.tabs = (await Promise.all(fetchQueue)).map(match => match[0])
-      return { content }
+
+      const countries = $moment.tz.countries()
+      console.log($moment.tz.countries())
+      return { content, countries }
     } else {
       return { content }
     }
@@ -227,7 +310,9 @@ export default {
       currentTab: 0,
       mdiInformation,
       mdiArrowLeft,
-      mdiArrowRight
+      mdiArrowRight,
+      country: 'US',
+      timeZone: 'America/Los_Angeles'
     }
   },
   head () {
@@ -258,6 +343,9 @@ export default {
         }
       }
       return -1
+    },
+    timeZones () {
+      return this.$moment.tz.zonesForCountry(this.country ?? '')
     }
   }
 }
