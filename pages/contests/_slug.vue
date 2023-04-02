@@ -4,6 +4,7 @@
       v-if="content.status==='Upcoming'"
       class="reg-button d-md-flex d-none"
       color="primary"
+      disabled
       href="https://spring23.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
@@ -13,6 +14,7 @@
     </v-btn>
     <v-btn
       v-if="content.status==='Upcoming'"
+      disabled
       class="reg-button-tablet d-sm-flex d-md-none d-none"
       color="primary"
       href="https://spring23.teamscode.org/?register=direct"
@@ -25,6 +27,7 @@
     <v-container class="reg-button-mobile d-sm-none d-flex px-4">
       <v-btn
         v-if="content.status==='Upcoming'"
+        disabled
         block
         color="primary"
         href="https://spring23.teamscode.org/?register=direct"
