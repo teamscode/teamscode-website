@@ -11,16 +11,16 @@
               Participate in TeamsCode Team Programming contests to challenge yourself with some inspiring competitive programming problems while having fun with your friends.
             </h2>
             <h2 class="text-body-1 mt-4 secondary--text">
-              <b>Our first virtual programming contest of the year will take place this April 2nd. Find the right division and signup as a team!</b>
+              Spring 2023 winners have been announced! Check out the contests we organized in the past 6 years.
             </h2>
             <div class="mt-4">
               <v-btn
                 x-large
                 class="my-1 mr-sm-1 w-full w-sm-auto"
                 color="primary"
-                to="/contests/spring-2023"
+                to="/contests"
               >
-                Spring 2023 Contest
+                Browse Contests
               </v-btn>
               <v-btn
                 x-large
@@ -299,7 +299,7 @@
               Partners and Sponsors
             </div>
             <h2 class="text-h4 text-sm-h3 text-lg-h2">
-              Support TeamsCode
+              TeamsCode in a Team
             </h2>
             <div class="text-body-1 mt-5">
               We would like to thank our sponsors for supporting us! If you would like to help TeamsCode, please consider becoming a sponsor and get in touch with us!
