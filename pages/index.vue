@@ -359,9 +359,9 @@ export default {
           borderWidth: 4,
           borderColor: '#2E99D0',
           backgroundColor: '#2E99D0',
-          data: [103, 90, 119, 180, 168, 179, 296, 245, 327, 349, 561]
+          data: [103, 90, 119, 180, 168, 179, 296, 245, 327, 349, 561, 393, 618]
         }],
-        labels: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022']
+        labels: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022', 'Summer 2022', 'Spring 2023']
       },
       chartOptions: {
         responsive: true,
@@ -374,10 +374,10 @@ export default {
       },
       stats: [{
         title: 'Total Event Hours',
-        value: '90+'
+        value: '95+'
       }, {
-        title: 'Total Participants',
-        value: '2617'
+        title: 'Students Impacted',
+        value: '3705'
       }, {
         title: 'Countries Reached',
         value: '22+'
