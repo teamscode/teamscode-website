@@ -95,8 +95,16 @@
               Contest Winners
             </h2>
             <v-divider />
-            <v-row class="mt-2">
+            <v-row v-if="content.winners.length===3" class="mt-2">
               <v-col v-for="division in content.winners" :key="division[0]" lg="4" cols="12">
+                <div class="text-h5 ml-1">
+                  {{ division[0] }}
+                </div>
+                <ContestRank :winners="division[1]" />
+              </v-col>
+            </v-row>
+            <v-row v-else class="mt-2">
+              <v-col v-for="division in content.winners" :key="division[0]" lg="6" cols="12">
                 <div class="text-h5 ml-1">
                   {{ division[0] }}
                 </div>
@@ -302,7 +310,6 @@ export default {
       content.tabs = (await Promise.all(fetchQueue)).map(match => match[0])
 
       const countries = $moment.tz.countries()
-      console.log($moment.tz.countries())
       return { content, countries }
     } else {
       return { content }

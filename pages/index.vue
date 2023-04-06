@@ -124,7 +124,7 @@
           </h3>
         </div>
 
-        <v-row class="mt-1">
+        <v-row class="mt-1" justify="center">
           <v-col
             v-for="(card, i) in pastContest"
             :key="i"
@@ -470,7 +470,12 @@ export default {
       return this.contests.filter(contest => contest.status === 'Upcoming')
     },
     pastContest () {
-      return this.contests.filter(contest => contest.status !== 'Upcoming')
+      const contests = this.contests.filter(contest => contest.status !== 'Upcoming')
+      if (this.$vuetify.breakpoint.md) {
+        return contests
+      } else {
+        return contests.slice(0, 3)
+      }
     }
   }
 }
