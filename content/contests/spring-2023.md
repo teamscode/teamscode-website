@@ -100,4 +100,6 @@ winners:
       -
         - 'UCCCCCCCCCC...'
         - 'William Bi, Patrick Tang, Darwin Li'
+cf_gym: 'https://codeforces.com/gym/104287'
+editorial: 'https://codeforces.com/blog/entry/114806'
 ---

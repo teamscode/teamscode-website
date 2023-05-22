@@ -71,6 +71,26 @@
               Contest Website
             </v-btn>
           </div>
+          <div v-else class="mt-2">
+            <v-btn
+              v-if="content.cf_gym"
+              large
+              class="mr-2 mt-1 w-full w-sm-auto"
+              :href="content.cf_gym"
+              target="_blank"
+            >
+              Problem Set
+            </v-btn>
+            <v-btn
+              v-if="content.editorial"
+              large
+              :href="content.editorial"
+              target="_blank"
+              class="mr-2 mt-1 w-full w-sm-auto"
+            >
+              Editorial
+            </v-btn>
+          </div>
         </v-container>
       </v-sheet>
       <v-sheet>
