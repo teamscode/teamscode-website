@@ -189,6 +189,18 @@ export default {
           title: 'Web Developer',
           image: '/images/teams/abhay.jpg',
           bio: 'Abhay Raj is a junior in Mercer Island High School in Washington. He started competitive programming in 9th grade. Apart from competitive programming, he enjoys attending robotics and math clubs. Apart from school, Abhay likes to run, draw, and 3D-print models. He looks forward to both promoting and maintaining the TeamsCode website and competitions. '
+        },
+        {
+          name: 'Brian Xue',
+          title: 'Problem Writer',
+          image: '/images/teams/brian.png',
+          bio: 'Brian is a rising junior at Lynbrook High School. He has played around with computer science since his 6th grade, becoming fluent in C++. The summer before high school, he started seriously doing competitive programming with a bunch of friends and became a USACO Finalist in the 2022-2023 season. In his free time, Brian enjoys art, video games, and reading.'
+        },
+        {
+          name: 'Daniel Nieto',
+          title: 'Problem Writer',
+          image: '/images/teams/daniel.png',
+          bio: 'Daniel Nieto is a junior at IES El Ravatxol High School in Valencia, who loves programming and sports. He started in competitive programming during the summer of 2021 and has since achieved the Expert rank on CodeForces. Furthermore, he won a silver medal in the Spanish Olympiad in Informatics. During his free time, Daniel can usually be found immersed in problem-solving, reading a good book, or training at the gym. His aspirations with TeamsCode are becoming a better problem setter and meeting people with the same interests.'
         }
       ],
       pastLeadership: [
