@@ -19,6 +19,7 @@ name: Prizes
   * **3rd** - $10 Amazon Giftcard
   * **4th** - $10 Amazon Giftcard
   * **5th** - $10 Amazon Giftcard
+* Top 5 Advanced + Novice get Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro + Interview Cake Full Access License.
 * When you submit your first submission, each member in your team will receive 1 raffle ticket.
 * Raffle prizes will be drawn in the last half hour of the contest using a random number generator - we will email those selected for shipment details immediately following the contest.
 * The raffle prizes are listed below:
