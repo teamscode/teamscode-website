@@ -14,7 +14,7 @@
       <v-container class="py-4 py-lg-8">
         <v-row>
           <v-col cols="12" lg="6">
-            <v-img src="/images/about-background.webp" class="rounded-lg elevation-6" height="100%" />
+            <v-img src="/images/about-background.jpg" class="rounded-lg elevation-6" height="100%" />
           </v-col>
           <v-col cols="12" lg="6">
             <div class="text-uppercase font-weight-bold body-2 primary--text mb-2 text-center text-md-left">
@@ -201,6 +201,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/daniel.png',
           bio: 'Daniel Nieto is a junior at IES El Ravatxol High School in Valencia, who loves programming and sports. He started in competitive programming during the summer of 2021 and has since achieved the Expert rank on CodeForces. Furthermore, he won a silver medal in the Spanish Olympiad in Informatics. During his free time, Daniel can usually be found immersed in problem-solving, reading a good book, or training at the gym. His aspirations with TeamsCode are becoming a better problem setter and meeting people with the same interests.'
+        },
+        {
+          name: 'Shine Chang',
+          title: 'Web Developer',
+          image: '/images/teams/shine.jpg',
+          bio: 'Shine Chang is a junior at Cupertino High School in San Jose. He started to&nbsp;learn programming&nbsp;from his dad in elementary school, and has been building projects for fun ever since. He is in USACO’s gold division and likes to work with low-level programs. He loves Rust and C++, but also works with high-level programs for web development, and embedded programs for Arduinos and FIRST robotics. As hobbies, he plays Tetris, badminton, and skis.'
         }
       ],
       pastLeadership: [
