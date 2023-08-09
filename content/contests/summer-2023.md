@@ -35,7 +35,7 @@ timeline:
     - '2023-08-12 13:00:00'
     - '2023-08-12 14:00:00'
     - 'Guest Speaker Event - Mr. Michael Plunkett'
-    - 'Michael Plunkett is an experienced software engineer of 10+ years and a second-year graduate student at the Harris School of Public Policy at the University of Chicago.'
+    - 'Faulty Enzymes and Off-by-One Errors: Finding Joy in Problem Solving by Mr. Michael Plunkett'
   -
     - '2023-08-12 14:00:00'
     - '2023-08-12 15:00:00'
