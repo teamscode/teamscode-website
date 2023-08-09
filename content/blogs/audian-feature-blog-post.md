@@ -1,7 +1,7 @@
 ---
 title: Sponsor Feature - Audian
 description: Learn about Audian, a Gold sponsor of the upcoming MIHS Programming Contest. 
-image: '/images/partners/audian.webp'
+image: '/images/partners/audian.png'
 date: '2018-08-30'
 author: Alan Bi
 ---

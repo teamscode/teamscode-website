@@ -4,13 +4,13 @@ place: Bellevue High School
 place_link: https://www.google.com/maps/dir/''/Bellevue+High+School,+Wolverine+Way,+Bellevue,+WA/@47.5989222,-122.2762017,11.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x54906c790b432703:0x52db0f382a3f5d60!2m2!1d-122.198703!2d47.6041425
 date: '2019-06-08'
 participants: 77 participants
-image: '/images/contests/bhs.webp'
+image: '/images/contests/bhs.png'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Platinum Sponsors</b></h1>
-  <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
+  <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.png" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
 </div>
 
 # Our first programming contest at Bellevue
@@ -54,7 +54,7 @@ There was a great turnout of 77 students, or 35 teams. The contest was held at t
 
 ## **Platinum Sponsor:** <a href="http://www.smartcodingschool.com/">Smart Coding School</a>
 
-<a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
+<a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.png" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>Smart Coding School</u>:
 Smart Coding School is a computer science education school established in March 2016. We develop computer science and engineering curriculums and offer courses for middle school and high school students (12 ~ 18 years old), and mainly provide Java Programming, data structures and algorithms, AP Computer Science A Test Prep and USA Computing Olympiad (USACO) training courses. On the 2017 Computer Science A AP Test, 95% of our students received 5 out of 5 scores. Many of our students successfully got into the Platinum, Gold, and Silver levels in USA Computing Olympiad competition. In local coding competitions, our students took 2nd place in the advanced division and 1st place in the intermediate division.

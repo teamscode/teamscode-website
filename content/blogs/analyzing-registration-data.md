@@ -1,7 +1,7 @@
 ---
 title: Analyzing registration data from our contests
 description:  Taking a look at the demographics and preferences of participants from past MIHS programming contests. 
-image: '/images/blogs/analyzing-registration.webp'
+image: '/images/blogs/analyzing-registration.jpg'
 date: '2019-03-23'
 author: Alan Bi
 ---
@@ -18,23 +18,23 @@ _Note: due to the frequent last-minute changes in registration and no-shows, the
 
 First, let's look at a graph of participant count: 
 
-![Graph of participant count](/images/blogs/participant-count.webp)
+![Graph of participant count](/images/blogs/participant-count.jpg)
 
 For the first three contests, participation hovered at around 100 students. However, after deciding to make our last two contests completely free, that number has soared to about 150 participants. Across all five contests, there have been 588 participants. 
 
 Next, let's examine team sizes:
 
-![Graph of team sizes](/images/blogs/team-sizes.webp)
+![Graph of team sizes](/images/blogs/team-sizes.jpg)
 
 Out of a total of 255 teams, 134 teams consisted of three members, or just over half. 65 teams consisted of two members, and the remaining 56 were solo programmers. On average, there were 2.3 members per team. 
 
 Among the programming languages teams chose, Java was by far the most popular (probably because it's the one used in AP Computer Science). A whopping 183 teams, or 72%, chose Java, with Python taking second place at 55 teams. C#, C++, and Kotlin were next at 12, 4, and 1 teams respectively. 
 
-![Graph of programming language usage](/images/blogs/language-usage.webp)
+![Graph of programming language usage](/images/blogs/language-usage.jpg)
 
 The data related to divisions is pretty straightforward; 163 of teams, or 64%, signed up for the Intermediate division while the remaining 92 signed up for Advanced. 
 
-![Graph of divisions](/images/blogs/contest-divisions.webp)
+![Graph of divisions](/images/blogs/contest-divisions.jpg)
 
 Lastly, we can take a look at the schools our participants are from. In total, students have come from 54 schools across Washington, Oregon, and British Columbia. Among these schools, the most represented are as follows (with a couple of schools tied): 
 
@@ -52,7 +52,7 @@ Lastly, we can take a look at the schools our participants are from. In total, s
 10. Bishop Blanchet High School (7 teams)<br>
 </div>
 
-![Graph of schools](/images/blogs/contest-schools.webp)
+![Graph of schools](/images/blogs/contest-schools.jpg)
 
 _Note: The graph doesn't take into account teams that had members from two or more schools._
 

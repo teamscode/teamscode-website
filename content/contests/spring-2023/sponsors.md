@@ -7,7 +7,7 @@ name: Sponsors
 
 ## Platinum Sponsor - <a href="https://x-camp.academy" target="_blank">X-Camp</a>
 
-<a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About X-Camp Academy
 
@@ -26,7 +26,7 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 ## Platinum Sponsor - <a href="https://www.janestreet.com" target="_blank">Jane Street</a>
 
-<a href="https://www.janestreet.com" target="_blank"><img src="/images/partners/janestreet.webp" alt="Jane Street" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.janestreet.com" target="_blank"><img src="/images/partners/janestreet.png" alt="Jane Street" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Jane Street
 
@@ -49,7 +49,7 @@ Join the global #HyperXFamily and learn how HyperX products can enhance your con
 
 ## Bronze Sponsor - <a href="https://www.wolfram.com" target="_blank">Wolfram</a>
 
-<a href="https://www.wolfram.com" target="_blank"><img src="/images/partners/wolfram.webp" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.wolfram.com" target="_blank"><img src="/images/partners/wolfram.png" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Wolfram
 

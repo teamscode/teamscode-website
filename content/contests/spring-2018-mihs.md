@@ -4,19 +4,19 @@ date: '2018-03-31'
 place_link: https://www.google.com/maps/dir/''/mercer+island+high+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x54906bdae7961a9d:0x6e6caf34f523feb?sa=X&ved=2ahUKEwievorr45fdAhWEIjQIHTEbCswQ9RcwD3oECAoQEQ
 place: Mercer Island High School
 participants: 99 participants
-image: '/images/contests/mihs.webp'
+image: '/images/contests/mihs.jpg'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Gold Sponsors</b></h1>
-  <a href="https://jetbrains.com"><img src="/images/partners/jetbrains.webp" alt="JetBrains" style="width: 150px; margin-right: 20px;"></a> <br> 
-  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 100px; margin-right: 20px;"></a>
+  <a href="https://jetbrains.com"><img src="/images/partners/jetbrains.png" alt="JetBrains" style="width: 150px; margin-right: 20px;"></a> <br> 
+  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.png" alt="Pagliacci" style="width: 100px; margin-right: 20px;"></a>
   <h1 style="text-align: left"><b>Silver Sponsors</b></h1>
-  <a href="http://pscsta.org"><img src="/images/partners/pscsta.webp" alt="PSCSTA" style="width:180px;"></a>
+  <a href="http://pscsta.org"><img src="/images/partners/pscsta.png" alt="PSCSTA" style="width:180px;"></a>
   <h1 style="text-align: left"><b>Bronze Sponsors</b></h1>
-  <a href="https://twilio.com"><img src="/images/partners/twilio.webp" alt="Twilio" style="width:180px;"></a> <br> 
-  <a href="https://topcoder.com"><img src="/images/partners/topcoder.webp" alt="Topcoder" style="width: 180px; margin-right: 20px;"></a>
+  <a href="https://twilio.com"><img src="/images/partners/twilio.png" alt="Twilio" style="width:180px;"></a> <br> 
+  <a href="https://topcoder.com"><img src="/images/partners/topcoder.png" alt="Topcoder" style="width: 180px; margin-right: 20px;"></a>
 </div>
 
 
@@ -75,29 +75,29 @@ There was a great turnout of 99 students, or 43 teams. The contest was held in t
 
 <div>
   <a href="https://jetbrains.com">
-    <img src="/images/partners/jetbrains.webp" alt="JetBrains" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/jetbrains.png" alt="JetBrains" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 <div>
   <a href="https://www.topcoder.com/">
-    <img src="/images/partners/topcoder.webp" alt="Topcoder" style="width: 300px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/topcoder.png" alt="Topcoder" style="width: 300px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
 <div>
   <a href="https://twilio.com">
-    <img src="/images/partners/twilio.webp" alt="Silicon Labs" style="width: 300px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/twilio.png" alt="Silicon Labs" style="width: 300px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 <div>
   <a href="https://www.pagliacci.com/">
-    <img src="/images/partners/pagliacci.webp" alt="Pagliacci Pizza" style="width: 100px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/pagliacci.png" alt="Pagliacci Pizza" style="width: 100px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
 <div>
   <a href="http://pscsta.org/">
-    <img src="/images/partners/pscsta.webp" alt="PSCSTA" style="width: 200px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/pscsta.png" alt="PSCSTA" style="width: 200px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 

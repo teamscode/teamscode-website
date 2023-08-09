@@ -5,17 +5,17 @@ place: Mercer Island High School
 place_link: https://www.google.com/maps/place/Mercer+Island+High+School/@47.5719538,-122.2202913,17z/data=!4m12!1m6!3m5!1s0x54906bdae7961a9d:0x6e6caf34f523feb!2sMercer+Island+High+School!8m2!3d47.5719538!4d-122.2181026!3m4!1s0x54906bdae7961a9d:0x6e6caf34f523feb!8m2!3d47.5719538!4d-122.2181026
 date: '2019-11-09'
 participants: 144 participants
-image: '/images/contests/mihs.webp'
+image: '/images/contests/mihs.jpg'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Platinum Sponsor</b></h1>
-  <a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="http://www.audian.com/"><img src="/images/partners/audian.png" alt="Audian" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Gold Sponsor</b></h1>
-  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Silver Sponsor</b></h1>
-  <a href="https://www.creativelive.com"><img src="/images/partners/creativelive.webp" alt="CreativeLive" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://www.creativelive.com"><img src="/images/partners/creativelive.png" alt="CreativeLive" style="width: 200px; margin-right: 20px; display: block;"></a>
 </div>
 
 # Our sixth biannual programming contest
@@ -66,7 +66,7 @@ There was a great turnout of 144 students, or 65 teams. The contest was held in 
 
 ## **Platinum Sponsor:** <a href="http://www.audian.com/">Audian</a>
 
-<a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="http://www.audian.com/"><img src="/images/partners/audian.png" alt="Audian" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>Audian</u>:
@@ -75,7 +75,7 @@ Audian is a software company redefining the telecom industry. Our focus is on in
 
 ## **Gold Sponsor:** <a href="https://www.digipen.edu/">DigiPen</a>
 
-<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>DigiPen</u>:
@@ -84,7 +84,7 @@ Since 1988, DigiPen Institute of Technology has been preparing students to succe
 
 ## **Silver Sponsor:** <a href="https://www.creativelive.com">CreativeLive</a>
 
-<a href="https://www.creativelive.com"><img src="/images/partners/creativelive.webp" alt="CreativeLive" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://www.creativelive.com"><img src="/images/partners/creativelive.png" alt="CreativeLive" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>CreativeLive</u>:
 

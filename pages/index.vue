@@ -33,7 +33,7 @@
             </div>
           </v-col>
           <v-col cols="12" lg="5" class="d-none d-lg-flex">
-            <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" src="/images/hero.webp" />
+            <v-img class="rounded-lg" :aspect-ratio="$vuetify.breakpoint.lgAndDown ? 1 : undefined" src="/images/hero.jpg" />
           </v-col>
         </v-row>
       </v-container>
@@ -431,19 +431,19 @@ export default {
         description: 'Competitive programming has dozens of algorithms and data structures for you to explore! Regardless of your skill level, you will always learn something new about computer science.'
       }],
       logos: [{
-        image: '/images/partners/xcamp.webp'
+        image: '/images/partners/xcamp.png'
       }, {
         image: '/images/partners/digitalocean.png'
       }, {
-        image: '/images/partners/cpi.webp'
+        image: '/images/partners/cpi.png'
       }, {
-        image: '/images/partners/desmos.webp'
+        image: '/images/partners/desmos.png'
       }, {
-        image: '/images/partners/wolfram.webp'
+        image: '/images/partners/wolfram.png'
       }, {
-        image: '/images/partners/lit.webp'
+        image: '/images/partners/lit.png'
       }, {
-        image: '/images/partners/mbit.webp'
+        image: '/images/partners/mbit.png'
       }, {
         image: '/images/partners/hyperx.png'
       }],

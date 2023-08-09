@@ -3,14 +3,14 @@ title: Spring 2019 CGS Programming Contest
 place: Catlin Gabel School
 place_link: https://www.google.com/maps/dir/''/catlin+gabel+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x549509433a879379:0x688f19935355949f?sa=X&ved=2ahUKEwj2kdrV45fdAhXfHTQIHUdLBt0Q9RcwE3oECAcQEw
 date: '2019-05-18'
-image: '/images/contests/catlin_gabel.webp'
+image: '/images/contests/catlin_gabel.png'
 participants: 26 participants
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Bronze Sponsors</b></h1>
-  <a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.webp" alt="Brainium" style="width: 200px;"></a>
+  <a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.png" alt="Brainium" style="width: 200px;"></a>
 </div>
 
 # Our third biannual programming contest
@@ -56,4 +56,4 @@ We’d like to thank the following volunteers for being essential to the organiz
 
 **Bronze Sponsor:** <a href="http://www.brainiumstudios.com">Brainium Studios</a>
 
-<a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.webp" alt="Brainium Studioos" style="width: 230px; margin-right: 20px; display: block;"></a>
+<a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.png" alt="Brainium Studioos" style="width: 230px; margin-right: 20px; display: block;"></a>

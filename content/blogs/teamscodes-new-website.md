@@ -1,7 +1,7 @@
 ---
 title: TeamsCode's redesigned website is now live!
 description: Learn about TeamsCode's redesigned website and the story behind it.
-image: '/images/blogs/new-website.webp'
+image: '/images/blogs/new-website.jpg'
 date: '2021-11-28'
 author: Harry Chen
 ---
@@ -9,14 +9,14 @@ author: Harry Chen
 TeamsCode's Jekyll website (https://teamscode.github.io) has served as the main entry point to our organization and has helped many passionate competitors learn about our contests since the beginning of TeamsCode.
 
 <div style="text-align:center; margin-bottom:40px; margin-top:40px;">
-  <img src="/images/blogs/tc-previous-website.webp" alt="Previous Website" width="95%">
+  <img src="/images/blogs/tc-previous-website.jpg" alt="Previous Website" width="95%">
   <div style="text-align:center;">Our Jekyll site</div>
 </div>
 
 As we connected closer with the competitive programming community while growing our contest, more features and information were being added to the website. Gradually, our web development team experienced a limitation in GitHub pages and the Jekyll framework. Followed by that in fall 2021, TeamsCode's executives decided to rebuild the website on a modern interactive web framework. After evaluating different solutions, we decided to use Vue as our development language due to its already existing presence in our contest system.
 
 <div style="text-align:center; margin-bottom:40px; margin-top:40px;">
-  <img src="/images/blogs/new-website.webp" alt="New Website" width="95%">
+  <img src="/images/blogs/new-website.jpg" alt="New Website" width="95%">
   <div style="text-align:center;">TeamsCode's new website</div>
 </div>
 
@@ -25,7 +25,7 @@ Thankful to Nuxt.js and Vuetify, we were able to prototype our new website withi
 Inspired by the Jekyll site, our new website features a modern material design based style. The website enhances the overall user experience by using cards to display information and buttons to interact with visitors. We also took site structuring ideas from our previous website. The landing page contains streamlined details on our contest and organization in general, while the contests page is where all our previous events can be found and searched. Besides that, the about page demonstrates TeamsCode's mission, the blog page provides updates to our participants, and the contact page lists all of our contact methods. In addition to these, the brand new resources page features a curated list of competitive programming resources that can be found helpful by our competitors and computer science students in general.
 
 <div style="text-align:center; margin-bottom:40px; margin-top:40px;">
-  <img src="/images/blogs/new-resources-page.webp" alt="New Resources Page" width="95%">
+  <img src="/images/blogs/new-resources-page.jpg" alt="New Resources Page" width="95%">
   <div style="text-align:center;">TeamsCode's new resources page</div>
 </div>
 

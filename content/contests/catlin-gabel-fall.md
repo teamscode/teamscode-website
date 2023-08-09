@@ -4,19 +4,19 @@ place: Catlin Gabel School
 place_link: https://www.google.com/maps/dir/''/catlin+gabel+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x549509433a879379:0x688f19935355949f?sa=X&ved=2ahUKEwj2kdrV45fdAhXfHTQIHUdLBt0Q9RcwE3oECAcQEw
 date: '2018-11-17'
 participants: 27 participants
-image: '/images/contests/catlin_gabel.webp'
+image: '/images/contests/catlin_gabel.png'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Bronze Sponsors</b></h1>
-  <a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.webp" alt="Brainium" style="width: 200px;"></a>  
+  <a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.png" alt="Brainium" style="width: 200px;"></a>  
   <br>
-  <a href="http://www.scirra.com"><img src="/images/partners/scirra.webp" alt="Scirra" style="width: 200px; margin-right: 20px;"></a>
+  <a href="http://www.scirra.com"><img src="/images/partners/scirra.png" alt="Scirra" style="width: 200px; margin-right: 20px;"></a>
   <br>
-  <a href="https://www.themathletics.com/"><img src="/images/partners/mathletics.webp" alt="Mathletics" style="width: 180px;"></a>
+  <a href="https://www.themathletics.com/"><img src="/images/partners/mathletics.png" alt="Mathletics" style="width: 180px;"></a>
   <br>
-  <a href="https://www.tech4kidsclub.org/"><img src="/images/partners/t4k.webp" alt="Tech4Kids" style="width: 180px;"></a>
+  <a href="https://www.tech4kidsclub.org/"><img src="/images/partners/t4k.png" alt="Tech4Kids" style="width: 180px;"></a>
 </div>
 
 # Our second biannual programming contest in Oregon
@@ -71,19 +71,19 @@ Intermediate: $100/$75/$50
 
 ## **Bronze Sponsor:** <a href="http://www.brainiumstudios.com">Brainium</a>
 
-<a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.webp" alt="Brainium" style="width: 200px; margin-right: 20px;"></a>
+<a href="http://www.brainiumstudios.com"><img src="/images/partners/brainium.png" alt="Brainium" style="width: 200px; margin-right: 20px;"></a>
 
 ## **Bronze Sponsor:** <a href="http://www.scirra.com">Scirra</a>
 
-<a href="http://www.scirra.com"><img src="/images/partners/scirra.webp" alt="Scirra" style="width: 200px; margin-right: 20px;"></a>
+<a href="http://www.scirra.com"><img src="/images/partners/scirra.png" alt="Scirra" style="width: 200px; margin-right: 20px;"></a>
 
 ## **Bronze Sponsor:** <a href="https://www.themathletics.com">Mathletics</a>
 
-<a href="https://www.themathletics.com/"><img src="/images/partners/mathletics.webp" alt="Mathletics" style="width: 180px;"></a>
+<a href="https://www.themathletics.com/"><img src="/images/partners/mathletics.png" alt="Mathletics" style="width: 180px;"></a>
 
 ## **Bronze Sponsor:** <a href="https://www.tech4kidsclub.org">Tech For Kids Club</a>
 
-<a href="https://www.tech4kidsclub.org/"><img src="/images/partners/t4k.webp" alt="Tech4Kids" style="width: 180px;"></a>
+<a href="https://www.tech4kidsclub.org/"><img src="/images/partners/t4k.png" alt="Tech4Kids" style="width: 180px;"></a>
 
 # Organizers and Volunteers
 

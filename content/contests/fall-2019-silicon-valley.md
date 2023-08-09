@@ -3,20 +3,20 @@ title: Fall 2019 Silicon Valley Programming Contest
 place: Union Church of Cupertino
 place_link: https://www.google.com/maps/place/Union+Church+of+Cupertino/@37.3307326,-122.079577,12.75z/data=!4m5!3m4!1s0x808fb44d7e01624b:0x6a7aa396687f0f9a!8m2!3d37.3223342!4d-122.0392881
 date: '2019-10-26'
-image: '/images/contests/mvhs.webp'
+image: '/images/contests/mvhs.png'
 status: Past
 participants: 35 participants
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 20px; text-align: center;">
   <h1 style="text-align: left;"><b>Gold Sponsor</b></h1>
-  <a href="https://codewizardshq.com/?utm_source=teamscode&utm_medium=banner&utm_campaign=sponsorship"><img src="/images/partners/codewizards.webp" alt="CodeWizards" style="width: 200px; margin-right: 20px; display: block;"></a>
-  <a href="https://makaboom.school/"><img src="/images/partners/makaboom.webp" alt="Makaboom" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://codewizardshq.com/?utm_source=teamscode&utm_medium=banner&utm_campaign=sponsorship"><img src="/images/partners/codewizards.png" alt="CodeWizards" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://makaboom.school/"><img src="/images/partners/makaboom.png" alt="Makaboom" style="width: 200px; margin-right: 20px; display: block;"></a>
   <h1 style="text-align: left;"><b>Silver Sponsor</b></h1>
-  <a href="https://bugsee.com/"><img src="/images/partners/bugsee.webp" alt="Bugsee" style="width: 200px; margin-right: 20px; display: block;"></a>
-  <a href="http://www.bunbao.com/"><img src="/images/partners/bunbao.webp" alt="BunBao" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://bugsee.com/"><img src="/images/partners/bugsee.png" alt="Bugsee" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="http://www.bunbao.com/"><img src="/images/partners/bunbao.png" alt="BunBao" style="width: 200px; margin-right: 20px; display: block;"></a>
   <h1 style="text-align: left;"><b>Bronze Sponsor</b></h1>
-  <a href="https://breakoutmentors.com/"><img src="/images/partners/breakout.webp" alt="Breakout Mentors" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://breakoutmentors.com/"><img src="/images/partners/breakout.png" alt="Breakout Mentors" style="width: 200px; margin-right: 20px; display: block;"></a>
 </div>
 
 # Our first programming contest
@@ -61,7 +61,7 @@ This was our first programming contest in California, and we hope to host more! 
 
 ## **Gold Sponsor:** <a href="https://codewizardshq.com/utm_source=teamscode&utm_medium=banner&utm_campaign=sponsorship">CodeWizards</a>
 
-<a href="https://codewizardshq.com/?utm_source=teamscode&utm_medium=banner&utm_campaign=sponsorship"><img src="/images/partners/codewizards.webp" alt="CodeWizards" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://codewizardshq.com/?utm_source=teamscode&utm_medium=banner&utm_campaign=sponsorship"><img src="/images/partners/codewizards.png" alt="CodeWizards" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>CodeWizards</u>:
 
@@ -72,7 +72,7 @@ Java and more! Ages 8 - 18.
 
 ## **Gold Sponsor:** <a href="https://makaboom.school/">Makaboom</a>
 
-<a href="https://makaboom.school/"><img src="/images/partners/makaboom.webp" alt="Makaboom" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://makaboom.school/"><img src="/images/partners/makaboom.png" alt="Makaboom" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>Makaboom</u>:
 
@@ -80,7 +80,7 @@ The vision of Makaboom is to lower the entry point of coding education and help 
 
 ## **Silver Sponsor:** <a href="https://www.bugsee.com">Bugsee</a>
 
-<a href="https://www.bugsee.com"><img src="/images/partners/bugsee.webp" alt="Bugsee" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://www.bugsee.com"><img src="/images/partners/bugsee.png" alt="Bugsee" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>Bugsee</u>:
 
@@ -88,7 +88,7 @@ Bugsee is a crash and bug reporting tool for mobile apps. Every report includes 
 
 ## **Silver Sponsor:** <a href="http://www.bunbao.com/">BunBao</a>
 
-<a href="http://www.bunbao.com/"><img src="/images/partners/bunbao.webp" alt="BunBao" style="width: 250px; margin-right: 20px;"></a>
+<a href="http://www.bunbao.com/"><img src="/images/partners/bunbao.png" alt="BunBao" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>BunBao</u>:
 
@@ -96,7 +96,7 @@ BunBao is a food company that makes fresh, quality, wholesome bao zi handcrafted
 
 ## **Bronze Sponsor:** <a href="https://breakoutmentors.com/">Breakout Mentors</a>
 
-<a href="https://breakoutmentors.com/"><img src="/images/partners/breakout.webp" alt="Breakout Mentors" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://breakoutmentors.com/"><img src="/images/partners/breakout.png" alt="Breakout Mentors" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>Breakout Mentors</u>:
 

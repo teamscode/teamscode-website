@@ -1,7 +1,7 @@
 ---
 title: Sponsor Feature - Smart Coding School
 description: Learn about Smart Coding School, the Co-host and Platinum sponsor of the MIHS Programming Contest.
-image: '/images/partners/smartcodingschool.webp'
+image: '/images/partners/smartcodingschool.png'
 date: '2018-10-09'
 author: Chris Elliott
 ---
@@ -10,7 +10,7 @@ author: Chris Elliott
 
 The goals of Smart Coding School are very much aligned with those of TeamsCode. Both organizations are passionate about providing valuable resources and experiences to bring computer science skills to more students. From the Smart Coding school website, "Smart Coding School is all about students and prepare students for the future with technology."
 
-<img width="100%" src="/images/blogs/smart_coding_school_graphic.webp"/>
+<img width="100%" src="/images/blogs/smart_coding_school_graphic.jpg"/>
 
 The results of Smart Coding School are very impressive, as shown in the graphic above. The small class size and experienced instructors have led 91% of Smart Coding School to achieve a 5 on the 2017 AP Computer Science A. Furthermore, students are frequently promoted to Silver, Gold, and Platinum levels in the USACO after taking the course.
 

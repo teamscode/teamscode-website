@@ -4,16 +4,16 @@ place: Mercer Island High School
 place_link: https://www.google.com/maps/place/Mercer+Island+High+School/@47.5719538,-122.2202913,17z/data=!4m12!1m6!3m5!1s0x54906bdae7961a9d:0x6e6caf34f523feb!2sMercer+Island+High+School!8m2!3d47.5719538!4d-122.2181026!3m4!1s0x54906bdae7961a9d:0x6e6caf34f523feb!8m2!3d47.5719538!4d-122.2181026
 date: '2019-03-16'
 participants: 142 participants
-image: '/images/contests/mihs.webp'
+image: '/images/contests/mihs.jpg'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Platinum Sponsors</b></h1>
-  <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px; text-align: left;"></a>
+  <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.png" alt="Smart Coding School" style="width: 250px; margin-right: 20px; text-align: left;"></a>
   <h1 style="text-align: left;"><b>Silver Sponsors</b></h1>
-  <a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-bottom: 70px; margin-right: 20px; display block;"></a>
-  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="http://www.audian.com/"><img src="/images/partners/audian.png" alt="Audian" style="width: 250px; margin-bottom: 70px; margin-right: 20px; display block;"></a>
+  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.png" alt="Pagliacci" style="width: 200px; margin-right: 20px; display: block;"></a>
 </div>
 
 # Our fifth biannual programming contest
@@ -73,12 +73,12 @@ There was a great turnout of 142 students, or 68 teams. The contest was held in 
 
 ## **Platinum Sponsor:** <a href="http://www.smartcodingschool.com/">Smart Coding School</a>
 
-<a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
+<a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.png" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
 
 ## **Silver Sponsors**
 
-<a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-top: 50px; margin-bottom: 50px; display: block;"></a>
-<a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 230px; margin-right: 20px; display: block;"></a>
+<a href="http://www.audian.com/"><img src="/images/partners/audian.png" alt="Audian" style="width: 250px; margin-top: 50px; margin-bottom: 50px; display: block;"></a>
+<a href="https://pagliacci.com"><img src="/images/partners/pagliacci.png" alt="Pagliacci" style="width: 230px; margin-right: 20px; display: block;"></a>
 
 # Judge Volunteers
 

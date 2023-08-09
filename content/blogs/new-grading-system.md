@@ -1,7 +1,7 @@
 ---
 title: We are developing a new grading system
 description: A distributed contest grading system developed with TypeScript and Microsoft Azure.
-image: '/images/blogs/new-grading-system.webp'
+image: '/images/blogs/new-grading-system.jpg'
 date: '2022-06-12'
 author: Harry Chen
 ---

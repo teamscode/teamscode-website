@@ -1,7 +1,7 @@
 ---
 title: Fall 2018 MIHS Programming Contest
 description: Registration opens for what we hope is our biggest and best event yet. 
-image: '/images/contests/mihs.webp'
+image: '/images/contests/mihs.jpg'
 date: '2018-09-16'
 author: Alan Bi
 ---

@@ -4,14 +4,14 @@ date: '2021-04-24'
 participants: 327 participants
 status: Past
 place: Youtube Live
-image: '/images/contests/virtual-contest.webp'
+image: '/images/contests/virtual-contest.jpg'
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 30px; text-align: center;">
   <h1 style="text-align: left;"><b>Partners</b></h1>
-  <a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Gold Sponsor</b></h1>
-  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
 </div>
 
 # Winners #
@@ -128,7 +128,7 @@ _For code solutions to this golem problem, please check out our [Java](https://g
 
 ## **Partner:** <a href="https://x-camp.academy">X-Camp</a>
 
-<a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>X-Camp Academy</u>:
@@ -146,7 +146,7 @@ For more information, please visit <a href="https://x-camp.academy">their websit
 
 ## **Gold Sponsor:** <a href="https://www.digipen.edu/">DigiPen</a>
 
-<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>DigiPen</u>:

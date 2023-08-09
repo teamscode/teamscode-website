@@ -7,7 +7,7 @@ name: Sponsors
 
 ## Partner - <a href="https://x-camp.academy" target="_blank">X-Camp</a>
 
-<a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About X-Camp Academy
 
@@ -48,7 +48,7 @@ DigitalOcean simplifies cloud computing so builders can spend more time creating
 
 ## Bronze Sponsor - <a href="https://www.digipen.edu/" target="_blank">DigiPen</a>
 
-<a href="https://www.digipen.edu/" target="_blank"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.digipen.edu/" target="_blank"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About DigiPen
 
@@ -72,7 +72,7 @@ For more information, please visit <a href="https://www.digipen.edu" target="_bl
 
 ## Bronze Sponsor - <a href="https://www.wolfram.com" target="_blank">Wolfram</a>
 
-<a href="https://www.wolfram.com" target="_blank"><img src="/images/partners/wolfram.webp" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.wolfram.com" target="_blank"><img src="/images/partners/wolfram.png" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Wolfram
 
@@ -82,7 +82,7 @@ The Wolfram Language allows programmers to operate at a significantly higher lev
 
 ## Bronze Sponsor - <a href="https://www.interviewcake.com" target="_blank">Interview Cake</a>
 
-<a href="https://www.interviewcake.com" target="_blank"><img src="/images/partners/interviewcake.webp" alt="Interview Cake" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.interviewcake.com" target="_blank"><img src="/images/partners/interviewcake.png" alt="Interview Cake" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Interview Cake
 
@@ -92,7 +92,7 @@ Interview Cake is a study tool that preps software engineering candidates for pr
 
 ## Bronze Sponsor - <a href="https://www.desmos.com" target="_blank">Desmos Studio</a>
 
-<a href="https://www.desmos.com" target="_blank"><img src="/images/partners/desmos.webp" alt="Desmos" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.desmos.com" target="_blank"><img src="/images/partners/desmos.png" alt="Desmos" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Desmos Studio
 
@@ -102,7 +102,7 @@ Desmos Studio is a Public Benefit Corporation with a goal of helping everyone le
 
 ## Bronze Sponsor - <a href="https://www.replit.com" target="_blank">replit</a>
 
-<a href="https://www.replit.com" target="_blank"><img src="/images/partners/replit.webp" alt="Desmos" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.replit.com" target="_blank"><img src="/images/partners/replit.png" alt="Desmos" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About replit
 

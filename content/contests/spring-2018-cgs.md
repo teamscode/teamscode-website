@@ -4,13 +4,13 @@ date: '2018-04-07'
 place_link: https://www.google.com/maps/dir/''/catlin+gabel+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x549509433a879379:0x688f19935355949f?sa=X&ved=2ahUKEwj2kdrV45fdAhXfHTQIHUdLBt0Q9RcwE3oECAcQEw
 place: Catlin Gabel School
 participants: 20 participants
-image: '/images/contests/catlin_gabel.webp'
+image: '/images/contests/catlin_gabel.png'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Gold Sponsors</b></h1>
-  <a href="https://www.silabs.com/"><img src="/images/partners/siliconlabs.webp" alt="Silicon Labs" style="width: 180px; margin-right: 20px;"></a> <br> 
+  <a href="https://www.silabs.com/"><img src="/images/partners/siliconlabs.png" alt="Silicon Labs" style="width: 180px; margin-right: 20px;"></a> <br> 
 </div>
 
 
@@ -59,7 +59,7 @@ There was a great turnout of 20 students, or 10 teams. The contest was held in t
 
 <div>
   <a href="https://www.silabs.com">
-    <img src="/images/partners/siliconlabs.webp" alt="Silicon Labs" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/siliconlabs.png" alt="Silicon Labs" style="width: 180px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 

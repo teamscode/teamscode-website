@@ -1,7 +1,7 @@
 ---
 title: Our New Blog!
 description: Welcome to the TeamsCode blog! Stay tuned for updates on TeamsCode initiatives and learning tips for students, and much, much more.
-image: '/images/blogs/our_new_blog.webp'
+image: '/images/blogs/our_new_blog.jpg'
 image_source: <a href="https://unsplash.com/photos/GwsXX--WwjU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rawpixel on Unsplash</a>
 date: '2018-08-23'
 author: Chris Elliott

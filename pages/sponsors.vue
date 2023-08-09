@@ -22,17 +22,17 @@
           </h2>
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://www.janestreet.com/"><v-img
-              src="/images/partners/janestreet.webp"
+              src="/images/partners/janestreet.png"
               alt="JaneStreet"
               style="width: 250px;margin-right: 30px;"
             /></a>
             <a target="_blank" href="https://x-camp.academy/#/"><v-img
-              src="/images/partners/xcamp.webp"
+              src="/images/partners/xcamp.png"
               alt="X-Camp"
               style="max-width: 230px; margin-right: 30px;"
             /></a>
             <a target="_blank" href="https://digipen.edu"><v-img
-              src="/images/partners/digipen.webp"
+              src="/images/partners/digipen.png"
               alt="DigiPen"
               style="max-width: 250px; "
             /></a>
@@ -61,22 +61,22 @@
           </h2>
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://www.wolfram.com"><v-img
-              src="/images/partners/wolfram.webp"
+              src="/images/partners/wolfram.png"
               alt="wolfram"
               style="width: 160px; margin-right: 30px;"
             /></a>
             <a target="_blank" href="https://www.interviewcake.com"><v-img
-              src="/images/partners/interviewcake.webp"
+              src="/images/partners/interviewcake.png"
               alt="interview cake"
               style="width: 200px; margin-right: 30px;"
             /></a>
             <a target="_blank" href="https://www.desmos.com"><v-img
-              src="/images/partners/desmos.webp"
+              src="/images/partners/desmos.png"
               alt="desmos"
               style="width: 160px; margin-right: 30px;"
             /></a>
             <a target="_blank" href="https://www.replit.com"><v-img
-              src="/images/partners/replit.webp"
+              src="/images/partners/replit.png"
               alt="replit"
               style="width: 160px;"
             /></a>
@@ -88,97 +88,97 @@
           </h2>
           <v-row class="align-center justify-center my-2 mx-10">
             <a target="_blank" href="https://www.codewithus.com/en"><v-img
-              src="/images/partners/codewithus.webp"
+              src="/images/partners/codewithus.png"
               alt="Code With Us"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="http://smartcodingschool.com"><v-img
-              src="/images/partners/smartcodingschool.webp"
+              src="/images/partners/smartcodingschool.png"
               alt="Smart Coding School"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://audian.com"><v-img
-              src="/images/partners/audian.webp"
+              src="/images/partners/audian.png"
               alt="Audian"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://jetbrains.com"><v-img
-              src="/images/partners/jetbrains.webp"
+              src="/images/partners/jetbrains.png"
               alt="JetBrains"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a style="margin-right: 30px;" target="_blank" href="https://pagliacci.com"><v-img
-              src="/images/partners/pagliacci.webp"
+              src="/images/partners/pagliacci.png"
               alt="Pagliacci"
               style="width:80px;"
             /></a>
             <a target="_blank" href="https://www.silabs.com/"><v-img
-              src="/images/partners/siliconlabs.webp"
+              src="/images/partners/siliconlabs.png"
               alt="Silicon Labs"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://makaboom.school/"><v-img
-              src="/images/partners/makaboom.webp"
+              src="/images/partners/makaboom.png"
               alt="Makaboom"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <br>
             <a target="_blank" href="http://pscsta.org"><v-img
-              src="/images/partners/pscsta.webp"
+              src="/images/partners/pscsta.png"
               alt="PSCSTA"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://www.bugsee.com"><v-img
-              src="/images/partners/bugsee.webp"
+              src="/images/partners/bugsee.png"
               alt="Bugsee"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://www.creativelive.com"><v-img
-              src="/images/partners/creativelive.webp"
+              src="/images/partners/creativelive.png"
               alt="CreativeLive"
               style="width: 80px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://www.bunbao.com"><v-img
-              src="/images/partners/bunbao.webp"
+              src="/images/partners/bunbao.png"
               alt="BunBao"
               style="width: 80px; margin-right: 20px;"
             /></a>
-            <a target="_blank" href="https://crelate.com"><v-img src="/images/partners/crelate.webp" alt="Crelate" style="width:80px;" /></a>
-            <a target="_blank" href="https://twilio.com"><v-img src="/images/partners/twilio.webp" alt="Twilio" style="width:80px;" /></a>
-            <a target="_blank" href="https://topcoder.com"><v-img src="/images/partners/topcoder.webp" alt="Topcoder" style="width: 80px;" /></a>
+            <a target="_blank" href="https://crelate.com"><v-img src="/images/partners/crelate.png" alt="Crelate" style="width:80px;" /></a>
+            <a target="_blank" href="https://twilio.com"><v-img src="/images/partners/twilio.png" alt="Twilio" style="width:80px;" /></a>
+            <a target="_blank" href="https://topcoder.com"><v-img src="/images/partners/topcoder.png" alt="Topcoder" style="width: 80px;" /></a>
             <a target="_blank" href="http://www.brainiumstudios.com"><v-img
-              src="/images/partners/brainium.webp"
+              src="/images/partners/brainium.png"
               alt="Brainium"
               style="width: 80px;"
             /></a>
             <a target="_blank" href="https://codewizardshq.com/?utm_source=teamscode&utm_medium=banner&utm_campaign=sponsorship"><v-img
-              src="/images/partners/codewizards.webp"
+              src="/images/partners/codewizards.png"
               alt="CodeWizards"
               style="width: 80px;"
             /></a>
-            <a target="_blank" href="http://www.scirra.com"><v-img src="/images/partners/scirra.webp" alt="Scirra" style="width: 80px;" /></a>
+            <a target="_blank" href="http://www.scirra.com"><v-img src="/images/partners/scirra.png" alt="Scirra" style="width: 80px;" /></a>
             <a target="_blank" href="https://www.themathletics.com/"><v-img
-              src="/images/partners/mathletics.webp"
+              src="/images/partners/mathletics.png"
               alt="Mathletics"
               style="width: 80px; margin: 0 20px;"
             /></a>
             <a target="_blank" href="https://www.tech4kidsclub.org/"><v-img
-              src="/images/partners/t4k.webp"
+              src="/images/partners/t4k.png"
               alt="Tech4KidsClub"
               style="width: 80px;"
             /></a>
             <a target="_blank" href="https://breakoutmentors.com/"><v-img
-              src="/images/partners/breakout.webp"
+              src="/images/partners/breakout.png"
               alt="Breakout Mentors"
               style="width: 80px;"
             /></a>
             <a target="_blank" href="https://tealsk12.org"><v-img
-              src="/images/partners/msft_teals.webp"
+              src="/images/partners/msft_teals.png"
               alt="TEALS"
               style="width:80px; margin-right: 30px"
             /></a>
             <a target="_blank" href="https://www.facebook.com/MercerIslandLionsClub/"><v-img
-              src="/images/partners/lions.webp"
+              src="/images/partners/lions.png"
               alt="Lions"
               style="width:80px;"
             /></a>

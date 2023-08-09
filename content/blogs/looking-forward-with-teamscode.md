@@ -1,7 +1,7 @@
 ---
 title: Looking forward with TeamsCode
 description:  Planning for the rest of the school year and promoting further transparency.
-image: '/images/blogs/looking-forward.webp'
+image: '/images/blogs/looking-forward.jpg'
 date: '2019-03-25'
 author: Chris Elliott
 ---
@@ -18,7 +18,7 @@ Our organization stores all of its information in Google Drive; this is where yo
 
 In our Google Drive, we have an **Onboarding Doc**, that covers everything newcomers need to know about TeamsCode's history, its structure, and contest-hosting process. While we're not releasing the entire document yet (likely coming soon!), we have an in-depth, 7-page document covering how to host a programming contest. This is now available <a class="a" href="https://docs.google.com/document/d/1YEc1ZQphowgJ0VZhhOxOGpaM1a1xESMFo518ui-BywY/edit?usp=sharing">**HERE**</a>!
 
-<img width="100%" src="/images/blogs/internal-doc-sneak-peak.webp"/>
+<img width="100%" src="/images/blogs/internal-doc-sneak-peak.jpg"/>
 
 We intend to release more about TeamsCode's internal processes in the future, as well as create a more streamlined process for anybody to host their own programming contest.
 
@@ -28,7 +28,7 @@ When Alan and I founded TeamsCode, we didn't know where to start. The only other
 
 With the help of many teachers and administrators, especially Henterson Carlisle at MIHS and Earl Bergquist at Garfield High School (as well as promotion support from the PSCSTA), we were able to discover the process and host the contest. However, we want to make sure the path for new students is much clearer.
 
-<img width="100%" src="/images/blogs/catlin-gabel-contest.webp"/>
+<img width="100%" src="/images/blogs/catlin-gabel-contest.jpg"/>
 
 We hope to achieve part of this through further transparency of TeamsCode, but we know that we can do more. We are currently discussing how we can use our platform to potentially partner with other organizations, including the <a class="a" href="http://pscsta.org/">PSCSTA</a>, to encourage more students to pursue a career in computer science.
 

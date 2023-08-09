@@ -4,18 +4,18 @@ date: '2020-07-25'
 participants: 296 participants
 status: Past
 place: Youtube Live
-image: '/images/contests/virtual-contest.webp'
+image: '/images/contests/virtual-contest.jpg'
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Partners</b></h1>
-  <a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <br>
-  <a href="https://codewithus.com"><img src="/images/partners/codewithus.webp" alt="CodeWithUs" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://codewithus.com"><img src="/images/partners/codewithus.png" alt="CodeWithUs" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Gold Sponsor</b></h1>
-  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Additional Sponsor</b></h1>
-  <a href="https://codewizardshq.com"><img src="/images/partners/codewizards.webp" alt="CodeWizards HQ" style="width: 200px; margin-right: 20px; display: block;"></a>
+  <a href="https://codewizardshq.com"><img src="/images/partners/codewizards.png" alt="CodeWizards HQ" style="width: 200px; margin-right: 20px; display: block;"></a>
 </div>
 
 # Winners #
@@ -122,7 +122,7 @@ The three teams with the most amount of points will receive medals. If there is 
 
 ## **Partner:** <a href="https://x-camp.academy">X-Camp</a>
 
-<a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>X-Camp Academy</u>:
@@ -131,7 +131,7 @@ X-Camp Academy is a Silicon Valley-based institute that offers competitive progr
 
 ## **Partner:** <a href="https://codewithus.com">CodeWithUs</a>
 
-<a href="https://codewithus.com"><img src="/images/partners/codewithus.webp" alt="CodeWithUs" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://codewithus.com"><img src="/images/partners/codewithus.png" alt="CodeWithUs" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>CodeWithUs</u>:
@@ -140,7 +140,7 @@ CodeWithUs is a technology education organization that teaches students a variet
 
 ## **Gold Sponsor:** <a href="https://www.digipen.edu/">DigiPen</a>
 
-<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>DigiPen</u>:
@@ -151,7 +151,7 @@ Our programs are intentionally designed to reflect the standards and practices o
 
 ## **Additional Sponsor:** <a href="https://codewizardshq.com">CodeWizards HQ</a>
 
-<a href="https://codewizardshq.com"><img src="/images/partners/codewizards.webp" alt="CodeWizards HQ" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://codewizardshq.com"><img src="/images/partners/codewizards.png" alt="CodeWizards HQ" style="width: 250px; margin-right: 20px;"></a>
 
 ## About <u>CodeWizards HQ</u>:
 

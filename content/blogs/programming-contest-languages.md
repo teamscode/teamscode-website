@@ -1,7 +1,7 @@
 ---
 title: Programming Contest Languages
 description: Learn about the benefits and drawbacks of the different programming languages used in competitive contests.
-image: '/images/blogs/programming_languages.webp'
+image: '/images/blogs/programming_languages.jpg'
 image_source: CodeCondo (codecondo.com)
 date: '2018-10-31'
 author: Alex Patel
@@ -30,7 +30,7 @@ Faster than Java and the most popular competitive programming language currently
 
 The basis for many programming languages today, C is arguably the most important language in the programming realm. C is simple and efficient, with many data types and other aspects that make it easy. C is what is called a “structured language,” meaning that it can be written in certain blocks that make up the entire code. C is ubiquitous, and has many uses. However, its main issue is its lack of OOP, or object-oriented programming. Rather, it is procedure-oriented. Additionally, runtime type checking does not exist; thus, the code will be difficult to debug, something to consider when utilizing large code in competitions. Despite these drawbacks, C remains one of the most portable, easy to use languages out there. 
 
-<img width="100%" src="/images/blogs/programming_languages_makeup.webp"/>
+<img width="100%" src="/images/blogs/programming_languages_makeup.jpg"/>
 
 The above chart depicts the distribution of the programming languages used at the 2012 Google Code Jam. Evidently, C++ was used by over half of the contestants, while Java and Python combined to make up approximately a third of the entrants. 
 

@@ -108,13 +108,13 @@ export default {
 
 <style scoped>
   .bg {
-  background-image: url("/images/contest-background.webp");
+  background-image: url("/images/contest-background.jpg");
   background-image: linear-gradient(
       to bottom right,
       rgba(16 57 92 / 96%),
       rgba(0 0 0 / 0.9)
     ),
-    url("/images/contest-background.webp");
+    url("/images/contest-background.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -1,7 +1,7 @@
 ---
 title: "Audian and TeamsCode: Two Organizations With One Goal"
 description: How Audian and TeamsCode share their commitment to support the CS community.
-image: '/images/partners/audian.webp'
+image: '/images/partners/audian.png'
 date: '2020-02-02'
 author: Alex Patel and Luca Palermo
 ---
@@ -12,7 +12,7 @@ However, Audian’s appeal goes far past their products; they lead a philanthrop
 
 <br><br>
 
-<img src="/images/blogs/student_visit_audian.webp" width="100%">
+<img src="/images/blogs/student_visit_audian.jpg" width="100%">
 Pictured: Winners of the MIHS Spring 2019 Contest visit Audian HQ
 	
 <br><br>
@@ -21,7 +21,7 @@ Most recently, Audian was the Platinum Sponsor for TeamsCode’s MIHS Fall 2019 
 
 <br><br>
 
-<img src="/images/blogs/audian_speech.webp" width="100%">
+<img src="/images/blogs/audian_speech.jpg" width="100%">
 Pictured: Audian CEO Brandon Bazemore speaks to more than 140 student programmers
 
 <br><br>

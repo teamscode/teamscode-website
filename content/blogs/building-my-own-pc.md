@@ -1,7 +1,7 @@
 ---
 title: Building my own PC
 description: How and why I built my own PC, and why you should as well.
-image: '/images/blogs/build_own_pc.webp'
+image: '/images/blogs/build_own_pc.jpg'
 image_source: Patrick Tomasso on Unsplash
 date: '2018-11-14'
 author: Thomas Short
@@ -19,6 +19,6 @@ Apart from the obvious advantages of building your own computer, like being able
 
 The knowledge that comes from assembling your own PC can transfer to higher education fields like Information Technology, Computer Science, or Electrical Engineering. Finally, the planning involved in making a budget for a computer is applicable to many real-life scenarios. Taking the time to make a plan, look for deals or used parts, and deciding what you can and can’t afford are all necessary steps before making any large purchases.
 
-<img width="100%" src="/images/blogs/thomas_personal_pc.webp"/>
+<img width="100%" src="/images/blogs/thomas_personal_pc.jpg"/>
 
 I’d encourage anyone with an interest in programming or other STEM areas to look into building their own PC as an easy and fun way to learn about computers.

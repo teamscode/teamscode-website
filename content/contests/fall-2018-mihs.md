@@ -3,20 +3,20 @@ title: Fall 2018 MIHS Programming Contest
 place_link: https://www.google.com/maps/dir/''/mercer+island+high+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x54906bdae7961a9d:0x6e6caf34f523feb?sa=X&ved=2ahUKEwievorr45fdAhWEIjQIHTEbCswQ9RcwD3oECAoQEQ
 place: Mercer Island High School
 date: '2018-10-20'
-image: '/images/contests/mihs.webp'
+image: '/images/contests/mihs.jpg'
 participants: 153 participants
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 10px; text-align: center;">
   <h1 style="text-align: left;"><b>Platinum Sponsors</b></h1>
-  <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
+  <a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.png" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
   <h1 style="text-align: left;"><b>Gold Sponsors</b></h1>
-  <a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-right: 20px;"></a>
+  <a href="http://www.audian.com/"><img src="/images/partners/audian.png" alt="Audian" style="width: 250px; margin-right: 20px;"></a>
   <h1 style="text-align: left"><b>Silver Sponsors</b></h1>
-  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 200px; margin-right: 20px;"></a>
+  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.png" alt="Pagliacci" style="width: 200px; margin-right: 20px;"></a>
   <h1 style="text-align: left;"><b>Bronze Sponsors</b></h1>
-  <a href="https://www.crelate.com/"><img src="/images/partners/crelate.webp" alt="Crelate" style="width: 250px; margin-right: 20px;"></a>
+  <a href="https://www.crelate.com/"><img src="/images/partners/crelate.png" alt="Crelate" style="width: 250px; margin-right: 20px;"></a>
 </div>
 
 # Our fourth biannual programming contest
@@ -78,18 +78,18 @@ Honorable Mentions: Teams _Byte Force_, _Bones S_, and _OR '1'='1'_
 
 ## **Platinum Sponsor:** <a href="http://www.smartcodingschool.com/">Smart Coding School</a>
 
-<a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.webp" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
+<a href="http://www.smartcodingschool.com/"><img src="/images/partners/smartcodingschool.png" alt="Smart Coding School" style="width: 250px; margin-right: 20px;"></a>
 
 ## **Gold Sponsor:** <a href="http://www.audian.com/">Audian</a>
 
-<a href="http://www.audian.com/"><img src="/images/partners/audian.webp" alt="Audian" style="width: 250px; margin-right: 20px;"></a>
+<a href="http://www.audian.com/"><img src="/images/partners/audian.png" alt="Audian" style="width: 250px; margin-right: 20px;"></a>
 
 ## **Silver Sponsor:** <a href="https://pagliacci.com">Pagliacci Pizza</a>
-<a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://pagliacci.com"><img src="/images/partners/pagliacci.png" alt="Pagliacci" style="width: 250px; margin-right: 20px;"></a>
 
 ## **Bronze Sponsor:** <a href="https://www.crelate.com/">Crelate</a>
 
-<a href="https://www.crelate.com/"><img src="/images/partners/crelate.webp" alt="Crelate" style="width: 250px; margin-right: 20px;"></a>
+<a href="https://www.crelate.com/"><img src="/images/partners/crelate.png" alt="Crelate" style="width: 250px; margin-right: 20px;"></a>
 
 # Judge Volunteers
 

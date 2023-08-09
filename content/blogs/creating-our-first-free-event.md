@@ -1,7 +1,7 @@
 ---
 title: Our First Free Event
 description:  In order to share our passion for team coding competitions with as many students as possible, we have worked extra hard to create a free contest!
-image: '/images/blogs/free_contest.webp'
+image: '/images/blogs/free_contest.jpg'
 image_source: Creative Stall from the Noun Project
 date: '2018-09-25'
 author: Chris Elliott
@@ -17,7 +17,7 @@ Ultimately, we've decided to add a <a class="a" href="https://teamscode.typeform
 
 Our efforts in creating this free contest are part of a larger mission to allow everybody to try coding in a supportive, team-focused environment. One of the most common worries is <a class="a" href="https://medium.com/@ruhackhers/hackherstory-imposter-syndrome-9b787cac8d7f">imposter syndrome</a>: the idea that one "does not belong here." To counter this idea, we've provided several contest resources on TeamsCode's <a class="a" href="https://archive.teamscode.org/learn">learn</a> section.
 
-<img width="100%" src="/images/blogs/teamscode_lessons.webp"/>
+<img width="100%" src="/images/blogs/teamscode_lessons.jpg"/>
 
 You can find all of our past programming contest problems in the <a class="a" href="http://archive.teamscode.org/learn/programming-practice/">programming practice</a> section of our website, and we will also be adding a problem submission system so students can practice before arriving at our events! Additionally, we have a completely free<a class="a" href="https://archive.teamscode.org/learn/ap-computer-science"> AP Computer Science course</a> where students can learn new concepts and apply these at our contests.
 

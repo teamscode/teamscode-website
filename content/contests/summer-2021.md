@@ -4,18 +4,18 @@ date: '2021-07-31'
 place: Youtube Live
 participants: 349 participants
 status: Past
-image: '/images/contests/virtual-contest.webp'
+image: '/images/contests/virtual-contest.jpg'
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 30px; text-align: center;">
   <h1 style="text-align: left;"><b>Partners</b></h1>
-  <a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <br>
-  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="http://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <br>
-  <a href="https://joincpi.org"><img src="/images/partners/cpi.webp" alt="CPI" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://joincpi.org"><img src="/images/partners/cpi.png" alt="CPI" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
   <h1 style="text-align: left;"><b>Bronze Sponsors</b></h1>
-  <a href="https://www.youtube.com/c/replityt/videos"><img src="/images/partners/replit.webp" alt="Replit" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
+  <a href="https://www.youtube.com/c/replityt/videos"><img src="/images/partners/replit.png" alt="Replit" style="width: 220px; margin-bottom: 30px; margin-right: 20px; display block;"></a>
 </div>
 
 The contest is over, but you can solve the problems here: https://codeforces.com/gym/103241
@@ -108,7 +108,7 @@ _For code solutions to this golem problem, please check out our [Java](https://g
 
 ## **Partner:** <a href="https://x-camp.academy">X-Camp</a>
 
-<a href="https://x-camp.academy"><img src="/images/partners/xcamp.webp" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://x-camp.academy"><img src="/images/partners/xcamp.png" alt="X-Camp Academy" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>X-Camp Academy</u>:
@@ -126,7 +126,7 @@ For more information, please visit <a href="https://x-camp.academy">their websit
 
 ## **Partner:** <a href="https://www.digipen.edu/">DigiPen</a>
 
-<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.webp" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.digipen.edu/"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 
 ## About <u>DigiPen</u>:
@@ -149,6 +149,6 @@ For more information, please visit <a href="https://www.digipen.edu">their websi
 
 ## <a href="https://www.joincpi.org/">Competitive Programming Initiative</a>
 
-<a href="https://joincpi.org/"><img src="/images/partners/cpi.webp" alt="CPI" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://joincpi.org/"><img src="/images/partners/cpi.png" alt="CPI" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 If you're interested in more high school programming contests, sign up for the Competitive Programming Initiative's contest <a href="https://joincpi.org/contests">newsletter</a>.

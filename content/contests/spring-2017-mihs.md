@@ -4,16 +4,16 @@ date: '2017-04-01'
 contest_location_link: https://www.google.com/maps/dir/''/mercer+island+high+school/data=!4m5!4m4!1m0!1m2!1m1!1s0x54906bdae7961a9d:0x6e6caf34f523feb?sa=X&ved=2ahUKEwievorr45fdAhWEIjQIHTEbCswQ9RcwD3oECAoQEQ
 place: Mercer Island High School
 participants: 103 participants
-image: '/images/contests/mihs.webp'
+image: '/images/contests/mihs.jpg'
 status: Past
 ---
 
 <div style="float: right; margin-right: -20px; margin-left: 20px; text-align: center;">
   <h1 style="text-align: left"><b>Sponsors</b></h1>
-  <a href="https://tealsk12.org"><img src="/images/partners/msft_teals.webp" alt="TEALS" style="width:180px;"></a>
-  <br><a href="http://pscsta.org"><img src="/images/partners/pscsta.webp" alt="PSCSTA" style="width: 150px; margin-right: 20px;"></a> <br>
-  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.webp" alt="Pagliacci" style="width:100px;"></a>
-  <br><br><a href="https://www.facebook.com/MercerIslandLionsClub/"><img src="/images/partners/lions.webp" alt="Lions" style="width:100px;"></a>
+  <a href="https://tealsk12.org"><img src="/images/partners/msft_teals.png" alt="TEALS" style="width:180px;"></a>
+  <br><a href="http://pscsta.org"><img src="/images/partners/pscsta.png" alt="PSCSTA" style="width: 150px; margin-right: 20px;"></a> <br>
+  <a href="https://pagliacci.com"><img src="/images/partners/pagliacci.png" alt="Pagliacci" style="width:100px;"></a>
+  <br><br><a href="https://www.facebook.com/MercerIslandLionsClub/"><img src="/images/partners/lions.png" alt="Lions" style="width:100px;"></a>
 </div> 
 
 # Our first biannual programming contest
@@ -72,23 +72,23 @@ Thank you to the Living Computer Museum and Earl Bergquist for helping supply ma
 
 <div>
   <a href="https://www.tealsk12.org/">
-    <img src="/images/partners/msft_teals.webp" alt="Microsoft Teals" style="width: 400px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/msft_teals.png" alt="Microsoft Teals" style="width: 400px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
 <div>
   <a href="http://pscsta.org">
-    <img src="/images/partners/pscsta.webp" alt="PSCTA" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/pscsta.png" alt="PSCTA" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 <div>
   <a href="(https://www.facebook.com/MercerIslandLionsClub/">
-    <img src="/images/partners/lions.webp" alt="Lions Club" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/lions.png" alt="Lions Club" style="width: 150px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 <div>
   <a href="https://www.pagliacci.com/">
-    <img src="/images/partners/pagliacci.webp" alt="Pagliacci Pizza" style="width: 100px; margin-top: 20px; margin-bottom: 20px;">
+    <img src="/images/partners/pagliacci.png" alt="Pagliacci Pizza" style="width: 100px; margin-top: 20px; margin-bottom: 20px;">
   </a>
 </div>
 
