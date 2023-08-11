@@ -207,6 +207,12 @@ export default {
           title: 'Web Developer',
           image: '/images/teams/shine.jpg',
           bio: 'Shine Chang is a junior at Cupertino High School in San Jose. He started to&nbsp;learn programming&nbsp;from his dad in elementary school, and has been building projects for fun ever since. He is in USACO’s gold division and likes to work with low-level programs. He loves Rust and C++, but also works with high-level programs for web development, and embedded programs for Arduinos and FIRST robotics. As hobbies, he plays Tetris, badminton, and skis.'
+        },
+        {
+          name: 'Bryan Zhu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/bryan.png',
+          bio: 'Bryan is a rising sophomore at Bellevue High School in Bellevue, Washington. His most familiar coding language is C++, where he\'s currently competing in USACO Platinum, but he also has experience in Java (from AP Computer Science) and Python, particularly machine learning and data analysis. In his free time, he likes to play with his dogs, play video games, or surf Reddit.'
         }
       ],
       pastLeadership: [
