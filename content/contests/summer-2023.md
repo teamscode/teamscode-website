@@ -28,19 +28,14 @@ timeline:
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 12:45 PM.'
   -
     - '2023-08-12 12:45:00'
-    - '2023-08-12 13:00:00'
-    - 'Lunch Break'
-    - 'Please take a short break while we get ready for the speaker events. If you need, feel free to eat lunch while listening to the speakers.'
-  -
-    - '2023-08-12 13:00:00'
     - '2023-08-12 14:00:00'
-    - 'Guest Speaker Event - Mr. Michael Plunkett'
-    - 'Faulty Enzymes and Off-by-One Errors: Finding Joy in Problem Solving by Mr. Michael Plunkett'
+    - 'Lunch Break'
+    - 'Please take a break while we get ready for the speaker event.'
   -
     - '2023-08-12 14:00:00'
     - '2023-08-12 15:00:00'
-    - 'Guest Speaker Event'
-    - 'We are still finalizing our second speaker. Updates coming soon!'
+    - 'Guest Speaker Event - Mr. Michael Plunkett'
+    - 'Faulty Enzymes and Off-by-One Errors: Finding Joy in Problem Solving by Mr. Michael Plunkett'
   -
     - '2023-08-12 15:00:00'
     - '2023-08-12 15:30:00'
