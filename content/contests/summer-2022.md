@@ -39,7 +39,7 @@ timeline:
 time_link: https://www.timeanddate.com/worldclock/fixedtime.html?msg=TeamsCode+Summer+2022+Opening+Ceremony&iso=20220806T0915&p1=137
 cards:
   -
-    - 'Contest Participants'
+    - 'Total Participants'
     - '393'
   -
     - 'Total Prize Value'

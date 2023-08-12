@@ -16,10 +16,10 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2023')" class="mr-2 text-subtitle-1">
-          The Summer 2023 Programming Contest is happening right now!
+          Summer 2023 Programming Contest winners announced!
         </div>
         <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2023')" color="primary" to="/contests/summer-2023" class="mr-1">
-          Watch Livestream<v-icon right>
+          View Contest<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>
@@ -188,7 +188,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-      <template #append>
+      <!--template #append>
         <div class="pa-2">
           <v-btn v-if="!$route.path.startsWith('/contests/summer-2023')" color="primary" to="/contests/summer-2023" class="mr-3">
             Upcoming Contest<v-icon right>
@@ -196,7 +196,7 @@
             </v-icon>
           </v-btn>
         </div>
-      </template>
+      </template-->
     </v-navigation-drawer>
   </v-app>
 </template>

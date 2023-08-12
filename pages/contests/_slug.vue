@@ -7,7 +7,6 @@
       href="https://summer23.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
-      disabled
       large
     >
       Register Now
@@ -19,7 +18,6 @@
       href="https://summer23.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
-      disabled
       large
     >
       Register Now
@@ -32,7 +30,6 @@
         href="https://summer23.teamscode.org/?register=direct"
         target="_blank"
         elevation="24"
-        disabled
         large
       >
         Register Now

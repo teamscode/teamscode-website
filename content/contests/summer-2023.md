@@ -11,7 +11,8 @@ tabs:
 title: Summer 2023 Virtual Programming Contest
 date: '2023-08-12'
 time: '9:15 AM - 3:30 PM Pacific Time'
-status: Upcoming 
+status: Past 
+participants: 430 participants
 place: Youtube Live
 image: /images/contests/virtual-contest.jpg
 description: 'TeamsCode Summer 2023 Online Programming Contest will take place on Saturday, August 12th, from 9:15 AM to 3:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be two divisions: Novice and Advanced. Prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
@@ -47,15 +48,52 @@ timeline:
     - 'https://go.teamscode.org/live'
 cards:
   -
-    - 'Contest Duration'
-    - '3 Hours'
+    - 'Total Participants'
+    - '430'
   -
-    - 'Coding Languages'
-    - 'C++/Python/Java'
+    - 'Total Teams'
+    - '159'
   -
-    - 'Team Size'
-    - '4 people'
+    - 'Year-over-year Growth'
+    - '9.4%'
   -
     - 'Divisions'
     - 'Novice/Advanced'
+winners:
+  -
+    - 'Advanced Division'
+    -
+      -
+        - 'noobab 4 seirrac 3 !iiawak ~ayn づ( ◕‿◕ づ) 3x rwar kcuhC 🐛 🐛 🐛 🐔 worcestershire sauce'
+        - 'Eric Hsu, Julian Wu, Bing-Dong Liu, Alex Chen'
+      -
+        - '---No life cutoff---'
+        - 'Rohin Garg, Adam Gąsienica-Samek, Ryan Bai, Austin Geng'
+      -
+        - 'Infrared'
+        - 'Mohamed Bakry, Erekle Roinishvili, Luka Mosiashvili, Alperen Tupurtu'
+      -
+        - 'batswana potato pride'
+        - 'Ko Kin Fung Nicholas, Wong Chun, Wang Chi Ho, Lu Yi Fung'
+      -
+        - 'mike4235 fanclub'
+        - 'Tran Xuan Bach, Pham Quoc Hung, Hoang Ngoc Bao Khue'
+  -
+    - 'Novice Division'
+    -
+      -
+        - 'Ninja go'
+        - 'Omar Ahmed Abdelaziz, Yahia Emara, Adam Aly, Mina Ragy'
+      -
+        - 'LOL Team'
+        - 'Ahmed Gamal, Yahia Ahmed, Moez Mahmoud, Ahmad Amin'
+      -
+        - 'ctcOTZ'
+        - 'Ishan Joshi, Srivaths P, Naveen Pramod Kulkarni, Yash Haresh Thakker'
+      -
+        - '404 Error: Name not Found'
+        - 'Bharat Singla, Adhish Kancharla, Bhavay Goyal, Ananthram Vijayaraj'
+      -
+        - 'u r a queue<T>'
+        - 'William, Cole, Tatha, Akksharvan'
 ---

@@ -55,8 +55,8 @@ cards:
     - 'Total Teams'
     - '212'
   -
-    - 'Growth in Participants'
-    - '57.3%'
+    - 'Year-over-year Growth'
+    - '10.2%'
   -
     - 'Divisions'
     - 'Novice/Advanced'

@@ -11,16 +11,16 @@
               Participate in TeamsCode Team Programming contests to challenge yourself with some inspiring competitive programming problems while having fun with your friends.
             </h2>
             <h2 class="text-body-1 mt-4 secondary--text">
-              Our upcoming contest is almost here! Hit the button below to discover the prizes up for grabs.
+              Our Summer 2023 contest has just ended (next one planned for Spring 2024)! Hit the button below to view our past contests.
             </h2>
             <div class="mt-4">
               <v-btn
                 x-large
                 class="my-1 mr-sm-1 w-full w-sm-auto"
                 color="primary"
-                to="/contests/summer-2023"
+                to="/contests"
               >
-                Summer 2023 Contest
+                Browse Contests
               </v-btn>
               <v-btn
                 x-large
