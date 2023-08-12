@@ -16,7 +16,7 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2023')" class="mr-2 text-subtitle-1">
-          The Summer 2023 Programming Contest is on!
+          The Summer 2023 Programming Contest is happening right now!
         </div>
         <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2023')" color="primary" to="/contests/summer-2023" class="mr-1">
           Watch Livestream<v-icon right>
