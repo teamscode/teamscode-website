@@ -21,11 +21,13 @@ timeline:
     - '2023-08-12 09:45:00'
     - 'Opening Ceremony and Rule Review'
     - 'Join us at Youtube Livestream to watch the opening ceremony. We will also be going over the rules of the contest.'
+    - 'https://go.teamscode.org/live'
   -
     - '2023-08-12 09:45:00'
     - '2023-08-12 12:45:00'
     - 'Coding time! Last submission by 12:45 PM'
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 12:45 PM.'
+    - 'https://summer23.teamscode.org'
   -
     - '2023-08-12 12:45:00'
     - '2023-08-12 14:00:00'
@@ -36,11 +38,13 @@ timeline:
     - '2023-08-12 15:00:00'
     - 'Guest Speaker Event - Mr. Michael Plunkett'
     - 'Faulty Enzymes and Off-by-One Errors: Finding Joy in Problem Solving by Mr. Michael Plunkett'
+    - 'https://go.teamscode.org/live'
   -
     - '2023-08-12 15:00:00'
     - '2023-08-12 15:30:00'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
     - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
+    - 'https://go.teamscode.org/live'
 cards:
   -
     - 'Contest Duration'
