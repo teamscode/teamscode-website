@@ -189,9 +189,9 @@
                     {{ event[3] }}
                   </v-card-text>
                   <v-card-text v-if="event[4]" class="secondary--text text-body-2 mt-0 pt-0">
-                    <nuxt-link :to="event[4]">
+                    <a :href="event[4]" target="_blank">
                       {{ event[4] }}
-                    </nuxt-link>
+                    </a>
                   </v-card-text>
                 </v-card>
               </v-timeline-item>
@@ -220,9 +220,9 @@
                   {{ event[3] }}
                 </v-card-text>
                 <v-card-text v-if="event[4]">
-                  <nuxt-link :to="event[4]">
+                  <a :href="event[4]" target="_blank">
                     {{ event[4] }}
-                  </nuxt-link>
+                  </a>
                 </v-card-text>
               </v-card>
             </div>
