@@ -374,10 +374,10 @@ export default {
       },
       stats: [{
         title: 'Total Event Hours',
-        value: '95+'
+        value: '100+'
       }, {
         title: 'Students Impacted',
-        value: '3705'
+        value: '4135'
       }, {
         title: 'Countries Reached',
         value: '22+'
