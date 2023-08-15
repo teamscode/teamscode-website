@@ -14,6 +14,7 @@ time: '9:15 AM - 3:30 PM Pacific Time'
 status: Past 
 participants: 430 participants
 place: Youtube Live
+cf_gym: https://codeforces.com/gym/104520
 image: /images/contests/virtual-contest.jpg
 description: 'TeamsCode Summer 2023 Online Programming Contest will take place on Saturday, August 12th, from 9:15 AM to 3:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be two divisions: Novice and Advanced. Prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
 timeline:
