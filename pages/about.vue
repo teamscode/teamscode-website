@@ -137,12 +137,6 @@ export default {
           bio: 'Sol Park is a senior in Mercer Island High School in Washington. He started programming at 5th grade using mainly Python and C++, achieving Silver in USACO at 9th grade. He enjoys participating in Destination Imagination and has been doing it for four years. Outside of school, he volunteers in a Korean School as a Teacher\'s Assistant. He is very excited in being part of an organization for promoting computer science among students. '
         },
         {
-          name: 'Timothy Gao',
-          title: 'Problem Writer',
-          image: '/images/teams/timothy.jpg',
-          bio: 'Timothy is a Senior at Amador Valley High School who has been actively participating in programming competitions since Freshman year. Thanks to the supportive competitive programming community, he discovered a passion for algorithms and programming as a whole. He is thrilled to problem-set for Teamscode in order to help promote the sport and give back to its incredible community.'
-        },
-        {
           name: 'Thomas Liu',
           title: 'Problem Writer',
           image: '/images/teams/thomasL.jpg',
@@ -334,6 +328,11 @@ export default {
           name: 'Alex Du',
           title: 'Problem Writer',
           image: '/images/teams/alexD.jpg'
+        }, {
+          name: 'Timothy Gao',
+          title: 'Problem Writer',
+          image: '/images/teams/timothy.jpg',
+          bio: 'Timothy is a Senior at Amador Valley High School who has been actively participating in programming competitions since Freshman year. Thanks to the supportive competitive programming community, he discovered a passion for algorithms and programming as a whole. He is thrilled to problem-set for Teamscode in order to help promote the sport and give back to its incredible community.'
         }
       ]
     }
