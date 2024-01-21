@@ -3,10 +3,10 @@
     <v-sheet color="surface">
       <v-container class="py-6 py-lg-12 text-center">
         <h1 class="text-h3 text-sm-h2 text-md-h1">
-          All about <span class="primary--text">TeamsCode</span>
+          About <span class="primary--text">TeamsCode</span>
         </h1>
         <h2 class="text-body-1 text--lighten-2 mt-4 ">
-          Our history, mission, and team
+          Our mission and team
         </h2>
       </v-container>
     </v-sheet>
@@ -56,15 +56,9 @@
             </div>
           </div>
           <div class="mt-4">
-            <v-btn large class="my-1 w-full w-sm-auto" href="https://docs.google.com/document/d/1_AeM-rZ8GQk_MvBuJ3P_mWwTDf2eeW_r84VyhpCIIEU/edit?usp=sharing" target="_blank">
-              Application Packet
+            <v-btn large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary" to="/get-involved">
+              Get Involved
             </v-btn>
-            <v-btn large class="my-1 mx-sm-2 w-full w-sm-auto" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdZRZ6FYFKh8ISQgRl-9-vbAV6t1GwxNJZm69JQbfkR4QiV8g/viewform" target="_blank">
-              Apply Now
-            </v-btn>
-          </div>
-          <div class="text-body-2 mt-3">
-            Make sure that you read the TeamsCode Application Packet before applying to understand your responsibilities.
           </div>
         </div>
       </v-container>

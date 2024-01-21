@@ -15,11 +15,11 @@
 
         <v-spacer />
 
-        <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2023')" class="mr-2 text-subtitle-1">
-          Summer 2023 Programming Contest winners announced!
+        <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/get-involved')" class="mr-2 text-subtitle-1">
+          TeamsCode is recruiting new organizers! All positions are open.
         </div>
-        <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2023')" color="primary" to="/contests/summer-2023" class="mr-1">
-          View Contest<v-icon right>
+        <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/get-involved')" color="primary" to="/get-involved" class="mr-1">
+          Get Involved<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>
@@ -223,9 +223,6 @@ export default {
         title: 'Contests',
         link: '/contests'
       }, {
-        title: 'Blog',
-        link: '/blog'
-      }, {
         title: 'Resources',
         link: '/resources'
       }, {
@@ -238,7 +235,12 @@ export default {
       {
         title: 'Affiliates',
         link: '/affiliates'
-      }, {
+      },
+      {
+        title: 'Get Involved',
+        link: '/get-involved'
+      },
+      {
         title: 'About',
         link: '/about'
       }]
