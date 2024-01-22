@@ -5,7 +5,7 @@
         <v-row>
           <v-col cols="12" lg="7">
             <h1 class="text-h2 text-lg-h1">
-              Explore <span class="primary--text">creative problem solving</span> with competitive programming contests
+              High quality and fun <span class="primary--text">team programming contests</span> for everyone
             </h1>
             <h2 class="text-body-1 mt-4 secondary--text">
               Participate in TeamsCode Team Programming contests to challenge yourself with some inspiring competitive programming problems while having fun with your friends.
@@ -48,7 +48,7 @@
             Competitive Programming
           </div>
           <h2 class="text-h4 text-sm-h3 text-lg-h2">
-            Engage your brain and level up your programming skills
+            Activate creativity and level up your programming skills
           </h2>
           <div class="text-body-1 mt-4">
             Our unique team competitive programming contests aim to provide an inspirational and enjoyable experience to computer science students regardless of their skills.

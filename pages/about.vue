@@ -195,6 +195,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/bryan.png',
           bio: 'Bryan is a sophomore at Bellevue High School in Bellevue, Washington. His most familiar coding language is C++, where he\'s currently competing in USACO Platinum, but he also has experience in Java (from AP Computer Science) and Python, particularly machine learning and data analysis. In his free time, he likes to play with his dogs, play video games, or surf Reddit.'
+        },
+        {
+          name: 'Eric Chang',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/eric.png',
+          bio: 'Eric Chang is a Sophomore at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting Teamscode competitions for competitive coders!'
         }
       ],
       pastLeadership: [
