@@ -201,6 +201,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/eric.png',
           bio: 'Eric Chang is a Sophomore at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting Teamscode competitions for competitive coders!'
+        },
+        {
+          name: 'Helen Law',
+          title: 'Problem Writer',
+          image: '/images/teams/helen_law.jpg',
+          bio: 'Helen is an 8th grader at Greene Middle School. She started programming in 2021 and is now in USACO\'s Platinum division. Aside from programming, Helen also enjoys math, art, and reading. She is excited to create new problems that require different techniques.'
         }
       ],
       pastLeadership: [
