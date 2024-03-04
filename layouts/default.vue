@@ -15,11 +15,11 @@
 
         <v-spacer />
 
-        <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/get-involved')" class="mr-2 text-subtitle-1">
-          TeamsCode is recruiting new organizers! All positions are open.
+        <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/spring-2024')" class="mr-2 text-subtitle-1">
+          The Spring 2024 Programming Contest is now accepting registrations!
         </div>
-        <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/get-involved')" color="primary" to="/get-involved" class="mr-1">
-          Get Involved<v-icon right>
+        <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/spring-2024')" color="primary" to="/contests/spring-2024" class="mr-1">
+          View Contest<v-icon right>
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>
@@ -188,15 +188,15 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-      <!--template #append>
+      <template #append>
         <div class="pa-2">
-          <v-btn v-if="!$route.path.startsWith('/contests/summer-2023')" color="primary" to="/contests/summer-2023" class="mr-3">
+          <v-btn v-if="!$route.path.startsWith('/contests/spring-2024')" color="primary" to="/contests/spring-2024" class="mr-3">
             Upcoming Contest<v-icon right>
               {{ mdiArrowRight }}
             </v-icon>
           </v-btn>
         </div>
-      </template-->
+      </template>
     </v-navigation-drawer>
   </v-app>
 </template>
