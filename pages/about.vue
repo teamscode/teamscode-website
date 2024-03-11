@@ -203,6 +203,12 @@ export default {
           bio: 'Eric Chang is a Sophomore at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting Teamscode competitions for competitive coders!'
         },
         {
+          name: 'Yash Belani',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/yash.png',
+          bio: 'Yash Belani is a freshman at the Harker School. He recently started USACO and is competing in the USACO Silver with c++. In his free time, he enjoys playing video games, basketball, or solving problems.'
+        },
+        {
           name: 'Helen Law',
           title: 'Problem Writer',
           image: '/images/teams/helen_law.jpg',

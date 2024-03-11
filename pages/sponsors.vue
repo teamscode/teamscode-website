@@ -63,7 +63,7 @@
             <a target="_blank" href="https://www.wolfram.com"><v-img
               src="/images/partners/wolfram.png"
               alt="wolfram"
-              style="width: 160px; margin-right: 30px;"
+              style="width: 210px; margin-right: 20px;"
             /></a>
             <a target="_blank" href="https://www.interviewcake.com"><v-img
               src="/images/partners/interviewcake.png"
