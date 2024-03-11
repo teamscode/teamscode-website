@@ -18,9 +18,9 @@
                 x-large
                 class="my-1 mr-sm-1 w-full w-sm-auto"
                 color="primary"
-                to="/contests/summer-2023"
+                to="/contests/spring-2024"
               >
-                Summer 2023 Contest
+                Spring 2024 Contest
               </v-btn>
               <v-btn
                 x-large
