@@ -1,7 +1,7 @@
 ---
 slug: sponsors
 name: Sponsors
-disabled: True
+disabled: False
 ---
 
 <br>
@@ -25,16 +25,27 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <br>
 
-## Platinum Sponsor - <a href="https://www.janestreet.com" target="_blank">Jane Street</a>
+## Gold Sponsor - <a href="https://nntrvl.org/teamscode" target="_blank">Non-Trivial</a>
 
-<a href="https://www.janestreet.com" target="_blank"><img src="/images/partners/janestreet.png" alt="Jane Street" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://nntrvl.org/teamscode"><img src="/images/partners/non_trivial.png" alt="Non-Trivial" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
-### About Jane Street
+### About Non-Trivial
 
-Jane Street is a quantitative trading firm with offices worldwide. They hire smart, humble people who love to solve problems, build systems, and test theories. Will their next great idea come from you?
+Non-Trivial is a non-profit enabling ambitious teenagers to start solving the world’s most pressing problems. Through an 8-week online fellowship, Non-Trivial allows young people to start an impactful research, policy, or entrepreneurial project. Non-Trivial fellows receive a $500 scholarship and have the opportunity to secure more than $15,000 in funding for their project.
 
 <br>
 
+## Bronze Sponsor - <a href="https://www.digipen.edu" target="_blank">DigiPen</a>
+
+<a href="https://www.digipen.edu" target="_blank"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About DigiPen
+
+Since 1988, DigiPen Institute of Technology has been preparing students to succeed as skilled engineers, artists, and designers in the growing technology industries.
+
+An educational pioneer, we were the first college in the world to offer a bachelor’s degree in video game technology and development. Today, we offer a wide range of technology-focused programs, all with an eye toward the career opportunities of tomorrow. Through a combination of academic rigor and interdisciplinary team-based projects, our educational model empowers students to be active learners, bold problem-solvers, and creators.
+
+<br>
 
 ## Bronze Sponsor - <a href="https://www.wolfram.com" target="_blank">Wolfram</a>
 
@@ -42,7 +53,22 @@ Jane Street is a quantitative trading firm with offices worldwide. They hire sma
 
 ### About Wolfram
 
-The Wolfram Language allows programmers to operate at a significantly higher level than ever before, by leveraging built-in computational intelligence that relies on a vast depth of algorithms and real-world knowledge carefully integrated over three decades. Scalable for programs from tiny to huge, with immediate deplovment locally and in the cloud, the Wolfram Language builds on clear principles-and an elegant unified symbolic structure-to create what is emerging as the world's most productive programming language and the first true computational communication language for humans and Als.
+Wolfram is the company where computation meets knowledge. A leader in scientific and technical innovation, Wolfram continues to build toward a future where sophisticated computation and knowledge-based programming are universally accessible.
+
+<br>
+
+## Bronze Sponsor - <a href="https://www.desmos.com" target="_blank">Desmos</a>
+
+<a href="https://www.desmos.com" target="_blank"><img src="/images/partners/desmos.png" alt="Desmos" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Desmos
+
+Desmos Studio is a Public Benefit Corporation with a goal of helping everyone learn math, love math, and grow with math. We believe that everyone has an inner mathematician and that some people haven’t been given the opportunity, encouragement, or tools to discover theirs. So we prioritize equity and accessibility at every level of our work.
+
+Our free suite of math tools, including our Graphing Calculator, is used annually by over 75 million people around the world. Those tools help people represent their ideas mathematically, connect different representations dynamically, make conjectures, and then develop entirely new ideas. They also result in some pretty spectacular art.
+
+We partner with the world's most popular curricula and learning software, and with the majority of U.S. state-level assessments and digital college entrance exams.
+
 
 <br>
 
