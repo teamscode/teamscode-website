@@ -53,7 +53,7 @@
               alt="DigitalOcean"
               style="max-width: 230px; margin-bottom: 25px; margin-right: 30px;"
             /></a>
-            <a target="_blank" href="https://https://nntrvl.org/teamscode"><v-img
+            <a target="_blank" href="https://nntrvl.org/teamscode"><v-img
               src="/images/partners/non_trivial.png"
               alt="Non-Trivial"
               style="max-width: 250px; margin-bottom: 25px;"
