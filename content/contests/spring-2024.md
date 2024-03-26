@@ -36,14 +36,14 @@ timeline:
   -
     - '2024-03-30 15:00:00'
     - '2024-03-30 16:00:00'
-    - 'Guest Speaker Event - Speaker TBA'
-    - 'Speaker TBA'
+    - 'Different Areas of Computer Science and the Future of Jobs'
+    - 'Keynote by Dr. Fumin Zhang. Dr. Zhang is a Software Engineer Manager in AWS (Amazon Web Services) since 2018, leading innovation and software service development at cloud scale.'
     - 'https://go.teamscode.org/live'
   -
     - '2024-03-30 16:00:00'
     - '2024-03-30 17:00:00'
-    - 'Guest Speaker Event - Speaker TBA'
-    - 'Speaker TBA'
+    - 'Curiosity + AI: Endless Possibilities'
+    - 'Keynote by Mr. Yipeng Li. Mr. Li is an Expert Data Scientist at SAP, working on chatbots for business applications.'
     - 'https://go.teamscode.org/live'
   -
     - '2024-03-30 17:00:00'

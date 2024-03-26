@@ -1,11 +1,17 @@
 ---
 slug: speakers
 name: Guest Speakers
-disabled: True
+disabled: False
 ---
 
-## Mr. Michael Plunkett
+## Dr. Fumin Zhang - Different Areas of Computer Science and the Future of Jobs 
 
-<img src="/images/speakers/mrmichaelplunkett.jpg" height="200px" style="margin-top:10px;margin-bottom:10px">
+<img src="/images/speakers/fumin_zhang.png" height="200px" style="margin-top:10px;margin-bottom:10px">
 
-Michael Plunkett is an experienced software engineer of 10+ years and a second-year graduate student at the Harris School of Public Policy at the University of Chicago. At the University of Chicago, he is pursuing a Master of Science in Computational Analysis and Public Policy, a joint degree between the public policy and computer science schools. He left the software engineering industry in the Fall of 2022 to return to school to apply his technical skills in the areas he is particularly passionate about, specifically police accountability, alternatives to policing, reproductive rights, and voting equity. In his off-time, he likes to read sci-fi, consume far too much of the New Yorker, and work his way up and down Chicago's Lakeside Drive while running or biking.
+Dr. Fumin Zhang is Software Engineer Manager in AWS (Amazon Web Services) since 2018, leading innovation and software service development at cloud scale. Prior to that, Dr Zhang was CTO at BlackTek Technology, and Director at Seagate Technology. Dr Fumin Zhang has over 30 years of experience in Computer Science and holds 7 US Patents in software development.
+
+## Mr. Yipeng Li - Curiosity + AI: Endless Possibilities 
+
+<img src="/images/speakers/yipeng_li.png" height="200px" style="margin-top:10px;margin-bottom:10px">
+
+Yipeng Li is an Expert Data Scientist at SAP, working on chatbots for business applications. His work spanned from Microsoft to Facebook to an AI startup, all with a focus on machine learning and AI. He has a PhD from Ohio State University. He is passionate about AI and applying it to daily life. 
