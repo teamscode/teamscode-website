@@ -43,7 +43,7 @@ timeline:
     - '2024-03-30 16:00:00'
     - '2024-03-30 17:00:00'
     - 'Curiosity + AI: Endless Possibilities'
-    - 'Keynote by Mr. Yipeng Li. Mr. Li is an Expert Data Scientist at SAP, working on chatbots for business applications.'
+    - 'Keynote by Dr. Yipeng Li. Mr. Li is an Expert Data Scientist at SAP, working on chatbots for business applications.'
     - 'https://go.teamscode.org/live'
   -
     - '2024-03-30 17:00:00'

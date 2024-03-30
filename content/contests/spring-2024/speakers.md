@@ -10,7 +10,7 @@ disabled: False
 
 Dr. Fumin Zhang is Software Engineer Manager in AWS (Amazon Web Services) since 2018, leading innovation and software service development at cloud scale. Prior to that, Dr Zhang was CTO at BlackTek Technology, and Director at Seagate Technology. Dr Fumin Zhang has over 30 years of experience in Computer Science and holds 7 US Patents in software development.
 
-## Mr. Yipeng Li - Curiosity + AI: Endless Possibilities 
+## Dr. Yipeng Li - Curiosity + AI: Endless Possibilities 
 
 <img src="/images/speakers/yipeng_li.png" height="200px" style="margin-top:10px;margin-bottom:10px">
 
