@@ -25,5 +25,4 @@ name: Prizes
 * The raffle prizes are listed below:
   * 1x Apple Airpods 3rd Generation
   * 3x Discord Nitro
-  * 3x Interview Cake Subscriptions
   * 1x Desmos Swag Pack
