@@ -5,7 +5,7 @@ name: Prizes
 
 ## Contest Prizes
 
-* Win up to $100 by competing in the Advanced division! More prizes from our sponsors will be added to the list soon (see Spring 2023 for reference). Stay tuned for our announcements!
+* Win up to $100 by competing in the Advanced division!
 * The top 5 scoring teams from each division will win amazon gift cards. The growing list of prizes each team member will win:
   <br>**Advanced Prizes per team member**
   * **1st** - $100 Amazon Giftcard
@@ -19,7 +19,11 @@ name: Prizes
   * **3rd** - $10 Amazon Giftcard
   * **4th** - $10 Amazon Giftcard
   * **5th** - $10 Amazon Giftcard
-* Top 5 Advanced + Novice get Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.
+* Top 5 Advanced + Novice get Wolfram|One Personal Edition plus, a one-year subscription to Wolfram|Alpha Pro, and a full month access to Interview Cake.
 * When you submit your first submission, each member in your team will receive 1 raffle ticket.
 * Raffle prizes will be drawn in the last half hour of the contest using a random number generator - we will email those selected for shipment details immediately following the contest.
-* Raffle prizes TBA.
+* The raffle prizes are listed below:
+  * 1x Apple Airpods 3rd Generation
+  * 3x Discord Nitro
+  * 3x Interview Cake Subscriptions
+  * 1x Desmos Swag Pack
