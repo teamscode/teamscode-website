@@ -430,23 +430,17 @@ export default {
         title: 'Learn Something New',
         description: 'Competitive programming has dozens of algorithms and data structures for you to explore! Regardless of your skill level, you will always learn something new about computer science.'
       }],
-      logos: [{
-        image: '/images/partners/xcamp.png'
-      }, {
-        image: '/images/partners/digitalocean.png'
-      }, {
-        image: '/images/partners/cpi.png'
-      }, {
-        image: '/images/partners/desmos.png'
-      }, {
-        image: '/images/partners/wolfram.png'
-      }, {
-        image: '/images/partners/lit.png'
-      }, {
-        image: '/images/partners/mbit.png'
-      }, {
-        image: '/images/partners/hyperx.png'
-      }],
+      logos: [
+        { image: '/images/partners/xcamp.png' },
+        { image: '/images/partners/digitalocean.png' },
+        { image: '/images/partners/cpi.png' },
+        { image: '/images/partners/desmos.png' },
+        { image: '/images/partners/wolfram.png' },
+        { image: '/images/partners/lit.png' },
+        { image: '/images/partners/mbit.png' },
+        { image: '/images/partners/hyperx.png' },
+        { image: '/images/partners/calico.png' }
+      ],
       contests: []
     }
   },

@@ -35,6 +35,20 @@ Non-Trivial is a non-profit enabling ambitious teenagers to start solving the wo
 
 <br>
 
+## Gold Sponsor - <a href="https://www.vplanetcoding.com/" target="_blank">V-Planet</a>
+
+<a href="https://www.vplanetcoding.com/"><img src="/images/partners/vplanet.png" alt="V-Planet" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About V-Planet
+
+VPlanet Coding helps USACO competitors advance to the next division in a matter of weeks. VPlanet has talked to over 100 USACO finalists and determined how they fast track their USACO progress, and they use that to help you fast track your own progress. 
+
+Through VPlanet, you will be able to have lessons with Riya Arora, a MIT graduate and three time USACO Finalist. Riya also has three years of experience as a USACO Camp Coach and has coached over 200 students for USACO. 
+
+For more information and to get started on your USACO advancement journey, visit vplanetcoding.com and email support@vplanetcoding.com if you are unable to schedule a meeting. 
+
+<br>
+
 ## Bronze Sponsor - <a href="https://www.digipen.edu" target="_blank">DigiPen</a>
 
 <a href="https://www.digipen.edu" target="_blank"><img src="/images/partners/digipen.png" alt="DigiPen" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
