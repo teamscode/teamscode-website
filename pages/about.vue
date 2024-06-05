@@ -188,7 +188,7 @@ export default {
           name: 'Shine Chang',
           title: 'Web Developer',
           image: '/images/teams/shine.jpg',
-          bio: 'Shine Chang is a junior at Cupertino High School in San Jose. He started to learn programming from his dad in elementary school, and has been building projects for fun ever since. He is in USACO\'s gold division and likes to work with low-level programs. He loves Rust and C++, but also works with high-level programs for web development, and embedded programs for Arduinos and FIRST robotics. As hobbies, he plays Tetris, badminton, and skis.'
+          bio: 'Shine Chang is a junior at Cupertino High School in San Jose. He started to learn programming from his dad in elementary school, and has been building projects for fun ever since. He is in USACO\'s gold division. He loves Rust but also works with high-level programs for web development. As hobbies, he plays Tetris, badminton, skis, and does FRC.'
         },
         {
           name: 'Bryan Zhu',
@@ -213,6 +213,18 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/helen_law.jpg',
           bio: 'Helen is an 8th grader at Greene Middle School. She started programming in 2021 and is now in USACO\'s Platinum division. Aside from programming, Helen also enjoys math, art, and reading. She is excited to create new problems that require different techniques.'
+        },
+        {
+          name: 'Spencer Wang',
+          title: 'Problem Writer',
+          image: '/images/teams/spencer.jpg',
+          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software..'
+        },
+        {
+          name: 'Gabriel Xu',
+          title: 'Problem Writer',
+          image: '/images/teams/gabriel.jpeg',
+          bio: 'Gabriel is a junior at the Thomas Jefferson High School for Science and Technology. He first started competitive programming in the fall of 2021 and is currently a USACO Platinum competitor. Additionally, he is interested in machine learning, application development, cybersecurity, and competition math. He also enjoys long-distance running in cross country and track and field.'
         }
       ],
       pastLeadership: [
