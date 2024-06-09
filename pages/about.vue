@@ -225,6 +225,18 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/gabriel.jpeg',
           bio: 'Gabriel is a junior at the Thomas Jefferson High School for Science and Technology. He first started competitive programming in the fall of 2021 and is currently a USACO Platinum competitor. Additionally, he is interested in machine learning, application development, cybersecurity, and competition math. He also enjoys long-distance running in cross country and track and field.'
+        },
+        {
+          name: 'Julian Wu',
+          title: 'Problem Writer',
+          image: '/images/teams/julian.jpg',
+          bio: 'Julian is a junior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
+        },
+        {
+          name: 'Peng Bai',
+          title: 'Problem Writer',
+          image: '/images/teams/peng.jpg',
+          bio: 'Peng is a junior at École Dr. Charles Best Secondary School. He started actively practicing competitive programming in 2022. He managed to reach Codeforces Master and USACO Platinum in a year. He is actively attempting to improve to reach even higher ambitions despite recent failures in important contests. Outside of programming and math, he is interested in understanding the world through history and geopolitics through his readings. To have some fun, he also enjoys playing video games.'
         }
       ],
       pastLeadership: [
