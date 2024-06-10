@@ -237,6 +237,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/peng.jpg',
           bio: 'Peng is a junior at École Dr. Charles Best Secondary School. He started actively practicing competitive programming in 2022. He managed to reach Codeforces Master and USACO Platinum in a year. He is actively attempting to improve to reach even higher ambitions despite recent failures in important contests. Outside of programming and math, he is interested in understanding the world through history and geopolitics through his readings. To have some fun, he also enjoys playing video games.'
+        },
+        {
+          name: 'Jason Zeng',
+          title: 'Problem Writer',
+          image: '/images/teams/jasonZe.jpg',
+          bio: 'Jason is a junior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
         }
       ],
       pastLeadership: [
@@ -251,7 +257,7 @@ export default {
         }, {
           name: 'Jason Zhang',
           title: 'Co-President, 2019-2020',
-          image: '/images/teams/jason.jpg'
+          image: '/images/teams/jasonZh.jpg'
         }, {
           name: 'Alex Patel',
           title: 'Co-President, 2019-2020',
