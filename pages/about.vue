@@ -243,6 +243,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/jasonZe.jpg',
           bio: 'Jason is a junior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
+        },
+        {
+          name: 'Guoguo Gong',
+          title: 'Problem Writer',
+          image: '/images/teams/guoguo.jpeg',
+          bio: ' Guoguo is a freshman at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
         }
       ],
       pastLeadership: [
