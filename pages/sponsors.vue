@@ -21,20 +21,10 @@
             <b>Partners</b>
           </h2>
           <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://www.janestreet.com/"><v-img
-              src="/images/partners/janestreet.png"
-              alt="JaneStreet"
-              style="width: 250px;margin-right: 30px;"
-            /></a>
             <a target="_blank" href="https://x-camp.academy/#/"><v-img
               src="/images/partners/xcamp.png"
               alt="X-Camp"
               style="max-width: 230px; margin-right: 30px;"
-            /></a>
-            <a target="_blank" href="https://digipen.edu"><v-img
-              src="/images/partners/digipen.png"
-              alt="DigiPen"
-              style="max-width: 250px; "
             /></a>
           </v-row>
         </div>
@@ -43,16 +33,6 @@
             <b>Gold Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://hyperx.com"><v-img
-              src="/images/partners/hyperx.png"
-              alt="HyperX"
-              style="max-width: 230px; margin-right: 30px;"
-            /></a>
-            <a target="_blank" href="https://digitalocean.com"><v-img
-              src="/images/partners/digitalocean.png"
-              alt="DigitalOcean"
-              style="max-width: 230px; margin-bottom: 25px; margin-right: 30px;"
-            /></a>
             <a target="_blank" href="https://nntrvl.org/teamscode"><v-img
               src="/images/partners/non_trivial.png"
               alt="Non-Trivial"
@@ -70,25 +50,10 @@
             <b>Bronze Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://www.wolfram.com"><v-img
-              src="/images/partners/wolfram.png"
-              alt="wolfram"
-              style="width: 210px; margin-right: 20px;"
-            /></a>
             <a target="_blank" href="https://www.interviewcake.com"><v-img
               src="/images/partners/interviewcake.png"
               alt="interview cake"
               style="width: 200px; margin-right: 30px;"
-            /></a>
-            <a target="_blank" href="https://www.desmos.com"><v-img
-              src="/images/partners/desmos.png"
-              alt="desmos"
-              style="width: 160px; margin-right: 30px;"
-            /></a>
-            <a target="_blank" href="https://www.replit.com"><v-img
-              src="/images/partners/replit.png"
-              alt="replit"
-              style="width: 160px;"
             /></a>
           </v-row>
         </div>
@@ -97,6 +62,43 @@
             <b>Past Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2 mx-10">
+            <a target="_blank" href="https://www.desmos.com"><v-img
+              src="/images/partners/desmos.png"
+              alt="desmos"
+              style="width: 80px; margin-right: 20px;"
+            /></a>
+            <a target="_blank" href="https://www.replit.com"><v-img
+              src="/images/partners/replit.png"
+              alt="replit"
+              style="width: 80px; margin-right: 20px"
+            /></a>
+            <a target="_blank" href="https://www.wolfram.com"><v-img
+              src="/images/partners/wolfram.png"
+              alt="wolfram"
+              style="width: 100px; margin-right: 20px;"
+            /></a>
+            <a target="_blank" href="https://digipen.edu"><v-img
+              src="/images/partners/digipen.png"
+              alt="DigiPen"
+              style="max-width: 120px; margin-right: 20px;"
+            /></a>
+            <a target="_blank" href="https://hyperx.com"><v-img
+              src="/images/partners/hyperx.png"
+              alt="HyperX"
+              style="max-width: 100px; margin-right: 30px;"
+            /></a>
+            <a target="_blank" href="https://digitalocean.com"><v-img
+              src="/images/partners/digitalocean.png"
+              alt="DigitalOcean"
+              style="max-width: 120px; margin-top: 5px; margin-right: 20px;"
+            /></a>
+
+            <a target="_blank" href="https://www.janestreet.com/"><v-img
+              src="/images/partners/janestreet.png"
+              alt="JaneStreet"
+              style="width: 120px;margin-right: 30px;"
+            /></a>
+
             <a target="_blank" href="https://www.codewithus.com/en"><v-img
               src="/images/partners/codewithus.png"
               alt="Code With Us"

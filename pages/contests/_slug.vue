@@ -4,7 +4,7 @@
       v-if="content.status==='Upcoming'"
       class="reg-button d-md-flex d-none"
       color="primary"
-      href="https://spring24.teamscode.org/?register=direct"
+      href="https://summer24.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -15,7 +15,7 @@
       v-if="content.status==='Upcoming'"
       class="reg-button-tablet d-sm-flex d-md-none d-none"
       color="primary"
-      href="https://spring24.teamscode.org/?register=direct"
+      href="https://summer24.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -27,7 +27,7 @@
         v-if="content.status==='Upcoming'"
         block
         color="primary"
-        href="https://spring24.teamscode.org/?register=direct"
+        href="https://summer24.teamscode.org/?register=direct"
         target="_blank"
         elevation="24"
         large

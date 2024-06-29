@@ -18,9 +18,9 @@
                 x-large
                 class="my-1 mr-sm-1 w-full w-sm-auto"
                 color="primary"
-                to="/contests/spring-2024"
+                to="/contests/summer-2024"
               >
-                Spring 2024 Contest
+                Summer 2024 Contest
               </v-btn>
               <v-btn
                 x-large
@@ -432,13 +432,9 @@ export default {
       }],
       logos: [
         { image: '/images/partners/xcamp.png' },
-        { image: '/images/partners/digitalocean.png' },
         { image: '/images/partners/cpi.png' },
-        { image: '/images/partners/desmos.png' },
-        { image: '/images/partners/wolfram.png' },
         { image: '/images/partners/lit.png' },
         { image: '/images/partners/mbit.png' },
-        { image: '/images/partners/hyperx.png' },
         { image: '/images/partners/calico.png' }
       ],
       contests: []
