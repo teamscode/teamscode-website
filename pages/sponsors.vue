@@ -18,7 +18,7 @@
       <v-container>
         <div class="text-center mt-4 mb-3">
           <h2 class="pb-1">
-            <b>Partners</b>
+            <b>Platinum Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://x-camp.academy/#/"><v-img

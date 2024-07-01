@@ -6,6 +6,7 @@ tabs:
   - registration
   - prizes
   - example
+  - sponsors
 title: Summer 2024 Virtual Programming Contest
 date: '2024-07-28'
 time: '11:15 AM - 4:30 PM Pacific Time'

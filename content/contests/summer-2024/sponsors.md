@@ -24,13 +24,27 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <br>
 
-## Bronze Sponsor - <a href="https://www.wolfram.com" target="_blank">Wolfram</a>
+## Gold Sponsor - <a href="https://nntrvl.org/teamscode" target="_blank">Non-Trivial</a>
 
-<a href="https://www.wolfram.com" target="_blank"><img src="/images/partners/wolfram.png" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://nntrvl.org/teamscode"><img src="/images/partners/non_trivial.png" alt="Non-Trivial" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
-### About Wolfram
+### About Non-Trivial
 
-The Wolfram Language allows programmers to operate at a significantly higher level than ever before, by leveraging built-in computational intelligence that relies on a vast depth of algorithms and real-world knowledge carefully integrated over three decades. Scalable for programs from tiny to huge, with immediate deplovment locally and in the cloud, the Wolfram Language builds on clear principles-and an elegant unified symbolic structure-to create what is emerging as the world's most productive programming language and the first true computational communication language for humans and Als.
+Non-Trivial is a non-profit enabling ambitious teenagers to start solving the world’s most pressing problems. Through an 8-week online fellowship, Non-Trivial allows young people to start an impactful research, policy, or entrepreneurial project. Non-Trivial fellows receive a $500 scholarship and have the opportunity to secure more than $15,000 in funding for their project.
+
+<br>
+
+## Gold Sponsor - <a href="https://www.vplanetcoding.com/" target="_blank">V-Planet</a>
+
+<a href="https://www.vplanetcoding.com/"><img src="/images/partners/vplanet.png" alt="V-Planet" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About V-Planet
+
+VPlanet Coding helps USACO competitors advance to the next division in a matter of weeks. VPlanet has talked to over 100 USACO finalists and determined how they fast track their USACO progress, and they use that to help you fast track your own progress. 
+
+Through VPlanet, you will be able to have lessons with Riya Arora, a MIT graduate and three time USACO Finalist. Riya also has three years of experience as a USACO Camp Coach and has coached over 200 students for USACO. 
+
+For more information and to get started on your USACO advancement journey, visit vplanetcoding.com and email support@vplanetcoding.com if you are unable to schedule a meeting. 
 
 <br>
 
