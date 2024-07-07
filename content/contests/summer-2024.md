@@ -6,6 +6,7 @@ tabs:
   - registration
   - prizes
   - example
+  - speakers
   - sponsors
 title: Summer 2024 Virtual Programming Contest
 date: '2024-07-28'
@@ -31,10 +32,15 @@ timeline:
     - '2024-07-28 14:45:00'
     - '2024-07-28 16:00:00'
     - 'Lunch Break'
-    - 'Please take a break while we get ready for the closing ceremony.'
+    - 'Please take a break while we get ready for the speaker event.'
   -
     - '2024-07-28 16:00:00'
-    - '2024-07-28 16:30:00'
+    - '2024-07-28 17:00:00'
+    - 'Guest Speaker Event - Jun Qian'
+    - 'Vice President of Generative AI Services at Oracle'
+  -
+    - '2024-07-28 17:00:00'
+    - '2024-07-28 17:30:00'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
     - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
     - 'https://go.teamscode.org/live'

@@ -16,7 +16,7 @@
         <v-spacer />
 
         <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2024')" class="mr-2 text-subtitle-1">
-          Summer 2024 Programming Contest Registration Opens Soon!
+          Summer 2024 Programming Contest Registration Opened!
         </div>
         <v-btn v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/summer-2024')" color="primary" to="/contests/summer-2024" class="mr-1">
           View Contest<v-icon right>

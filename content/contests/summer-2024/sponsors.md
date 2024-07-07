@@ -34,7 +34,7 @@ Non-Trivial is a non-profit enabling ambitious teenagers to start solving the wo
 
 <br>
 
-## Gold Sponsor - <a href="https://www.vplanetcoding.com/" target="_blank">V-Planet</a>
+## Platinum Sponsor - <a href="https://www.vplanetcoding.com/" target="_blank">V-Planet</a>
 
 <a href="https://www.vplanetcoding.com/"><img src="/images/partners/vplanet.png" alt="V-Planet" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
