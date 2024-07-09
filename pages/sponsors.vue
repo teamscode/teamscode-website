@@ -55,6 +55,11 @@
               alt="interview cake"
               style="width: 200px; margin-right: 30px;"
             /></a>
+            <a target="_blank" href="https://artofproblemsolving.com"><v-img
+              src="/images/partners/aops.png"
+              alt="AoPS"
+              style="width: 200px; margin-right: 30px;"
+            /></a>
           </v-row>
         </div>
         <div class="text-center mt-8 mb-3">

@@ -30,14 +30,19 @@ timeline:
     - 'https://summer24.teamscode.org'
   -
     - '2024-07-28 14:45:00'
-    - '2024-07-28 16:00:00'
+    - '2024-07-28 15:00:00'
     - 'Lunch Break'
     - 'Please take a break while we get ready for the speaker event.'
+  -
+    - '2024-07-28 15:00:00'
+    - '2024-07-28 16:00:00'
+    - 'Guest Speaker Event - Roman Bohuk'
+    - 'Cybersecurity Careers and Competitions'
   -
     - '2024-07-28 16:00:00'
     - '2024-07-28 17:00:00'
     - 'Guest Speaker Event - Jun Qian'
-    - 'Vice President of Generative AI Services at Oracle'
+    - 'Artificial Intelligence'
   -
     - '2024-07-28 17:00:00'
     - '2024-07-28 17:30:00'

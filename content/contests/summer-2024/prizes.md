@@ -25,3 +25,4 @@ name: Prizes
 * The raffle prizes are listed below:
   * 1x Logitech G PRO Mechanical Gaming Keyboard
   * 1x Apple Airpods 3rd Generation
+  * 4x $25 AoPS Coupon

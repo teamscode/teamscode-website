@@ -57,3 +57,13 @@ For more information and to get started on your USACO advancement journey, visit
 Interview Cake is a study tool that preps software engineering candidates for programming interviews.
 
 <br>
+
+## Bronze Sponsor - <a href="https://artofproblemsolving.com/" target="_blank">Art of Problem Solving</a>
+
+<a href="https://artofproblemsolving.com/" target="_blank"><img src="/images/partners/aops.png" alt="Interview Cake" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Art of Problem Solving
+
+Since 1993, AoPS has helped hundreds of thousands of passionate students succeed in the classroom and beyond. We know that learning math means more than memorizing formulas or doing lots of simple calculations quickly. Students deserve teachers and peers who share their enthusiasm and a curriculum that helps them think critically and understand concepts on a deeper level. AoPS provides the opportunity to learn to solve problems by trying, failing, and ultimately succeeding.
+
+<br>
