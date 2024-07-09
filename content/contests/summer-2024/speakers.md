@@ -12,7 +12,7 @@ Seasoned executive with over 25 years of experience in pioneering technological 
 
 ## Roman Bohuk - Co-Founder and CEO of MetaCTF
 
-<img src="/images/speakers/roman_bohuk.png" height="200px" style="margin-top:10px;margin-bottom:10px">
+<img src="/images/speakers/roman_bohuk.jpg" height="200px" style="margin-top:10px;margin-bottom:10px">
 
 Roman Bohuk is co-founder and CEO of MetaCTF, a cyber skills platform that helps companies assess, recruit, and upskill cyber talent. Since 2014, his team has run over 300 cybersecurity competitions for various companies, universities, and conferences, including the 2023 International Cybersecurity Challenge and the 2023 Mid-Atlantic Collegiate Cyber Defense Competition.
 
