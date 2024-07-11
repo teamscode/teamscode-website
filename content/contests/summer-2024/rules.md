@@ -22,7 +22,8 @@ name: Rules
 * Contest page: [https://summer24.teamscode.org](https://summer24.teamscode.org)
 * Join our discord server here: [https://go.teamscode.org/discord](https://go.teamscode.org/discord) for important contest announcements or if you have any questions.
 * Try more problems from the last contest:
-  * [CodeForces Gym](https://codeforces.com/gym/104287)
+  * [CodeForces Gym (Novice)](https://codeforces.com/gym/105066)
+  * [CodeForces Gym (Advanced)](https://codeforces.com/gym/105067)
   * You will need to make a codeforces account: <https://codeforces.com/register>
 
 ## Problem Format
