@@ -24,16 +24,6 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <br>
 
-## Gold Sponsor - <a href="https://nntrvl.org/teamscode" target="_blank">Non-Trivial</a>
-
-<a href="https://nntrvl.org/teamscode"><img src="/images/partners/non_trivial.png" alt="Non-Trivial" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
-
-### About Non-Trivial
-
-Non-Trivial is a non-profit enabling ambitious teenagers to start solving the world’s most pressing problems. Through an 8-week online fellowship, Non-Trivial allows young people to start an impactful research, policy, or entrepreneurial project. Non-Trivial fellows receive a $500 scholarship and have the opportunity to secure more than $15,000 in funding for their project.
-
-<br>
-
 ## Platinum Sponsor - <a href="https://www.vplanetcoding.com/" target="_blank">V-Planet</a>
 
 <a href="https://www.vplanetcoding.com/"><img src="/images/partners/vplanet.png" alt="V-Planet" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
