@@ -14,7 +14,7 @@ time: '11:15 AM - 4:30 PM Pacific Time'
 status: Upcoming
 place: Youtube Live
 image: /images/contests/virtual-contest.jpg
-description: 'TeamsCode Summer 2024 Online Programming Contest will take place on Sunday, July 28th, from 11:15 AM to 4:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be two divisions: Novice and Advanced. Prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
+description: 'TeamsCode Summer 2024 Online Programming Contest will take place on Sunday, July 28th, from 11:15 AM to 5:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be two divisions: Novice and Advanced. Prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
 timeline:
   -
     - '2024-07-28 11:15:00'

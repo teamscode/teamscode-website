@@ -61,7 +61,7 @@
             </v-btn>
             <v-btn
               large
-              href="https://spring24.teamscode.org"
+              href="https://summer24.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
             >
