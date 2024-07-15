@@ -248,7 +248,13 @@ export default {
           name: 'Guoguo Gong',
           title: 'Problem Writer',
           image: '/images/teams/guoguo.jpeg',
-          bio: ' Guoguo is a freshman at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
+          bio: 'Guoguo is a freshman at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
+        },
+        {
+          name: 'Chris Matthews',
+          title: 'Logistics',
+          image: '/images/teams/chrisM.jpg',
+          bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym'
         }
       ],
       pastLeadership: [
