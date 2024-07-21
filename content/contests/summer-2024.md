@@ -25,7 +25,7 @@ timeline:
   -
     - '2024-07-28 11:45:00'
     - '2024-07-28 14:45:00'
-    - 'Coding time! Last submission by 12:45 PM'
+    - 'Coding time! Last submission by 2:45 PM'
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 2:45 PM.'
     - 'https://summer24.teamscode.org'
   -

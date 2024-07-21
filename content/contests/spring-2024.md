@@ -67,7 +67,7 @@ cards:
     - 'Novice/Advanced'
 winners:
   -
-    - 'advanced division'
+    - 'Advanced division'
     -
       -
         - 'elastic enormous eggs'
@@ -88,7 +88,7 @@ winners:
         - 'X-Camp: Le Fishe Au Chocolat De Mapahajit'
         - 'Alex Chen, Yao Chen, Peng Bai, Nelson Huang'
   -
-    - 'novice division'
+    - 'Novice division'
     -
       -
         - 'ModiSarkar (collegiate)'
@@ -135,6 +135,6 @@ winners:
       -
         - 'X-Camp Regarded Artistic De Anza Rejects'
         - 'Zixuan Yin, Luke Song, Leo Shi, Derek Li'
-cf_gym: 'https://codeforces.com/gym/104287'
-editorial: 'https://codeforces.com/blog/entry/114806'
+cf_gym: 'https://codeforces.com/gym/105067'
+editorial: 'https://codeforces.com/blog/entry/128090'
 ---

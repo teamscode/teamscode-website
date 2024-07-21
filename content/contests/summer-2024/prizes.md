@@ -23,6 +23,7 @@ name: Prizes
 * When you submit your first submission, each member in your team will receive 1 raffle ticket.
 * Raffle prizes will be drawn in the last half hour of the contest using a random number generator - we will email those selected for shipment details immediately following the contest.
 * The raffle prizes are listed below:
-  * 1x Logitech G PRO Mechanical Gaming Keyboard
-  * 1x Apple Airpods 3rd Generation
+  * 1x Apple AirPods (2nd generation)
+  * 1x Redragon S101 Gaming Keyboard + M601 Mouse
+  * 5x Discord Nitro
   * 4x $25 AoPS Coupon
