@@ -38,6 +38,12 @@
             <b>Gold Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
+            <a target="_blank" href="https://luminarcentral.com/"><v-img
+              src="/images/partners/luminar-central.png"
+              alt="Luminar-Central"
+              style="max-width: 280px; margin-bottom: 25px; margin-right: 30px"
+            /></a>
+
             <a target="_blank" href="https://nntrvl.org/teamscode"><v-img
               src="/images/partners/non_trivial.png"
               alt="Non-Trivial"

@@ -254,7 +254,7 @@ export default {
           name: 'Chris Matthews',
           title: 'Logistics',
           image: '/images/teams/chrisM.jpg',
-          bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym'
+          bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym.'
         }
       ],
       pastLeadership: [

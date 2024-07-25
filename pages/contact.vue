@@ -119,7 +119,7 @@ export default {
           content: 'Here is our sponsorship deck. Please email us if you have any question!',
           purposes: ['Sponsorship Inquiries'],
           buttonText: 'Sponsorship Deck',
-          buttonLink: 'https://teamscode.blob.core.windows.net/public-files/sponsorship_deck.pdf'
+          buttonLink: 'https://teamscode.blob.core.windows.net/public-files/sponsorship deck 2024.pdf'
         },
         {
           title: 'Donate to TeamsCode',
