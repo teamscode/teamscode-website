@@ -50,10 +50,18 @@ Interview Cake is a study tool that preps software engineering candidates for pr
 
 ## Bronze Sponsor - <a href="https://artofproblemsolving.com/" target="_blank">Art of Problem Solving</a>
 
-<a href="https://artofproblemsolving.com/" target="_blank"><img src="/images/partners/aops.png" alt="Interview Cake" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://artofproblemsolving.com/" target="_blank"><img src="/images/partners/aops.png" alt="AoPS" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
 ### About Art of Problem Solving
 
 Since 1993, AoPS has helped hundreds of thousands of passionate students succeed in the classroom and beyond. We know that learning math means more than memorizing formulas or doing lots of simple calculations quickly. Students deserve teachers and peers who share their enthusiasm and a curriculum that helps them think critically and understand concepts on a deeper level. AoPS provides the opportunity to learn to solve problems by trying, failing, and ultimately succeeding.
 
 <br>
+
+## Bronze Sponsor - <a href="https://recursivedragon.com/" target="_blank">Recursive Dragon</a>
+
+<a href="https://recursivedragon.com/" target="_blank"><img src="/images/partners/recursive-dragon.png" alt="Recursive Dragon" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Recursive Dragon
+
+From its inception, the mission of Recursive Dragon has been to promote algorithmic thinking and instill a love for programming in young minds. Students are matched with a mentor from our small team of CS majors, potentially progressing from introductory programming in Scratch, Python, or Java, all the way up to the highest level of the USA Computing Olympiad.

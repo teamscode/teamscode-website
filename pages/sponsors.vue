@@ -56,6 +56,13 @@
             <b>Bronze Sponsors</b>
           </h2>
           <v-row class="align-center justify-center my-2">
+            <a target="_blank" href="https://recursivedragon.com"><v-img
+              src="/images/partners/recursive-dragon.png"
+              alt="recurisve-dragon"
+              style="width: 200px; margin-right: 30px;"
+            /></a>
+          </v-row>
+          <v-row class="align-center justify-center my-2">
             <a target="_blank" href="https://www.interviewcake.com"><v-img
               src="/images/partners/interviewcake.png"
               alt="interview cake"
