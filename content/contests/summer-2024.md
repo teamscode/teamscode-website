@@ -11,7 +11,7 @@ tabs:
 title: Summer 2024 Virtual Programming Contest
 date: '2024-07-28'
 time: '11:15 AM - 4:30 PM Pacific Time'
-status: Upcoming
+status: Past 
 place: Youtube Live
 image: /images/contests/virtual-contest.jpg
 description: 'TeamsCode Summer 2024 Online Programming Contest will take place on Sunday, July 28th, from 11:15 AM to 5:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be two divisions: Novice and Advanced. Prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
@@ -51,15 +51,61 @@ timeline:
     - 'https://go.teamscode.org/live'
 cards:
   -
-    - 'Contest Duration'
-    - '3 hours'
+    - 'Total Participants'
+    - '419'
   -
-    - 'Languages'
-    - 'C++/Python/Java'
+    - 'Total Teams'
+    - '160'
   -
-    - 'Team Size'
-    - '4 people'
+    - 'Prize Value'
+    - '$3500'
   -
     - 'Divisions'
     - 'Novice/Advanced'
+winners:
+  -
+    - 'Advanced division'
+    -
+      -
+        - 'elastic enormous eggs'
+        - 'Ko Kin Fung Nicholas, Wong Chun, Lu Yi Fung, Wong Ho Yan'
+      -
+        - '[Redacted Team Name]'
+        - 'Shi Wei, Chur Zhe, Bei Chen, Zane Yu'
+      -
+        - 'eric is not beating the allegations (meow :3c)'
+        - 'Eric Hsu, Jiahe Lu, Daniel Kim, Alex Chen'
+      -
+        - '(collegiate) (Bagged Chili is the Texas of American Canada. Alberta.) `fan club + Ahmed'
+        - 'Kelly Dance, Evan Bailey, Ian DeHaan, Ahmed Siadomar'
+      -
+        - 'Panini Penguins'
+        - 'Daniel Wu, Patrick Deng, Sujay Konda, Rithwik Gupta'
+      -
+        - 'placeholder'
+        - 'Rohan Garg, Ryan Fu, Jonathan He, Julian Tong
+'
+  -
+    - 'Novice division'
+    -
+      -
+        - 'youtu.be/JNz0ng19kuw'
+        - 'Ho Quang Minh, Nguyen Phuc Thang, Huynh Hai Dang, Trinh Bao Ngoc'
+      -
+        - 'Rise of the Fiendkys'
+        - 'Anthony Li, Bella Xiang, Chloe Liu, Alice Li'
+      -
+        - 'Girl Power' 
+        - 'Amy An, Jenna Rodriguez, Nivedhana Ramachandran, Irina Božović'
+      -
+        - 'The Blasters (collegiate)'
+        - 'Kaushik G Iyer, Nandha Gopi Krishna, Arya K'
+      -
+        - 'BaN'
+        - 'Héctor Verdeal, Iker Pastor, Lester Adrián Arencibia, Javier Andrés Garcia'
+      -
+        - 'Bill Nye The Science Guy'
+        - 'Andrew Li, Anastasia Lee'
+cf_gym: 'https://codeforces.com/gym/105284'
+editorial: 'https://codeforces.com/blog/entry/132173'
 ---
