@@ -100,7 +100,7 @@ export default {
               link: 'https://www.facebook.com/codingcompetitions/hacker-cup/'
             }, {
               description: 'Google Code Jam, Kick Start',
-              link: 'https://codingcompetitions.withgoogle.com/'
+              link: 'https://codingcompetitionsonair.withgoogle.com/'
             }, {
               description: 'Topcoder',
               link: 'https://www.topcoder.com/community/competitive-programming/'
@@ -126,7 +126,7 @@ export default {
               link: 'http://www.csc.kth.se/~jsannemo/slask/main.pdf'
             }, {
               description: 'The Hitchhiker\'s Guide to the Programming Contests',
-              link: 'https://comscigate.com/Books/contests/icpc.pdf'
+              link: 'https://i.cs.hku.hk/~provinci/files/b1-hitchiker.pdf'
             }, {
               description: 'Bronze/Silver USACO Books by Darren Yao (Java)',
               link: 'http://darrenyao.com/usacobook/java.pdf'
@@ -158,9 +158,6 @@ export default {
             description: 'USACO Checklist',
             link: 'https://docs.google.com/spreadsheets/d/1z2k-fv6q9KPHDuZu1arBvwIuKZ4HCoBRfHQR0UryPMQ/edit?usp=sharing'
           }, {
-            description: 'USACO FAQ',
-            link: 'https://darrenyao.com/usacofaq/'
-          }, {
             description: 'USACO Guide',
             link: 'https://usaco.guide/'
           }, {
@@ -185,13 +182,10 @@ export default {
           icon: mdiFileCode,
           list: [
             {
-              description: 'Aeren\'s Template',
-              link: 'https://github.com/FlowerOfSorrow/Template'
-            }, {
               description: 'Algorithms Visualized',
               link: 'https://visualgo.net/'
             }, {
-              description: 'Atcoder Library',
+              description: 'AtCoder Library',
               link: 'https://img.atcoder.jp/practice2/ac-library.zip'
             }, {
               description: 'Codeforces EDU',
