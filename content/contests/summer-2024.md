@@ -59,7 +59,7 @@ cards:
     - '160'
   -
     - 'Prize Value'
-    - '$3500+'
+    - '$8000+'
   -
     - 'Divisions'
     - 'Novice/Advanced'
