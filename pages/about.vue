@@ -139,7 +139,7 @@ export default {
           name: 'Yash Belani',
           title: 'Logistics Coordinator',
           image: '/images/teams/yash.png',
-          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver with c++. In his free time, he enjoys playing video games, basketball, or solving problems.'
+          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
         {
           name: 'Helen Law',
@@ -300,15 +300,15 @@ export default {
           image: '/images/teams/marshal.jpg'
         }, {
           name: 'Albert Huang',
-          title: 'Former Problem Writer',
+          title: 'Problem Writer',
           image: '/images/teams/albert.jpg'
         }, {
           name: 'Helen Feng',
-          title: 'Former Logistics Coordinator',
+          title: 'Logistics Coordinator',
           image: '/images/teams/helenF.jpg'
         }, {
           name: 'Alex Niu',
-          title: 'Former Logistics Coordinator',
+          title: 'Logistics Coordinator',
           image: '/images/teams/alexN.jpg'
         }, {
           name: 'Jay Dharmadhikari',
