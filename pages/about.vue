@@ -144,7 +144,7 @@ export default {
         {
           name: 'Helen Law',
           title: 'Problem Writer',
-          image: '/images/teams/helen_law.jpg',
+          image: '/images/teams/helenL.jpg',
           bio: 'Helen is an 8th grader at Greene Middle School. She started programming in 2021 and is now in USACO\'s Platinum division. Aside from programming, Helen also enjoys math, art, and reading. She is excited to create new problems that require different techniques.'
         },
         {
@@ -277,7 +277,7 @@ export default {
         }, {
           name: 'James Richardson',
           title: 'Lesson Creator: AP Computer Science',
-          image: '/images/teams/james.jpg'
+          image: '/images/teams/jamesR.jpg'
         }, {
           name: 'Robert Chen',
           title: 'Lesson Creator: USACO Problems',
@@ -305,7 +305,7 @@ export default {
         }, {
           name: 'Helen Feng',
           title: 'Former Logistics Coordinator',
-          image: '/images/teams/helen.jpg'
+          image: '/images/teams/helenF.jpg'
         }, {
           name: 'Alex Niu',
           title: 'Former Logistics Coordinator',
@@ -337,7 +337,7 @@ export default {
         }, {
           name: 'James Leung',
           title: 'Problem Writer',
-          image: '/images/teams/james.jpg'
+          image: '/images/teams/jamesL.jpg'
         }, {
           name: 'Alejandro Vivero',
           title: 'Problem Writer',
