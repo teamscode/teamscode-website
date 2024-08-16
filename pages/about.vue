@@ -106,7 +106,7 @@ export default {
         name: 'Bryan Zhu',
         title: 'Co-President',
         image: '/images/teams/bryan.png',
-        bio: 'Bryan is a junior at Bellevue High School in Bellevue, Washington. His most familiar coding language is C++, where he\'s currently competing in USACO Platinum, but he also has experience in Java (from AP Computer Science) and Python, particularly machine learning and data analysis. In his free time, he likes to play with his dogs, play video games, or surf Reddit.'
+        bio: "Bryan is a junior at Bellevue High School in the Seattle, WA metro area. His most familiar coding language is C++, where he's currently competing in USACO Platinum, but he also has plenty of experience in Java and Python. Outside of competitive programming, he has also done research in combinatorial optimization and deep and reinforcement learning for improving diabetes management. He also enjoys math and playing with his 2 Pomeranians."
       }, {
         name: 'Peng Bai',
         title: 'Co-President',
@@ -151,19 +151,19 @@ export default {
           name: 'Spencer Wang',
           title: 'Problem Writer',
           image: '/images/teams/spencer.jpg',
-          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software..'
+          bio: 'Spencer is a junior at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software..'
         },
         {
           name: 'Julian Wu',
           title: 'Problem Writer',
           image: '/images/teams/julian.jpg',
-          bio: 'Julian is a junior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
+          bio: 'Julian is a senior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
         },
         {
           name: 'Jason Zeng',
           title: 'Problem Writer',
           image: '/images/teams/jasonZe.jpg',
-          bio: 'Jason is a junior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
+          bio: 'Jason is a senior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
         },
         {
           name: 'Guoguo Gong',
