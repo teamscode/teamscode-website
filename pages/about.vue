@@ -116,7 +116,7 @@ export default {
         name: 'Eric Chang',
         title: 'Vice President',
         image: '/images/teams/eric.png',
-        bio: 'Eric Chang is a junior at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting Teamscode competitions for competitive coders!'
+        bio: 'Eric Chang is a junior at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting TeamsCode competitions for competitive coders!'
       }, {
         name: 'Gabriel Xu',
         title: 'Vice President',
@@ -126,7 +126,7 @@ export default {
         name: 'Shine Chang',
         title: 'Vice President',
         image: '/images/teams/shine.jpg',
-        bio: 'Shine Chang is a senior at Cupertino High School in San Jose. He started to learn programming from his dad in elementary school, and has been building projects for fun ever since. He is in USACO\'s gold division. He loves Rust but also works with high-level programs for web development. As hobbies, he plays Tetris, badminton, skis, and does FRC.'
+        bio: 'Shine Chang is a senior at Cupertino High School in San Jose. He started to learn programming from his dad in elementary school, and has been building projects for fun ever since. He is in USACO\'s Gold division. He loves Rust but also works with high-level programs for web development. As hobbies, he plays Tetris, badminton, skis, and does FRC.'
       }],
       members: [
         {
@@ -139,7 +139,7 @@ export default {
           name: 'Yash Belani',
           title: 'Problem Writer',
           image: '/images/teams/yash.png',
-          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
+          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
         {
           name: 'Helen Law',
@@ -151,7 +151,7 @@ export default {
           name: 'Spencer Wang',
           title: 'Problem Writer',
           image: '/images/teams/spencer.jpg',
-          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
+          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s Platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
         },
         {
           name: 'Julian Wu',
