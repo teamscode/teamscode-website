@@ -145,7 +145,7 @@ export default {
           name: 'Helen Law',
           title: 'Problem Writer',
           image: '/images/teams/helenL.jpg',
-          bio: 'Helen is an 8th grader at Greene Middle School. She started programming in 2021 and is now in USACO\'s Platinum division. Aside from programming, Helen also enjoys math, art, and reading. She is excited to create new problems that require different techniques.'
+          bio: 'Helen is an freshman at Palo Alto High School. She started programming in 2021 and is now in USACO\'s Platinum division. Aside from programming, Helen also enjoys math, art, and reading. She is excited to create new problems that require different techniques.'
         },
         {
           name: 'Spencer Wang',
