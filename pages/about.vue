@@ -137,7 +137,7 @@ export default {
         },
         {
           name: 'Yash Belani',
-          title: 'Logistics Coordinator',
+          title: 'Problem Writer',
           image: '/images/teams/yash.png',
           bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
@@ -173,13 +173,13 @@ export default {
         },
         {
           name: 'Chris Matthews',
-          title: 'Logistics',
+          title: 'Logistics Coordinator',
           image: '/images/teams/chrisM.jpg',
           bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym.'
         },
         {
           name: 'Devin Lim',
-          title: 'Logistics',
+          title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg',
           bio: "I'm Devin Lim, a rising senior at Solon High School in Solon, Ohio. I like coding, playing the cello, and stealing other people's lunches."
         }
