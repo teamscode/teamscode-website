@@ -176,6 +176,12 @@ export default {
           title: 'Logistics',
           image: '/images/teams/chrisM.jpg',
           bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym.'
+        },
+        {
+          name: 'Devin Lim',
+          title: 'Logistics',
+          image: '/images/teams/devin.jpg',
+          bio: "I'm Devin Lim, a rising senior at Solon High School in Solon, Ohio. I like coding, playing the cello, and stealing other people's lunches."
         }
       ],
       pastLeadership: [
