@@ -181,7 +181,7 @@ export default {
           name: 'Devin Lim',
           title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg',
-          bio: "I'm Devin Lim, a rising senior at Solon High School in Solon, Ohio. I like coding, playing the cello, and stealing other people's lunches."
+          bio: "Devin Lim is a senior at Solon High School in Solon, Ohio. He likes coding, playing the cello, and stealing other people's lunches."
         }
       ],
       pastLeadership: [
