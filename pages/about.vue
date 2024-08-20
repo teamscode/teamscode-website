@@ -186,7 +186,7 @@ export default {
         {
           name: 'Alex Chen',
           title: 'Problem Writer',
-          image: '/images/teams/alexC.jpg',
+          image: '/images/teams/alexC.png',
           bio: "Alex is a senior at Monta Vista High School. He had done math competitively, attending the Mathematical Olympiad Program in 2023, and competitive programming, being selected as a USACO Finalist in 2022 and 2024. In his free time, he enjoys playing video games and solving webpuzzles."
         }
       ],
