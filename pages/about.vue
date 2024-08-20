@@ -116,7 +116,7 @@ export default {
         name: 'Eric Chang',
         title: 'Vice President',
         image: '/images/teams/eric.png',
-        bio: 'Eric Chang is a junior at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting Teamscode competitions for competitive coders!'
+        bio: 'Eric Chang is a junior at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting TeamsCode competitions for competitive coders!'
       }, {
         name: 'Gabriel Xu',
         title: 'Vice President',
@@ -126,7 +126,7 @@ export default {
         name: 'Shine Chang',
         title: 'Vice President',
         image: '/images/teams/shine.jpg',
-        bio: 'Shine Chang is a senior at Cupertino High School in San Jose. He started to learn programming from his dad in elementary school, and has been building projects for fun ever since. He is in USACO\'s gold division. He loves Rust but also works with high-level programs for web development. As hobbies, he plays Tetris, badminton, skis, and does FRC.'
+        bio: 'Shine Chang is a senior at Cupertino High School in San Jose. He started to learn programming from his dad in elementary school, and has been building projects for fun ever since. He is in USACO\'s Gold division. He loves Rust but also works with high-level programs for web development. As hobbies, he plays Tetris, badminton, skis, and does FRC.'
       }],
       members: [
         {
@@ -137,9 +137,9 @@ export default {
         },
         {
           name: 'Yash Belani',
-          title: 'Logistics Coordinator',
+          title: 'Problem Writer',
           image: '/images/teams/yash.png',
-          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
+          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
         {
           name: 'Helen Law',
@@ -151,7 +151,7 @@ export default {
           name: 'Spencer Wang',
           title: 'Problem Writer',
           image: '/images/teams/spencer.jpg',
-          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
+          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s Platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
         },
         {
           name: 'Julian Wu',
@@ -173,15 +173,21 @@ export default {
         },
         {
           name: 'Chris Matthews',
-          title: 'Logistics',
+          title: 'Logistics Coordinator',
           image: '/images/teams/chrisM.jpg',
           bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym.'
         },
         {
           name: 'Devin Lim',
-          title: 'Logistics',
+          title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg',
-          bio: "I'm Devin Lim, a rising senior at Solon High School in Solon, Ohio. I like coding, playing the cello, and stealing other people's lunches."
+          bio: "Devin Lim is a senior at Solon High School in Solon, Ohio. He likes coding, playing the cello, and stealing other people's lunches."
+        },
+        {
+          name: 'Alex Chen',
+          title: 'Problem Writer',
+          image: '/images/teams/alexC.jpg',
+          bio: "Alex is a senior at Monta Vista High School. He had done math competitively, attending the Mathematical Olympiad Program in 2023, and competitive programming, being selected as a USACO Finalist in 2022 and 2024. In his free time, he enjoys playing video games and solving webpuzzles."
         }
       ],
       pastLeadership: [
