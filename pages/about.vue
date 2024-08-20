@@ -182,6 +182,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg',
           bio: "Devin Lim is a senior at Solon High School in Solon, Ohio. He likes coding, playing the cello, and stealing other people's lunches."
+        },
+        {
+          name: 'Alex Chen',
+          title: 'Problem Writer',
+          image: '/images/teams/alexC.jpg',
+          bio: "Alex is a senior at Monta Vista High School. He had done math competitively, attending the Mathematical Olympiad Program in 2023, and competitive programming, being selected as a USACO Finalist in 2022 and 2024. In his free time, he enjoys playing video games and solving webpuzzles."
         }
       ],
       pastLeadership: [
