@@ -188,6 +188,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/alexC.png',
           bio: "Alex is a senior at Monta Vista High School. He had done math competitively, attending the Mathematical Olympiad Program in 2023, and competitive programming, being selected as a USACO Finalist in 2022 and 2024. In his free time, he enjoys playing video games and solving webpuzzles."
+        },
+        {
+          name: 'Jason Wei',
+          title: 'Problem Writer',
+          image: '/images/teams/jasonW.png',
+          bio: "Jason is a junior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school."
         }
       ],
       pastLeadership: [
