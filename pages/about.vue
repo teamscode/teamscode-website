@@ -194,6 +194,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/jasonW.png',
           bio: "Jason is a junior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school."
+        },
+        {
+          name: 'Alex Liu',
+          title: 'Problem Writer',
+          image: '/images/teams/alexL.png',
+          bio: "Alex Liu is a senior at Lynbrook High School. He has enjoyed competitive programming since middle school, and is in USACO's Platinum Division. In his free time, he enjoys playing violin and sleeping."
         }
       ],
       pastLeadership: [
