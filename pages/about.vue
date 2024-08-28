@@ -200,6 +200,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/alexL.png',
           bio: "Alex Liu is a senior at Lynbrook High School. He has enjoyed competitive programming since middle school, and is in USACO's Platinum Division. In his free time, he enjoys playing violin and sleeping."
+        },
+        {
+          name: 'Anthony Li',
+          title: 'Problem Writer',
+          image: '/images/teams/anthony.jpg',
+          bio: "Anthony is a senior at Seven Lakes High School in Katy, Texas. He started competitive programming in 8th grade and has become a Candidate Master on Codeforces and is a USACO Gold Qualifier. Outside of coding, he enjoys fishing and playing/watching football."
         }
       ],
       pastLeadership: [
