@@ -206,6 +206,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/anthony.jpg',
           bio: "Anthony is a senior at Seven Lakes High School in Katy, Texas. He started competitive programming in 8th grade and has become a Candidate Master on Codeforces and is a USACO Gold Qualifier. Outside of coding, he enjoys fishing and playing/watching football."
+        },
+        {
+          name: 'Culver Kwan',
+          title: 'Problem Writer',
+          image: '/images/teams/culver.png',
+          bio: "Culver is a junior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver respectively, and he will participate in IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both."
         }
       ],
       pastLeadership: [
