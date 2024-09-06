@@ -133,7 +133,7 @@ export default {
           name: 'Brian Xue',
           title: 'Problem Writer',
           image: '/images/teams/brian.png',
-          bio: 'Brian is a senior at Lynbrook High School. He has played around with computer science since his 6th grade, becoming fluent in C++. The summer before high school, he started seriously doing competitive programming with a bunch of friends and became a USACO Finalist in the 2022-2023 season. In his free time, Brian enjoys art, video games, and reading.'
+          bio: 'Brian is a senior at Lynbrook High School. He has played around with computer science since his 6th grade, becoming fluent in C++. The summer before high school, he started seriously doing competitive programming with a bunch of friends and became a USACO Finalist in the 2022-2023 season and achieved 3rd place at IOI 2024. In his free time, Brian enjoys art, video games, and reading.'
         },
         {
           name: 'Yash Belani',
@@ -211,7 +211,7 @@ export default {
           name: 'Culver Kwan',
           title: 'Problem Writer',
           image: '/images/teams/culver.png',
-          bio: "Culver is a junior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver respectively, and he will participate in IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both."
+          bio: "Culver is a junior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both."
         }
       ],
       pastLeadership: [
