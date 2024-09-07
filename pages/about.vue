@@ -187,13 +187,13 @@ export default {
           name: 'Alex Chen',
           title: 'Problem Writer',
           image: '/images/teams/alexC.png',
-          bio: "Alex is a senior at Monta Vista High School. He had done math competitively, attending the Mathematical Olympiad Program in 2023, and competitive programming, being selected as a USACO Finalist in 2022 and 2024. In his free time, he enjoys playing video games and solving webpuzzles."
+          bio: 'Alex is a senior at Monta Vista High School. He had done math competitively, attending the Mathematical Olympiad Program in 2023, and competitive programming, being selected as a USACO Finalist in 2022 and 2024. In his free time, he enjoys playing video games and solving webpuzzles.'
         },
         {
           name: 'Jason Wei',
           title: 'Problem Writer',
           image: '/images/teams/jasonW.png',
-          bio: "Jason is a junior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school."
+          bio: 'Jason is a junior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school.'
         },
         {
           name: 'Alex Liu',
@@ -212,6 +212,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/culver.png',
           bio: "Culver is a junior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both."
+        },
+        {
+          name: 'Emma Walker',
+          title: 'Logistics',
+          image: '/images/teams/emma.jpeg',
+          bio: 'Emma is a senior at Amador Valley Highschool in California. She started programming her sophomore year and has enjoyed it ever since. Outside of coding she enjoys digital art and board games. She looks forward to help out with the competition!'
         }
       ],
       pastLeadership: [
