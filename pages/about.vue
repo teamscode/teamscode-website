@@ -205,7 +205,7 @@ export default {
           name: 'Anthony Li',
           title: 'Problem Writer',
           image: '/images/teams/anthony.jpg',
-          bio: "Anthony is a senior at Seven Lakes High School in Katy, Texas. He started competitive programming in 8th grade and has become a Candidate Master on Codeforces and is a USACO Gold Qualifier. Outside of coding, he enjoys fishing and playing/watching football."
+          bio: 'Anthony is a senior at Seven Lakes High School in Katy, Texas. He started competitive programming in 8th grade and has become a Candidate Master on Codeforces and is a USACO Gold Qualifier. Outside of coding, he enjoys fishing and playing/watching football.'
         },
         {
           name: 'Culver Kwan',
@@ -218,6 +218,12 @@ export default {
           title: 'Logistics',
           image: '/images/teams/emma.jpeg',
           bio: 'Emma is a senior at Amador Valley Highschool in California. She started programming her sophomore year and has enjoyed it ever since. Outside of coding she enjoys digital art and board games. She looks forward to help out with the competition!'
+        },
+        {
+          name: 'Nelson Huang',
+          title: 'Problem Writer',
+          image: '/images/teams/nelson.jpg',
+          bio: 'Nelson Huang is a sophomore at Providence High School in Charlotte, North Carolina. He learned computer science in 4th grade and started competitive programming in 6th grade. He was selected as a USACO Finalist in the 2023-2024 season. Outside of programming, he also enjoys math and video games.'
         }
       ],
       pastLeadership: [
