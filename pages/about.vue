@@ -270,7 +270,7 @@ export default {
         }, {
           name: 'Elijah Huang',
           title: 'Vice President, 2021-2022',
-          image: '/images/teams/elijah.jpg'
+          image: '/images/teams/elijah.png'
         }, {
           name: 'Charles Yates',
           title: 'Vice President, 2022-2023',
