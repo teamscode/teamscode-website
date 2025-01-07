@@ -224,6 +224,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/nelson.jpg',
           bio: 'Nelson Huang is a sophomore at Providence High School in Charlotte, North Carolina. He learned computer science in 4th grade and started competitive programming in 6th grade. He was selected as a USACO Finalist in the 2023-2024 season. Outside of programming, he also enjoys math and video games.'
+        },
+        {
+          name: 'Justin Ji',
+          title: 'Problem Writer',
+          image: '/images/teams/justin.png',
+          bio: 'Justin Ji is a junior at Lynbrook High School in San Jose, California. He started programming in 9th grade, and is currently in the USACO Gold division. Outside of programming, he enjoys hiking, video games, and spending time with friends.'
         }
       ],
       pastLeadership: [
