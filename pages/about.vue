@@ -215,7 +215,7 @@ export default {
         },
         {
           name: 'Emma Walker',
-          title: 'Logistics',
+          title: 'Logistics Coordinator',
           image: '/images/teams/emma.jpeg',
           bio: 'Emma is a senior at Amador Valley Highschool in California. She started programming her sophomore year and has enjoyed it ever since. Outside of coding she enjoys digital art and board games. She looks forward to help out with the competition!'
         },
