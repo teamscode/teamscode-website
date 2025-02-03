@@ -2,9 +2,10 @@
   <div>
     <v-btn
       v-if="content.status==='Upcoming'"
+      disabled
       class="reg-button d-md-flex d-none"
       color="primary"
-      href="https://summer24.teamscode.org/?register=direct"
+      href="https://spring25.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -13,9 +14,10 @@
     </v-btn>
     <v-btn
       v-if="content.status==='Upcoming'"
+      disabled
       class="reg-button-tablet d-sm-flex d-md-none d-none"
       color="primary"
-      href="https://summer24.teamscode.org/?register=direct"
+      href="https://spring25.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -26,8 +28,9 @@
       <v-btn
         v-if="content.status==='Upcoming'"
         block
+        disabled
         color="primary"
-        href="https://summer24.teamscode.org/?register=direct"
+        href="https://spring25.teamscode.org/?register=direct"
         target="_blank"
         elevation="24"
         large
@@ -61,9 +64,10 @@
             </v-btn>
             <v-btn
               large
-              href="https://summer24.teamscode.org"
+              href="https://spring25.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
+              disabled
             >
               Contest Website
             </v-btn>
@@ -72,6 +76,7 @@
               href="https://go.teamscode.org/live"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
+              disabled
             >
               Youtube Livestream
             </v-btn>

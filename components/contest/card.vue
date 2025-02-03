@@ -22,9 +22,11 @@
         {{ contest.description }}
       </div>
       <div class="mt-3">
+        <!--
         <v-chip v-if="contest.status==='Upcoming'" class="mr-1 mb-2" text-color="white" color="primary">
           <b>Registration Open</b>
         </v-chip>
+        -->
         <v-chip class="mr-1 mb-2">
           {{ contest.date | formatDate }}
         </v-chip>
