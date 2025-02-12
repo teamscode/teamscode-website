@@ -24,3 +24,11 @@ X-Camp’s staff are composed of senior software engineers from major technology
 For more information, please visit <a href="https://x-camp.academy" target="_blank">their website</a>.
 
 <br>
+
+## Silver Sponsor - <a href="https://recursivedragon.com/" target="_blank">Recursive Dragon</a>
+
+<a href="https://recursivedragon.com/" target="_blank"><img src="/images/partners/recursive-dragon.png" alt="Recursive Dragon" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Recursive Dragon
+
+From its inception, the mission of Recursive Dragon has been to promote algorithmic thinking and instill a love for programming in young minds. Students are matched with a mentor from our small team of CS majors, potentially progressing from introductory programming in Scratch, Python, or Java, all the way up to the highest level of the USA Computing Olympiad.
