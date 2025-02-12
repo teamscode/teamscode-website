@@ -172,12 +172,6 @@ export default {
           bio: 'Guoguo is a sophomore at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
         },
         {
-          name: 'Chris Matthews',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/chrisM.jpg',
-          bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym.'
-        },
-        {
           name: 'Devin Lim',
           title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg',
@@ -412,7 +406,12 @@ export default {
           name: 'Daniel Nieto',
           title: 'Problem Writer',
           image: '/images/teams/daniel.png'
-        }
+        },
+        {
+          name: 'Chris Matthews',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/chrisM.jpg',
+        },
       ]
     }
   },
