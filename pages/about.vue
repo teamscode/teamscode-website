@@ -224,6 +224,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/justin.png',
           bio: 'Justin Ji is a junior at Lynbrook High School in San Jose, California. He started programming in 9th grade, and is currently in the USACO Gold division. Outside of programming, he enjoys hiking, video games, and spending time with friends.'
+        },
+        {
+          name: 'Vincent Loh',
+          title: 'Problem Writer',
+          image: '/images/teams/vincent.png',
+          bio: "Vincent is a junior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
         }
       ],
       pastLeadership: [
