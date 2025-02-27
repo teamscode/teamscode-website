@@ -5,8 +5,6 @@ name: Prizes
 
 ## Contest Prizes
 
-To be determined, below are prizes from 2024 Spring
-
 * Win up to $100 by competing in the Advanced division!
 * The top 5 scoring teams from each division will win amazon gift cards. The growing list of prizes each team member will win:
   <br>**Advanced Prizes per team member**
@@ -25,6 +23,5 @@ To be determined, below are prizes from 2024 Spring
 * When you submit your first submission, each member in your team will receive 1 raffle ticket.
 * Raffle prizes will be drawn in the last half hour of the contest using a random number generator - we will email those selected for shipment details immediately following the contest.
 * The raffle prizes are listed below:
-  * 1x Apple Airpods 3rd Generation
-  * 3x Discord Nitro
+  * 10x Discord Nitro
   * 1x Desmos Swag Pack
