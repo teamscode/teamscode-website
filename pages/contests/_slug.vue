@@ -2,7 +2,6 @@
   <div>
     <v-btn
       v-if="content.status==='Upcoming'"
-      disabled
       class="reg-button d-md-flex d-none"
       color="primary"
       href="https://spring25.teamscode.org/?register=direct"
@@ -14,7 +13,6 @@
     </v-btn>
     <v-btn
       v-if="content.status==='Upcoming'"
-      disabled
       class="reg-button-tablet d-sm-flex d-md-none d-none"
       color="primary"
       href="https://spring25.teamscode.org/?register=direct"
@@ -28,7 +26,6 @@
       <v-btn
         v-if="content.status==='Upcoming'"
         block
-        disabled
         color="primary"
         href="https://spring25.teamscode.org/?register=direct"
         target="_blank"
@@ -67,7 +64,6 @@
               href="https://spring25.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
-              disabled
             >
               Contest Website
             </v-btn>

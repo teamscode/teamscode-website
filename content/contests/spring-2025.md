@@ -27,7 +27,7 @@ timeline:
     - '2025-04-05 14:30:00'
     - 'Coding time! Last submission by 2:30 PM'
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 2:30 PM.'
-#   - 'https://spring24.teamscode.org'
+    - 'https://spring25.teamscode.org'
   -
     - '2025-04-05 14:30:00'
     - '2025-04-05 15:00:00'

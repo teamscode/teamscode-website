@@ -5,8 +5,7 @@ name: Registration
 
 ## Registration Instructions
 
-Welcome to TeamsCode contests! Each team will only need one account on TeamsCode Contest Portal to participate, and we recommend the team captain to register for your team.
-<b>Registration has not opened yet.</b>
+Welcome to TeamsCode contests! Each team will only need one account on <a href="https://spring25.teamscode.org/">TeamsCode Contest Portal</a> to participate, and we recommend the team captain to register for your team.
 Before getting started, make sure you have confirmed the following with your team:
 
 * A team name, be creative and keep it appropriate.
