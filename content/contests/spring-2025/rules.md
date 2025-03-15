@@ -15,10 +15,10 @@ name: Rules
   * The novice division is intended for students who know programming but have not started or have just started competitive programming:
     * Taking or have taken APCS
     * USACO Bronze-Silver
-    * 0 - 1599 Codeforces rating
+    * 0 - 1599 Codeforces max rating
   * The advanced division is intended for anyone who is confident in their competitive programming ability:
     * USACO Gold and above
-    * 1600+ Codeforces rating
+    * 1600+ Codeforces max rating
 * Contest page: [https://spring25.teamscode.org](https://spring25.teamscode.org)
 * Join our discord server here: [https://go.teamscode.org/discord](https://go.teamscode.org/discord) for important contest announcements or if you have any questions.
 * Try more problems from the last contest:
