@@ -10,12 +10,12 @@ name: Rules
 * Teams must submit at least once to be eligible for raffle prizes.
 * Teams may use multiple computers and submit answers in multiple languages.
 * Pre-written code and online reference guides are allowed (in other words, internet is allowed so long as you’re not asking people how to solve our problem).
-* We reserve the right to disqualify participants who intentionally participate in divisions with problem difficulties that are too low for the skill level of the participant. For example, USACO finalists and International Masters on Codeforces cannot participate in the Novice division. We do not tolerate those who attempt to undermine the fairness of the competition.
+* We reserve the right to disqualify participants who intentionally participate in divisions with problem difficulties that are too low for the skill level of the participant. Teams with a member who satisfy a condition of the advanced division cannot participate in the Novice division. We do not tolerate those who attempt to undermine the fairness of the competition.
 * There are two divisions: **Novice** and **Advanced**. We expect each division will be interesting for participants of the following skill levels:
   * The novice division is intended for students who know programming but have not started or have just started competitive programming:
     * Taking or have taken APCS
     * USACO Bronze-Silver
-    * 0 - 1500 Codeforces rating
+    * 0 - 1599 Codeforces rating
   * The advanced division is intended for anyone who is confident in their competitive programming ability:
     * USACO Gold and above
     * 1600+ Codeforces rating
