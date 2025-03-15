@@ -172,12 +172,6 @@ export default {
           bio: 'Guoguo is a sophomore at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
         },
         {
-          name: 'Chris Matthews',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/chrisM.jpg',
-          bio: 'Chris is a senior at Bridgeland High School with a passion for competitive programming, having reached the Silver division of USACO since starting in his junior year. An avid chess player, he enjoys strategic thinking. In his free time, Chris stays active by working out at the gym.'
-        },
-        {
           name: 'Devin Lim',
           title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg',
@@ -230,6 +224,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/justin.png',
           bio: 'Justin Ji is a junior at Lynbrook High School in San Jose, California. He started programming in 9th grade, and is currently in the USACO Gold division. Outside of programming, he enjoys hiking, video games, and spending time with friends.'
+        },
+        {
+          name: 'Vincent Loh',
+          title: 'Problem Writer',
+          image: '/images/teams/vincent.png',
+          bio: "Vincent is a junior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
         }
       ],
       pastLeadership: [
@@ -412,7 +412,12 @@ export default {
           name: 'Daniel Nieto',
           title: 'Problem Writer',
           image: '/images/teams/daniel.png'
-        }
+        },
+        {
+          name: 'Chris Matthews',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/chrisM.jpg',
+        },
       ]
     }
   },
