@@ -30,13 +30,14 @@ timeline:
     - 'https://spring25.teamscode.org'
   -
     - '2025-04-05 14:30:00'
-    - '2025-04-05 15:00:00'
+    - '2025-04-05 16:00:00'
     - 'Break'
     - 'Please take a break while we get ready for the speaker event.'
   -
-    - '2025-04-05 15:00:00'
+    - '2025-04-05 16:00:00'
     - '2025-04-05 17:00:00'
-    - 'Guest Speaker Events'
+    - 'Guest Speaker Event - Ion Barbus'
+    - 'Using Coding and Data to Fight Tariff Evasion'
   -
     - '2025-04-05 17:00:00'
     - '2025-04-05 17:30:00'
