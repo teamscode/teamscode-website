@@ -118,6 +118,12 @@ export default {
           link: 'https://cerealcodes.org',
           image: '/images/partners/cerealcodes.png',
           content: 'CerealCodes is a competitive programming contest with the goal of promoting computer science to high school students globally.'
+        },
+        {
+          name: 'MITIT',
+          link: 'https://mitit.org/',
+          image: '/images/partners/MITIT.png',
+          content: 'The MIT Informatics Tournament is the premier programming competition for high school and college students hosted by students at MIT.'
         }
       ]
     }
