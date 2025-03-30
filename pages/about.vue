@@ -232,9 +232,9 @@ export default {
           bio: "Vincent is a junior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
         },
         {
-          name: 'Justin Ji',
+          name: 'Justin Song',
           title: 'Logistics Coordinator',
-          image: '/images/teams/justinJ.png',
+          image: '/images/teams/justinS.png',
           bio: "Justin Song is a sophomore at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball."
         }
       ],
