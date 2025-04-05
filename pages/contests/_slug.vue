@@ -69,10 +69,9 @@
             </v-btn>
             <v-btn
               large
-              href="https://go.teamscode.org/live"
+              href="https://www.youtube.com/watch?v=ZYTEY7i0bO0"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
-              disabled
             >
               Youtube Livestream
             </v-btn>
