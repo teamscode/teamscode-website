@@ -17,8 +17,8 @@ image: /images/contests/virtual-contest.jpg
 description: 'TeamsCode Spring 2025 Online Programming Contest will take place on Saturday, April 5th, from 11:00 AM to 5:30 PM (Pacific Time) through a Youtube livestream! Computer science students are welcomed to join this competitive programming experience! Teams of up to 4 students will spend 3 hours solving interesting algorithmic problems. There will be two divisions: Novice and Advanced. Prizes will be given out, including placement awards, raffle prizes, and more! Only pre-college participants are eligible for prizes.'
 timeline:
   -
-    - '2025-04-05 11:00:00'
     - '2025-04-05 11:30:00'
+    - '2025-04-05 12:00:00'
     - 'Opening Ceremony and Rule Review'
     - 'Join us at Youtube Livestream to watch the opening ceremony. We will also be going over the rules of the contest.'
     - 'https://www.youtube.com/watch?v=ZYTEY7i0bO0'
