@@ -1,7 +1,7 @@
 ---
 slug: speakers
 name: Guest Speakers
-disabled: False
+disabled: True
 ---
 
 ## Ion Barbus - Using Coding and Data to Fight Tariff Evasion

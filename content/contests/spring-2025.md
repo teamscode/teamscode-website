@@ -3,7 +3,7 @@ new_layout: true
 new_timeline: true
 tabs:
   - rules
-  - speakers
+#  - speakers
   - registration
   - prizes
   - example
