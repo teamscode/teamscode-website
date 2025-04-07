@@ -59,34 +59,34 @@ winners:
     -
       -
         - 'puppyturtle'
-        - 'Rain Jaing, Kai Jiang'
+        - 'Rain Jiang, Kai Jiang'
       -
         - 'just 2 usaco silvers and 1 gold'
         - 'Rithwik Gupta, Rohan Garg, Jonathan He, Ryan Fu'
       -
+        - 'poopeepeepoo'
+        - 'Tia Shi Wei, Yaw Chur Zhe, Sun Beichen, Lim Chang Jun'
+      -
         - 'TAMAM'
         - 'Ahmed Gamal, Mina Ragy, Moez Mahmoud, Tarek Ahmed'
       -
-        - 'sevenlakes'
-        - 'Bofan Liu, Victor Liu'
+        - '(╯°□°)╯︵ ┻━┻'
+        - 'Nathan Katov, Austin Jiang, Tony Zhu, Joshua Wang'
       -
         - 'takimlarkodikibinyirmibesbaharbirincileri'
         - 'Mert Akarca, Noyan Cantürk, Ahmet Alp Orakçı, Dost Seferoğlu'
+      -
+        - 'ninjadoggy fan club'
+        - 'Brendon Wang, Zerui Li'
   -
     - 'Novice division'
     -
-      -
-        - '3 pennies 1 nickel (collegiate)'
-        - 'Rajesh Banerjee, Richard Yang, Olivia Wang, Ethan Su'
       -
         - 'moppers'
         - 'Kevin Mo, Anthony Yu, Andy Xin'
       -
         - 'Macau Space Program' 
         - 'Carriage Lau'
-      -
-        - 'Chill Guy (collegiate)' 
-        - 'Chong Hong Sern'
       -
         - 'Organically Grown Hilarious Yellow Raccoons'
         - 'Harleen Singh, Naman Singh, Roumak Das, Rohit Lal'
@@ -96,6 +96,12 @@ winners:
       -
         - 'Fire Nation'
         - 'Haori Shen'
+      - 
+        - 'Algorithm (collegiate)'
+        - 'Hayotulloxon, Zohidulloxon, Ozodbek, Otabek'
+      - 
+        - 'Regele Calului'
+        - 'Rareș Hanganu, Radu Vasile, Stefan Neagu, Tiberiu Enache'
 cf_gym: 'https://codeforces.com/gym/105818'
 editorial: ''
 ---

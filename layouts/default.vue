@@ -15,6 +15,7 @@
 
         <v-spacer />
 
+        <!--
         <div v-if="$vuetify.breakpoint.mdAndUp&&!$route.path.startsWith('/contests/spring-2025')" class="mr-2 text-subtitle-1">
           Spring 2025 Programming Contest Scheduled!
         </div>
@@ -23,6 +24,7 @@
             {{ mdiArrowRight }}
           </v-icon>
         </v-btn>
+        -->
       </v-container>
 
       <template #extension>
