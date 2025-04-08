@@ -87,6 +87,24 @@
               Problem Set
             </v-btn>
             <v-btn
+              v-if="content.cf_gym_novice"
+              large
+              class="mr-2 mt-1 w-full w-sm-auto"
+              :href="content.cf_gym_novice"
+              target="_blank"
+            >
+              Problem Set - Novice
+            </v-btn>
+            <v-btn
+              v-if="content.cf_gym_advanced"
+              large
+              class="mr-2 mt-1 w-full w-sm-auto"
+              :href="content.cf_gym_advanced"
+              target="_blank"
+            >
+              Problem Set - Advanced
+            </v-btn>
+            <v-btn
               v-if="content.editorial"
               large
               :href="content.editorial"

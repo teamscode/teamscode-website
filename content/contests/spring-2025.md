@@ -64,7 +64,7 @@ winners:
         - 'just 2 usaco silvers and 1 gold'
         - 'Rithwik Gupta, Rohan Garg, Jonathan He, Ryan Fu'
       -
-        - 'poopeepeepoo'
+        - 'poopeepeepoo (collegiate)'
         - 'Tia Shi Wei, Yaw Chur Zhe, Sun Beichen, Lim Chang Jun'
       -
         - 'TAMAM'
@@ -102,6 +102,7 @@ winners:
       - 
         - 'Regele Calului'
         - 'Rareș Hanganu, Radu Vasile, Stefan Neagu, Tiberiu Enache'
-cf_gym: 'https://codeforces.com/gym/105818'
+cf_gym_novice: 'https://codeforces.com/gym/105819'
+cf_gym_advanced: 'https://codeforces.com/gym/105818'
 editorial: ''
 ---
