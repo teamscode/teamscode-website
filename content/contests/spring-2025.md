@@ -104,5 +104,5 @@ winners:
         - 'Rareș Hanganu, Radu Vasile, Stefan Neagu, Tiberiu Enache'
 cf_gym_novice: 'https://codeforces.com/gym/105819'
 cf_gym_advanced: 'https://codeforces.com/gym/105818'
-editorial: ''
+editorial: 'https://codeforces.com/blog/entry/141840'
 ---
