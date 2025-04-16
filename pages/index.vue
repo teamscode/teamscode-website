@@ -361,7 +361,7 @@ export default {
           backgroundColor: '#2E99D0',
           data: [103, 90, 119, 180, 168, 179, 296, 245, 327, 349, 561, 393, 618, 430, 524]
         }],
-        labels: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022', 'Summer 2022', 'Spring 2023', 'Summer 2023', 'Summer 2024']
+        labels: ['Spring 2017', 'Fall 2017', 'Spring 2018', 'Fall 2018', 'Spring 2019', 'Fall 2019', 'Summer 2020', 'Fall 2020', 'Spring 2021', 'Summer 2021', 'Spring 2022', 'Summer 2022', 'Spring 2023', 'Summer 2023', 'Spring 2024']
       },
       chartOptions: {
         responsive: true,
