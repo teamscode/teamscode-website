@@ -232,6 +232,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/justinS.png',
           bio: "Justin Song is a sophomore at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball."
+        },
+        {
+          name: 'Ryan Fu',
+          title: 'Problem Writer',
+          image: '/images/teams/ryanF.png',
+          bio: "Ryan is a junior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games."
         }
       ],
       pastLeadership: [
