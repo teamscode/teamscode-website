@@ -141,12 +141,8 @@ export default {
           image: '/images/teams/yash.png',
           bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
-        {
-          name: 'Helen Law',
-          title: 'Problem Writer',
-          image: '/images/teams/helenL.jpg',
-          bio: 'Helen is an freshman at Palo Alto High School. She started programming in 2021 and is now in USACO\'s Platinum division. Aside from programming, Helen also enjoys math, art, and reading. She is excited to create new problems that require different techniques.'
-        },
+
+
         {
           name: 'Spencer Wang',
           title: 'Problem Writer',
@@ -424,6 +420,11 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/chrisM.jpg',
         },
+        {
+          name: 'Helen Law',
+          title: 'Problem Writer',
+          image: '/images/teams/helenL.jpg',
+        }
       ]
     }
   },
