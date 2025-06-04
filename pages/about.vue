@@ -238,6 +238,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/ryanF.png',
           bio: "Ryan is a junior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games."
+        },
+        {
+          name: 'Elizabeth Hu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/elizabeth.png',
+          bio: "Elizabeth is a junior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time."
         }
       ],
       pastLeadership: [
