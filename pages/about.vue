@@ -244,6 +244,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/elizabeth.png',
           bio: "Elizabeth is a junior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time."
+        },
+        {
+          name: 'Andrew Xu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/andrew.png',
+          bio: "Andrew is a sophomore at Gunn High School, a participant in the USACO Gold Division, and an AIME Qualifier. In his free time, he beats good Brawl Stars players with Darryl."
         }
       ],
       pastLeadership: [
