@@ -234,6 +234,12 @@ export default {
           bio: "Justin Song is a sophomore at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball."
         },
         {
+          name: 'Eric Wu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/ericW.jpg',
+          bio: "Eric is a sophomore at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport."
+        },
+        {
           name: 'Ryan Fu',
           title: 'Problem Writer',
           image: '/images/teams/ryanF.png',
