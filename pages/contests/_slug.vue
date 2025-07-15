@@ -4,7 +4,7 @@
       v-if="content.status==='Upcoming'"
       class="reg-button d-md-flex d-none"
       color="primary"
-      href="https://spring25.teamscode.org/?register=direct"
+      href="https://summer25.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -15,7 +15,7 @@
       v-if="content.status==='Upcoming'"
       class="reg-button-tablet d-sm-flex d-md-none d-none"
       color="primary"
-      href="https://spring25.teamscode.org/?register=direct"
+      href="https://summer25.teamscode.org/?register=direct"
       target="_blank"
       elevation="24"
       large
@@ -27,7 +27,7 @@
         v-if="content.status==='Upcoming'"
         block
         color="primary"
-        href="https://spring25.teamscode.org/?register=direct"
+        href="https://summer25.teamscode.org/?register=direct"
         target="_blank"
         elevation="24"
         large
@@ -61,7 +61,7 @@
             </v-btn>
             <v-btn
               large
-              href="https://spring25.teamscode.org"
+              href="https://summer25.teamscode.org"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
             >
@@ -69,6 +69,7 @@
             </v-btn>
             <v-btn
               large
+              disabled
               href="https://www.youtube.com/watch?v=ZYTEY7i0bO0"
               target="_blank"
               class="mr-2 mt-1 w-full w-sm-auto"
