@@ -11,6 +11,7 @@ name: Rules
 * Teams may use multiple computers and submit answers in multiple languages.
 * Pre-written code and online reference guides are allowed (in other words, internet is allowed so long as you’re not asking people how to solve our problem).
 * We reserve the right to disqualify participants who intentionally participate in divisions with problem difficulties that are too low for the skill level of the participant. For example, USACO finalists and International Masters on Codeforces cannot participate in the Novice division. We do not tolerate those who attempt to undermine the fairness of the competition.
+* Participants may not use any AI tools in any way during the contest. We reserve the right to disqualify participants for AI usage.
 * There are two divisions: **Novice** and **Advanced**. We expect each division will be interesting for participants of the following skill levels:
   * The novice division is intended for students who know programming but have not started or have just started competitive programming:
     * Taking or have taken APCS

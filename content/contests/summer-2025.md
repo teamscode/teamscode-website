@@ -52,7 +52,7 @@ cards:
     - '3 Hours'
   -
     - 'Prize Value'
-    - '$8000+'
+    - '$1000+'
   -
     - 'Divisions'
     - 'Novice/Advanced'
