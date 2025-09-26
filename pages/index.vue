@@ -377,7 +377,7 @@ export default {
         value: '120+'
       }, {
         title: 'Students Impacted',
-        value: '5904'
+        value: '6344'
       }, {
         title: 'Countries Reached',
         value: '22+'
