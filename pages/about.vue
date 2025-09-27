@@ -141,8 +141,6 @@ export default {
           image: '/images/teams/yash.png',
           bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
-
-
         {
           name: 'Spencer Wang',
           title: 'Problem Writer',
@@ -231,31 +229,37 @@ export default {
           name: 'Justin Song',
           title: 'Logistics Coordinator',
           image: '/images/teams/justinS.png',
-          bio: "Justin Song is a sophomore at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball."
+          bio: 'Justin Song is a sophomore at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball.'
         },
         {
           name: 'Eric Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/ericW.jpg',
-          bio: "Eric is a sophomore at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport."
+          bio: 'Eric is a sophomore at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport.'
         },
         {
           name: 'Ryan Fu',
           title: 'Problem Writer',
           image: '/images/teams/ryanF.png',
-          bio: "Ryan is a junior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games."
+          bio: 'Ryan is a junior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games.'
         },
         {
           name: 'Elizabeth Hu',
           title: 'Logistics Coordinator',
           image: '/images/teams/elizabeth.png',
-          bio: "Elizabeth is a junior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time."
+          bio: 'Elizabeth is a junior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
         },
         {
           name: 'Andrew Xu',
           title: 'Logistics Coordinator',
           image: '/images/teams/andrew.png',
-          bio: "Andrew is a sophomore at Gunn High School, a participant in the USACO Gold Division, and an AIME Qualifier. In his free time, he beats good Brawl Stars players with Darryl."
+          bio: 'Andrew is a sophomore at Gunn High School, a participant in the USACO Gold Division, and an AIME Qualifier. In his free time, he beats good Brawl Stars players with Darryl.'
+        },
+        {
+          name: 'Justin Goh',
+          title: 'Problem Writer',
+          image: 'images/teams/JustinG.png',
+          bio: 'Since joining his school’s Informatics club in primary school, Justin has developed an interest in competitive programming for its original and thought provoking challenges. Since then, he has become an IOI medallist, and is studying hard for next year’s competition. In his free time, he enjoys drawing, video games, reading and athletics.'
         }
       ],
       pastLeadership: [
@@ -442,12 +446,12 @@ export default {
         {
           name: 'Chris Matthews',
           title: 'Logistics Coordinator',
-          image: '/images/teams/chrisM.jpg',
+          image: '/images/teams/chrisM.jpg'
         },
         {
           name: 'Helen Law',
           title: 'Problem Writer',
-          image: '/images/teams/helenL.jpg',
+          image: '/images/teams/helenL.jpg'
         }
       ]
     }
