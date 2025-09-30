@@ -108,25 +108,25 @@ export default {
         image: '/images/teams/bryan.png',
         bio: "Bryan is a junior at Bellevue High School in the Seattle, WA metro area. His most familiar coding language is C++, where he's currently competing in USACO Platinum, but he also has plenty of experience in Java and Python. Outside of competitive programming, he has also done research in combinatorial optimization and deep and reinforcement learning for improving diabetes management. He also enjoys math and playing with his 2 Pomeranians."
       }, {
+        name: 'Jason Zeng',
+        title: 'Co-President',
+        image: '/images/teams/jasonZe.jpg',
+        bio: 'Jason is a junior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
+      }, {
         name: 'Eric Chang',
         title: 'Vice President',
         image: '/images/teams/eric.png',
         bio: 'Eric Chang is a junior at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting TeamsCode competitions for competitive coders!'
       }, {
         name: 'Justin Ji',
-        title: 'Problem Writer',
+        title: 'Vice President',
         image: '/images/teams/justin.png',
         bio: 'Justin Ji is a junior at Lynbrook High School in San Jose, California. He started programming in 9th grade, and is currently in the USACO Gold division. Outside of programming, he enjoys hiking, video games, and spending time with friends.'
       }, {
         name: 'Culver Kwan',
-        title: 'Problem Writer',
+        title: 'Vice President',
         image: '/images/teams/culver.png',
         bio: "Culver is a junior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both."
-      }, {
-        name: 'Jason Zeng',
-        title: 'Problem Writer',
-        image: '/images/teams/jasonZe.jpg',
-        bio: 'Jason is a junior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
       }],
       members: [
         {
