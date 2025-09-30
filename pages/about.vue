@@ -210,13 +210,13 @@ export default {
         {
           name: 'Justin Goh',
           title: 'Problem Writer',
-          image: 'images/teams/JustinG.png',
+          image: '/images/teams/JustinG.png',
           bio: 'Since joining his school’s Informatics club in primary school, Justin has developed an interest in competitive programming for its original and thought provoking challenges. Since then, he has become an IOI medallist, and is studying hard for next year’s competition. In his free time, he enjoys drawing, video games, reading and athletics.'
         },
         {
           name: 'Andreas Tsang',
           title: 'Web Lead',
-          image: 'images/teams/Andreas.jpeg',
+          image: '/images/teams/Andreas.jpeg',
           bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
         }
       ],
