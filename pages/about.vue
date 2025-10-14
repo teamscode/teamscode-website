@@ -133,73 +133,67 @@ export default {
           name: 'Yash Belani',
           title: 'Problem Writer',
           image: '/images/teams/yash.png',
-          bio: 'Yash Belani is a sophomore at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
+          bio: 'Yash Belani is a junior at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
         },
         {
           name: 'Spencer Wang',
           title: 'Problem Writer',
           image: '/images/teams/spencer.jpg',
-          bio: 'Spencer is a sophomore at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s Platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
+          bio: 'Spencer is a junior at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s Platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
         },
         {
           name: 'Julian Wu',
           title: 'Problem Writer',
           image: '/images/teams/julian.jpg',
-          bio: 'Julian is a junior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
+          bio: 'Julian is a senior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
         },
         {
           name: 'Guoguo Gong',
           title: 'Problem Writer',
           image: '/images/teams/guoguo.jpeg',
-          bio: 'Guoguo is a sophomore at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
+          bio: 'Guoguo is a junior at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
         },
         {
           name: 'Jason Wei',
           title: 'Problem Writer',
           image: '/images/teams/jasonW.png',
-          bio: 'Jason is a junior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school.'
-        },
-        {
-          name: 'Alex Liu',
-          title: 'Problem Writer',
-          image: '/images/teams/alexL.png',
-          bio: "Alex Liu is a senior at Lynbrook High School. He has enjoyed competitive programming since middle school, and is in USACO's Platinum Division. In his free time, he enjoys playing violin and sleeping."
+          bio: 'Jason is a senior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school.'
         },
         {
           name: 'Nelson Huang',
           title: 'Problem Writer',
           image: '/images/teams/nelson.jpg',
-          bio: 'Nelson Huang is a sophomore at Providence High School in Charlotte, North Carolina. He learned computer science in 4th grade and started competitive programming in 6th grade. He was selected as a USACO Finalist in the 2023-2024 season. Outside of programming, he also enjoys math and video games.'
+          bio: 'Nelson Huang is a junior at Providence High School in Charlotte, North Carolina. He learned computer science in 4th grade and started competitive programming in 6th grade. He was selected as a USACO Finalist in the 2023-2024 season. Outside of programming, he also enjoys math and video games.'
         },
         {
           name: 'Vincent Loh',
           title: 'Problem Writer',
           image: '/images/teams/vincent.png',
-          bio: "Vincent is a junior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
+          bio: "Vincent is a senior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
         },
         {
           name: 'Justin Song',
           title: 'Logistics Coordinator',
           image: '/images/teams/justinS.png',
-          bio: 'Justin Song is a sophomore at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball.'
+          bio: 'Justin Song is a junior at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball.'
         },
         {
           name: 'Eric Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/ericW.jpg',
-          bio: 'Eric is a sophomore at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport.'
+          bio: 'Eric is a junior at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport.'
         },
         {
           name: 'Ryan Fu',
           title: 'Problem Writer',
           image: '/images/teams/ryanF.png',
-          bio: 'Ryan is a junior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games.'
+          bio: 'Ryan is a senior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games.'
         },
         {
           name: 'Elizabeth Hu',
           title: 'Logistics Coordinator',
           image: '/images/teams/elizabeth.png',
-          bio: 'Elizabeth is a junior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
+          bio: 'Elizabeth is a senior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
         },
         {
           name: 'Andrew Xu',
@@ -218,6 +212,12 @@ export default {
           title: 'Web Lead',
           image: '/images/teams/Andreas.jpeg',
           bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
+        },
+        {
+          name: 'Zerui Li',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/zerui.jpg',
+          bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Gold division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects.'
         }
       ],
       pastLeadership: [
@@ -443,6 +443,10 @@ export default {
           name: 'Alex Chen',
           title: 'Problem Writer',
           image: '/images/teams/alexC.png'
+        }, {
+          name: 'Alex Liu',
+          title: 'Problem Writer',
+          image: '/images/teams/alexL.png'
         }
       ]
     }
