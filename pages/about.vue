@@ -196,12 +196,6 @@ export default {
           bio: 'Elizabeth is a senior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
         },
         {
-          name: 'Andrew Xu',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/andrew.png',
-          bio: 'Andrew is a sophomore at Gunn High School, a participant in the USACO Gold Division, and an AIME Qualifier. In his free time, he beats good Brawl Stars players with Darryl.'
-        },
-        {
           name: 'Justin Goh',
           title: 'Problem Writer',
           image: '/images/teams/JustinG.png',
@@ -215,9 +209,9 @@ export default {
         },
         {
           name: 'Zerui Li',
-          title: 'Problem Writer',
+          title: 'Logistics Coordinator',
           image: '/images/teams/zerui.jpg',
-          bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Gold division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects.'
+          bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects.'
         }
       ],
       pastLeadership: [
@@ -447,6 +441,12 @@ export default {
           name: 'Alex Liu',
           title: 'Problem Writer',
           image: '/images/teams/alexL.png'
+        },
+        {
+          name: 'Andrew Xu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/andrew.png',
+          bio: 'Andrew is a sophomore at Gunn High School, a participant in the USACO Gold Division, and an AIME Qualifier. In his free time, he beats good Brawl Stars players with Darryl.'
         }
       ]
     }
