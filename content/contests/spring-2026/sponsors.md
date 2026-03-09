@@ -25,10 +25,10 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 
 <br>
 
-## Silver Sponsor - <a href="https://recursivedragon.com/" target="_blank">Recursive Dragon</a>
+## Gold Sponsor - <a href="https://www.non-trivial.org/?utm_source=partner&utm_campaign=youth-led&utm_content=email&utm_term=TeamsCode" target="_blank">Non-Trivial</a>
 
-<a href="https://recursivedragon.com/" target="_blank"><img src="/images/partners/recursive-dragon.png" alt="Recursive Dragon" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+<a href="https://www.non-trivial.org/?utm_source=partner&utm_campaign=youth-led&utm_content=email&utm_term=TeamsCode" target="_blank"><img src="/images/partners/non_trivial.png" alt="Non-Trivial" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
 
-### About Recursive Dragon
+### About Non-Trivial
 
-From its inception, the mission of Recursive Dragon has been to promote algorithmic thinking and instill a love for programming in young minds. Students are matched with a mentor from our small team of CS majors, potentially progressing from introductory programming in Scratch, Python, or Java, all the way up to the highest level of the USA Computing Olympiad.
+Non-Trivial is a non-profit enabling ambitious teenagers to start solving the world’s most pressing problems. Through an 8-week online fellowship, Non-Trivial allows young people to start an impactful research, policy, or entrepreneurial project. Non-Trivial fellows receive a $500 scholarship and have the opportunity to secure more than $15,000 in funding for their project.

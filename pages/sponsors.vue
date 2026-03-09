@@ -55,13 +55,6 @@
           <h2 class="pb-1">
             <b>Silver Sponsors</b>
           </h2>
-          <v-row class="align-center justify-center my-2">
-            <a target="_blank" href="https://recursivedragon.com"><v-img
-              src="/images/partners/recursive-dragon.png"
-              alt="recurisve-dragon"
-              style="width: 300px; margin-right: 30px;"
-            /></a>
-          </v-row>
         </div>
         <div class="text-center mt-8 mb-3">
           <h2 style="padding-bottom: 10px;">
@@ -217,6 +210,11 @@
               src="/images/partners/lions.png"
               alt="Lions"
               style="width:80px;"
+            /></a>
+            <a target="_blank" href="https://recursivedragon.com"><v-img
+              src="/images/partners/recursive-dragon.png"
+              alt="recursive-dragon"
+              style="width: 300px; margin-right: 30px;"
             /></a>
           </v-row>
         </div>
