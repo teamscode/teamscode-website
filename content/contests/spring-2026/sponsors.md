@@ -32,3 +32,13 @@ For more information, please visit <a href="https://x-camp.academy" target="_bla
 ### About Non-Trivial
 
 Non-Trivial is a non-profit enabling ambitious teenagers to start solving the world’s most pressing problems. Through an 8-week online fellowship, Non-Trivial allows young people to start an impactful research, policy, or entrepreneurial project. Non-Trivial fellows receive a $500 scholarship and have the opportunity to secure more than $15,000 in funding for their project.
+
+<br>
+
+## Bronze Sponsor - <a href="https://www.wolfram.com/?source=nav" target="_blank">Wolfram</a>
+
+<a href="https://www.wolfram.com/?source=nav" target="_blank"><img src="/images/partners/wolfram-corporate-logo-stacked-med.png" alt="Wolfram" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Wolfram
+
+Founded by Stephen Wolfram in 1987, Wolfram Research is one of the world’s most respected computer, web, and cloud software companies—as well as a powerhouse of scientific and technical innovation. As pioneers in computation and computational knowledge, we have pursued a long-term vision to develop the science, technology, and tools to make computation an ever-more-potent force in today’s and tomorrow’s world.

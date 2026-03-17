@@ -72,6 +72,11 @@
               alt="AoPS"
               style="width: 200px; margin-right: 30px;"
             /></a>
+            <a target="_blank" href="https://company.wolfram.com/press-center/wolfram-corporate/"><v-img
+              src="/images/partners/wolfram-corporate-logo-stacked-med.png"
+              alt="wolfram"
+              style="width: 200px; margin-right: 30px;"
+            /></a>
           </v-row>
         </div>
         <div class="text-center mt-8 mb-3">
