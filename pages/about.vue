@@ -212,6 +212,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/zerui.jpg',
           bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects.'
+        },
+        {
+          name: 'Aaryav Seth',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/aaryav.webp',
+          bio: 'Aaryav is a sophomore at Lakeside School in Seattle, WA. He started programming at the age of 8 and has a broad interest in software development, math, and economics. He competes in VEX Robotics, where he leads his team\'s programming including motion control systems and path planning tools. In his free time, he enjoys playing sports, NBA 2K, and hanging out with friends.'
         }
       ],
       pastLeadership: [
