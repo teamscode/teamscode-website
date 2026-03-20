@@ -19,22 +19,27 @@ description: 'TeamsCode Spring 2026 Online Programming Contest will take place o
 timeline:
   -
     - '2026-04-25 11:30:00'
-    - '2026-04-25 17:30:00'
+    - '2026-04-25 12:00:00'
     - 'Opening Ceremony and Rule Review'
     - 'Join us at Youtube Livestream to watch the opening ceremony. We will also be going over the rules of the contest.'
   -
-    - '2026-04-25 11:30:00'
-    - '2026-04-25 17:30:00'
+    - '2026-04-25 12:00:00'
+    - '2026-04-25 15:00:00'
     - 'Coding time! Last submission by 3:00 PM'
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 3:00 PM.'
     - 'https://spring26.teamscode.org'
   -
-    - '2026-04-25 11:30:00'
-    - '2026-04-25 17:30:00'
+    - '2026-04-25 15:00:00'
+    - '2026-04-25 16:00:00'
     - 'Break'
-    - 'Please take a break while we get ready for the Closing Ceremony.'
+    - 'Please take a break while we get ready for the speaker event.'
   -
-    - '2026-04-25 11:30:00'
+    - '2025-08-16 16:00:00'
+    - '2025-08-16 17:00:00'
+    - 'Guest Speaker'
+    - 'TBA'
+  -
+    - '2026-04-25 17:00:00'
     - '2026-04-25 17:30:00'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
     - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
