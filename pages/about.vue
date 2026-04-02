@@ -218,6 +218,12 @@ export default {
           title: 'Logistics Coordinator',
           image: '/images/teams/aaryav.webp',
           bio: 'Aaryav is a sophomore at Lakeside School in Seattle, WA. He started programming at the age of 8 and has a broad interest in software development, math, and economics. He competes in VEX Robotics, where he leads his team\'s programming including motion control systems and path planning tools. In his free time, he enjoys playing sports, NBA 2K, and hanging out with friends.'
+        },
+        {
+          name: 'Junyi Liu',
+          title: 'Problem Writer',
+          image: '/images/teams/junyi.webp',
+          bio: 'Junyi Liu is a sophomore at Livingston High School, NJ. He started competitive programming in his freshman year and is currently competing in the USACO Gold division, fighting hard for Platinum. In his free time, he enjoys playing chess with his friends and making games.'
         }
       ],
       pastLeadership: [
