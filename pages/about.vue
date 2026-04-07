@@ -224,6 +224,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/junyi.webp',
           bio: 'Junyi Liu is a sophomore at Livingston High School, NJ. He started competitive programming in his freshman year and is currently competing in the USACO Gold division, fighting hard for Platinum. In his free time, he enjoys playing chess with his friends and making games.'
+        },
+        {
+          name: 'George Wu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/george.webp',
+          bio: 'George is a sophomore at Mercer Island High School. He likes learning how things work and started competitive programming as a freshman. Outside of programming he likes to read and play the flute.'
         }
       ],
       pastLeadership: [
