@@ -42,3 +42,23 @@ Non-Trivial is a non-profit enabling ambitious teenagers to start solving the wo
 ### About Wolfram
 
 Founded by Stephen Wolfram in 1987, Wolfram Research is one of the world’s most respected computer, web, and cloud software companies—as well as a powerhouse of scientific and technical innovation. As pioneers in computation and computational knowledge, we have pursued a long-term vision to develop the science, technology, and tools to make computation an ever-more-potent force in today’s and tomorrow’s world.
+
+<br>
+
+## Bronze Sponsor - <a href="https://www.interviewcake.com/" target="_blank">Interview Cake</a>
+
+<a href="https://www.interviewcake.com/" target="_blank"><img src="/images/partners/interviewcake.png" alt="Interview Cake" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Interview Cake
+
+Interview Cake is a study tool that preps software engineering candidates for programming interviews.
+
+<br>
+
+## Bronze Sponsor - <a href="https://artofproblemsolving.com" target="_blank">Art of Problem Solving</a>
+
+<a href="https://artofproblemsolving.com" target="_blank"><img src="/images/partners/aops.png" alt="AoPS" style="width: 250px; margin-top: 50px; margin-bottom: 50px;"></a>
+
+### About Art of Problem Solving
+
+At Art of Problem Solving, our mission is to discover, inspire, and train the great problem solvers of the next generation. We help students develop the problem-solving skills they need to confidently tackle challenging problems—and not only in mathematics. Over time, we’ve expanded into subjects like physics, programming, and language arts. Across different disciplines, our approach is to help students build a deep foundational understanding of a few critical concepts that they can then apply across a wide range of problems. Students are encouraged to play, experiment, fail and persevere—building the flexibility, creativity, and determination needed to confidently tackle the tough problems they will face as adults. Students learn in different ways, so we offer resources in a variety of different formats, and we’ve built a community where students can connect and collaborate with their peers. We hope to keep growing this community of interdisciplinary problem solvers to be ready for the complex ideas that are yet to come.
