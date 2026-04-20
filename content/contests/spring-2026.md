@@ -3,7 +3,7 @@ new_layout: true
 new_timeline: true
 tabs:
   - rules
-#  - speakers
+  - speakers
   - registration
   - prizes
   - example
@@ -31,13 +31,13 @@ timeline:
   -
     - '2026-04-26 15:00:00'
     - '2026-04-26 16:00:00'
-    - 'Break'
-    - 'Please take a break while we get ready for the speaker event.'
+    - 'Guest Speaker'
+    - 'Dr. Chen'
   -
     - '2026-04-26 16:00:00'
     - '2026-04-26 17:00:00'
     - 'Guest Speaker'
-    - 'TBA'
+    - 'Chen Chao'
   -
     - '2026-04-26 17:00:00'
     - '2026-04-26 17:30:00'

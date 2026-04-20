@@ -73,6 +73,12 @@ export default {
     return {
       affiliates: [
         {
+          name: 'Career-Up',
+          link: 'https://www.careerupclub.org/',
+          image: '/images/partners/careerup.webp',
+          content: 'Build a strong community of professionals with a sense of belonging'
+        },
+        {
           name: 'CALICO Informatics Competition',
           link: 'https://calico.cs.berkeley.edu/',
           image: '/images/partners/calico.png',
@@ -94,7 +100,8 @@ export default {
           name: 'Harker Programming Invitational',
           link: 'https://www.harkerprogrammingclub.org',
           image: '/images/partners/hpi.png',
-          content: 'HPI is an annual programming competition hosted in March by The Harker School\'s Programming Club. Teams of up to 3 students compete to solve problems designed to test their algorithmic knowledge. This year\'s theme is Space & CS, and the event will be held virtually on March 13, 2022.' },
+          content: 'HPI is an annual programming competition hosted in March by The Harker School\'s Programming Club. Teams of up to 3 students compete to solve problems designed to test their algorithmic knowledge. This year\'s theme is Space & CS, and the event will be held virtually on March 13, 2022.'
+        },
         {
           name: 'Montgomery Blair Informatics Tournament',
           link: 'https://mbit.mbhs.edu',
