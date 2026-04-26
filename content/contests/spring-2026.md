@@ -22,6 +22,7 @@ timeline:
     - '2026-04-26 12:00:00'
     - 'Opening Ceremony and Rule Review'
     - 'Join us at Youtube Livestream to watch the opening ceremony. We will also be going over the rules of the contest.'
+    - 'https://www.youtube.com/watch?v=yXzzeFvGEOQ'
   -
     - '2026-04-26 12:00:00'
     - '2026-04-26 15:00:00'
@@ -43,6 +44,7 @@ timeline:
     - '2026-04-26 17:30:00'
     - 'Raffle, Contest Winners Announcement, and Closing Ceremony'
     - 'Tune in to our Youtube Livestream to watch the winners announcement, raffle, and our final closing ceremony.'
+    - 'https://www.youtube.com/watch?v=yXzzeFvGEOQ'
 cards:
   -
     - 'Participants'
