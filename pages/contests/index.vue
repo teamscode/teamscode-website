@@ -72,11 +72,7 @@ export default {
     }
   },
   async fetch () {
-    if (this.query) {
-      this.contests = await this.$content('contests').search(this.query).fetch()
-    } else {
-      this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
-    }
+    this.contests = await this.$content('contests').sortBy('date', 'desc').fetch()
   },
   head () {
     return {
@@ -85,22 +81,28 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'TeamsCode\'s online programming contests and offlie hackathons. Click on cards to view and register for TeamsCode competitions.'
+          content: 'TeamsCode\'s online programming contests and offline hackathons. Click on cards to view and register for TeamsCode competitions.'
         }
       ]
     }
   },
   computed: {
+    filteredContests () {
+      if (!this.query) {
+        return this.contests
+      }
+
+      const query = this.query.toLowerCase()
+
+      return this.contests.filter(contest =>
+        (contest.title || '').toLowerCase().includes(query)
+      )
+    },
     upcomingContest () {
-      return this.contests.filter(contest => contest.status === 'Upcoming')
+      return this.filteredContests.filter(contest => contest.status === 'Upcoming')
     },
     pastContest () {
-      return this.contests.filter(contest => contest.status !== 'Upcoming')
-    }
-  },
-  watch: {
-    query () {
-      this.$fetch()
+      return this.filteredContests.filter(contest => contest.status !== 'Upcoming')
     }
   }
 }
