@@ -208,6 +208,12 @@ export default {
           bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
         },
         {
+          name: 'Brian Zhao',
+          title: 'Web Lead',
+          image: '/images/teams/Brian.jpeg',
+          bio: 'Brian Zhao is a future computer scientist who'll realistically and majorly be involved in and opt for top post-secondary college/university programs across all of Canada! Apart from taking part in hustling and bustling hackathons, Brian also organizes them at the renowned institute in Ontario he attends to and is largely high-achieving there. Presently, as a rising senior in twelfth grade at high school: his mind is always racing when he is carrying out proactive practice for competitive programming on "The Big Three" intellectual platforms so as to prepare for contests such as the Canadian Computing Olympiad in competition settings (CCC). He has also been awarded near-perfect, if not flawless, scores on the American Mathematics Competition (AMC) in the home environment—a(n) data test center. From scores of 9, 25 and 24 or 23, Brian is now focused on achieving all that he (uh) plausibly can be done by himself in the last bit of big \'26.'
+        },
+        {
           name: 'Zerui Li',
           title: 'Logistics Coordinator',
           image: '/images/teams/zerui.jpg',
