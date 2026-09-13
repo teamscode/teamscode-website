@@ -85,14 +85,14 @@ winners:
         - 'Hanyuan Xu'
       -
         - 'imagine_dragon' 
-        - 'To-Be Credited'
+        - 'Adrain Qin, Alex Sui, Ayush Belur, Winston Ning'
       -
         - 'Sandbaggers'
-        - 'To-Be Credited'
+        - 'Ahmad Altayb, Ramzi Aloulou, Mukhammadkodir Makhamadov, Kamal Alfakir'
       -
         - 'Dimitri Shengelia'
-        - 'To-Be Credited'
+        - 'Dimitri Shengelia'
       -
         - 'theoneandonlytron'
-        - 'To-Be Credited'
+        - 'Trong Nhan Vo'
 cf_gym: 'https://codeforces.com/gym/106671'
