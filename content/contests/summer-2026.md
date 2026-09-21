@@ -28,7 +28,7 @@ timeline:
     - '2026-08-23 15:00:00'
     - 'Coding time! Last submission by 3:00 PM'
     - 'Login to TeamsCode Contest Portal and start coding! All team members can submit solutions and get instant feedbacks until 3:00 PM.'
-    - 'https://summer26.teamscode.org'
+    - 'https://www.summer26.teamscode.org'
   -
     - '2026-08-23 15:00:00'
     - '2026-08-23 16:00:00'
@@ -95,4 +95,4 @@ winners:
       -
         - 'theoneandonlytron'
         - 'Trong Nhan Vo'
-cf_gym: 'https://codeforces.com/gym/106671'
+cf_gym: 'https://www.codeforces.com/gym/106671'
