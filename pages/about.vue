@@ -220,6 +220,12 @@ export default {
           bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects.'
         },
         {
+          name: 'Guoguo',
+          title: 'Problemsetting Co-President',
+          image: '/images/teams/guoguo.webp',
+          bio: 'Guoguo is a senior at Basis Independent McLean in Virginia. He has done competitive programming since middle school and has been selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
+        },
+        {
           name: 'Junyi Liu',
           title: 'Problem Writer',
           image: '/images/teams/junyi.webp',
