@@ -148,12 +148,6 @@ export default {
           bio: 'Julian is a senior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
         },
         {
-          name: 'Guoguo Gong',
-          title: 'Problem Writer',
-          image: '/images/teams/guoguo.jpeg',
-          bio: 'Guoguo is a junior at Basis Independent McLean. He is currently working very hard to try to get to USACO Finalist in the 24-25 season. In his free time, he likes to run and play with his friends.'
-        },
-        {
           name: 'Jason Wei',
           title: 'Problem Writer',
           image: '/images/teams/jasonW.png',
@@ -221,7 +215,7 @@ export default {
         },
         {
           name: 'Guoguo',
-          title: 'Problemsetting Co-President',
+          title: 'Co-President',
           image: '/images/teams/guoguo.webp',
           bio: 'Guoguo is a senior at Basis Independent McLean in Virginia. He has done competitive programming since middle school and has been selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
         },
