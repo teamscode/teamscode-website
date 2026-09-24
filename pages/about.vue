@@ -112,7 +112,7 @@ export default {
         name: 'Zerui Li',
         title: 'Co-President',
         image: '/images/teams/zerui.jpg',
-        bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
+        bio: 'Zerui Li is a junior at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
       }, {
         name: 'Andreas Tsang',
         title: 'Vice President',
@@ -160,7 +160,7 @@ export default {
           name: 'George Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/george.webp',
-          bio: 'George is a sophomore at Mercer Island High School. He likes learning how things work and started competitive programming as a freshman. Outside of programming he likes to read and play the flute.'
+          bio: 'George is a junior at Mercer Island High School. He likes learning how things work and started competitive programming as a freshman. Outside of programming he likes to read and play the flute.'
         },
         {
           name: 'Justin Song',
