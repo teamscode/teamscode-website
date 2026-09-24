@@ -109,15 +109,15 @@ export default {
         imagePosition: 'center 15%',
         bio: 'Guoguo is a senior at Basis Independent McLean in Virginia. He has done competitive programming since middle school and has been selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
       }, {
-        name: 'Andreas Tsang',
-        title: 'Vice President',
-        image: '/images/teams/Andreas.jpeg',
-        bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
-      }, {
         name: 'Zerui Li',
         title: 'Co-President',
         image: '/images/teams/zerui.jpg',
         bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
+      }, {
+        name: 'Andreas Tsang',
+        title: 'Vice President',
+        image: '/images/teams/Andreas.jpeg',
+        bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
       }],
       members: [
         {
@@ -155,6 +155,12 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/vincent.png',
           bio: "Vincent is a senior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
+        },
+        {
+          name: 'George Wu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/george.webp',
+          bio: 'George is a sophomore at Mercer Island High School. He likes learning how things work and started competitive programming as a freshman. Outside of programming he likes to read and play the flute.'
         },
         {
           name: 'Justin Song',
@@ -197,12 +203,6 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/junyi.webp',
           bio: 'Junyi Liu is a sophomore at Livingston High School, NJ. He started competitive programming in his freshman year and is currently competing in the USACO Gold division, fighting hard for Platinum. In his free time, he enjoys playing chess with his friends and making games.'
-        },
-        {
-          name: 'George Wu',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/george.webp',
-          bio: 'George is a sophomore at Mercer Island High School. He likes learning how things work and started competitive programming as a freshman. Outside of programming he likes to read and play the flute.'
         },
         {
           name: 'Anne Zou',
