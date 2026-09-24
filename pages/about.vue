@@ -103,30 +103,21 @@ export default {
   data () {
     return {
       exec: [{
-        name: 'Bryan Zhu',
+        name: 'Yujia(Guoguo) Gong',
         title: 'Co-President',
-        image: '/images/teams/bryan.png',
-        bio: "Bryan is a senior at Bellevue High School in the Seattle, WA metro area. His most familiar coding language is C++, where he's currently competing in USACO Platinum, but he also has plenty of experience in Java and Python. Outside of competitive programming, he has also done research in combinatorial optimization and deep and reinforcement learning for improving diabetes management. He also enjoys math and playing with his 2 Pomeranians."
+        image: '/images/teams/guoguo.webp',
+        imagePosition: 'center 15%',
+        bio: 'Guoguo is a senior at Basis Independent McLean in Virginia. He has done competitive programming since middle school and has been selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
       }, {
-        name: 'Jason Zeng',
+        name: 'Andreas Tsang',
+        title: 'Vice President',
+        image: '/images/teams/Andreas.jpeg',
+        bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
+      }, {
+        name: 'Zerui Li',
         title: 'Co-President',
-        image: '/images/teams/jasonZe.jpg',
-        bio: 'Jason is a senior at Watchung Hills Regional High School in New Jersey. He started competitive programming in middle school and has been selected as a 2024 USACO Finalist. Outside of competitive programming, he also enjoys math, physics, and robotics.'
-      }, {
-        name: 'Eric Chang',
-        title: 'Vice President',
-        image: '/images/teams/eric.png',
-        bio: 'Eric Chang is a senior at Newport High School. He has taken classes in Python and Java before. In his free time, Eric likes playing Chess and play tennis. He is looking forward to creating exciting TeamsCode competitions for competitive coders!'
-      }, {
-        name: 'Justin Ji',
-        title: 'Vice President',
-        image: '/images/teams/justin.png',
-        bio: 'Justin Ji is a senior at Lynbrook High School in San Jose, California. He started programming in 9th grade, and is currently in the USACO Gold division. Outside of programming, he enjoys hiking, video games, and spending time with friends.'
-      }, {
-        name: 'Culver Kwan',
-        title: 'Vice President',
-        image: '/images/teams/culver.png',
-        bio: "Culver is a senior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both."
+        image: '/images/teams/zerui.jpg',
+        bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
       }],
       members: [
         {
@@ -196,28 +187,10 @@ export default {
           bio: 'Since joining his school’s Informatics club in primary school, Justin has developed an interest in competitive programming for its original and thought provoking challenges. Since then, he has become an IOI medallist, and is studying hard for next year’s competition. In his free time, he enjoys drawing, video games, reading and athletics.'
         },
         {
-          name: 'Andreas Tsang',
-          title: 'Web Lead',
-          image: '/images/teams/Andreas.jpeg',
-          bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
-        },
-        {
           name: 'Brian Zhao',
-          title: 'Web Lead',
+          title: 'Web Developer',
           image: '/images/teams/Brian.jpeg',
           bio: 'Brian Zhao is a future computer scientist who\'ll realistically and majorly be involved in and opt for top post-secondary college/university programs across all of Canada! Apart from taking part in hustling and bustling hackathons, Brian also organizes them at the renowned institute in Ontario he attends to and is largely high-achieving there. Presently, as a rising senior in twelfth grade at high school: his mind is always racing when he is carrying out proactive practice for competitive programming on "The Big Three" intellectual platforms so as to prepare for contests such as the Canadian Computing Olympiad in competition settings (CCC). He has also been awarded near-perfect, if not flawless, scores on the American Mathematics Competition (AMC) in the home environment—a(n) data test center. From scores of 9, 25 and 24 or 23, Brian is now focused on achieving all that he (uh) plausibly can be done by himself in the last bit of big \'26.'
-        },
-        {
-          name: 'Zerui Li',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/zerui.jpg',
-          bio: 'Zerui Li is a sophomore at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects.'
-        },
-        {
-          name: 'Guoguo',
-          title: 'Co-President',
-          image: '/images/teams/guoguo.webp',
-          bio: 'Guoguo is a senior at Basis Independent McLean in Virginia. He has done competitive programming since middle school and has been selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
         },
         {
           name: 'Junyi Liu',
@@ -327,6 +300,26 @@ export default {
           name: 'Peng Bai',
           title: 'Co-President, 2024-2025',
           image: '/images/teams/peng.jpg'
+        }, {
+          name: 'Bryan Zhu',
+          title: 'Co-President, 2025-2026',
+          image: '/images/teams/bryan.png'
+        }, {
+          name: 'Jason Zeng',
+          title: 'Co-President, 2025-2026',
+          image: '/images/teams/jasonZe.jpg'
+        }, {
+          name: 'Eric Chang',
+          title: 'Vice President, 2025-2026',
+          image: '/images/teams/eric.png'
+        }, {
+          name: 'Justin Ji',
+          title: 'Vice President, 2025-2026',
+          image: '/images/teams/justin.png'
+        }, {
+          name: 'Culver Kwan',
+          title: 'Vice President, 2025-2026',
+          image: '/images/teams/culver.png'
         }
       ],
       pastMembers: [
