@@ -122,7 +122,7 @@ export default {
         name: 'Aaron Lei',
         title: 'Vice President',
         image: '/images/teams/aaron.png',
-        bio: 'Aaron Lei is a sophomore at Davidson Academy in Reno, NV. He started competitive programming in 7th grade and is currently in the USACO Platinum division. He enjoys grinding for Codeforces Master, playing MCSR, and watching the latest episodes of anime in his free time.'
+        bio: 'Aaron Lei is a sophomore at Davidson Academy in Reno, NV. He started competitive programming in 8th grade and is currently in the USACO Platinum division. In his free time, he enjoys playing various video games like Balatro and Slay the Spire.'
       }],
       members: [
         {
