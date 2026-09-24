@@ -118,6 +118,11 @@ export default {
         title: 'Vice President',
         image: '/images/teams/Andreas.jpeg',
         bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
+      }, {
+        name: 'Aaron Lei',
+        title: 'Vice President',
+        image: '/images/teams/aaron.jpg',
+        bio: 'To Be Added.'
       }],
       members: [
         {
