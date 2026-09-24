@@ -37,7 +37,7 @@
               </div>
               <br>
               <div>
-                As of summer 2021, TeamsCode's contest has three divisions featuring curated problems in different difficulties. In the future, we hope to continue our mission of bringing an enjoyable and inspirational team programming contest to everyone interested in computer science.
+                As of spring 2023, TeamsCode's contest has two divisions featuring curated problems in different difficulties. In the future, we hope to continue our mission of bringing an enjoyable and inspirational team programming contest to everyone interested in computer science.
               </div>
             </div>
           </v-col>
