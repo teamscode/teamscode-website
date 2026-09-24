@@ -112,7 +112,7 @@ export default {
         name: 'Zerui Li',
         title: 'Co-President',
         image: '/images/teams/zerui.jpg',
-        bio: 'Zerui Li is a junior at Lakeside School in Seattle, WA. He started programming in 7th grade, and is currently in the USACO Platinum division. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
+        bio: 'Zerui Li is a junior at Lakeside School in Seattle, WA. He started programming in 7th grade, and qualified for the US Open Contest in the 2025-2026 Season. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
       }, {
         name: 'Andreas Tsang',
         title: 'Vice President',
@@ -121,8 +121,8 @@ export default {
       }, {
         name: 'Aaron Lei',
         title: 'Vice President',
-        image: '/images/teams/aaron.jpg',
-        bio: 'To Be Added.'
+        image: '/images/teams/aaron.png',
+        bio: 'Aaron Lei is a sophomore at Davidson Academy in Reno, NV. He started competitive programming in 7th grade and is currently in the USACO Platinum division. He enjoys grinding for CodeForces Master, playing MCSR, and watching the latest episodes of anime in his free time.'
       }],
       members: [
         {
