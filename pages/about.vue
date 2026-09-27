@@ -201,7 +201,7 @@ export default {
           name: 'Brian Zhao',
           title: 'Web Developer',
           image: '/images/teams/Brian.jpeg',
-          bio: 'Brian Zhao is a senior in high school and remains always on the look-out for anything from internships or scholarships to friendships! He also finds the time to practice competitive programming in his secondary school's computer science club and on platforms that have so much to offer in the field of this programming mindsport.'
+          bio: 'Brian Zhao is a senior in high school and remains always on the look-out for anything from internships or scholarships to friendships! He also finds the time to practice competitive programming in his secondary school\'s computer science club and on platforms that have so much to offer in the field of this programming mindsport.'
         },
         {
           name: 'Junyi Liu',
