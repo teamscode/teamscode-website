@@ -32,8 +32,8 @@ timeline:
   -
     - '2026-08-23 15:00:00'
     - '2026-08-23 16:00:00'
-    - 'Solutions Showcase!'
-    - 'For Novice Division'
+    - 'Break!'
+    - 'Take a break while we prepare for the upcoming Novice Solution Showcase and Closing Ceremony!'
   -
     - '2026-08-23 16:00:00'
     - '2026-08-23 17:00:00'

@@ -13,7 +13,7 @@
           <v-row class="align-center py-3">
             <v-col cols="12" md="4" lg="3" class="pr-4 text-center">
               <v-avatar size="190">
-                <v-img :src="person.image" />
+                <v-img :src="person.image" :position="person.imagePosition || 'center center'" />
               </v-avatar>
             </v-col>
             <v-col cols="12" md="8" lg="9">
