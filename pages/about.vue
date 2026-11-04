@@ -174,22 +174,10 @@ export default {
           bio: 'Justin Song is a junior at Newport High School. He first started learning Python and programming in 2022. He is interested in programming, economics, and engineering and as hobbies, he enjoys playing videogames, basketball.'
         },
         {
-          name: 'Eric Wu',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/ericW.jpg',
-          bio: 'Eric is a junior at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport.'
-        },
-        {
           name: 'Ryan Fu',
           title: 'Problem Writer',
           image: '/images/teams/ryanF.png',
           bio: 'Ryan is a senior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games.'
-        },
-        {
-          name: 'Elizabeth Hu',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/elizabeth.png',
-          bio: 'Elizabeth is a senior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
         },
         {
           name: 'Justin Goh',
@@ -208,12 +196,6 @@ export default {
           title: 'Problem Writer',
           image: '/images/teams/junyi.webp',
           bio: 'Junyi Liu is a sophomore at Livingston High School, NJ. He started competitive programming in his freshman year and is currently competing in the USACO Gold division, fighting hard for Platinum. In his free time, he enjoys playing chess with his friends and making games.'
-        },
-        {
-          name: 'Anne Zou',
-          title: 'Logistics Coordinator',
-          image: '/images/teams/anne.webp',
-          bio: 'Anne Zou is an 8th grader at The Harker School. She started coding in 6th grade and has enjoyed it ever since, and is currently in the USACO Silver division. Outside of school, she plays soccer, enjoys caring for plants, and reads.'
         },
         {
           name: 'Nathan Yan',
@@ -486,6 +468,24 @@ export default {
           name: 'Aryan Joshi',
           title: 'Problem Setter',
           image: '/images/teams/aaryan.webp'
+        },
+        {
+          name: 'Eric Wu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/ericW.jpg',
+          bio: 'Eric is a junior at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport.'
+        },
+        {
+          name: 'Elizabeth Hu',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/elizabeth.png',
+          bio: 'Elizabeth is a senior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
+        },
+        {
+          name: 'Anne Zou',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/anne.webp',
+          bio: 'Anne Zou is an 8th grader at The Harker School. She started coding in 6th grade and has enjoyed it ever since, and is currently in the USACO Silver division. Outside of school, she plays soccer, enjoys caring for plants, and reads.'
         }
       ]
     }
