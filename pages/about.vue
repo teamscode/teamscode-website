@@ -462,7 +462,6 @@ export default {
           name: 'Andrew Xu',
           title: 'Logistics Coordinator',
           image: '/images/teams/andrew.png',
-          bio: 'Andrew is a sophomore at Gunn High School, a participant in the USACO Gold Division, and an AIME Qualifier. In his free time, he beats good Brawl Stars players with Darryl.'
         },
         {
           name: 'Aryan Joshi',
@@ -473,19 +472,16 @@ export default {
           name: 'Eric Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/ericW.jpg',
-          bio: 'Eric is a junior at Bellevue High School in the Seattle, WA metro area. He has a strong passion for math and creative writing, and he enjoys exploring both in and out of the classroom. He is proficient in C++ and Python, and he had the opportunity to deepen his knowledge of artificial intelligence at Stanford AI4ALL. In his free time, he loves crafting stories, solving challenging math problems, and playing badminton. Eric is also a badminton coach at a local club, where he helps others improve their skills and develop a love for the sport.'
         },
         {
           name: 'Elizabeth Hu',
           title: 'Logistics Coordinator',
           image: '/images/teams/elizabeth.png',
-          bio: 'Elizabeth is a senior at Bellevue High School with a passion for coding that began the summer before her freshman year. Since then, she has continued to explore and grow her skills in computer science. Outside the classroom, Elizabeth enjoys café hopping and playing badminton in her free time.'
         },
         {
           name: 'Anne Zou',
           title: 'Logistics Coordinator',
           image: '/images/teams/anne.webp',
-          bio: 'Anne Zou is an 8th grader at The Harker School. She started coding in 6th grade and has enjoyed it ever since, and is currently in the USACO Silver division. Outside of school, she plays soccer, enjoys caring for plants, and reads.'
         }
       ]
     }
