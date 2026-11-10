@@ -13,8 +13,11 @@
             <v-col v-for="(person, i) in people" :key="i" cols="12" md="6">
               <div class="d-flex align-center">
                 <div class="mr-2">
-                  <v-avatar size="100">
-                    <v-img :src="person.image" />
+                  <v-avatar size="100" :color="person.image ? undefined : 'surface'">
+                    <v-img v-if="person.image" :src="person.image" :alt="person.name" />
+                    <span v-else class="text-h5 secondary--text" role="img" :aria-label="person.name">
+                      {{ initials(person.name) }}
+                    </span>
                   </v-avatar>
                 </div>
                 <div>
@@ -44,6 +47,11 @@ export default {
     header: {
       type: String,
       default: () => ''
+    }
+  },
+  methods: {
+    initials (name) {
+      return name.split(/\s+/).map(part => part[0]).slice(0, 2).join('')
     }
   }
 }

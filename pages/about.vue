@@ -102,64 +102,69 @@
 export default {
   data () {
     return {
-      exec: [{
-        name: 'Yujia(Guoguo) Gong',
-        title: 'Co-President',
-        image: '/images/teams/guoguo.webp',
-        imagePosition: 'center 15%',
-        bio: 'Guoguo is a senior at Basis Independent McLean in Virginia. He has done competitive programming since middle school and has been selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
-      }, {
-        name: 'Zerui Li',
-        title: 'Co-President',
-        image: '/images/teams/zerui.jpg',
-        bio: 'Zerui Li is a junior at Lakeside School in Seattle, WA. He started programming in 7th grade, and qualified for the US Open Contest in the 2025-2026 Season. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
-      }, {
-        name: 'Andreas Tsang',
-        title: 'Vice President',
-        image: '/images/teams/Andreas.jpeg',
-        bio: 'Andreas is an aspiring aerospace engineer and a sophomore at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
-      }, {
-        name: 'Aaron Lei',
-        title: 'Vice President',
-        image: '/images/teams/aaron.png',
-        bio: 'Aaron Lei is a sophomore at Davidson Academy in Reno, NV. He started competitive programming in 8th grade and is currently in the USACO Platinum division. In his free time, he enjoys playing various video games like Balatro and Slay the Spire.'
-      }],
+      exec: [
+        {
+          name: 'Yujia(Guoguo) Gong',
+          title: 'Co-President',
+          image: '/images/teams/guoguo-2026.png',
+          imagePosition: 'center 25%',
+          bio: 'Guoguo is a senior at BASIS Independent McLean in Virginia. He has done competitive programming since middle school and was selected as a 2025 USACO Finalist. In his free time, he likes biology, research in biomedical informatics, running, and hanging out with friends.'
+        },
+        {
+          name: 'Zerui Li',
+          title: 'Co-President',
+          image: '/images/teams/zerui.jpg',
+          bio: 'Zerui Li is a junior at Lakeside School in Seattle, WA. He started programming in 7th grade, and qualified for the US Open Contest in the 2025-2026 Season. In his free time, he likes to grind Codeforces problems with his friends and work on CS related projects. He also likes to watch anime in his free time.'
+        },
+        {
+          name: 'Andreas Tsang',
+          title: 'Vice President',
+          image: '/images/teams/Andreas.jpeg',
+          bio: 'Andreas is an aspiring aerospace engineer and a junior at the Taft School, a boarding school in Connecticut. He was born in New York and lives in Hong Kong. He used to study at Diocesan Boys School, an internationally renowned International Baccalaureate program. At Taft, Andreas rows on Varsity Crew, codes for the Vex Robotics team, and leads the String Quartet, Physics and History Journal clubs.'
+        },
+        {
+          name: 'Aaron Lei',
+          title: 'Vice President',
+          image: '/images/teams/aaron.png',
+          bio: 'Aaron Lei is a sophomore at Davidson Academy in Reno, NV. He started competitive programming in 8th grade and is currently in the USACO Platinum division. In his free time, he enjoys playing various video games like Balatro and Slay the Spire.'
+        }
+      ],
       members: [
         {
           name: 'Yash Belani',
           title: 'Problem Writer',
           image: '/images/teams/yash.png',
-          bio: 'Yash Belani is a junior at the Harker School. He recently started USACO and is competing in the USACO Silver division with C++. In his free time, he enjoys playing video games, basketball, or solving problems.'
+          bio: 'Yash Belani is a senior at the Harker School and has qualified for USACO Camp. In his free time, he enjoys playing video games, basketball, and solving problems.'
         },
         {
           name: 'Spencer Wang',
           title: 'Problem Writer',
           image: '/images/teams/spencer.jpg',
-          bio: 'Spencer is a junior at PRISMS (Princeton International School of Math and Science). He started his competitive programming 3 years ago and became fluent in C++ over this time. He is in USACO’s Platinum division and qualified for CCO from CCC (Canadian Computing Competition). In his free time, he enjoys fidgeting around with computer components and software.'
+          bio: 'Spencer is a college student who developed his competitive programming skills in C++. He competes in the USACO Platinum division and qualified for CCO through the Canadian Computing Competition. In his free time, he enjoys exploring computer hardware and software.'
         },
         {
           name: 'Julian Wu',
           title: 'Problem Writer',
           image: '/images/teams/julian.jpg',
-          bio: 'Julian is a senior at Westview High School in San Diego. Starting from making games on KhanAcademy, Julian developed a passion for coding from a young age. He soon picked up competitive programming and has been selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
+          bio: 'Julian is a college student who developed a passion for coding by making games on Khan Academy. He later picked up competitive programming and was selected as a 2024 USACO Finalist. Outside of programming, he enjoys playing cello, basketball, and video games.'
         },
         {
           name: 'Jason Wei',
           title: 'Problem Writer',
           image: '/images/teams/jasonW.png',
-          bio: 'Jason is a senior at Friendswood High School, Texas. He started competitive programming in 5th grade and is currently trying to make USACO Finalists during the 2024-25 USACO season. In his spare time, he enjoys listening to musicals and runs cross country for the school.'
+          bio: 'Jason is a college student who started competitive programming in 5th grade. In his spare time, he enjoys listening to musicals and running cross country.'
         },
         {
           name: 'Nelson Huang',
           title: 'Problem Writer',
           image: '/images/teams/nelson.jpg',
-          bio: 'Nelson Huang is a junior at Providence High School in Charlotte, North Carolina. He learned computer science in 4th grade and started competitive programming in 6th grade. He was selected as a USACO Finalist in the 2023-2024 season. Outside of programming, he also enjoys math and video games.'
+          bio: 'Nelson Huang is a senior at Providence High School in Charlotte, North Carolina, and an IOI silver medalist. He learned computer science in 4th grade and started competitive programming in 6th grade. He was selected as a USACO Finalist in the 2023–2024 season. Outside of programming, he also enjoys math and video games.'
         },
         {
           name: 'Vincent Loh',
           title: 'Problem Writer',
           image: '/images/teams/vincent.png',
-          bio: "Vincent is a senior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO's Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!"
+          bio: 'Vincent is a senior at Winchester Thurston High School in Pittsburgh. He has been programming since sixth grade, and started competitive programming in sophomore year, reaching USACO\'s Gold division in December 2024. Vincent also enjoys reading philosophy, game development, shilling C++, and more!'
         },
         {
           name: 'George Wu',
@@ -177,7 +182,7 @@ export default {
           name: 'Ryan Fu',
           title: 'Problem Writer',
           image: '/images/teams/ryanF.png',
-          bio: 'Ryan is a senior at Amador Valley High School. He has been programming since 8th grade, and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games.'
+          bio: 'Ryan is a college student who has been programming since 8th grade and was selected as a 2025 USACO Finalist. In his free time, he enjoys sleeping and video games.'
         },
         {
           name: 'Justin Goh',
@@ -208,6 +213,68 @@ export default {
           title: 'Problem Setter',
           image: '/images/teams/ethan_liang.webp',
           bio: 'Ethan Liang is a senior at the Harker School. He started coding in the fifth grade and currently competes in the USACO Platinum division. In his free time, he likes to play chess and read classics.'
+        },
+        {
+          name: 'Brian Zhao',
+          title: 'Problem Writer',
+          image: '/images/teams/brian-zhao.png',
+          bio: 'Brian Zhao is a junior at Mission San Jose High School. He started competitive programming in 8th grade and made many friends through it. Outside of CS, he enjoys going on walks outside and playing badminton.'
+        },
+        {
+          name: 'Akshaj',
+          title: 'Problem Writer',
+          bio: 'Akshaj is a junior at Northview High School. He has been programming since 6th grade and was selected as a USACO Finalist in 2026. In his free time, he enjoys video games, anime, and reading.'
+        },
+        {
+          name: 'Zhengxi Liu',
+          title: 'Problem Writer',
+          image: '/images/teams/zhengxi-liu.png',
+          imagePosition: 'center top',
+          bio: 'Zhengxi Liu is a freshman at Thomas Jefferson High School for Science and Technology. He started competitive programming with C++ in 6th grade and was selected as a 2026 USACO Finalist. In his free time, he likes building and testing RC models, biking in nature, and doing nothing.'
+        },
+        {
+          name: 'Soham',
+          title: 'Problem Writer',
+          image: '/images/teams/soham.png',
+          imagePosition: 'center 20%',
+          bio: 'Soham is a sophomore at the Greater Commonwealth Virtual School. He started competitive programming in 5th grade and was selected as a 2026 USACO Finalist. In his free time, he enjoys playing video games.'
+        },
+        {
+          name: 'Dennis (Qicheng) Yang',
+          title: 'Problem Writer',
+          image: '/images/teams/dennis-yang.png',
+          bio: 'Dennis (Qicheng) Yang is a junior at Carlmont High School. He qualified for USACO Camp in the 2025 and 2026 seasons. He also competes in USAAIO and qualified for camp in 2026. Outside of competitive programming, he likes to find good eats and get extra sleep.'
+        },
+        {
+          name: 'Boxuan',
+          title: 'Problem Writer',
+          image: '/images/teams/boxuan.png',
+          bio: 'Boxuan is a junior at the Harker School in San Jose, CA. He competes in the USACO Gold division and conducts research in AI interpretability. He also enjoys listening to music and playing water polo.'
+        },
+        {
+          name: 'William',
+          title: 'Problem Writer',
+          image: '/images/teams/william-lincoln-east.png',
+          bio: 'William is a junior at Lincoln East High School in Lincoln, Nebraska. He competes in the USACO Gold division and has participated in many other competitive programming contests, both online and in person. Outside of coding, he enjoys playing the cello, speech, and tennis.'
+        },
+        {
+          name: 'William Park',
+          title: 'Problem Writer',
+          image: '/images/teams/william-park.jpg',
+          bio: 'William is a senior at Poolesville High School in Poolesville, Maryland. He started competitive programming in 2022 and currently competes in USACO Gold. In his free time, he enjoys speedrunning Celeste and playing TETR.IO.'
+        },
+        {
+          name: 'Kate Wong',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/kate-wong.png',
+          bio: 'Kate Wong is an eighth grader at Lakeside Middle School in Seattle, WA. She began programming in sixth grade and currently competes in the USACO Silver division. Outside of coding, she enjoys playing chess and basketball and has a strong interest in music.'
+        },
+        {
+          name: 'Jaiden Khosla',
+          title: 'Logistics Coordinator',
+          image: '/images/teams/jaiden-khosla.jpg',
+          imagePosition: 'center top',
+          bio: 'Jaiden Khosla is a junior at James E. Taylor High School. He has been programming since middle school and specializes in web and game development. In his free time, Jaiden loves to play video games, tinker, and watch sitcoms.'
         }
       ],
       pastLeadership: [
@@ -215,95 +282,118 @@ export default {
           name: 'Chris Elliott',
           title: 'Co-Founder, Co-President 2017-2019',
           image: '/images/teams/chris.jpg'
-        }, {
+        },
+        {
           name: 'Alan Bi',
           title: 'Co-Founder, Co-President 2017-2019',
           image: '/images/teams/alan.jpg'
-        }, {
+        },
+        {
           name: 'Jason Zhang',
           title: 'Co-President, 2019-2020',
           image: '/images/teams/jasonZh.jpg'
-        }, {
+        },
+        {
           name: 'Alex Patel',
           title: 'Co-President, 2019-2020',
           image: '/images/teams/alexP.jpg'
-        }, {
+        },
+        {
           name: 'Sean Yang',
           title: 'Co-President, 2020-2021',
           image: '/images/teams/sean.jpg'
-        }, {
+        },
+        {
           name: 'Ryan Hsu',
           title: 'Co-President, 2020-2021',
           image: '/images/teams/ryan.jpg'
-        }, {
+        },
+        {
           name: 'Conner Yin',
           title: 'Vice President, 2020-2021',
           image: '/images/teams/conner.jpg'
-        }, {
+        },
+        {
           name: 'Winbert Zhang',
           title: 'Vice President, 2020-2021',
           image: '/images/teams/winbert.jpg'
-        }, {
+        },
+        {
           name: 'Ethan Peng',
           title: 'Co-President, 2021-2022',
           image: '/images/teams/ethan.jpg'
-        }, {
+        },
+        {
           name: 'Aayush Sheth',
           title: 'Co-President, 2021-2022',
           image: '/images/teams/aayush.jpg'
-        }, {
+        },
+        {
           name: 'Elijah Huang',
           title: 'Vice President, 2021-2022',
           image: '/images/teams/elijah.png'
-        }, {
+        },
+        {
           name: 'Charles Yates',
           title: 'Vice President, 2022-2023',
           image: '/images/teams/charles.jpg'
-        }, {
+        },
+        {
           name: 'Joe Li',
           title: 'Co-President, 2022-2024',
           image: '/images/teams/joe.jpg'
-        }, {
+        },
+        {
           name: 'Harry Chen',
           title: 'Co-President, 2022-2024',
           image: '/images/teams/harry.jpg'
-        }, {
+        },
+        {
           name: 'Weiming Zhou',
           title: 'Vice President, 2023-2024',
           image: '/images/teams/weiming.jpg'
-        }, {
+        },
+        {
           name: 'Angie Niu',
           title: 'Vice President, 2023-2024',
           image: '/images/teams/angie.jpg'
-        }, {
+        },
+        {
           name: 'Gabriel Xu',
           title: 'Vice President, 2024-2025',
           image: '/images/teams/gabriel.jpeg'
-        }, {
+        },
+        {
           name: 'Shine Chang',
           title: 'Vice President, 2024-2025',
           image: '/images/teams/shine.jpg'
-        }, {
+        },
+        {
           name: 'Peng Bai',
           title: 'Co-President, 2024-2025',
           image: '/images/teams/peng.jpg'
-        }, {
+        },
+        {
           name: 'Bryan Zhu',
           title: 'Co-President, 2025-2026',
           image: '/images/teams/bryan.png'
-        }, {
+        },
+        {
           name: 'Jason Zeng',
           title: 'Co-President, 2025-2026',
           image: '/images/teams/jasonZe.jpg'
-        }, {
+        },
+        {
           name: 'Eric Chang',
           title: 'Vice President, 2025-2026',
           image: '/images/teams/eric.png'
-        }, {
+        },
+        {
           name: 'Justin Ji',
           title: 'Vice President, 2025-2026',
           image: '/images/teams/justin.png'
-        }, {
+        },
+        {
           name: 'Culver Kwan',
           title: 'Vice President, 2025-2026',
           image: '/images/teams/culver.png'
@@ -314,111 +404,138 @@ export default {
           name: 'William Huang',
           title: 'Former Director of Marketing',
           image: '/images/teams/william.jpg'
-        }, {
+        },
+        {
           name: 'Victor Du',
           title: 'Former Director of Technology',
           image: '/images/teams/victor.jpg'
-        }, {
+        },
+        {
           name: 'Bill Wang',
           title: 'Former Head of Finance',
           image: '/images/teams/bill.jpg'
-        }, {
+        },
+        {
           name: 'Luca Palermo',
           title: 'Former Head of Problem Writing',
           image: '/images/teams/luca.jpg'
-        }, {
+        },
+        {
           name: 'Lucille Shield',
           title: 'Head Organizer of Fall 2019 MIHS Programming Contest',
           image: '/images/teams/lucille.jpg'
-        }, {
+        },
+        {
           name: 'Peter Ye',
           title: 'Head Organizer of the 2019 CGS Programming Contest',
           image: '/images/teams/peter.jpg'
-        }, {
+        },
+        {
           name: 'Jonathan Guo',
           title: 'Programming Lead for the 2019 CGS Programming Contest ',
           image: '/images/teams/jonathan.jpg'
-        }, {
+        },
+        {
           name: 'James Richardson',
           title: 'Lesson Creator: AP Computer Science',
           image: '/images/teams/jamesR.jpg'
-        }, {
+        },
+        {
           name: 'Robert Chen',
           title: 'Lesson Creator: USACO Problems',
           image: '/images/teams/robert.jpg'
-        }, {
+        },
+        {
           name: 'Valliappan Valliappan',
           title: 'Lesson Creator: iOS with Swift',
           image: '/images/teams/valliappan.jpg'
-        }, {
+        },
+        {
           name: 'Thomas Short',
           title: 'Finance Lead for Fall 2019 MIHS Programming Contest',
           image: '/images/teams/thomas.jpg'
-        }, {
+        },
+        {
           name: 'Mathus Leungpathomaram',
           title: 'Director of Oregon Events, 2018-2019',
           image: '/images/teams/mathus.jpg'
-        }, {
+        },
+        {
           name: 'Marshal Xu',
           title: 'Head Organizer of Fall 2018 CGS Programming Contest',
           image: '/images/teams/marshal.jpg'
-        }, {
+        },
+        {
           name: 'Albert Huang',
           title: 'Problem Writer',
           image: '/images/teams/albert.jpg'
-        }, {
+        },
+        {
           name: 'Helen Feng',
           title: 'Logistics Coordinator',
           image: '/images/teams/helenF.jpg'
-        }, {
+        },
+        {
           name: 'Alex Niu',
           title: 'Logistics Coordinator',
           image: '/images/teams/alexN.jpg'
-        }, {
+        },
+        {
           name: 'Jay Dharmadhikari',
           title: 'Marketing Coordinator',
           image: '/images/teams/jay.jpg'
-        }, {
+        },
+        {
           name: 'Alex Du',
           title: 'Problem Writer',
           image: '/images/teams/alexD.jpg'
-        }, {
+        },
+        {
           name: 'Timothy Gao',
           title: 'Problem Writer',
           image: '/images/teams/timothy.jpg'
-        }, {
+        },
+        {
           name: 'Sol Park',
           title: 'Problem Writer',
           image: '/images/teams/sol.jpg'
-        }, {
+        },
+        {
           name: 'Thomas Liu',
           title: 'Problem Writer',
           image: '/images/teams/thomasL.jpg'
-        }, {
+        },
+        {
           name: 'Dustin Miao',
           title: 'Problem Writer',
           image: '/images/teams/dustin.jpg'
-        }, {
+        },
+        {
           name: 'James Leung',
           title: 'Problem Writer',
           image: '/images/teams/jamesL.jpg'
-        }, {
+        },
+        {
           name: 'Alejandro Vivero',
           title: 'Problem Writer',
           image: '/images/teams/alejandro.jpg'
-        }, {
+        },
+        {
           name: 'Allen Wu',
           title: 'Logistics Coordinator',
           image: '/images/teams/allen.jpg'
-        }, {
+        },
+        {
           name: 'Maira Elahi',
           title: 'Logistics Coordinator',
           image: '/images/teams/maira.jpg'
-        }, {
+        },
+        {
           name: 'Abhay Raj',
           title: 'Web Developer',
           image: '/images/teams/abhay.jpg'
-        }, {
+        },
+        {
           name: 'Daniel Nieto',
           title: 'Problem Writer',
           image: '/images/teams/daniel.png'
@@ -437,23 +554,28 @@ export default {
           name: 'Brian Xue',
           title: 'Problem Writer',
           image: '/images/teams/brian.png'
-        }, {
+        },
+        {
           name: 'Emma Walker',
           title: 'Logistics Coordinator',
           image: '/images/teams/emma.jpeg'
-        }, {
+        },
+        {
           name: 'Devin Lim',
           title: 'Logistics Coordinator',
           image: '/images/teams/devin.jpg'
-        }, {
+        },
+        {
           name: 'Anthony Li',
           title: 'Problem Writer',
           image: '/images/teams/anthony.jpg'
-        }, {
+        },
+        {
           name: 'Alex Chen',
           title: 'Problem Writer',
           image: '/images/teams/alexC.png'
-        }, {
+        },
+        {
           name: 'Alex Liu',
           title: 'Problem Writer',
           image: '/images/teams/alexL.png'
@@ -461,7 +583,7 @@ export default {
         {
           name: 'Andrew Xu',
           title: 'Logistics Coordinator',
-          image: '/images/teams/andrew.png',
+          image: '/images/teams/andrew.png'
         },
         {
           name: 'Aryan Joshi',
@@ -471,17 +593,17 @@ export default {
         {
           name: 'Eric Wu',
           title: 'Logistics Coordinator',
-          image: '/images/teams/ericW.jpg',
+          image: '/images/teams/ericW.jpg'
         },
         {
           name: 'Elizabeth Hu',
           title: 'Logistics Coordinator',
-          image: '/images/teams/elizabeth.png',
+          image: '/images/teams/elizabeth.png'
         },
         {
           name: 'Anne Zou',
           title: 'Logistics Coordinator',
-          image: '/images/teams/anne.webp',
+          image: '/images/teams/anne.webp'
         }
       ]
     }

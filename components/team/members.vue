@@ -12,8 +12,11 @@
           <v-divider v-if="i !== 0" />
           <v-row class="align-center py-3">
             <v-col cols="12" md="4" lg="3" class="pr-4 text-center">
-              <v-avatar size="190">
-                <v-img :src="person.image" :position="person.imagePosition || 'center center'" />
+              <v-avatar size="190" :color="person.image ? undefined : 'surface'">
+                <v-img v-if="person.image" :src="person.image" :alt="person.name" :position="person.imagePosition || 'center center'" />
+                <span v-else class="text-h3 secondary--text" role="img" :aria-label="person.name">
+                  {{ initials(person.name) }}
+                </span>
               </v-avatar>
             </v-col>
             <v-col cols="12" md="8" lg="9">
@@ -44,6 +47,11 @@ export default {
     header: {
       type: String,
       default: () => ''
+    }
+  },
+  methods: {
+    initials (name) {
+      return name.split(/\s+/).map(part => part[0]).slice(0, 2).join('')
     }
   }
 }
